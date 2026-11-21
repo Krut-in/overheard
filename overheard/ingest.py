@@ -2,10 +2,12 @@
 import hashlib
 import json
 import re
+import threading
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
+import httpx
 from google.genai import types
 
 from overheard import config
@@ -134,23 +136,72 @@ def merge(sightings: list[tuple[dict, str]]) -> list[dict]:
 
 # ---- Neon extraction ----
 
+INGEST_TIMEOUT_S = 30.0
+
+
 def _source_of(item) -> str:
     return "paste" if isinstance(item, str) else "upload"
 
 
+def _is_timeout(exc: BaseException) -> bool:
+    if isinstance(exc, (TimeoutError, httpx.TimeoutException)):
+        return True
+    msg = str(exc).lower()
+    return "timed out" in msg or "deadline_exceeded" in msg or "504" in msg
+
+
+def _call_with_timeout(timeout_s: float, fn, *args, **kwargs):
+    """Run fn(*args, **kwargs) on a daemon thread so a hung call cannot block past timeout_s."""
+    done = threading.Event()
+    box: dict = {}
+
+    def run():
+        try:
+            box["value"] = fn(*args, **kwargs)
+        except BaseException as e:  # noqa: BLE001
+            box["error"] = e
+        finally:
+            done.set()
+
+    threading.Thread(target=run, daemon=True).start()
+    if not done.wait(timeout_s):
+        raise TimeoutError(f"timed out after {timeout_s:.1f}s")
+    if "error" in box:
+        raise box["error"]
+    return box["value"]
+
+
+def _generate(model: str, summary: str, parts: list, timeout_s: float):
+    cfg = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_json_schema=SCHEMA,
+        thinking_config=types.ThinkingConfig(thinking_level=config.NEON_THINKING),
+        http_options=types.HttpOptions(timeout=max(1, int(timeout_s * 1000))),
+    )
+    return timed(model, summary, _call_with_timeout, timeout_s,
+                 client().models.generate_content, model=model, contents=parts, config=cfg)
+
+
 def extract(item) -> dict:
-    """One item (text, or (bytes, mime)) -> {traveller, bookings: [raw booking]} via Neon on low thinking."""
+    """One item (text, or (bytes, mime)) -> {traveller, bookings: [raw booking]} via Neon, Hydrogen fallback on timeout."""
     if isinstance(item, str):
         parts, summary = [PROMPT + item], f"ingest text {item.strip().splitlines()[0][:60] if item.strip() else ''}"
     else:
         data, mime = item
         parts = [PROMPT + "(see the attached file)", types.Part.from_bytes(data=data, mime_type=mime)]
         summary = f"ingest {mime} {len(data)}B"
-    r = timed(config.NEON, summary, client().models.generate_content,
-              model=config.NEON, contents=parts,
-              config=types.GenerateContentConfig(
-                  response_mime_type="application/json", response_json_schema=SCHEMA,
-                  thinking_config=types.ThinkingConfig(thinking_level=config.NEON_THINKING)))
+    timeout_s = INGEST_TIMEOUT_S
+    r = None
+    for attempt in range(2):
+        try:
+            label = summary if attempt == 0 else f"{summary} (retry {attempt})"
+            r = _generate(config.NEON, label, parts, timeout_s)
+            break
+        except Exception as e:
+            if not _is_timeout(e):
+                raise
+    if r is None:
+        r = _generate(config.HYDROGEN, f"{summary} (fallback from {config.NEON})", parts, timeout_s)
     out = json.loads(r.text)
     out.setdefault("bookings", [])
     return out

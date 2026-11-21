@@ -61,7 +61,7 @@ What this shows:
 - **Number-only near misses alert.** "KL 643 gate change; KL 641 departs on time" alerted in every run (0.80 to 0.89). It is visible in the screenshot above as the KL 641 card that says nothing changed. One "not about me" silences it.
 - **Real news labels are few.** 3 relevant pairs is a weak recall test; we report it rather than pad it with synthetic news.
 - **Latency outside Decision 1.** The verdict lands in about 1 s, the translated alert in about 10 s, the whisper by about 18 s and the circled photo by 25 to 35 s (Nano Banana takes 13 to 25 s).
-- **Gmail is wired but was not demoed live.** The read-only OAuth client exists; the consent with the lab account is the remaining step, so the demo uses "Load demo trip" or pasted booking emails.
+- **Live Gmail verified, with a timeout guard.** Connected to the lab inbox with read-only scope (`gmail.readonly`): `POST /api/abroad/itinerary/gmail` read all 6 SAMPLE BOOKING emails, matched 6 of 6 fixture bookings (`source: gmail`), and wrote a fresh 297-question fingerprint in 47.1 s (about 9 s for the 6 parallel Neon ingest calls, 37 s for Hydrogen). An earlier run hung on one Neon ingest call past 3 min, so `overheard/ingest.py` now bounds each Neon call to 30 s with one retry and a fallback to `gemini-4-hydrogen` logged through `overheard.gemini`.
 
 ## Built with Gemini
 

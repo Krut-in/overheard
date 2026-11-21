@@ -118,3 +118,54 @@ def test_gmail_body_prefers_plain_then_html():
         {"mimeType": "text/html", "body": {"data": enc("<b>rich</b>")}},
         {"mimeType": "text/plain", "body": {"data": enc("plain text")}}]}
     assert gmail.body_text(both) == "plain text"
+
+
+# ---- timeout retry and Hydrogen fallback: no network ----
+
+def test_extract_retries_neon_then_falls_back_to_hydrogen(monkeypatch):
+    import time
+    from types import SimpleNamespace
+    from overheard import config, gemini
+
+    calls = []
+    logged = []
+
+    def fake_generate_content(*, model, contents, config):
+        calls.append((model, contents, config))
+        if model == ingest.config.NEON:
+            time.sleep(0.25)
+        return SimpleNamespace(text=json.dumps({"traveller": "Maya", "bookings": [raw()]}))
+
+    monkeypatch.setattr(ingest, "INGEST_TIMEOUT_S", 0.05)
+    monkeypatch.setattr(ingest, "client", lambda: SimpleNamespace(models=SimpleNamespace(generate_content=fake_generate_content)))
+    monkeypatch.setattr(gemini, "log_call", lambda model, summary, latency_s, **extra: logged.append((model, summary, extra)))
+
+    out = ingest.extract("SAMPLE BOOKING Eurostar 9315")
+    assert out["traveller"] == "Maya" and len(out["bookings"]) == 1
+    assert [m for m, _, _ in calls] == [config.NEON, config.NEON, config.HYDROGEN]
+    assert calls[2][1] == calls[0][1]
+    assert calls[2][2].response_json_schema == ingest.SCHEMA
+    assert any(m == config.HYDROGEN and "fallback" in s for m, s, _ in logged)
+
+
+def test_extract_recovers_on_neon_retry_without_fallback(monkeypatch):
+    import time
+    from types import SimpleNamespace
+    from overheard import config, gemini
+
+    calls = []
+
+    def fake_generate_content(*, model, contents, config):
+        calls.append(model)
+        if len(calls) == 1:
+            time.sleep(0.25)
+        return SimpleNamespace(text=json.dumps({"traveller": "Maya", "bookings": [raw()]}))
+
+    monkeypatch.setattr(ingest, "INGEST_TIMEOUT_S", 0.05)
+    monkeypatch.setattr(ingest, "client", lambda: SimpleNamespace(models=SimpleNamespace(generate_content=fake_generate_content)))
+    monkeypatch.setattr(gemini, "log_call", lambda *a, **kw: None)
+
+    out = ingest.extract("SAMPLE BOOKING Eurostar 9315")
+    assert out["traveller"] == "Maya" and len(out["bookings"]) == 1
+    assert calls == [config.NEON, config.NEON]
+

@@ -74,6 +74,7 @@ Neon's terse miss was `"30m1h"`, which it accepted. The terse prompt never said 
 | B | `gemini-4-hydrogen`, Gemini CLI headless, prompt on stdin, JSON out, no tools | 6 SAMPLE BOOKING emails from the fixture | 20 s | 6 valid emails first try; every operator, number and ref verbatim |
 | E | `gemini-4-hydrogen`, Gemini CLI headless, JSON out | 36 rehearsal scripts with labels for 6 bookings | 55.6 s | 36 balanced items, 0 of 36 labels needed fixing |
 | A | `gemini-4-hydrogen` API, thinking low, 1 call per booking, 3 at once | itinerary fingerprint | 37 s cold | 279 tagged questions, 40 to 54 per booking |
+| Finish | `gemini-4-neon`, Gemini CLI | Bound Neon ingest to 30 s + retry + Hydrogen fallback, add stubbed tests, verify live `/api/abroad/itinerary/gmail` | ~8 min (route 47.1 s) | 71 tests pass; live Gmail route returned HTTP 200 with 6/6 `gmail` bookings (9 s ingest + 37 s fingerprint, 297 questions) |
 
 ## Part 2: deliberate variations to inject during the build
 
