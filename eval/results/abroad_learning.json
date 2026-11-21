@@ -1,0 +1,335 @@
+{
+ "half1": [
+  "flight_home_4",
+  "flight_home_6",
+  "flight_out_5",
+  "hotel_ams_4",
+  "hotel_ams_6",
+  "hotel_paris_5",
+  "museum_louvre_4",
+  "museum_louvre_6",
+  "train_ams_5"
+ ],
+ "half2": [
+  "flight_home_5",
+  "flight_out_4",
+  "flight_out_6",
+  "hotel_ams_5",
+  "hotel_paris_4",
+  "hotel_paris_6",
+  "museum_louvre_5",
+  "train_ams_4",
+  "train_ams_6"
+ ],
+ "dismissed": [
+  {
+   "id": "flight_home_4",
+   "booking_id": "flight_home",
+   "relevance": 0.8002
+  },
+  {
+   "id": "flight_home_6",
+   "booking_id": "flight_home",
+   "relevance": 0.5661
+  },
+  {
+   "id": "flight_out_5",
+   "booking_id": "flight_out",
+   "relevance": 0.6953
+  },
+  {
+   "id": "hotel_ams_4",
+   "booking_id": "hotel_ams",
+   "relevance": 0.7275
+  },
+  {
+   "id": "hotel_ams_6",
+   "booking_id": "hotel_ams",
+   "relevance": 0.6718
+  },
+  {
+   "id": "hotel_paris_5",
+   "booking_id": "hotel_paris",
+   "relevance": 0.7249
+  },
+  {
+   "id": "museum_louvre_4",
+   "booking_id": "museum_louvre",
+   "relevance": 0.7042
+  },
+  {
+   "id": "museum_louvre_6",
+   "booking_id": "museum_louvre",
+   "relevance": 0.6774
+  },
+  {
+   "id": "train_ams_5",
+   "booking_id": "train_ams",
+   "relevance": 0.8129
+  }
+ ],
+ "n_learned": 41,
+ "half2_false_alerts_before": 0,
+ "half2_false_alerts_after": 0,
+ "half2_band_before": 8,
+ "half2_band_after": 1,
+ "relevant_alerting_before": 17,
+ "relevant_alerting_after": 6,
+ "relevant_fell_below_0.8": [
+  {
+   "id": "flight_home_1",
+   "before": 0.9232,
+   "after": 0.7651
+  },
+  {
+   "id": "flight_home_2",
+   "before": 0.8383,
+   "after": 0.4524
+  },
+  {
+   "id": "flight_home_3",
+   "before": 0.9181,
+   "after": 0.5374
+  },
+  {
+   "id": "flight_out_1",
+   "before": 0.9118,
+   "after": 0.7509
+  },
+  {
+   "id": "hotel_ams_1",
+   "before": 0.8788,
+   "after": 0.6848
+  },
+  {
+   "id": "hotel_ams_2",
+   "before": 0.9218,
+   "after": 0.3813
+  },
+  {
+   "id": "hotel_paris_1",
+   "before": 0.9393,
+   "after": 0.7544
+  },
+  {
+   "id": "hotel_paris_2",
+   "before": 0.8451,
+   "after": 0.7589
+  },
+  {
+   "id": "museum_louvre_2",
+   "before": 0.861,
+   "after": 0.72
+  },
+  {
+   "id": "museum_louvre_3",
+   "before": 0.9308,
+   "after": 0.6952
+  },
+  {
+   "id": "train_ams_3",
+   "before": 0.9421,
+   "after": 0.7228
+  }
+ ],
+ "rows": [
+  {
+   "id": "flight_home_5",
+   "truth": [],
+   "before": 0.7196,
+   "after": 0.3604
+  },
+  {
+   "id": "flight_out_4",
+   "truth": [],
+   "before": 0.6851,
+   "after": 0.3264
+  },
+  {
+   "id": "flight_out_6",
+   "truth": [],
+   "before": 0.2272,
+   "after": 0.0742
+  },
+  {
+   "id": "hotel_ams_5",
+   "truth": [],
+   "before": 0.6935,
+   "after": 0.3161
+  },
+  {
+   "id": "hotel_paris_4",
+   "truth": [],
+   "before": 0.721,
+   "after": 0.5121
+  },
+  {
+   "id": "hotel_paris_6",
+   "truth": [],
+   "before": 0.6886,
+   "after": 0.2112
+  },
+  {
+   "id": "museum_louvre_5",
+   "truth": [],
+   "before": 0.6713,
+   "after": 0.2297
+  },
+  {
+   "id": "train_ams_4",
+   "truth": [],
+   "before": 0.7651,
+   "after": 0.2694
+  },
+  {
+   "id": "train_ams_6",
+   "truth": [],
+   "before": 0.6955,
+   "after": 0.1283
+  },
+  {
+   "id": "flight_home_1",
+   "truth": [
+    "flight_home"
+   ],
+   "before": 0.9232,
+   "after": 0.7651
+  },
+  {
+   "id": "flight_home_2",
+   "truth": [
+    "flight_home"
+   ],
+   "before": 0.8383,
+   "after": 0.4524
+  },
+  {
+   "id": "flight_home_3",
+   "truth": [
+    "flight_home"
+   ],
+   "before": 0.9181,
+   "after": 0.5374
+  },
+  {
+   "id": "flight_out_1",
+   "truth": [
+    "flight_out"
+   ],
+   "before": 0.9118,
+   "after": 0.7509
+  },
+  {
+   "id": "flight_out_2",
+   "truth": [
+    "flight_out"
+   ],
+   "before": 0.9479,
+   "after": 0.8487
+  },
+  {
+   "id": "flight_out_3",
+   "truth": [
+    "flight_out"
+   ],
+   "before": 0.7034,
+   "after": 0.6498
+  },
+  {
+   "id": "hotel_ams_1",
+   "truth": [
+    "hotel_ams"
+   ],
+   "before": 0.8788,
+   "after": 0.6848
+  },
+  {
+   "id": "hotel_ams_2",
+   "truth": [
+    "hotel_ams"
+   ],
+   "before": 0.9218,
+   "after": 0.3813
+  },
+  {
+   "id": "hotel_ams_3",
+   "truth": [
+    "hotel_ams"
+   ],
+   "before": 0.928,
+   "after": 0.8192
+  },
+  {
+   "id": "hotel_paris_1",
+   "truth": [
+    "hotel_paris"
+   ],
+   "before": 0.9393,
+   "after": 0.7544
+  },
+  {
+   "id": "hotel_paris_2",
+   "truth": [
+    "hotel_paris"
+   ],
+   "before": 0.8451,
+   "after": 0.7589
+  },
+  {
+   "id": "hotel_paris_3",
+   "truth": [
+    "hotel_paris"
+   ],
+   "before": 0.9039,
+   "after": 0.8184
+  },
+  {
+   "id": "museum_louvre_1",
+   "truth": [
+    "museum_louvre"
+   ],
+   "before": 0.9579,
+   "after": 0.837
+  },
+  {
+   "id": "museum_louvre_2",
+   "truth": [
+    "museum_louvre"
+   ],
+   "before": 0.861,
+   "after": 0.72
+  },
+  {
+   "id": "museum_louvre_3",
+   "truth": [
+    "museum_louvre"
+   ],
+   "before": 0.9308,
+   "after": 0.6952
+  },
+  {
+   "id": "train_ams_1",
+   "truth": [
+    "train_ams"
+   ],
+   "before": 0.9669,
+   "after": 0.8501
+  },
+  {
+   "id": "train_ams_2",
+   "truth": [
+    "train_ams"
+   ],
+   "before": 0.9628,
+   "after": 0.8563
+  },
+  {
+   "id": "train_ams_3",
+   "truth": [
+    "train_ams"
+   ],
+   "before": 0.9421,
+   "after": 0.7228
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "flight_out_3": {
+  "relevant": true,
+  "booking_id": "flight_out",
+  "reason": "The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E.",
+  "latency_s": 3.729
+ },
+ "flight_out_4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The announcement refers to Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on flight AF 23 arriving at Terminal 2E.",
+  "latency_s": 4.261
+ },
+ "flight_out_5": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The baggage delay applies to flight AF 15, while the traveller's flight AF 23 is explicitly stated to be unaffected.",
+  "latency_s": 3.578
+ },
+ "hotel_paris_4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The closure of Saint-Paul metro station takes place from December 1 to December 4, 2026, which is after the traveller's stay in Paris.",
+  "latency_s": 3.797
+ },
+ "hotel_paris_5": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The closure affects Chatelet on Metro Line 4, while the lines and stations serving the traveller's Paris hotel and Louvre visit (Lines 1 and 8, including Saint-Paul) are operating normally.",
+  "latency_s": 5.002
+ },
+ "hotel_paris_6": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The closure affects Bréguet-Sabin station on Line 5, whereas the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) remain open with normal traffic.",
+  "latency_s": 4.779
+ },
+ "museum_louvre_4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The Louvre Pyramid entrance closure is on Friday, November 27, 2026, while the entrance remains open normally on the booked visit date of Thursday, November 26, 2026.",
+  "latency_s": 3.982
+ },
+ "museum_louvre_5": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The Passage Richelieu entrance is closed, while the traveller's booked Pyramid entrance remains open as scheduled.",
+  "latency_s": 4.816
+ },
+ "museum_louvre_6": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The entrance closure applies to Musée d'Orsay, while the Pyramid entrance at Musée du Louvre is operating normally.",
+  "latency_s": 2.859
+ },
+ "train_ams_4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The announcement cancels Eurostar 9317 at 11:25, while the traveller's booked Eurostar 9315 at 09:25 is explicitly confirmed to be running normally.",
+  "latency_s": 5.139
+ },
+ "train_ams_6": {
+  "relevant": true,
+  "booking_id": "train_ams",
+  "reason": "Wait",
+  "latency_s": 3.758
+ },
+ "hotel_ams_4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The announcement reports a disruption only on tram 14 at Waterlooplein, while trams 13 and 17 continue to stop normally at Westermarkt for hotel_ams.",
+  "latency_s": 4.337
+ },
+ "hotel_ams_5": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The tram 13 and 17 diversion bypassing Westermarkt is from 1 to 3 December, while the Westermarkt stop remains normally open through 30 November, covering the entire Amsterdam hotel stay.",
+  "latency_s": 3.326
+ },
+ "hotel_ams_6": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The notice confirms normal service for Trams 13 and 17 at the Westermarkt stop, while the skipped stop (Rijksmuseum on Trams 2 and 12) does not affect any of the traveller's bookings.",
+  "latency_s": 3.426
+ },
+ "flight_home_5": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The announcement suspends trains to Utrecht Centraal which the traveller is not using, and confirms that trains from Amsterdam Centraal to Schiphol Airport on November 30 are running normally.",
+  "latency_s": 3.179
+ },
+ "flight_home_6": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "Trains from Amsterdam Centraal to Schiphol Airport on November 30 are running on time (normal service), and the disruption only affects trains towards Haarlem.",
+  "latency_s": 3.336
+ },
+ "news_9c60d1cca4": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The input is just a generic webpage title for Eurostar travel news and does not contain any specific disruption details affecting the booked train.",
+  "latency_s": 3.453
+ },
+ "news_92e77aa7ac": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "A general municipal strike notice for the City of Paris with no specific closures detailed does not directly change the hotel, national museum, or any booked transport services, stations, or entrances.",
+  "latency_s": 2.476
+ },
+ "news_52af25a133": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations.",
+  "latency_s": 3.485
+ },
+ "news_a604e6263d": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The article only mentions a general standing RATP strike notice for supervisory staff and an action ending November 20, without confirming any direct change or closure to a specific booking's service, station, or stop on the traveller's dates.",
+  "latency_s": 4.779
+ },
+ "news_e593d6b993": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The input reports a general, vaguely defined student protest in Paris on November 26 without specifying any direct changes to the hotel, Louvre museum entrance, or specific metro stations used by the traveller.",
+  "latency_s": 5.637
+ },
+ "news_53e343abcf": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The article states that no specific locations, metro stations, or transport notices are known yet for November 28, so no booking is directly changed.",
+  "latency_s": 2.488
+ },
+ "news_07a144de07": {
+  "relevant": false,
+  "booking_id": "none",
+  "reason": "The advisory concerns general road traffic and construction inside JFK airport rather than a direct change to any flight's service, terminal, or gate.",
+  "latency_s": 3.271
+ },
+ "news_8fc3132920": {
+  "relevant": true,
+  "booking_id": "flight_home",
+  "reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026).",
+  "latency_s": 4.721
+ }
+}

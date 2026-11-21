@@ -1,0 +1,5697 @@
+[
+ {
+  "id": "flight_out_1",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [
+   "flight_out"
+  ],
+  "decision": {
+   "relevance": 0.9118,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.9118,
+    "hotel_paris": 0.3573,
+    "museum_louvre": 0.1188,
+    "train_ams": 0.293,
+    "hotel_ams": 0.1872,
+    "flight_home": 0.2852
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.984,
+     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.984,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention Air France?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.57
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.57
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.57,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 0.000393
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 8.618,
+    "all_yes": [
+     "flight_out"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a French airport public address announcement, clear and slightly echoey, in French. Mesdames et messieurs, en raison d'un retard de manutention au terminal 2E de Paris Charles de Gaulle, la livraison des bagages du vol Air France AF 23 en provenance de New York JFK, subit un retard d'environ 45 minutes. Vos valises seront livrées sur le tapis 38 au lieu du tapis 32."
+ },
+ {
+  "id": "flight_out_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "flight_out"
+  ],
+  "decision": {
+   "relevance": 0.9479,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.9479,
+    "hotel_paris": 0.3747,
+    "museum_louvre": 0.0898,
+    "train_ams": 0.3432,
+    "hotel_ams": 0.2216,
+    "flight_home": 0.3036
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.982,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.974,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.498
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.498
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.498,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.3e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 10.329,
+    "all_yes": [
+     "flight_out"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking airport public address announcement, clear and slightly echoey. Intensi. Attention passengers arriving on Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E. Baggage delivery for AF 23 has been delayed by 40 minutes and moved from Carousel 32 to Carousel 36 in the Terminal 2E arrival hall."
+ },
+ {
+  "id": "flight_out_3",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [
+   "flight_out"
+  ],
+  "decision": {
+   "relevance": 0.7034,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.7034,
+    "hotel_paris": 0.1909,
+    "museum_louvre": 0.0798,
+    "train_ams": 0.2084,
+    "hotel_ams": 0.2584,
+    "flight_home": 0.1177
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.966,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.955,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.95,
+     "q": "Does the input mention arrivals at Paris Charles de Gaulle?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input report disruptions or delays at CDG Terminal 2E?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input show the Air France logo or branding?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.59
+  },
+  "carbon": {
+   "relevant": true,
+   "booking_id": "flight_out",
+   "reason": "The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E.",
+   "latency_s": 3.729
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 1.59
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 5.319,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.3e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 8.166,
+    "all_yes": [
+     "flight_out"
+    ]
+   }
+  },
+  "hydrogen_text": "AIRFRANCE PARIS CDG - TERMINAL 2E VOL AIR FRANCE AF 23 (NEW YORK JFK) Livraison des bagages retardée (+40 min) Changement de tapis : Tapis 36"
+ },
+ {
+  "id": "flight_out_4",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6851,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.6851,
+    "hotel_paris": 0.3573,
+    "museum_louvre": 0.1246,
+    "train_ams": 0.3931,
+    "hotel_ams": 0.3139,
+    "flight_home": 0.3685
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.976,
+     "q": "Does the input mention Air France?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.971,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.942,
+     "q": "Does the input mention Terminal 2E or T2E?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.966
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The announcement refers to Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on flight AF 23 arriving at Terminal 2E.",
+   "latency_s": 4.261
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.966
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 5.227,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.323,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a French airport public address announcement, clear and slightly echoey, in French. Attention aux passagers du vol Air France AF11, en provenance de New York JFK, arrivé au terminal 2F. La livraison des bagages au terminal 2F accuse un retard de 30 minutes sur le tapis 21."
+ },
+ {
+  "id": "flight_out_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6953,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.6953,
+    "hotel_paris": 0.2642,
+    "museum_louvre": 0.0508,
+    "train_ams": 0.4113,
+    "hotel_ams": 0.2187,
+    "flight_home": 0.4751
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.975,
+     "q": "Does the input mention Terminal 2E or T2E?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.968,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.968,
+     "q": "Does the input report disruptions or delays at CDG Terminal 2E?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.138
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The baggage delay applies to flight AF 15, while the traveller's flight AF 23 is explicitly stated to be unaffected.",
+   "latency_s": 3.578
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 1.138
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 4.716,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 8.116,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking airport public address announcement. Clear and slightly echoey. Please note that baggage delivery for Air France flight AF15 from New York JFK at CDG Terminal 2E is delayed by 35 minutes on belt 34. Baggage for flight AF23 is unaffected by this incident."
+ },
+ {
+  "id": "flight_out_6",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2272,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.2272,
+    "hotel_paris": 0.0917,
+    "museum_louvre": 0.0508,
+    "train_ams": 0.0926,
+    "hotel_ams": 0.0683,
+    "flight_home": 0.0683
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.955,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.941,
+     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.874,
+     "q": "Does the input show or say AF 23 or AF23?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.871,
+     "q": "Does the input mention Terminal 2E or T2E?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.82,
+     "q": "Does the input mention Paris airport or aeroport de Paris?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.742
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.742
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.742,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 2.2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.988,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "PARIS CDG - TERMINAL 2F VOL AF 22 - VERS NEW YORK JFK Embarquement à l'heure - Porte F34 Terminal 2E bagages AF 23 : service normal"
+ },
+ {
+  "id": "hotel_paris_1",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [
+   "hotel_paris"
+  ],
+  "decision": {
+   "relevance": 0.9393,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.3126,
+    "hotel_paris": 0.9393,
+    "museum_louvre": 0.807,
+    "train_ams": 0.348,
+    "hotel_ams": 0.292,
+    "flight_home": 0.4646
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.989,
+     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input say Saint-Paul station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.976,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.856
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.856
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.856,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.7e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 18.062,
+    "all_yes": [
+     "hotel_paris"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a French metro or tram stop public address announcement, clear and slightly echoey in FR. Information voyageurs RATP sur la ligne 1 du métro. En raison de travaux de rénovation du 25 au 28 novembre 2026 inclus, la station Saint-Paul est fermée au public et les rames ne marquent pas l'arrêt."
+ },
+ {
+  "id": "hotel_paris_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "hotel_paris"
+  ],
+  "decision": {
+   "relevance": 0.8451,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.4351,
+    "hotel_paris": 0.8431,
+    "museum_louvre": 0.7661,
+    "train_ams": 0.8451,
+    "hotel_ams": 0.3486,
+    "flight_home": 0.3604
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.973,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.97,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.968,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.967,
+     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.016
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.016
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.016,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.5e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 8.567,
+    "all_yes": [
+     "hotel_paris"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking metro or tram stop public address announcement, clear and slightly echoey. Attention, RATP traffic announcement for Metro Line 8. From 25th to 28th November 2026, Chemin Vert station is closed for platform repairs, and trains will not stop at Chemin Vert. Please use Bastille or Filles du Calvaire."
+ },
+ {
+  "id": "hotel_paris_3",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [
+   "hotel_paris"
+  ],
+  "decision": {
+   "relevance": 0.9039,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.2348,
+    "hotel_paris": 0.9039,
+    "museum_louvre": 0.685,
+    "train_ams": 0.2687,
+    "hotel_ams": 0.3416,
+    "flight_home": 0.2379
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.971,
+     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.952,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.95,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.946,
+     "q": "Does it say a station is closed, station fermée, or station gesloten?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.747
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.747
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.747,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.3e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 9.962,
+    "all_yes": [
+     "hotel_paris"
+    ]
+   }
+  },
+  "hydrogen_text": "RATP - MÉTRO LIGNE 1 STATION SAINT-PAUL FERMÉE Du 25 au 28 novembre 2026 Les trains ne s’arrêtent pas à Saint-Paul. RATP"
+ },
+ {
+  "id": "hotel_paris_4",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.721,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.3635,
+    "hotel_paris": 0.6907,
+    "museum_louvre": 0.721,
+    "train_ams": 0.3764,
+    "hotel_ams": 0.3783,
+    "flight_home": 0.3718
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.969,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.964,
+     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.962,
+     "q": "Does the input mention Saint-Paul metro station?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention Paris Metro line 1 (\"ligne 1\" or \"lijn 1\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.046
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The closure of Saint-Paul metro station takes place from December 1 to December 4, 2026, which is after the traveller's stay in Paris.",
+   "latency_s": 3.797
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.046
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 4.843,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.5e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.1,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a French metro or tram stop public address announcement, clear and slightly echoing, in French. Information RATP. Ligne 1. La station Saint-Paul sera fermée pour travaux du 1er au 4 décembre 2026. Jusqu'au 30 novembre inclus, la station Saint-Paul reste normalement desservie."
+ },
+ {
+  "id": "hotel_paris_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7249,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.265,
+    "hotel_paris": 0.7249,
+    "museum_louvre": 0.6412,
+    "train_ams": 0.4031,
+    "hotel_ams": 0.3383,
+    "flight_home": 0.426
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.978,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.968,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.933,
+     "q": "Does the input say \"Saint-Paul\" aloud?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.917,
+     "q": "Does the input mention Saint-Paul metro station?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.914,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.921
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The closure affects Chatelet on Metro Line 4, while the lines and stations serving the traveller's Paris hotel and Louvre visit (Lines 1 and 8, including Saint-Paul) are operating normally.",
+   "latency_s": 5.002
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.921
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 5.923,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.458,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking metro or tram stop public address announcement, clear and slightly echoey, in AS. RATP service update. On metro line 4, Châtelet station is closed on 26 November for maintenance. All stations on metro line 1, including Saint-Paul, and line 8, are operating normally."
+ },
+ {
+  "id": "hotel_paris_6",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6886,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.2184,
+    "hotel_paris": 0.6886,
+    "museum_louvre": 0.6769,
+    "train_ams": 0.2405,
+    "hotel_ams": 0.1579,
+    "flight_home": 0.1481
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.969,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.963,
+     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input mention Saint-Paul metro station?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.962,
+     "q": "Does it say a station is closed, station fermée, or station gesloten?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.784
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The closure affects Bréguet-Sabin station on Line 5, whereas the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) remain open with normal traffic.",
+   "latency_s": 4.779
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.784
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 5.563,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 8.428,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "RATP LIGNE 5 RATP - LIGNE 5 Station Bréguet-Sabin fermée du 25 au 28 nov Ligne 1 (Saint-Paul) et Ligne 8 (Chemin Vert) : Trafic normal, stations ouvertes."
+ },
+ {
+  "id": "museum_louvre_1",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [
+   "museum_louvre"
+  ],
+  "decision": {
+   "relevance": 0.9579,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2373,
+    "hotel_paris": 0.3671,
+    "museum_louvre": 0.9579,
+    "train_ams": 0.289,
+    "hotel_ams": 0.2283,
+    "flight_home": 0.3573
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.975,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.31
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.31
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.31,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 8.512,
+    "all_yes": [
+     "museum_louvre"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a French museum and its metro station public address announcement, clear and slightly echoey in French. Mesdames et messieurs, bienvenue au musée du Louvre. En raison d'une intervention technique ce jeudi 26 novembre 2026, l'entrée par la pyramide est fermée toute la journée. Les visiteurs munis d'un billet horodaté doivent utiliser l'entrée du Carrousel."
+ },
+ {
+  "id": "museum_louvre_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "museum_louvre"
+  ],
+  "decision": {
+   "relevance": 0.861,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2881,
+    "hotel_paris": 0.4027,
+    "museum_louvre": 0.861,
+    "train_ams": 0.3455,
+    "hotel_ams": 0.2277,
+    "flight_home": 0.3089
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.977,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.976,
+     "q": "Does it direct Louvre visitors to a different entrance?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.952,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.91,
+     "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.063
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.063
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.063,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 10.166,
+    "all_yes": [
+     "museum_louvre"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking museum and its metro station public address announcement, clear and slightly echoey in Attention Louvre visitors, on Thursday 26 November, 2026, the Pyramid entrance is closed today. All timed entry ticket holders, including the 10:30 slot, must enter via the Carrousel entrance or Porte des Lions."
+ },
+ {
+  "id": "museum_louvre_3",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [
+   "museum_louvre"
+  ],
+  "decision": {
+   "relevance": 0.9308,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2244,
+    "hotel_paris": 0.3797,
+    "museum_louvre": 0.9308,
+    "train_ams": 0.2596,
+    "hotel_ams": 0.195,
+    "flight_home": 0.2217
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.961,
+     "q": "Does the input say closed, ferme, or gesloten?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.955,
+     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.954,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.951,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.005
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.005
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.005,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 10.03,
+    "all_yes": [
+     "museum_louvre"
+    ]
+   }
+  },
+  "hydrogen_text": "MUSÉE DU LOUVRE JEUDI 26 NOVEMBRE 2026 ENTRÉE PYRAMIDE FERMÉE Billets horodatés : merci d'emprunter l'entrée Carrousel."
+ },
+ {
+  "id": "museum_louvre_4",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7042,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2381,
+    "hotel_paris": 0.3877,
+    "museum_louvre": 0.7042,
+    "train_ams": 0.2611,
+    "hotel_ams": 0.1609,
+    "flight_home": 0.1761
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.973,
+     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.965,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.96,
+     "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.948,
+     "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.044
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The Louvre Pyramid entrance closure is on Friday, November 27, 2026, while the entrance remains open normally on the booked visit date of Thursday, November 26, 2026.",
+   "latency_s": 3.982
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.044
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 5.026,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 13.079,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a French museum and its metro station public address announcement, clear and slightly echoey in French. Information Musée du Louvre. L'entrée par la pyramide sera exceptionnellement fermée demain, vendredi 27 novembre 2026. Aujourd'hui, jeudi 26 novembre, l'entrée pyramide est ouverte normalement pour tous les billets horodatés."
+ },
+ {
+  "id": "museum_louvre_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6713,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2287,
+    "hotel_paris": 0.3387,
+    "museum_louvre": 0.6713,
+    "train_ams": 0.2901,
+    "hotel_ams": 0.2123,
+    "flight_home": 0.2791
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.978,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.954,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.93,
+     "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.922,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.013
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The Passage Richelieu entrance is closed, while the traveller's booked Pyramid entrance remains open as scheduled.",
+   "latency_s": 4.816
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.013
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 5.829,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 6.163,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as an English speaking museum and its metro station public address announcement, clear and slightly echoey. Louvre visitor notice for Thursday, 26 November 2026. The Passage Richelieu entrance is closed today for maintenance. The main Pyramid entrance remains open as scheduled for all timed entry reservations."
+ },
+ {
+  "id": "museum_louvre_6",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6774,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.2491,
+    "hotel_paris": 0.3225,
+    "museum_louvre": 0.6774,
+    "train_ams": 0.264,
+    "hotel_ams": 0.2306,
+    "flight_home": 0.2522
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.966,
+     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input say closed, ferme, or gesloten?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.955,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.954,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.947,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.893
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The entrance closure applies to Musée d'Orsay, while the Pyramid entrance at Musée du Louvre is operating normally.",
+   "latency_s": 2.859
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 0.893
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "museum_louvre",
+    "latency_s": 3.752,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 10.525,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "MUSÉE D'ORSAY - JEUDI 26 NOVEMBRE 2026 Entrée A fermée pour travaux Musée du Louvre (Pyramide) : accès ouvert normalement"
+ },
+ {
+  "id": "train_ams_1",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [
+   "train_ams"
+  ],
+  "decision": {
+   "relevance": 0.9669,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.369,
+    "hotel_paris": 0.3102,
+    "museum_louvre": 0.2219,
+    "train_ams": 0.9669,
+    "hotel_ams": 0.2814,
+    "flight_home": 0.3331
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.988,
+     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention Eurostar 9315 or EST 9315?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.045
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.045
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.045,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 7.856,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a French railway station public address announcement, clear and slightly echoey, in French. Attention, en gare de Paris Nord, ce samedi 28 novembre 2026, le train Eurostar 9315 à destination d'Amsterdam Central, départ initialement prévu à 9h25, est supprimé en raison d'un incident d'alimentation électrique. Les voyageurs sont réacheminés sur les trains suivants."
+ },
+ {
+  "id": "train_ams_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "train_ams"
+  ],
+  "decision": {
+   "relevance": 0.9628,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.641,
+    "hotel_paris": 0.3776,
+    "museum_louvre": 0.0949,
+    "train_ams": 0.9628,
+    "hotel_ams": 0.4451,
+    "flight_home": 0.4015
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.988,
+     "q": "Does the input mention train number 9315?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.968,
+     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.968,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.062
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.062
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.062,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.2e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 13.068,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking railway station public address announcement, clear and slightly echoey. Eurostar passenger announcement at Paris Gare du Nord on Saturday 28 November. Eurostar service 9315 at 09:25 to Brussels Midi, Rotterdam Centraal, and Amsterdam Centraal has been cancelled. Please go to the Eurostar customer desk for rebooking."
+ },
+ {
+  "id": "train_ams_3",
+  "source": "rehearsal signs",
+  "lang": "fr",
+  "truth": [
+   "train_ams"
+  ],
+  "decision": {
+   "relevance": 0.9421,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.2043,
+    "hotel_paris": 0.1877,
+    "museum_louvre": 0.09,
+    "train_ams": 0.9421,
+    "hotel_ams": 0.3059,
+    "flight_home": 0.219
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.963,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.962,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.959,
+     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.954,
+     "q": "Does the input say Eurostar 9315 is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.947,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.809
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.809
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.809,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.6e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 10.112,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "PARIS GARE DU NORD - SAMEDI 28 NOV 2026 09:25 | EUROSTAR 9315 | AMSTERDAM CENTRAAL STATUT : SUPPRIMÉ Réacheminement au guichet Eurostar"
+ },
+ {
+  "id": "train_ams_4",
+  "source": "rehearsal audio",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7651,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.2915,
+    "hotel_paris": 0.3553,
+    "museum_louvre": 0.0801,
+    "train_ams": 0.7651,
+    "hotel_ams": 0.351,
+    "flight_home": 0.3623
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.967,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.965,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.948,
+     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.023
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The announcement cancels Eurostar 9317 at 11:25, while the traveller's booked Eurostar 9315 at 09:25 is explicitly confirmed to be running normally.",
+   "latency_s": 5.139
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 1.023
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 6.162,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.862,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a French railway station public address announcement, clear and slightly echoey, in French. Information Eurostar, à Paris-Nord, ce samedi 28 novembre, le train Eurostar 9317 de 11h25 à destination d'Amsterdam-Central est supprimé. Le train Eurostar 9315 de 9h25 circule normalement."
+ },
+ {
+  "id": "train_ams_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.8129,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.5829,
+    "hotel_paris": 0.3289,
+    "museum_louvre": 0.0934,
+    "train_ams": 0.8129,
+    "hotel_ams": 0.3781,
+    "flight_home": 0.465
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.988,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.985,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.941,
+     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.187
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.187
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.187,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 8.306,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking railway station public address announcement, clear and slightly echoey in English. Notice for Saturday 28 November 2026. Eurostar 9314 from Amsterdam Centraal to Paris Gare du Nord has been cancelled. Northbound Eurostar 9315 from Paris to Amsterdam is operating on schedule."
+ },
+ {
+  "id": "train_ams_6",
+  "source": "rehearsal signs",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6955,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.177,
+    "hotel_paris": 0.1981,
+    "museum_louvre": 0.126,
+    "train_ams": 0.6955,
+    "hotel_ams": 0.3121,
+    "flight_home": 0.2028
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.963,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.944,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.936,
+     "q": "Does the input mention train number 9315?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.934,
+     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.762
+  },
+  "carbon": {
+   "relevant": true,
+   "booking_id": "train_ams",
+   "reason": "Wait",
+   "latency_s": 3.758
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.762
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 4.52,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 11.239,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "PARIS GARE DU NORD - SAT 28 NOV 2026 09:25 | EUROSTAR 9315 → AMSTERDAM | ON TIME - VOIE 7 13:25 | EUROSTAR 9319 → AMSTERDAM | CANCELLED"
+ },
+ {
+  "id": "hotel_ams_1",
+  "source": "rehearsal audio",
+  "lang": "nl",
+  "truth": [
+   "hotel_ams"
+  ],
+  "decision": {
+   "relevance": 0.8788,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.3295,
+    "hotel_paris": 0.7023,
+    "museum_louvre": 0.7142,
+    "train_ams": 0.7688,
+    "hotel_ams": 0.8788,
+    "flight_home": 0.3807
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.972,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input say a train is diverted, \"detourne\", or \"omgeleid\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.958,
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.957,
+     "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.159
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.159
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.159,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.6e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 8.847,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement, clear and slightly echoey, in NL. Mededeling van het GVB. Wegens spoorwerkzaamheden op de Rozengracht rijden tram 13 en tram 17 van 28 tot en met 30 november een omleiding. De halte Westermarkt vervalt in beide richtingen."
+ },
+ {
+  "id": "hotel_ams_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "hotel_ams"
+  ],
+  "decision": {
+   "relevance": 0.9218,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.1875,
+    "hotel_paris": 0.4242,
+    "museum_louvre": 0.2554,
+    "train_ams": 0.7755,
+    "hotel_ams": 0.9218,
+    "flight_home": 0.4218
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.972,
+     "q": "Does the input mention GVB trams 13 or 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.947,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.941,
+     "q": "Does the input say tram 17 is diverted, 'omgeleid', or 'devie'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.935,
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.933,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.944
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.944
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.944,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.5e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 8.791,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English speaking metro or tram stop public address announcement, clear and slightly echoey. GVB service announcement. From 28 to 30 November, trams 13 and 17 are diverted due to track works, and do not stop at Westermarkt. Please use stops Dam or Marnixstraat instead."
+ },
+ {
+  "id": "hotel_ams_3",
+  "source": "rehearsal signs",
+  "lang": "nl",
+  "truth": [
+   "hotel_ams"
+  ],
+  "decision": {
+   "relevance": 0.928,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.2012,
+    "hotel_paris": 0.2577,
+    "museum_louvre": 0.1141,
+    "train_ams": 0.2718,
+    "hotel_ams": 0.928,
+    "flight_home": 0.3021
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.957,
+     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.951,
+     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input say tram 17 is diverted, 'omgeleid', or 'devie'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.849
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.849
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.849,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 16.102,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "HOTEL Sample Canal GVB OMLEIDING 28 T/M 30 NOV 2026 Tram 13 en 17 rijden via Raadhuisstraat-Marnixstraat Halte Westermarkt vervallen wegens werkzaamheden."
+ },
+ {
+  "id": "hotel_ams_4",
+  "source": "rehearsal audio",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7275,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.1936,
+    "hotel_paris": 0.5285,
+    "museum_louvre": 0.5192,
+    "train_ams": 0.7028,
+    "hotel_ams": 0.7275,
+    "flight_home": 0.3824
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.957,
+     "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.936,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.22
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The announcement reports a disruption only on tram 14 at Waterlooplein, while trams 13 and 17 continue to stop normally at Westermarkt for hotel_ams.",
+   "latency_s": 4.337
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.22
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 5.557,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.6e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.897,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement, clear and slightly echoey, in NL. GVB reisinformatie. Tram 14 stopt van 28 tot en met 30 november niet bij halte Waterlooplein wegens bestratingswerk. Tram 13 en tram 17 stoppen normaal bij halte Westermarkt."
+ },
+ {
+  "id": "hotel_ams_5",
+  "source": "rehearsal audio",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6935,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.2288,
+    "hotel_paris": 0.3852,
+    "museum_louvre": 0.5282,
+    "train_ams": 0.6567,
+    "hotel_ams": 0.6935,
+    "flight_home": 0.3584
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.971,
+     "q": "Does the input mention GVB trams 13 or 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.951,
+     "q": "Does the input mention tram 13 or lijn 13?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.938,
+     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.918
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The tram 13 and 17 diversion bypassing Westermarkt is from 1 to 3 December, while the Westermarkt stop remains normally open through 30 November, covering the entire Amsterdam hotel stay.",
+   "latency_s": 3.326
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.918
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 4.244,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.66,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement. Clear and slightly echoey in NL. GVB vooraankondiging. Van 1 tot en met 3 december rijden tram 13 en 17 een omleiding buiten halte Westermarkt om. Tot en met 30 november blijft halte Westermarkt normaal geopend."
+ },
+ {
+  "id": "hotel_ams_6",
+  "source": "rehearsal signs",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6718,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.2081,
+    "hotel_paris": 0.1435,
+    "museum_louvre": 0.0757,
+    "train_ams": 0.2826,
+    "hotel_ams": 0.6718,
+    "flight_home": 0.2031
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.957,
+     "q": "Does the input mention GVB trams 13 or 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.95,
+     "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.947,
+     "q": "Does the input mention tram 13 or lijn 13?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.619
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The notice confirms normal service for Trams 13 and 17 at the Westermarkt stop, while the skipped stop (Rijksmuseum on Trams 2 and 12) does not affect any of the traveller's bookings.",
+   "latency_s": 3.426
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.619
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 4.045,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 6.772,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "GVB TRAMINFO 28-30 NOV Tram 13 & 17: Halte Westermarkt OPEN (normale dienst) Tram 2 & 12: Halte Rijksmuseum vervallen"
+ },
+ {
+  "id": "flight_home_1",
+  "source": "rehearsal audio",
+  "lang": "nl",
+  "truth": [
+   "flight_home"
+  ],
+  "decision": {
+   "relevance": 0.9232,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.6496,
+    "hotel_paris": 0.3365,
+    "museum_louvre": 0.148,
+    "train_ams": 0.4073,
+    "hotel_ams": 0.3758,
+    "flight_home": 0.9232
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.958,
+     "q": "Does the input announce a gate change or porte change for KL 641?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention le vol KLM or de KLM-vlucht?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.948,
+     "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.054
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.054
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.054,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 8.781,
+    "all_yes": [
+     "flight_home"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as a Dutch airport public address announcement, clear and slightly echoey, in NL. Attentie passagiers op Schiphol op maandag 30 november. KLM vlucht KL641 naar New York JFK van 10 uur 20 vertrekt niet vanaf gate E18, maar is verplaatst naar gate F07."
+ },
+ {
+  "id": "flight_home_2",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [
+   "flight_home"
+  ],
+  "decision": {
+   "relevance": 0.8383,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.3148,
+    "hotel_paris": 0.3991,
+    "museum_louvre": 0.1917,
+    "train_ams": 0.7343,
+    "hotel_ams": 0.2516,
+    "flight_home": 0.8383
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.983,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input mention train delays or verstoringen to Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input say service is suspended or interrupted (\"interrompu\", \"onderbroken\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.19
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.19
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.19,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 2.8e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 8.138,
+    "all_yes": [
+     "flight_home"
+    ]
+   }
+  },
+  "hydrogen_text": "Read this as an English speaking airport public address announcement, clear and slightly echoey, in NS. Travel update at Amsterdam Centraal on Monday morning, 30 November 2026. Due to a signal failure, no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30. Replacement buses depart from the IJzijde bus platform."
+ },
+ {
+  "id": "flight_home_3",
+  "source": "rehearsal signs",
+  "lang": "nl",
+  "truth": [
+   "flight_home"
+  ],
+  "decision": {
+   "relevance": 0.9181,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.623,
+    "hotel_paris": 0.1469,
+    "museum_louvre": 0.1194,
+    "train_ams": 0.2354,
+    "hotel_ams": 0.2412,
+    "flight_home": 0.9181
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.952,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.95,
+     "q": "Does the input show the airline code KL with a flight number?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.944,
+     "q": "Does the input announce a gate change or porte change for KL 641?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.936,
+     "q": "Does the input show Schiphol Departures or Vertrek?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.92,
+     "q": "Does the input show the KLM logo or blue crown?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.993
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 0.993
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 0.993,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.7e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 6.311,
+    "all_yes": [
+     "flight_home"
+    ]
+   }
+  },
+  "hydrogen_text": "SCHIPHOL VERTREK - MA 30 NOV 2026 KLM 10:20 | KL 641 NEW YORK JFK GATE GEWIJZIGD: E18 → F07 Vertrekhal 2, ga naar gate F07"
+ },
+ {
+  "id": "flight_home_4",
+  "source": "rehearsal audio",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.8002,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.6641,
+    "hotel_paris": 0.3624,
+    "museum_louvre": 0.0654,
+    "train_ams": 0.2898,
+    "hotel_ams": 0.2358,
+    "flight_home": 0.8002
+   },
+   "change_type": "gate",
+   "top_hits": [
+    {
+     "p": 0.964,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.958,
+     "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input show the airline code KL with a flight number?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.951,
+     "q": "Does the input mention le vol KLM or de KLM-vlucht?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.949,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.921
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 0.921
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 0.921,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 6.307,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as a Dutch airport public address announcement, clear and slightly echoey, in NL. Schiphol mededeling voor maandag 30 november. KLM vlucht KL643 van 13:45 naar New York JFK heeft een gatewijziging naar gate E22. Vlucht KL641 om 10:20 vertrekt volgens schema vanaf gate E18."
+ },
+ {
+  "id": "flight_home_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7196,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.3342,
+    "hotel_paris": 0.3993,
+    "museum_louvre": 0.1906,
+    "train_ams": 0.7196,
+    "hotel_ams": 0.3911,
+    "flight_home": 0.6251
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.973,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.957,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.94,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.94,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.938,
+     "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.105
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The announcement suspends trains to Utrecht Centraal which the traveller is not using, and confirms that trains from Amsterdam Centraal to Schiphol Airport on November 30 are running normally.",
+   "latency_s": 3.179
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 1.105
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 4.284,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 13.248,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Read this as an English-speaking airport public address announcement, clear and slightly echoey. In... NS announcement at Amsterdam Centraal on Monday morning, 30 November. Trains between Amsterdam Centraal and Utrecht Centraal are suspended until 11:00. Trains from Amsterdam Centraal to Schiphol Airport are running normally."
+ },
+ {
+  "id": "flight_home_6",
+  "source": "rehearsal signs",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.5661,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.1722,
+    "hotel_paris": 0.1249,
+    "museum_louvre": 0.0822,
+    "train_ams": 0.5574,
+    "hotel_ams": 0.1942,
+    "flight_home": 0.5661
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.958,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.95,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.908,
+     "q": "Does the input mention Schiphol Airport train station or Station Schiphol?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.843,
+     "q": "Does the input show the KLM logo or blue crown?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.773,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.155
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "Trains from Amsterdam Centraal to Schiphol Airport on November 30 are running on time (normal service), and the disruption only affects trains towards Haarlem.",
+   "latency_s": 3.336
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 1.155
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 4.491,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 9.099,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "AMSTERDAM CENTRAAL - MA 30 NOV Sprinter & Intercity naar Schiphol Airport: RIJDT OP TIJD Geen treinen richting Haarlem (werkzaamheden)"
+ },
+ {
+  "id": "news_786a76395c",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.3421,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0816,
+    "hotel_paris": 0.3421,
+    "museum_louvre": 0.1056,
+    "train_ams": 0.2214,
+    "hotel_ams": 0.2351,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.987,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.331
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.331
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.331,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.787,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Mobilisations pour l'élimination les violences faites aux femmes : 25 et 28 novembre. Mobilisations pour l'élimination les violences faites aux femmes : 25 et 28 novembre - SNES-FSU Paris Publication date: 2026-11-21 Disruption dates: 2026-11-25 and 2026-11-28 (during your trip) Excerpt: « Dans le cadre de la grève féministe, la manifestation partira du Panthéon à 14 h en direction de la place d'I"
+ },
+ {
+  "id": "news_9c60d1cca4",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6841,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0841,
+    "hotel_paris": 0.1344,
+    "museum_louvre": 0.0825,
+    "train_ams": 0.6841,
+    "hotel_ams": 0.0953,
+    "flight_home": 0.11
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.986,
+     "q": "Does the input mention Eurostar?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.941,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.894,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.802,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.78,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.964
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The input is just a generic webpage title for Eurostar travel news and does not contain any specific disruption details affecting the booked train.",
+   "latency_s": 3.453
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.964
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 4.417,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.692,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Disruptions | Travel News | Eurostar. Disruptions | Travel News - Eurostar Publication date: 2026-11-21"
+ },
+ {
+  "id": "news_78532c9a34",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [
+   "hotel_ams"
+  ],
+  "decision": {
+   "relevance": 0.9732,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.1299,
+    "museum_louvre": 0.0,
+    "train_ams": 0.19,
+    "hotel_ams": 0.9732,
+    "flight_home": 0.1336
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input say trams are not stopping at Westermarkt or 'non desservi'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.984,
+     "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.983,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.848
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.848
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.848,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 3.896,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "GVB. Oranje Loper construction work - Amsterdam - GVB Publication date: Not stated on the notice Disruption dates: Ongoing until 2027-02-27 (covers your trip dates 2026-11-28 to 2026-11-30) Quote: «As a result, there will be no trams at the Westermarkt stop.» *(Note: Both tram 13 and tram 17 are on long-term diversions and do not serve Westermarkt.)*"
+ },
+ {
+  "id": "news_1ccd00925f",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2255,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.1067,
+    "hotel_paris": 0.2255,
+    "museum_louvre": 0.0,
+    "train_ams": 0.222,
+    "hotel_ams": 0.104,
+    "flight_home": 0.171
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.981,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.275
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.275
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.275,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.029,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Strikes in regional public transport on 23 and 24 November. Strikes in regional public transport on 23 and 24 November - 9292 Publication date: 2026-11-21 (latest update) Disruption dates: 2026-11-23 to 2026-11-24 *(near but outside your trip dates of 2026-11-28 to 2026-11-30; additionally, GVB trams/buses/metros in Amsterdam and NS trains are not affected)* Quote: «On Monday, 23 November and Tues"
+ },
+ {
+  "id": "news_21a6e3f7b7",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2448,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.2151,
+    "museum_louvre": 0.0,
+    "train_ams": 0.241,
+    "hotel_ams": 0.2448,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.925,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.919,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.874,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.866,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.672,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.296
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.296
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.296,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.209,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Syndicats, jeunesse et gilets jaunes un peu moins mobilisés pour le si .... Publication date: 2026-11-21 Disruption dates: 2026-11-21 (outside trip) and 2026-11-28 (during your trip) Excerpt: « Les gilets jaunes ont eux appelé à s'associer samedi 28 novembre aux manifestations féministes organisées par \"Nous toutes\" à l'occasion de la journée internationale de lutte contre les violences faites aux"
+ },
+ {
+  "id": "news_92e77aa7ac",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6372,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.1188,
+    "hotel_paris": 0.6372,
+    "museum_louvre": 0.1356,
+    "train_ams": 0.2022,
+    "hotel_ams": 0.0993,
+    "flight_home": 0.1451
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does it say there is a strike, grève, or staking?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.985,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 1.385
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "A general municipal strike notice for the City of Paris with no specific closures detailed does not directly change the hotel, national museum, or any booked transport services, stations, or entrances.",
+   "latency_s": 2.476
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.385
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 3.861,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.761,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Manifestations, grèves et perturbations à Paris du 16 au 22 novembre. Publication date: 2026-11-21 Disruption dates: 2026-11-16 to 2026-11-30 (CGT Ville de Paris strike notice covers your trip dates, though specific municipal closures are not yet detailed) Excerpt: « Le préavis de la CGT Ville de Paris court du 16 au 30 novembre. »"
+ },
+ {
+  "id": "news_6830b4317a",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.8143,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.1236,
+    "museum_louvre": 0.0,
+    "train_ams": 0.8143,
+    "hotel_ams": 0.1809,
+    "flight_home": 0.1366
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.974,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.968,
+     "q": "Does the input mention a schedule change, \"modification d'horaire\", or \"dienstregelingswijziging\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input mention a schedule change (\"changement d'horaire\", \"dienstregeling\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a schedule change, horaire modifie, or gewijzigde dienstregeling?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a schedule change, 'dienstregeling gewijzigd', or 'horaire modifie'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.801
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.801
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.801,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 4.612,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Storingen en geplande werkzaamheden | NMBS Internationaal. Storingen en geplande werkzaamheden | NMBS Internationaal Publication date: Not listed on page Disruption dates: 2026-11-28 to 2026-11-29 Rotterdam) volgens een aangepaste dienstregeling.»"
+ },
+ {
+  "id": "news_c6340a241f",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2227,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.0778,
+    "hotel_paris": 0.2016,
+    "museum_louvre": 0.0457,
+    "train_ams": 0.1634,
+    "hotel_ams": 0.1167,
+    "flight_home": 0.2227
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.975,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.97,
+     "q": "Does the input say service is suspended or interrupted (\"interrompu\", \"onderbroken\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.967,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.921
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.921
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.921,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.999,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Werkzaamheden Noord-Holland | Reizen | NS. Werkzaamheden Noord-Holland | Reizen - NS Publication date: Not listed on page Disruption dates: 2026-11-25 to 2026-11-29 (overlaps with the trip) Quote: «Op zaterdag 28 november en zondag 29 november tot 09:00 rijden er geen treinen tussen Alkmaar en Uitgeest.»"
+ },
+ {
+  "id": "news_2759e333ca",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2133,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0943,
+    "hotel_paris": 0.1911,
+    "museum_louvre": 0.0318,
+    "train_ams": 0.2133,
+    "hotel_ams": 0.0726,
+    "flight_home": 0.0723
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input say cancelled, annule, supprime, or geannuleerd?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.99,
+     "q": "Does it say there is a strike, grève, or staking?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.99,
+     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.857
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.857
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.857,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.752,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Maandag alle Belgische vluchten geannuleerd wegens staking. Aangezien een deel van de luchtverkeersleiding gaat staken, is besloten dat het veiliger is maar alle vluchten te schrappen."
+ },
+ {
+  "id": "news_b47dfd155c",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2677,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.2677,
+    "hotel_paris": 0.1299,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "delay",
+   "top_hits": [
+    {
+     "p": 0.967,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.963,
+     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.948,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.925,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.774
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.774
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.774,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 5.991,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "NYCEM Issues Weather Alert for Windy, Soaking Rain Sunday Afternoon Into Monday Morning. NYCEM Issues Weather Alert for Windy, Soaking Rain Sunday Afternoon Into Monday Morning Publication date: 2026-11-20 (updated 2026-11-21) Disruption dates: 2026-11-22 to 2026-11-23 *(near, just before your 2026-11-24 departure)* Quote: « With many New Yorkers starting Thanksgiving travel, the storm could mean "
+ },
+ {
+  "id": "news_977db582df",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.1395,
+   "booking_id": "flight_out",
+   "per_booking": {
+    "flight_out": 0.1395,
+    "hotel_paris": 0.1158,
+    "museum_louvre": 0.019,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.983,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.379,
+     "q": "Does the input mention a schedule change, horaire modifie, or gewijzigde dienstregeling?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.93
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.93
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_out",
+    "latency_s": 0.93,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.6e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.029,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "New York storm threatens to disrupt upcoming Thanksgiving travel. New York storm threatens to disrupt upcoming Thanksgiving travel Publication date: 2026-11-20 Disruption dates: 2026-11-22 to 2026-11-23, and 2026-11-25 to 2026-11-26 *(near/overlapping your trip window)* Quote: « A coastal storm could bring rain and wind to New York City from Sunday afternoon into Monday morning, and a second syste"
+ },
+ {
+  "id": "news_3253072479",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.967,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.959,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.928,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.561,
+     "q": "Does the input mention 75004 Paris?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.774
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.774
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.774,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.8e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.406,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Demonstration Alert - U.S. Embassy Paris, France – November 20, 2026. Demonstration Alert - U.S. Embassy Paris, France – November 20, 2026 - USEmbassy.gov Publication date: 2026-11-20 Disruption dates: 2026-11-21 and 2026-11-22 (near but outside your trip) Excerpt: « Multiple groups have planned demonstrations for November 21 and 22. »"
+ },
+ {
+  "id": "news_7d9040712c",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.981,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.969,
+     "q": "Does it say there is a strike, grève, or staking?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.966,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.027
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.027
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.027,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.533,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "French Union Leader Warns Strikes Will Continue without Higher Wages. French Union Leader Warns Strikes Will Continue without Higher Wages - Ground News Publication date: 2026-11-20 Disruption dates: 2026-12-01 (near but outside your trip) Excerpt: « France: 8 Trade Unions Call for Another Strike Against the Government on 1 December. »"
+ },
+ {
+  "id": "news_52af25a133",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.6589,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.6088,
+    "museum_louvre": 0.0,
+    "train_ams": 0.6589,
+    "hotel_ams": 0.1906,
+    "flight_home": 0.0
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.983,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.983,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.747
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations.",
+   "latency_s": 3.485
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.747
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 4.232,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 2.2e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 7.966,
+    "all_yes": [
+     "hotel_paris",
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Demonstration in Paris on Saturday 28 November 2026: closed stations, disrupted metro lines. Demonstration in Paris on Saturday 28 November 2026: closed stations, disrupted metro lines Publication date: 2026-11-20 Disruption dates: 2026-11-28 (could affect local Paris metro/RER access to Paris Gare du Nord) Quote: «A Paris Gilets jaunes organiser wanted to keep 28 November for an anniversary march"
+ },
+ {
+  "id": "news_182943e119",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2154,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.1058,
+    "hotel_paris": 0.1798,
+    "museum_louvre": 0.0368,
+    "train_ams": 0.1571,
+    "hotel_ams": 0.0929,
+    "flight_home": 0.2154
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.969,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.951,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.942,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.918,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.818,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.744
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.744
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.744,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.455,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Thanksgiving 2026 NYC: Airport Rush Days & Parade Closures. Thanksgiving 2026 NYC: Airport Rush Days & Parade Closures (All Comfort Limo) Publication date: 2026-11-20 Disruption dates: 2026-11-24 to 2026-11-30 (directly affects your arrival date, 2026-11-30) Excerpt: «Busiest airport days: Sunday, November 29 and Monday, November 30.»"
+ },
+ {
+  "id": "news_1e7241d7ce",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2611,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.1283,
+    "hotel_paris": 0.2611,
+    "museum_louvre": 0.1217,
+    "train_ams": 0.1856,
+    "hotel_ams": 0.1703,
+    "flight_home": 0.1898
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.964,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input say closed, ferme, or gesloten?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.826,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.618,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.382,
+     "q": "Does the input mention 75004 Paris?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.937
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.937
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.937,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.79,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Six ans après l’agression de Michel Zecler, les trois policiers condamnés à des peines de 1 à 2 ans de prison ferme. La cour criminelle de Paris a condamné vendredi les trois policiers qui avaient frappé le producteur Michel Zecler à des peines de 1 à 2 ans de prison ferme. Elle a retenu le caractère raciste des violences"
+ },
+ {
+  "id": "news_616b24aebb",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.1597,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.1457,
+    "hotel_paris": 0.1367,
+    "museum_louvre": 0.0295,
+    "train_ams": 0.1597,
+    "hotel_ams": 0.1163,
+    "flight_home": 0.1113
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.971,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.97,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.765
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.765
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.765,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.025,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "THANKSGIVING HOLIDAY TRAVEL ADVISORY. 2026 THANKSGIVING HOLIDAY TRAVEL ADVISORY (Port Authority of New York and New Jersey) Publication date: 2026-11-19 Disruption dates: 2026-11-20 through 2026-11-25 *(includes your 2026-11-24 departure)* Quote: « From 11:30 p.m. Tuesday, Nov. 24, to 5 a.m. Wednesday, Nov. 25, one westbound lane will be closed. »"
+ },
+ {
+  "id": "news_77269451ba",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.1985,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.1609,
+    "hotel_paris": 0.1812,
+    "museum_louvre": 0.0806,
+    "train_ams": 0.1985,
+    "hotel_ams": 0.1385,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.985,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.973,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.971,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.744
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.744
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 0.744,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 9.907,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "La Fédération CGT des Services publics dépose un préavis de grève pour les journées du 20, 21, 22, 23, 24, 25, 26, 27 et 28 novembre 2026, journée internationale pour l’élimination des violences faites aux femmes - UFICT-CGT DU GRAND REIMS. La Fédération CGT des Services publics dépose un préavis de grève pour les journées du 20, 21, 22, 23, 24, 25, 26, 27 et 28 novembre 2026, journée internationa"
+ },
+ {
+  "id": "news_a604e6263d",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.762,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.1612,
+    "hotel_paris": 0.762,
+    "museum_louvre": 0.1236,
+    "train_ams": 0.2377,
+    "hotel_ams": 0.1553,
+    "flight_home": 0.1626
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention RATP or Paris Metro?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.984,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.984,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.981,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.795
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The article only mentions a general standing RATP strike notice for supervisory staff and an action ending November 20, without confirming any direct change or closure to a specific booking's service, station, or stop on the traveller's dates.",
+   "latency_s": 4.779
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.795
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 5.574,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.799,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Quelles sont les dates des prochaines grèves ? SNCF, RATP, avions et transports en novembre et décembre 2026 - InfosTourisme. Publication date: 2026-11-19 Disruption dates: 2026-11-16 to 2026-12-31 (covers your trip dates, though it is a strike notice rather than a confirmed general shutdown) Excerpt: « La CGT Transports poursuit sa semaine de mobilisation jusqu'au 20 novembre, tandis qu'un préavi"
+ },
+ {
+  "id": "news_e593d6b993",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.4823,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.4823,
+    "museum_louvre": 0.101,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.966,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.947,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.925,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.912,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.7,
+     "q": "Does the input mention 75004 Paris?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.858
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The input reports a general, vaguely defined student protest in Paris on November 26 without specifying any direct changes to the hotel, Louvre museum entrance, or specific metro stations used by the traveller.",
+   "latency_s": 5.637
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.858
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 6.495,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.833,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Étudiants : une nouvelle journée de mobilisation se dessine à Paris. Manifestation étudiante le 26 novembre à Paris : que sait-on ? - Sortiraparis.com Publication date: 2026-11-18 Disruption dates: 2026-11-26 (during your trip) Excerpt: « Une nouvelle manifestation étudiante se profile à Paris pour le jeudi 26 novembre 2026 : l'assemblée générale des facs franciliennes avance cette date, mais l'am"
+ },
+ {
+  "id": "news_53e343abcf",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.671,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.671,
+    "museum_louvre": 0.0,
+    "train_ams": 0.153,
+    "hotel_ams": 0.2594,
+    "flight_home": 0.0
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.983,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.969,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.965,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.778
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The article states that no specific locations, metro stations, or transport notices are known yet for November 28, so no booking is directly changed.",
+   "latency_s": 2.488
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.778
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 3.266,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.055,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Manifestation du samedi 28 novembre 2026 à Paris : stations fermées, lignes de métro perturbées. Manifestation du samedi 28 novembre 2026 à Paris : stations fermées, lignes de métro perturbées Publication date: 2026-11-18 Disruption dates: 2026-11-28 (during your trip) Excerpt: « Aucun lieu, horaire ni parcours parisien n'est connu pour l'instant, et aucun préavis ne vise les transports. »"
+ },
+ {
+  "id": "news_ef953149ed",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.9095,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.0876,
+    "hotel_paris": 0.1642,
+    "museum_louvre": 0.1431,
+    "train_ams": 0.197,
+    "hotel_ams": 0.9095,
+    "flight_home": 0.1709
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.987,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.987,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.985,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a schedule change for tram 13 or 17?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.769
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.769
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 0.769,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 2e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 3.308,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Diversions and disruptions | GVB. Diversions and disruptions - GVB Publication date: 2026-11-18 (last update) Disruption dates: 2026-09-29 to 2027-02-28 (Tram 13 Overtoomse Sluis works); 2026-10-23 to 2026-12-04 (Bus 18 & 21 Marnixstraat works) — both cover your trip dates Quote: «Duration: from September 29th, 2026 until February 28th, 2027.»"
+ },
+ {
+  "id": "news_05a469a789",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2341,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0765,
+    "hotel_paris": 0.2341,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.981,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.974,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.009
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.009
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.009,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 7.01,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Nieuwe ov-stakingen aangekondigd, Rover: ‘Dit kan zo niet langer doorgaan’. Nieuwe ov-stakingen aangekondigd, Rover: 'Dit kan zo niet langer doorgaan' Publication date: 2026-11-18 Disruption dates: 2026-11-23 to 2026-11-24, 2026-12-03 to 2026-12-04, 2026-12-14 to 2026-12-15, and 2026-12-18 (near but outside your trip date) Excerpt: «Buschauffeurs en treinpersoneel in het stads- en streekvervoer le"
+ },
+ {
+  "id": "news_d35f8cee02",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.8211,
+   "booking_id": "hotel_ams",
+   "per_booking": {
+    "flight_out": 0.1547,
+    "hotel_paris": 0.1218,
+    "museum_louvre": 0.1973,
+    "train_ams": 0.3133,
+    "hotel_ams": 0.8211,
+    "flight_home": 0.1583
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.981,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+     "booking_id": "hotel_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.084
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.084
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 1.084,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "hotel_ams",
+    "latency_s": 8.28,
+    "all_yes": [
+     "hotel_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Omleidingen en verstoringen | GVB. Omleidingen en verstoringen - GVB Publication date: 2026-11-18 (last updated) Disruption dates: Ongoing during the trip (e.g., 2026-10-23 to 2026-12-04 for Bus 18/21; 2026-04-23 to 2026-12-12 for Tram 14; 2026-09-29 to 2027-02-28 for Tram 13) Duur: vanaf 23 oktober 2026 tot 4 december 2026.»"
+ },
+ {
+  "id": "news_c2f8a3344c",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.1727,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.1155,
+    "hotel_paris": 0.1727,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.988,
+     "q": "Does it say there is a strike, grève, or staking?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.981,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.932
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.932
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.932,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.625,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Regional public transport workers announce nationwide strikes next week. Regional public transport workers announce nationwide strikes next week - NL Times Publication date: 2026-11-18 Disruption dates: 2026-11-23 to 2026-11-24, and 2026-12-03, 2026-12-04, 2026-12-14, 2026-12-15, and 2026-12-18 (all outside the trip) Quote: «Regional public transport workers are set to stage another nationwide str"
+ },
+ {
+  "id": "news_493f1ea497",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.8557,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.8557,
+    "museum_louvre": 0.0975,
+    "train_ams": 0.203,
+    "hotel_ams": 0.4857,
+    "flight_home": 0.1627
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.99,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.988,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.194
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.194
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 1.194,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.7e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.292,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Travaux : les fermetures prévues sur le métro, le RER et le tramway. Travaux : les fermetures prévues sur le métro, le RER et le tramway - Mairie de Paris Publication date: 2026-11-17 Disruption dates: Ongoing through your trip (Line 4 Saint-Michel closed 2026-09-14 to 2026-12-19; Line 8 République closed 2026-07-22 to April 2027; Line 13 Mairie de Saint-Ouen closed 2026-11-26 to 2026-11-29) Excer"
+ },
+ {
+  "id": "news_daa7b7bc75",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.989,
+     "q": "Does the input show the airline code KL with a flight number?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.988,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.987,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.978,
+     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
+     "booking_id": "museum_louvre"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.021
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.021
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.021,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.4e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.293,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "KL 641 Amsterdam to John F. Kennedy, 17 November 2026: Cancelled. KL 641 Amsterdam to John F. Kennedy, 17 November 2026: Cancelled Publication date: 2026-11-17 Disruption dates: 2026-11-17 (near but outside your trip date; included as a recent cancellation of your exact flight number) Excerpt: «KLM KL 641 from Amsterdam to John F. Kennedy was cancelled on 17 November 2026.»"
+ },
+ {
+  "id": "news_3e584ecdc7",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.2321,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.2321,
+    "museum_louvre": 0.0,
+    "train_ams": 0.176,
+    "hotel_ams": 0.1518,
+    "flight_home": 0.0
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.966,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.962,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.929,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.559,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.826
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.826
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.826,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.9e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.695,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "France temporarily bans firework mortars amid school protests. France temporarily bans firework mortars amid school protests - Daily Maverick Publication date: 2026-11-16 Disruption dates: Through 2026-11-27 (overlaps with your trip) Excerpt: « The ban, which will be in effect until November 27, is aimed at \"preventing the risk of serious disturbances to public order during blockades outside secon"
+ },
+ {
+  "id": "news_dd4f900146",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "other",
+   "top_hits": [
+    {
+     "p": 0.986,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.961,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.946,
+     "q": "Does the input mention Luchthaven Schiphol or Aeroport d'Amsterdam-Schiphol?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.235
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.235
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.235,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.676,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "KLM-piloot meldt gps-storing tijdens nadering Schiphol. KLM-piloot meldt gps-storing tijdens nadering Schiphol - Up in the Sky Publication date: 2026-11-16 Disruption dates: 2026-11-16 (outside the trip) Quote: «Een KLM-piloot heeft tijdens de nadering van Schiphol gemeld dat beide gps-systemen van het vliegtuig waren uitgevallen.»"
+ },
+ {
+  "id": "news_bd2005bb6c",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [],
+  "decision": {
+   "relevance": 0.1601,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.1414,
+    "museum_louvre": 0.0,
+    "train_ams": 0.1601,
+    "hotel_ams": 0.1499,
+    "flight_home": 0.0
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.957,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.952,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.944,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.943,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.907,
+     "q": "Does the input say access is blocked or street is closed (\"rue barrée\", \"afgesloten\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.339
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 1.339
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "train_ams",
+    "latency_s": 1.339,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 3.964,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Persberichten Archives · Extinction Rebellion Nederland. Extinction Rebellion blokkeert A12: fossiele subsidies maken superrijken rijker *(in The Hague, not Amsterdam, but on a trip date)* Publication date: 2026-11-09 Disruption dates: 2026-11-28 Quote: «Op zaterdag 28 november blokkeert Extinction Rebellion (XR) de A12 in Den Haag om een einde te eisen aan fossiele subsidies.»"
+ },
+ {
+  "id": "news_3d3f025c8a",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.98,
+     "q": "Does it say there is a strike, grève, or staking?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a strike, greve, or staking?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.851
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.851
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.851,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 4.05,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "November 5 strike: Eiffel Tower closed, Louvre and Versailles disrupted. November 5 strike: Eiffel Tower closed, Louvre and Versailles disrupted - Sortiraparis.com Publication date: 2026-11-05 Disruption dates: 2026-11-05 *(outside your trip dates; included for recent context on strike impacts at the Louvre)* Quote: « Its official website notes, however, that some galleries are exceptionally close"
+ },
+ {
+  "id": "news_ccf74ed096",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.93,
+   "booking_id": "museum_louvre",
+   "per_booking": {
+    "flight_out": 0.1169,
+    "hotel_paris": 0.1357,
+    "museum_louvre": 0.93,
+    "train_ams": 0.1591,
+    "hotel_ams": 0.0849,
+    "flight_home": 0.1282
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.981,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.969,
+     "q": "Does it say access to the Louvre is blocked or restricted?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.962,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.937,
+     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
+     "booking_id": "hotel_paris"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.725
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 0.725
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 0.725,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 2.7e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 10.609,
+    "all_yes": [
+     "museum_louvre"
+    ]
+   }
+  },
+  "hydrogen_text": "Jours d’accès aux collections - Plan d'ouverture des salles. Jours d'accès aux collections - Plan d'ouverture des salles - Le Louvre Publication date: 2026-11-02 (schedule covering 2026-11-02 to 2026-12-01) Disruption dates: 2026-11-02 to 2026-12-01 (includes your visit date; specific galleries such as Galerie Campana, Roman Antiquities, Islamic Art, and Galerie Médicis are closed for works/restor"
+ },
+ {
+  "id": "news_07a144de07",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.4126,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.1298,
+    "flight_home": 0.4126
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention New York JFK airport?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.973,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.906
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The advisory concerns general road traffic and construction inside JFK airport rather than a direct change to any flight's service, terminal, or gate.",
+   "latency_s": 3.271
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.906
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 4.177,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.9e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 8.226,
+    "all_yes": [
+     "flight_home"
+    ]
+   }
+  },
+  "hydrogen_text": "Thanksgiving 2026 travel: 4 airport trouble spots to watch. Thanksgiving 2026 travel: 4 airport trouble spots to watch (Quartz) Publication date: 2026-10-30 Disruption dates: Thanksgiving 2026 travel period and ongoing 2026 JFK redevelopment construction (affects your arrival date, 2026-11-30) Excerpt: «In New York, the almanac cites the airport's official 2026 advisory on JFK's $19 billion redeve"
+ },
+ {
+  "id": "news_86120c4c96",
+  "source": "radar news",
+  "lang": "fr",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "strike",
+   "top_hits": [
+    {
+     "p": 0.984,
+     "q": "Does the input mention a strike, 'staking', or 'greve'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.983,
+     "q": "Does the input mention a strike, \"greve\", or \"staking\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention Air France?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.971,
+     "q": "Does the input mention Roissy or Roissy Charles de Gaulle?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 0.66
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.66
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 0.66,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_out",
+    "latency_s": 2e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.737,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "Grève Air France novembre 2026 : vols, Roissy, RER B. Grève Air France novembre 2026 : vols, Roissy, RER B Publication date: 2026-11-15 Disruption dates: 2026-11-05 *(already passed; included for context on French aviation strikes)* Quote: « Au 6 novembre 2026, la grève nationale du jeudi 5 novembre est passée : la DGAC n'avait pas demandé aux compagnies de réduire leurs vols ce jour-là, et aucune"
+ },
+ {
+  "id": "news_37e5892ab0",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.0,
+   "booking_id": null,
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.0,
+    "flight_home": 0.0
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.985,
+     "q": "Does it mention the Louvre or Louvre Museum?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.984,
+     "q": "Does it mention Paris in connection with the Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.978,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.975,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "silence",
+   "latency_s": 1.065
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.065
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 1.065,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "museum_louvre",
+    "latency_s": 1.8e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 6.047,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "The Louvre will be closed on Saturday, October 24: tickets will be automatically refunded.. Sortiraparis Publication date: 2026-10-24 Disruption dates: 2026-10-24 *(outside your trip dates; included for recent context on protest-related closures)* Quote: « The Louvre Museum will be exceptionally closed on Saturday, October 24, 2026, due to demonstrations in Paris. »"
+ },
+ {
+  "id": "news_d332901a93",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [
+   "train_ams"
+  ],
+  "decision": {
+   "relevance": 0.9164,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.164,
+    "museum_louvre": 0.0,
+    "train_ams": 0.9164,
+    "hotel_ams": 0.1313,
+    "flight_home": 0.6824
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.988,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention Schiphol Airport train station or Station Schiphol?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a schedule change (\"changement d'horaire\", \"dienstregeling\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.979,
+     "q": "Does the input mention a schedule change, 'dienstregeling gewijzigd', or 'horaire modifie'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.969,
+     "q": "Does the input mention a schedule change, \"modification d'horaire\", or \"dienstregelingswijziging\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 0.779
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.779
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 0.779,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 2.1e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 4.957,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Amsterdam - Brussel - Paris: werkzaamheden. Werkzaamheden: Amsterdam - Brussel - Paris - Rijden de Treinen Disruption dates: 2026-11-28 (from 06:00) to 2026-11-29 (until 22:00) Quote: «Tussen Schiphol Airport en Antwerpen Centraal is de internationale dienstregeling aangepast door werkzaamheden.»"
+ },
+ {
+  "id": "news_96b489dff2",
+  "source": "radar news",
+  "lang": "nl",
+  "truth": [
+   "train_ams"
+  ],
+  "decision": {
+   "relevance": 0.9014,
+   "booking_id": "train_ams",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.1604,
+    "museum_louvre": 0.0,
+    "train_ams": 0.9014,
+    "hotel_ams": 0.0964,
+    "flight_home": 0.1714
+   },
+   "change_type": "schedule",
+   "top_hits": [
+    {
+     "p": 0.99,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.988,
+     "q": "Does the input mention a schedule change (\"changement d'horaire\", \"dienstregeling\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.985,
+     "q": "Does the input mention Brussels, Antwerp, or Rotterdam as a stop?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.983,
+     "q": "Does the input mention Brussels-Midi, Bruxelles-Midi, or Brussel-Zuid?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.98,
+     "q": "Does the input mention a schedule change, \"modification d'horaire\", or \"dienstregelingswijziging\"?",
+     "booking_id": "train_ams"
+    }
+   ],
+   "route": "alert",
+   "latency_s": 1.2
+  },
+  "carbon": null,
+  "outcomes": {
+   "decision": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.2
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 1.2,
+    "carbon": false
+   },
+   "keyword": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 2.2e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "train_ams",
+    "latency_s": 3.777,
+    "all_yes": [
+     "train_ams"
+    ]
+   }
+  },
+  "hydrogen_text": "Amsterdam - Rotterdam - Brussel: werkzaamheden. Werkzaamheden: Amsterdam - Rotterdam - Brussel - Rijden de Treinen Publication date: 2026-10-14 Disruption dates: 2026-11-28 (from 05:00) to 2026-11-29 (until 23:59) Quote: «Tussen Amsterdam Centraal en Brussel Zuid is de internationale dienstregeling aangepast door werkzaamheden.»"
+ },
+ {
+  "id": "news_8fc3132920",
+  "source": "radar news",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7647,
+   "booking_id": "flight_home",
+   "per_booking": {
+    "flight_out": 0.0,
+    "hotel_paris": 0.0,
+    "museum_louvre": 0.0,
+    "train_ams": 0.0,
+    "hotel_ams": 0.1267,
+    "flight_home": 0.7647
+   },
+   "change_type": "cancelled",
+   "top_hits": [
+    {
+     "p": 0.985,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
+    },
+    {
+     "p": 0.977,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.976,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.974,
+     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.972,
+     "q": "Does the input say KLM flights are cancelled or geannuleerd?",
+     "booking_id": "flight_home"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.769
+  },
+  "carbon": {
+   "relevant": true,
+   "booking_id": "flight_home",
+   "reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026).",
+   "latency_s": 4.721
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "flight_home",
+    "latency_s": 0.769
+   },
+   "policy": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 5.49,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 1.6e-05
+   },
+   "hydrogen": {
+    "alert": true,
+    "booking_id": "flight_home",
+    "latency_s": 4.167,
+    "all_yes": [
+     "flight_home"
+    ]
+   }
+  },
+  "hydrogen_text": "KLM Flight Cancellations: Winter Cuts Start October 26. KLM Flight Cancellations: Winter Cuts Start October 26 (FTN news) Publication date: 2026-10-11 (published more than 30 days ago, but announces schedule cuts covering your trip date) Disruption dates: 2026-10-26 to early March 2027 (covers your trip date, 2026-11-30) Excerpt: «KLM has informed staff that it will cancel flights from October 26 "
+ }
+]
