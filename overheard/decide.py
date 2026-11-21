@@ -59,7 +59,7 @@ def score(inp: list | str, trip: dict, fingerprint: list[dict], label: str = "")
     # gate on the rider's line: station names alone fire on look-alike stations of other lines
     fp_score = gmax.get("line", 0) * max(combo, gmax.get("change", 0))
     direct = p["affects_trip"]
-    relevance = 0.5 * direct + 0.5 * fp_score
+    relevance = config.DIRECT_WEIGHT * direct + (1 - config.DIRECT_WEIGHT) * fp_score
     top = sorted(((v, q) for g in groups.values() for v, q in g), reverse=True)[:5]
     ct = ans["change_type"]
     return {"relevance": round(relevance, 3), "direct": round(direct, 3), "fingerprint": round(fp_score, 3),

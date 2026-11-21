@@ -1,0 +1,90 @@
+{
+ "audio": {
+  "n_pairs": 72,
+  "positives": 11,
+  "overheard_alert_0.8": {
+   "tp": 9,
+   "fp": 1,
+   "fn": 2,
+   "tn": 60,
+   "precision": 0.9,
+   "recall": 0.818,
+   "accuracy": 0.958
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 11,
+   "fn": 0,
+   "tn": 50,
+   "precision": 0.5,
+   "recall": 1.0,
+   "accuracy": 0.847
+  },
+  "band_0.4_0.8": 20,
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 61,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 10,
+   "fp": 1,
+   "fn": 1,
+   "tn": 60,
+   "precision": 0.909,
+   "recall": 0.909,
+   "accuracy": 0.972
+  },
+  "latency_median_s": 0.828,
+  "latency_p90_s": 1.128,
+  "text_baseline_latency_median_s": 4.607
+ },
+ "image": {
+  "n_pairs": 66,
+  "positives": 9,
+  "overheard_alert_0.8": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 1,
+   "tn": 57,
+   "precision": 1.0,
+   "recall": 0.889,
+   "accuracy": 0.985
+  },
+  "overheard_0.5": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 0,
+   "tn": 57,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "band_0.4_0.8": 4,
+  "text_baseline": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 0,
+   "tn": 57,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 9,
+   "fp": 4,
+   "fn": 0,
+   "tn": 53,
+   "precision": 0.692,
+   "recall": 1.0,
+   "accuracy": 0.939
+  },
+  "latency_median_s": 0.802,
+  "latency_p90_s": 1.316,
+  "text_baseline_latency_median_s": 5.166
+ }
+}

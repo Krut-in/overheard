@@ -101,6 +101,7 @@ const SAMPLES = [
   ["🖼 Q weekend poster", "synth/images/i01.png"], ["🖼 L poster", "synth/images/i04.png"],
   ["🖼 Q clock DELAYED", "synth/images/i07.png"], ["🖼 F clock", "synth/images/i08.png"],
   ["🖼 Real 7 poster", "real/images/7_train_service_change_notice_4_languages.jpg"],
+  ["⚖️ Poster: Q on track 4", "demo/q_track4_poster.png"],
   ["🎬 Walkthrough v1", "synth/video/v1.mp4"], ["🎬 Walkthrough v4", "synth/video/v4.mp4"],
 ];
 const $ = id => document.getElementById(id);
@@ -200,13 +201,13 @@ function render(ev) {
     <div class="orig" style="margin-top:6px">Heard/seen: “${esc(ev.change.quote)}” · ${esc(ev.change.change)}</div>${via}
     ${ev.whisper_wav ? `<audio controls src="${ev.whisper_wav}" style="width:100%;margin-top:8px"></audio>` : `<div class="orig">whisper loading…</div>`}
     ${ev.annotated ? `<img class="annot" src="${ev.annotated}">` : (ev.kind === "image" || ev.kind === "video") && !ev.annotate_error ? `<div class="orig">Nano Banana is circling it on your photo…</div>` : ""}
-    ${ev.clip ? `<video class="clip" src="${ev.clip}" controls autoplay muted loop></video>` : ""}
+    ${ev.clip ? `<video class="clip" src="${ev.clip}" controls autoplay muted loop></video><div class="orig">Highlight clip cut by ${esc(ev.clip_by)}${ev.agent_status && ev.agent_status !== "done" ? " · " + esc(ev.agent_status) : ""}</div>` : ""}
     ${bars(ev.timeline)}${hits(s)}</div></div>`;
 }
 async function poll() {
   try {
     const r = await (await fetch("/api/feed")).json();
-    const json = JSON.stringify(r.events.map(e => [e.id, e.status, !!e.whisper_wav, !!e.annotated, !!e.clip, e.caption, !!e.change, !!e.scores]));
+    const json = JSON.stringify(r.events.map(e => [e.id, e.status, !!e.whisper_wav, !!e.annotated, e.clip, e.agent_status, e.caption, !!e.change, !!e.scores]));
     if (json !== lastRender) {
       lastRender = json;
       const open = new Set([...document.querySelectorAll("details[open]")].map(d => d.closest(".ev")?.dataset.id));

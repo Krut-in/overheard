@@ -32,7 +32,7 @@ def segments(timeline: list[dict], threshold: float, pad: float = 1.0) -> list[t
 
 
 def _esc(text: str) -> str:
-    return text.replace("\\", "").replace(":", " -").replace("'", "").replace("%", " pct")[:90]
+    return text.replace("\\", "").replace(":", " -").replace("'", "").replace("%", " pct")[:72]
 
 
 def cut_highlight(src: Path, segs: list[tuple[float, float]], caption: str, dst: Path) -> Path:
@@ -40,7 +40,7 @@ def cut_highlight(src: Path, segs: list[tuple[float, float]], caption: str, dst:
     sel = "+".join(f"between(t,{s:.2f},{e:.2f})" for s, e in segs)
     vf = f"select='{sel}',setpts=N/FRAME_RATE/TB"
     if Path(FONT).exists():
-        vf += (f",drawtext=fontfile={FONT}:text='{_esc(caption)}':x=(w-tw)/2:y=h-th-40:fontsize=28:"
+        vf += (f",drawtext=fontfile={FONT}:text='{_esc(caption)}':x=(w-tw)/2:y=h-th-40:fontsize=26:"
                "fontcolor=white:box=1:boxcolor=black@0.6:boxborderw=12")
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-vf", vf, "-an",
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(dst)], check=True)
@@ -76,7 +76,24 @@ def process_video(ev, raw: bytes, name: str, state: dict, pool, hit_cb):
         dst = OUT / f"{ev['id']}_highlight.mp4"
         cut_highlight(src, segs, ev.get("change", {}).get("change", "relevant sign"), dst)
         ev["clip"] = f"/clips/videos/{dst.name}"
+        ev["clip_by"] = "local ffmpeg"
+        if config.USE_MANAGED_AGENT:
+            pool.submit(_agent_clip, ev, raw, segs, ev.get("change", {}).get("change", "relevant sign"))
         ev["caption"] = f"{len(segs)} relevant moment(s) in {timeline[-1]['t']:.0f}s of video"
     except Exception as e:  # noqa: BLE001
         ev["status"] = "error"
         ev["error"] = str(e)[:300]
+
+
+def _agent_clip(ev, raw: bytes, segs, caption: str):
+    try:
+        from overheard.agent_clip import agent_highlight
+        ev["agent_status"] = "Managed Agent cutting the clip in a hosted sandbox…"
+        clip, meta = agent_highlight(raw, segs, caption)
+        dst = OUT / f"{ev['id']}_agent.mp4"
+        dst.write_bytes(clip)
+        ev["clip"] = f"/clips/videos/{dst.name}"
+        ev["clip_by"] = f"Gemini Managed Agent ({config.MANAGED_AGENT}), ffmpeg in a hosted sandbox, {meta['seconds']} s"
+        ev["agent_status"] = "done"
+    except Exception as e:  # noqa: BLE001
+        ev["agent_status"] = f"agent failed, kept local clip: {str(e)[:120]}"

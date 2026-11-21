@@ -10,7 +10,10 @@ MANAGED_AGENT = "antigravity-preview-09-2026"  # ffmpeg highlight clip
 
 NEON_THINKING = "low"   # anything a user waits on
 
+DIRECT_WEIGHT = 0.3     # relevance = 0.3 x direct question + 0.7 x fingerprint (picked on the eval set, see README)
 ALERT_AT = 0.8          # above this: alert
 CONFLICT_AT = 0.4       # 0.4 to 0.8: Carbon decides; below: silence receipt
 
 TTS_VOICE = "Kore"
+
+USE_MANAGED_AGENT = True  # video highlight: local ffmpeg clip at once, Managed Agent clip (about 60 s) replaces it
