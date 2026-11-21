@@ -3,6 +3,9 @@
 Every agent (Gemini CLI or Claude Code) updates this file after each milestone and before stopping. Newest entries go at the top of each section. Times are ET.
 
 ## Current milestone
+Abroad pivot, step 3 of 6 (spec and tickets). `SPEC.md`, `TICKETS.md`, `GLOSSARY.md` and the fixture `data/abroad/itinerary.json` are written as of 3:30 PM and wait for the user's yes. Ideas chosen: rehearsal and learning from "not me" (proof at the exact second is a stretch). The subway demo below stays the 5:00 PM fallback. Orchestrator: Claude Code.
+
+## Previous milestone
 M6 ship prep. Core path, video, managed agent, live MTA check, all evals and the README are done as of 2:49 PM, about 90 min ahead of `PLAN.md`. Demo server: `.venv/bin/uvicorn server:app --port 8000`. Build agent: Claude Code.
 
 ## Done (with time)
