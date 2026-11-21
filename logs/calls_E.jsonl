@@ -2292,3 +2292,54 @@
 {"t": "15:38:21", "model": "gemini-nano-banana-2.1", "summary": "rehearsal sign hotel_ams_6 GVB TRAMINFO 28-30 NOV\nTram 13 & 17: Hal", "latency_s": 18.119}
 {"t": "15:38:22", "model": "gemini-nano-banana-2.1", "summary": "rehearsal sign flight_home_3 SCHIPHOL VERTREK - MA 30 NOV 2026\n10:20 ", "latency_s": 16.607}
 {"t": "15:38:34", "model": "gemini-nano-banana-2.1", "summary": "rehearsal sign flight_home_6 AMSTERDAM CENTRAAL - MA 30 NOV\nSprinter ", "latency_s": 22.519}
+{"t": "16:09:50", "model": "gemini-3.8-flash-tts", "summary": "revoice probe ERROR 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction ", "latency_s": 0.247, "error": true}
+{"t": "16:09:56", "model": "gemini-3.8-flash-tts", "summary": "revoice probe", "latency_s": 5.985}
+{"t": "16:10:02", "model": "gemini-4-hydrogen", "summary": "transcribe probe", "latency_s": 6.014}
+{"t": "16:10:18", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_paris_1 Information voyageurs RATP sur la ligne ", "latency_s": 4.025}
+{"t": "16:10:18", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_paris_4 Information RATP ligne 1 : la station Sa", "latency_s": 4.265}
+{"t": "16:10:18", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_paris_5 RATP service update: on Metro line 4, Ch", "latency_s": 4.496}
+{"t": "16:10:18", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_out_4 Attention passagers du vol Air France AF", "latency_s": 4.721}
+{"t": "16:10:19", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_paris_2 RATP traffic announcement for Metro line", "latency_s": 4.958}
+{"t": "16:10:19", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_out_5 Please note that baggage delivery for Ai", "latency_s": 5.279}
+{"t": "16:10:19", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_out_2 Attention passengers arriving on Air Fra", "latency_s": 5.566}
+{"t": "16:10:20", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_out_1 Mesdames et messieurs, en raison d'un re", "latency_s": 6.111}
+{"t": "16:10:22", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts museum_louvre_5 Louvre visitor notice for Thursday 26 No", "latency_s": 3.744}
+{"t": "16:10:22", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts museum_louvre_2 Attention Louvre visitors on Thursday 26", "latency_s": 4.469}
+{"t": "16:10:23", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts museum_louvre_1 Mesdames et messieurs, bienvenue au Mus\u00e9", "latency_s": 4.847}
+{"t": "16:10:24", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts museum_louvre_4 Information Mus\u00e9e du Louvre : l'entr\u00e9e p", "latency_s": 5.296}
+{"t": "16:10:24", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts train_ams_1 Attention en gare de Paris-Nord ce samed", "latency_s": 5.185}
+{"t": "16:10:24", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts train_ams_2 Eurostar passenger announcement at Paris", "latency_s": 5.284}
+{"t": "16:10:25", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts train_ams_4 Information Eurostar \u00e0 Paris-Nord ce sam", "latency_s": 5.496}
+{"t": "16:10:25", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts train_ams_5 Notice for Saturday 28 November 2026: Eu", "latency_s": 5.222}
+{"t": "16:10:27", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_ams_2 GVB service announcement: from 28 to 30 ", "latency_s": 4.254}
+{"t": "16:10:27", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_ams_1 Mededeling van het GVB: wegens spoorwerk", "latency_s": 4.526}
+{"t": "16:10:27", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_ams_4 GVB reisinformatie: tram 14 stopt van 28", "latency_s": 4.466}
+{"t": "16:10:28", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts hotel_ams_5 GVB vooraankondiging: van 1 tot en met 3", "latency_s": 4.437}
+{"t": "16:10:29", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_home_1 Attentie passagiers op Schiphol op maand", "latency_s": 5.162}
+{"t": "16:10:30", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_home_2 NS travel update at Amsterdam Centraal o", "latency_s": 5.215}
+{"t": "16:10:30", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_home_5 NS announcement at Amsterdam Centraal on", "latency_s": 4.752}
+{"t": "16:10:30", "model": "gemini-3.8-flash-tts", "summary": "rehearsal tts flight_home_4 Schiphol mededeling voor maandag 30 nove", "latency_s": 5.326}
+{"t": "16:10:44", "model": "gemini-4-hydrogen", "summary": "transcribe flight_out_2", "latency_s": 1.379}
+{"t": "16:10:44", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_paris_4", "latency_s": 1.966}
+{"t": "16:10:45", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_paris_2", "latency_s": 2.142}
+{"t": "16:10:45", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_paris_5", "latency_s": 2.861}
+{"t": "16:10:45", "model": "gemini-4-hydrogen", "summary": "transcribe flight_out_4", "latency_s": 2.93}
+{"t": "16:10:46", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_paris_1", "latency_s": 3.179}
+{"t": "16:10:46", "model": "gemini-4-hydrogen", "summary": "transcribe flight_out_1", "latency_s": 3.229}
+{"t": "16:10:46", "model": "gemini-4-hydrogen", "summary": "transcribe flight_out_5", "latency_s": 3.37}
+{"t": "16:10:47", "model": "gemini-4-hydrogen", "summary": "transcribe museum_louvre_1", "latency_s": 2.824}
+{"t": "16:10:47", "model": "gemini-4-hydrogen", "summary": "transcribe museum_louvre_2", "latency_s": 2.674}
+{"t": "16:10:47", "model": "gemini-4-hydrogen", "summary": "transcribe museum_louvre_4", "latency_s": 2.749}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe museum_louvre_5", "latency_s": 3.262}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe train_ams_5", "latency_s": 2.832}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe train_ams_4", "latency_s": 3.057}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe train_ams_1", "latency_s": 3.385}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_ams_1", "latency_s": 2.25}
+{"t": "16:10:49", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_ams_2", "latency_s": 2.177}
+{"t": "16:10:50", "model": "gemini-4-hydrogen", "summary": "transcribe train_ams_2", "latency_s": 4.394}
+{"t": "16:10:50", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_ams_4", "latency_s": 2.899}
+{"t": "16:10:51", "model": "gemini-4-hydrogen", "summary": "transcribe flight_home_2", "latency_s": 2.173}
+{"t": "16:10:52", "model": "gemini-4-hydrogen", "summary": "transcribe flight_home_1", "latency_s": 3.268}
+{"t": "16:10:52", "model": "gemini-4-hydrogen", "summary": "transcribe flight_home_5", "latency_s": 3.352}
+{"t": "16:10:53", "model": "gemini-4-hydrogen", "summary": "transcribe flight_home_4", "latency_s": 3.88}
+{"t": "16:10:53", "model": "gemini-4-hydrogen", "summary": "transcribe hotel_ams_5", "latency_s": 4.175}
