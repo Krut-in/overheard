@@ -1,0 +1,114 @@
+[
+  {
+    "file": "audio/7_train_arriving_vernon_jackson.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:7train_arriving.ogv",
+    "license": "CC BY-SA 2.5",
+    "author": "Dschwen",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. A 7 train arriving at Vernon Blvd-Jackson Av station in Queens (2005), first 30 s."
+  },
+  {
+    "file": "audio/r_train_leaving_67th_ave.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_R160_R_train_leaving_station.ogv",
+    "license": "CC0",
+    "author": "Doorknob747",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. An R160 R train leaving 67th Av station (R and M lines) in Queens."
+  },
+  {
+    "file": "audio/subway_train_interior.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:NYC_Subway_train_inside_vc.ogv",
+    "license": "CC BY-SA 2.0",
+    "author": "https://www.flickr.com/photos/otto-yamamoto/",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. Ambient sound recorded inside a moving NYC subway car; line and station not stated."
+  },
+  {
+    "file": "audio/1_train_arriving_south_ferry.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:South_Ferry_arrival_vc.ogv",
+    "license": "CC BY 2.0",
+    "author": "https://www.flickr.com/photos/dtjoyce/",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. A downtown 1 train entering the old 1905 South Ferry loop station, first 30 s."
+  },
+  {
+    "file": "audio/8th_ave_line_34st_to_42st_onboard.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:IND_8_Av_Line_34_to_42_Sts_vc.ogv",
+    "license": "CC BY-SA 2.0",
+    "author": "https://www.flickr.com/photos/eschipul/",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. Onboard ride on the IND 8th Avenue Line (A/C/E) from 34 St to 42 St, first 30 s; a stop announcement for 42 St is plausible but not confirmed."
+  },
+  {
+    "file": "audio/j_train_to_marcy_ave_onboard.wav",
+    "kind": "audio",
+    "source_url": "https://commons.wikimedia.org/wiki/File:J_train_2009_video_vc.webm",
+    "license": "CC BY 2.0",
+    "author": "dakine kane",
+    "description": "Audio track from a Commons video; unverified whether a PA announcement is audible. Onboard ride on a J train heading to Marcy Av in Brooklyn (2009), first 30 s."
+  },
+  {
+    "file": "images/7_train_service_change_notice_4_languages.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:7_train_service_notice_4_language.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Epicgenius",
+    "description": "Four MTA 'Planned Service Changes' posters (English, Spanish, Chinese, Korean): weekend, 11:45 PM Fri to 11:59 PM Sat May 22-23, no 7 trains between Flushing-Main St and Mets-Willets Point; 7 runs Mets-Willets Point to Times Sq-42 St; free shuttle buses."
+  },
+  {
+    "file": "images/g_train_service_change_sign.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:G_Train_Service_Change_Sign_001.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kidfly182",
+    "description": "MTA G Crosstown Line signal modernization poster: all times, Jun 28 Fri 9:45 PM until Jul 5 Fri 9:45 PM, no G between Court Sq and Nassau Av, take free B94 shuttle buses, with route map."
+  },
+  {
+    "file": "images/r_train_service_change_sign_9th_st.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:R_Train_Service_Change_Sign_001.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kidfly182",
+    "description": "MTA 'Planned Work' nights poster at 9 St on the 4th Avenue Line: Jul 26-29, Fri to Mon 11:45 PM to 5 AM, track maintenance, R will not serve this station overnight, take the N to 59 St for service to 95 St."
+  },
+  {
+    "file": "images/grand_central_service_advisory_winter_storm.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Winter_Storm_Jonas_2016_NYC_MTA_Subway_Service_Advisory.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Danazar",
+    "description": "Digital MTA service advisory at Grand Central-42 St station during Winter Storm Jonas (Jan 23, 2016) warning that all above-ground subway service will be suspended."
+  },
+  {
+    "file": "images/lorimer_st_countdown_clock.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lorimer_St-Countdown_clock.jpg",
+    "license": "Public domain",
+    "author": "Caseyjonz",
+    "description": "Countdown clock sign at Lorimer St station in Brooklyn (L line) showing upcoming train arrival times."
+  },
+  {
+    "file": "images/7th_ave_53st_countdown_clock.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:NYC_subway_LCD_PIDS_countdown_clock_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ytx21cn",
+    "description": "LCD countdown clock at 7 Av-53 St station (B/D/E lines) listing the next train and 2nd to 5th trains."
+  },
+  {
+    "file": "images/times_square_platform_sign.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Times_Square_Platform_Sign.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kidfly182",
+    "description": "Platform sign for Times Sq-42 St station with route bullets."
+  },
+  {
+    "file": "images/hoyt_schermerhorn_platform_sign.jpg",
+    "kind": "image",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hoyt_Schermerhorn_Street_Platform_Sign.jpg",
+    "license": "CC BY 4.0",
+    "author": "Kidfly182",
+    "description": "Platform sign for Hoyt-Schermerhorn Sts station in Brooklyn with route bullets (A/C/G)."
+  }
+]

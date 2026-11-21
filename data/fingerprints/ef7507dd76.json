@@ -1,0 +1,1027 @@
+[
+ {
+  "id": "line_f_train",
+  "group": "line",
+  "q": "Does it mention the F train?"
+ },
+ {
+  "id": "line_f_line",
+  "group": "line",
+  "q": "Does it mention the F line?"
+ },
+ {
+  "id": "line_f_bullet",
+  "group": "line",
+  "q": "Does it show an orange F bullet?"
+ },
+ {
+  "id": "line_f_letter",
+  "group": "line",
+  "q": "Does it show the letter F in a circle?"
+ },
+ {
+  "id": "line_f_es_tren",
+  "group": "line",
+  "q": "Does it mention 'tren F' in Spanish?"
+ },
+ {
+  "id": "line_f_es_linea",
+  "group": "line",
+  "q": "Does it mention 'línea F' in Spanish?"
+ },
+ {
+  "id": "line_f_es_servicio",
+  "group": "line",
+  "q": "Does it mention 'servicio F' in Spanish?"
+ },
+ {
+  "id": "line_f_service",
+  "group": "line",
+  "q": "Does it mention F service?"
+ },
+ {
+  "id": "line_f_route",
+  "group": "line",
+  "q": "Does it mention the F route?"
+ },
+ {
+  "id": "line_f_subway",
+  "group": "line",
+  "q": "Does it mention the F subway?"
+ },
+ {
+  "id": "line_manhattan_bound",
+  "group": "line",
+  "q": "Does it mention Manhattan-bound service?"
+ },
+ {
+  "id": "line_to_manhattan",
+  "group": "line",
+  "q": "Does it mention trains going to Manhattan?"
+ },
+ {
+  "id": "line_es_manhattan",
+  "group": "line",
+  "q": "Does it mention 'hacia Manhattan' or 'dirección Manhattan'?"
+ },
+ {
+  "id": "line_uptown",
+  "group": "line",
+  "q": "Does it mention uptown service?"
+ },
+ {
+  "id": "line_northbound",
+  "group": "line",
+  "q": "Does it mention northbound service?"
+ },
+ {
+  "id": "line_es_norte",
+  "group": "line",
+  "q": "Does it mention 'hacia el norte' or 'dirección norte'?"
+ },
+ {
+  "id": "line_f_manhattan",
+  "group": "line",
+  "q": "Does it mention the Manhattan-bound F train?"
+ },
+ {
+  "id": "line_f_uptown",
+  "group": "line",
+  "q": "Does it mention the uptown F train?"
+ },
+ {
+  "id": "line_f_es_manhattan",
+  "group": "line",
+  "q": "Does it mention 'tren F hacia Manhattan'?"
+ },
+ {
+  "id": "line_f_6th_ave",
+  "group": "line",
+  "q": "Does it mention 6th Avenue F service?"
+ },
+ {
+  "id": "line_f_culver",
+  "group": "line",
+  "q": "Does it mention Culver F service?"
+ },
+ {
+  "id": "line_f_brooklyn_to_man",
+  "group": "line",
+  "q": "Does it mention F trains from Brooklyn to Manhattan?"
+ },
+ {
+  "id": "line_f_queens_bound",
+  "group": "line",
+  "q": "Does it mention Queens-bound F trains?"
+ },
+ {
+  "id": "line_f_179_bound",
+  "group": "line",
+  "q": "Does it mention 179 St-bound F trains?"
+ },
+ {
+  "id": "line_f_es_179",
+  "group": "line",
+  "q": "Does it mention 'tren F hacia 179 St'?"
+ },
+ {
+  "id": "st_jay_metrotech",
+  "group": "station",
+  "q": "Does it mention Jay St-MetroTech?"
+ },
+ {
+  "id": "st_jay_st",
+  "group": "station",
+  "q": "Does it mention Jay Street?"
+ },
+ {
+  "id": "st_metrotech",
+  "group": "station",
+  "q": "Does it mention MetroTech?"
+ },
+ {
+  "id": "st_es_jay",
+  "group": "station",
+  "q": "Does it mention 'calle Jay' or 'Jay St' in Spanish?"
+ },
+ {
+  "id": "st_york_st",
+  "group": "station",
+  "q": "Does it mention York St?"
+ },
+ {
+  "id": "st_york_street",
+  "group": "station",
+  "q": "Does it mention York Street?"
+ },
+ {
+  "id": "st_es_york",
+  "group": "station",
+  "q": "Does it mention 'calle York' in Spanish?"
+ },
+ {
+  "id": "st_east_broadway",
+  "group": "station",
+  "q": "Does it mention East Broadway?"
+ },
+ {
+  "id": "st_e_broadway",
+  "group": "station",
+  "q": "Does it show 'E Broadway'?"
+ },
+ {
+  "id": "st_es_east_broadway",
+  "group": "station",
+  "q": "Does it mention 'East Broadway' in Spanish?"
+ },
+ {
+  "id": "st_delancey_essex",
+  "group": "station",
+  "q": "Does it mention Delancey St-Essex St?"
+ },
+ {
+  "id": "st_delancey",
+  "group": "station",
+  "q": "Does it mention Delancey Street?"
+ },
+ {
+  "id": "st_essex",
+  "group": "station",
+  "q": "Does it mention Essex Street?"
+ },
+ {
+  "id": "st_es_delancey",
+  "group": "station",
+  "q": "Does it mention 'calle Delancey' in Spanish?"
+ },
+ {
+  "id": "st_2_av",
+  "group": "station",
+  "q": "Does it mention 2 Av?"
+ },
+ {
+  "id": "st_second_ave",
+  "group": "station",
+  "q": "Does it mention Second Avenue?"
+ },
+ {
+  "id": "st_2nd_ave",
+  "group": "station",
+  "q": "Does it show '2nd Ave' or '2 Ave'?"
+ },
+ {
+  "id": "st_es_2_av",
+  "group": "station",
+  "q": "Does it mention 'Segunda Avenida' in Spanish?"
+ },
+ {
+  "id": "st_bway_lafayette",
+  "group": "station",
+  "q": "Does it mention Broadway-Lafayette St?"
+ },
+ {
+  "id": "st_bway_laf",
+  "group": "station",
+  "q": "Does it show 'Bway-Lafayette'?"
+ },
+ {
+  "id": "st_lafayette",
+  "group": "station",
+  "q": "Does it mention Lafayette Street?"
+ },
+ {
+  "id": "st_es_bway_laf",
+  "group": "station",
+  "q": "Does it mention 'Broadway-Lafayette' in Spanish?"
+ },
+ {
+  "id": "st_w4_wash_sq",
+  "group": "station",
+  "q": "Does it mention W 4 St-Wash Sq?"
+ },
+ {
+  "id": "st_west_4th",
+  "group": "station",
+  "q": "Does it mention West 4th Street?"
+ },
+ {
+  "id": "st_wash_sq",
+  "group": "station",
+  "q": "Does it mention Washington Square?"
+ },
+ {
+  "id": "st_es_w4",
+  "group": "station",
+  "q": "Does it mention 'calle 4 Oeste' in Spanish?"
+ },
+ {
+  "id": "st_14_st",
+  "group": "station",
+  "q": "Does it mention 14 St?"
+ },
+ {
+  "id": "st_14th_street",
+  "group": "station",
+  "q": "Does it mention 14th Street?"
+ },
+ {
+  "id": "st_es_14",
+  "group": "station",
+  "q": "Does it mention 'calle 14' in Spanish?"
+ },
+ {
+  "id": "st_23_st",
+  "group": "station",
+  "q": "Does it mention 23 St?"
+ },
+ {
+  "id": "st_23rd_street",
+  "group": "station",
+  "q": "Does it mention 23rd Street?"
+ },
+ {
+  "id": "st_es_23",
+  "group": "station",
+  "q": "Does it mention 'calle 23' in Spanish?"
+ },
+ {
+  "id": "st_34_herald",
+  "group": "station",
+  "q": "Does it mention 34 St-Herald Sq?"
+ },
+ {
+  "id": "st_34th_st",
+  "group": "station",
+  "q": "Does it mention 34th Street?"
+ },
+ {
+  "id": "st_herald_sq",
+  "group": "station",
+  "q": "Does it mention Herald Square?"
+ },
+ {
+  "id": "st_es_34",
+  "group": "station",
+  "q": "Does it mention 'calle 34' in Spanish?"
+ },
+ {
+  "id": "st_42_bryant",
+  "group": "station",
+  "q": "Does it mention 42 St-Bryant Pk?"
+ },
+ {
+  "id": "st_42nd_st",
+  "group": "station",
+  "q": "Does it mention 42nd Street?"
+ },
+ {
+  "id": "st_bryant_park",
+  "group": "station",
+  "q": "Does it mention Bryant Park?"
+ },
+ {
+  "id": "st_es_42",
+  "group": "station",
+  "q": "Does it mention 'calle 42' in Spanish?"
+ },
+ {
+  "id": "st_47_50_rock",
+  "group": "station",
+  "q": "Does it mention 47-50 Sts-Rockefeller Ctr?"
+ },
+ {
+  "id": "st_rockefeller",
+  "group": "station",
+  "q": "Does it mention Rockefeller Center?"
+ },
+ {
+  "id": "st_47_50",
+  "group": "station",
+  "q": "Does it mention 47th-50th Streets?"
+ },
+ {
+  "id": "st_es_rockefeller",
+  "group": "station",
+  "q": "Does it mention 'Rockefeller Center' in Spanish?"
+ },
+ {
+  "id": "st_57_st",
+  "group": "station",
+  "q": "Does it mention 57 St?"
+ },
+ {
+  "id": "st_57th_street",
+  "group": "station",
+  "q": "Does it mention 57th Street?"
+ },
+ {
+  "id": "st_es_57",
+  "group": "station",
+  "q": "Does it mention 'calle 57' in Spanish?"
+ },
+ {
+  "id": "st_57_6_ave",
+  "group": "station",
+  "q": "Does it mention 57 St-6 Av?"
+ },
+ {
+  "id": "chg_delay",
+  "group": "change",
+  "q": "Does it say trains are delayed?"
+ },
+ {
+  "id": "chg_delays",
+  "group": "change",
+  "q": "Does it mention service delays?"
+ },
+ {
+  "id": "chg_es_demora",
+  "group": "change",
+  "q": "Does it mention 'demoras' or 'retrasos' in Spanish?"
+ },
+ {
+  "id": "chg_slow_speeds",
+  "group": "change",
+  "q": "Does it say trains are running at slow speeds?"
+ },
+ {
+  "id": "chg_suspended",
+  "group": "change",
+  "q": "Does it say service is suspended?"
+ },
+ {
+  "id": "chg_no_service",
+  "group": "change",
+  "q": "Does it say there is no train service?"
+ },
+ {
+  "id": "chg_es_suspendido",
+  "group": "change",
+  "q": "Does it say 'servicio suspendido' in Spanish?"
+ },
+ {
+  "id": "chg_es_sin_servicio",
+  "group": "change",
+  "q": "Does it say 'sin servicio' in Spanish?"
+ },
+ {
+  "id": "chg_skip_stop",
+  "group": "change",
+  "q": "Does it say trains are skipping stops?"
+ },
+ {
+  "id": "chg_bypass",
+  "group": "change",
+  "q": "Does it say trains are bypassing a station?"
+ },
+ {
+  "id": "chg_no_stop",
+  "group": "change",
+  "q": "Does it say trains will not stop at a station?"
+ },
+ {
+  "id": "chg_es_no_para",
+  "group": "change",
+  "q": "Does it say 'no para' or 'salta paradas' in Spanish?"
+ },
+ {
+  "id": "chg_reroute",
+  "group": "change",
+  "q": "Does it say trains are rerouted?"
+ },
+ {
+  "id": "chg_detour",
+  "group": "change",
+  "q": "Does it mention a detour or alternate route?"
+ },
+ {
+  "id": "chg_via_other_line",
+  "group": "change",
+  "q": "Does it say trains are running via another line?"
+ },
+ {
+  "id": "chg_es_desvio",
+  "group": "change",
+  "q": "Does it mention 'desvío' or 'ruta alterna' in Spanish?"
+ },
+ {
+  "id": "chg_platform_change",
+  "group": "change",
+  "q": "Does it mention a platform change?"
+ },
+ {
+  "id": "chg_track_change",
+  "group": "change",
+  "q": "Does it mention a track change?"
+ },
+ {
+  "id": "chg_es_anden",
+  "group": "change",
+  "q": "Does it mention 'cambio de andén' or 'vía' in Spanish?"
+ },
+ {
+  "id": "chg_board_other_side",
+  "group": "change",
+  "q": "Does it say to board on the other side?"
+ },
+ {
+  "id": "chg_entrance_closed",
+  "group": "change",
+  "q": "Does it say an entrance is closed?"
+ },
+ {
+  "id": "chg_exit_closed",
+  "group": "change",
+  "q": "Does it say an exit is closed?"
+ },
+ {
+  "id": "chg_stairway_closed",
+  "group": "change",
+  "q": "Does it say a stairway or escalator is closed?"
+ },
+ {
+  "id": "chg_es_entrada_cerrada",
+  "group": "change",
+  "q": "Does it say 'entrada cerrada' or 'salida cerrada' in Spanish?"
+ },
+ {
+  "id": "chg_shuttle_bus",
+  "group": "change",
+  "q": "Does it mention free shuttle buses?"
+ },
+ {
+  "id": "chg_bus_replacement",
+  "group": "change",
+  "q": "Does it say buses are replacing trains?"
+ },
+ {
+  "id": "chg_es_autobus",
+  "group": "change",
+  "q": "Does it mention 'autobús de reemplazo' or 'shuttle' in Spanish?"
+ },
+ {
+  "id": "chg_express_to_local",
+  "group": "change",
+  "q": "Does it say express trains are running local?"
+ },
+ {
+  "id": "chg_local_to_express",
+  "group": "change",
+  "q": "Does it say local trains are running express?"
+ },
+ {
+  "id": "chg_running_local",
+  "group": "change",
+  "q": "Does it mention local service?"
+ },
+ {
+  "id": "chg_running_express",
+  "group": "change",
+  "q": "Does it mention express service?"
+ },
+ {
+  "id": "chg_es_expreso",
+  "group": "change",
+  "q": "Does it mention 'expreso' or 'local' in Spanish?"
+ },
+ {
+  "id": "chg_planned_work",
+  "group": "change",
+  "q": "Does it mention planned work or construction?"
+ },
+ {
+  "id": "chg_es_obras",
+  "group": "change",
+  "q": "Does it mention 'obras' or 'mantenimiento' in Spanish?"
+ },
+ {
+  "id": "chg_signal_problem",
+  "group": "change",
+  "q": "Does it mention signal problems?"
+ },
+ {
+  "id": "chg_sick_passenger",
+  "group": "change",
+  "q": "Does it mention a sick passenger or medical emergency?"
+ },
+ {
+  "id": "chg_police_activity",
+  "group": "change",
+  "q": "Does it mention police activity?"
+ },
+ {
+  "id": "chg_track_maintenance",
+  "group": "change",
+  "q": "Does it mention track maintenance?"
+ },
+ {
+  "id": "chg_station_closed",
+  "group": "change",
+  "q": "Does it say a station is closed?"
+ },
+ {
+  "id": "chg_es_estacion_cerrada",
+  "group": "change",
+  "q": "Does it say 'estación cerrada' in Spanish?"
+ },
+ {
+  "id": "chg_transfer_available",
+  "group": "change",
+  "q": "Does it mention a free transfer?"
+ },
+ {
+  "id": "chg_es_transferencia",
+  "group": "change",
+  "q": "Does it mention 'transferencia' in Spanish?"
+ },
+ {
+  "id": "chg_wait_longer",
+  "group": "change",
+  "q": "Does it say to expect longer wait times?"
+ },
+ {
+  "id": "chg_es_espera",
+  "group": "change",
+  "q": "Does it say 'tiempo de espera más largo' in Spanish?"
+ },
+ {
+  "id": "chg_service_change",
+  "group": "change",
+  "q": "Does it say 'Service Change'?"
+ },
+ {
+  "id": "chg_es_cambio_servicio",
+  "group": "change",
+  "q": "Does it say 'Cambio de Servicio' in Spanish?"
+ },
+ {
+  "id": "cmb_f_delayed",
+  "group": "combo",
+  "q": "Does it say F trains are delayed?"
+ },
+ {
+  "id": "cmb_f_es_demora",
+  "group": "combo",
+  "q": "Does it say 'el tren F tiene demoras' in Spanish?"
+ },
+ {
+  "id": "cmb_f_man_delayed",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F trains are delayed?"
+ },
+ {
+  "id": "cmb_f_man_es_demora",
+  "group": "combo",
+  "q": "Does it say 'tren F hacia Manhattan con demoras' in Spanish?"
+ },
+ {
+  "id": "cmb_f_suspended",
+  "group": "combo",
+  "q": "Does it say F train service is suspended?"
+ },
+ {
+  "id": "cmb_f_es_suspendido",
+  "group": "combo",
+  "q": "Does it say 'servicio del tren F suspendido' in Spanish?"
+ },
+ {
+  "id": "cmb_f_man_suspended",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F service is suspended?"
+ },
+ {
+  "id": "cmb_f_no_service_man",
+  "group": "combo",
+  "q": "Does it say there is no F service to Manhattan?"
+ },
+ {
+  "id": "cmb_f_rerouted",
+  "group": "combo",
+  "q": "Does it say F trains are rerouted?"
+ },
+ {
+  "id": "cmb_f_es_desvio",
+  "group": "combo",
+  "q": "Does it say 'tren F desviado' in Spanish?"
+ },
+ {
+  "id": "cmb_f_man_rerouted",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F trains are rerouted?"
+ },
+ {
+  "id": "cmb_f_via_a",
+  "group": "combo",
+  "q": "Does it say F trains are running via the A line?"
+ },
+ {
+  "id": "cmb_f_via_c",
+  "group": "combo",
+  "q": "Does it say F trains are running via the C line?"
+ },
+ {
+  "id": "cmb_f_via_e",
+  "group": "combo",
+  "q": "Does it say F trains are running via the E line?"
+ },
+ {
+  "id": "cmb_f_via_g",
+  "group": "combo",
+  "q": "Does it say F trains are running via the G line?"
+ },
+ {
+  "id": "cmb_f_via_m",
+  "group": "combo",
+  "q": "Does it say F trains are running via the M line?"
+ },
+ {
+  "id": "cmb_f_local",
+  "group": "combo",
+  "q": "Does it say F trains are running local?"
+ },
+ {
+  "id": "cmb_f_express",
+  "group": "combo",
+  "q": "Does it say F trains are running express?"
+ },
+ {
+  "id": "cmb_f_man_local",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F trains are running local?"
+ },
+ {
+  "id": "cmb_f_man_express",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F trains are running express?"
+ },
+ {
+  "id": "cmb_f_es_expreso",
+  "group": "combo",
+  "q": "Does it say 'tren F expreso' in Spanish?"
+ },
+ {
+  "id": "cmb_f_es_local",
+  "group": "combo",
+  "q": "Does it say 'tren F local' in Spanish?"
+ },
+ {
+  "id": "cmb_f_skip_stops",
+  "group": "combo",
+  "q": "Does it say F trains are skipping stops?"
+ },
+ {
+  "id": "cmb_f_man_skip",
+  "group": "combo",
+  "q": "Does it say Manhattan-bound F trains are skipping stops?"
+ },
+ {
+  "id": "cmb_f_es_salta",
+  "group": "combo",
+  "q": "Does it say 'el tren F no para' in Spanish?"
+ },
+ {
+  "id": "cmb_f_shuttle_bus",
+  "group": "combo",
+  "q": "Does it say shuttle buses are replacing F trains?"
+ },
+ {
+  "id": "cmb_f_es_autobus",
+  "group": "combo",
+  "q": "Does it say 'autobuses reemplazan al tren F' in Spanish?"
+ },
+ {
+  "id": "cmb_f_track_change",
+  "group": "combo",
+  "q": "Does it announce a track change for the F train?"
+ },
+ {
+  "id": "cmb_f_platform_change",
+  "group": "combo",
+  "q": "Does it announce a platform change for the F train?"
+ },
+ {
+  "id": "cmb_f_es_anden",
+  "group": "combo",
+  "q": "Does it say 'cambio de andén para el tren F' in Spanish?"
+ },
+ {
+  "id": "cmb_jay_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping Jay St-MetroTech?"
+ },
+ {
+  "id": "cmb_jay_closed",
+  "group": "combo",
+  "q": "Does it say Jay St-MetroTech is closed?"
+ },
+ {
+  "id": "cmb_jay_entrance",
+  "group": "combo",
+  "q": "Does it say an entrance at Jay St-MetroTech is closed?"
+ },
+ {
+  "id": "cmb_jay_platform",
+  "group": "combo",
+  "q": "Does it announce a platform change at Jay St-MetroTech?"
+ },
+ {
+  "id": "cmb_jay_es_cerrada",
+  "group": "combo",
+  "q": "Does it say 'Jay St-MetroTech cerrada' in Spanish?"
+ },
+ {
+  "id": "cmb_york_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping York St?"
+ },
+ {
+  "id": "cmb_york_closed",
+  "group": "combo",
+  "q": "Does it say York St is closed?"
+ },
+ {
+  "id": "cmb_york_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en York St' in Spanish?"
+ },
+ {
+  "id": "cmb_ebway_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping East Broadway?"
+ },
+ {
+  "id": "cmb_ebway_closed",
+  "group": "combo",
+  "q": "Does it say East Broadway is closed?"
+ },
+ {
+  "id": "cmb_ebway_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en East Broadway' in Spanish?"
+ },
+ {
+  "id": "cmb_delancey_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping Delancey St-Essex St?"
+ },
+ {
+  "id": "cmb_delancey_closed",
+  "group": "combo",
+  "q": "Does it say Delancey St-Essex St is closed?"
+ },
+ {
+  "id": "cmb_delancey_entrance",
+  "group": "combo",
+  "q": "Does it say an entrance at Delancey St is closed?"
+ },
+ {
+  "id": "cmb_delancey_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en Delancey St' in Spanish?"
+ },
+ {
+  "id": "cmb_2av_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 2 Av?"
+ },
+ {
+  "id": "cmb_2av_closed",
+  "group": "combo",
+  "q": "Does it say 2 Av is closed?"
+ },
+ {
+  "id": "cmb_2av_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en 2 Av' in Spanish?"
+ },
+ {
+  "id": "cmb_bway_laf_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping Broadway-Lafayette St?"
+ },
+ {
+  "id": "cmb_bway_laf_closed",
+  "group": "combo",
+  "q": "Does it say Broadway-Lafayette St is closed?"
+ },
+ {
+  "id": "cmb_bway_laf_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en Broadway-Lafayette' in Spanish?"
+ },
+ {
+  "id": "cmb_w4_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping W 4 St-Wash Sq?"
+ },
+ {
+  "id": "cmb_w4_closed",
+  "group": "combo",
+  "q": "Does it say W 4 St-Wash Sq is closed?"
+ },
+ {
+  "id": "cmb_w4_platform",
+  "group": "combo",
+  "q": "Does it announce a platform change at W 4 St?"
+ },
+ {
+  "id": "cmb_w4_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en W 4 St' in Spanish?"
+ },
+ {
+  "id": "cmb_14_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 14 St?"
+ },
+ {
+  "id": "cmb_14_closed",
+  "group": "combo",
+  "q": "Does it say 14 St is closed?"
+ },
+ {
+  "id": "cmb_14_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en calle 14' in Spanish?"
+ },
+ {
+  "id": "cmb_23_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 23 St?"
+ },
+ {
+  "id": "cmb_23_closed",
+  "group": "combo",
+  "q": "Does it say 23 St is closed?"
+ },
+ {
+  "id": "cmb_23_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en calle 23' in Spanish?"
+ },
+ {
+  "id": "cmb_34_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 34 St-Herald Sq?"
+ },
+ {
+  "id": "cmb_34_closed",
+  "group": "combo",
+  "q": "Does it say 34 St-Herald Sq is closed?"
+ },
+ {
+  "id": "cmb_34_entrance",
+  "group": "combo",
+  "q": "Does it say an entrance at 34 St-Herald Sq is closed?"
+ },
+ {
+  "id": "cmb_34_platform",
+  "group": "combo",
+  "q": "Does it announce a platform change at 34 St-Herald Sq?"
+ },
+ {
+  "id": "cmb_34_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en calle 34' in Spanish?"
+ },
+ {
+  "id": "cmb_42_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 42 St-Bryant Pk?"
+ },
+ {
+  "id": "cmb_42_closed",
+  "group": "combo",
+  "q": "Does it say 42 St-Bryant Pk is closed?"
+ },
+ {
+  "id": "cmb_42_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en calle 42' in Spanish?"
+ },
+ {
+  "id": "cmb_47_50_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 47-50 Sts-Rockefeller Ctr?"
+ },
+ {
+  "id": "cmb_47_50_closed",
+  "group": "combo",
+  "q": "Does it say 47-50 Sts-Rockefeller Ctr is closed?"
+ },
+ {
+  "id": "cmb_47_50_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en Rockefeller Center' in Spanish?"
+ },
+ {
+  "id": "cmb_57_skip",
+  "group": "combo",
+  "q": "Does it say F trains are skipping 57 St?"
+ },
+ {
+  "id": "cmb_57_closed",
+  "group": "combo",
+  "q": "Does it say 57 St is closed?"
+ },
+ {
+  "id": "cmb_57_entrance",
+  "group": "combo",
+  "q": "Does it say an entrance at 57 St is closed?"
+ },
+ {
+  "id": "cmb_57_es_no_para",
+  "group": "combo",
+  "q": "Does it say 'no para en calle 57' in Spanish?"
+ },
+ {
+  "id": "cmb_f_jay_to_57_susp",
+  "group": "combo",
+  "q": "Does it say F service is suspended between Jay St and 57 St?"
+ },
+ {
+  "id": "cmb_f_bk_man_susp",
+  "group": "combo",
+  "q": "Does it say F service is suspended between Brooklyn and Manhattan?"
+ },
+ {
+  "id": "cmb_f_man_no_service",
+  "group": "combo",
+  "q": "Does it say there is no F service in Manhattan?"
+ },
+ {
+  "id": "cmb_f_6ave_reroute",
+  "group": "combo",
+  "q": "Does it say F trains are rerouted off 6th Avenue?"
+ },
+ {
+  "id": "cmb_f_8ave_reroute",
+  "group": "combo",
+  "q": "Does it say F trains are rerouted onto 8th Avenue?"
+ },
+ {
+  "id": "cmb_f_man_shuttle",
+  "group": "combo",
+  "q": "Does it say shuttle buses replace Manhattan-bound F trains?"
+ },
+ {
+  "id": "cmb_f_wait_longer",
+  "group": "combo",
+  "q": "Does it say to expect longer waits for the F train?"
+ },
+ {
+  "id": "cmb_f_es_espera",
+  "group": "combo",
+  "q": "Does it say 'espere más tiempo por el tren F' in Spanish?"
+ },
+ {
+  "id": "cmb_f_planned_work",
+  "group": "combo",
+  "q": "Does it mention planned work affecting the F train?"
+ },
+ {
+  "id": "cmb_f_es_obras",
+  "group": "combo",
+  "q": "Does it say 'obras afectan al tren F' in Spanish?"
+ }
+]

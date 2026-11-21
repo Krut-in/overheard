@@ -1,0 +1,39 @@
+{
+ "q train from times sq-42 st to 72 st": {
+  "system": "NYC Subway",
+  "line": "Q",
+  "other_lines": [],
+  "direction": "northbound",
+  "board": "Times Sq-42 St",
+  "alight": "72 St",
+  "stops_between": [
+   "57 St-7 Av",
+   "Lexington Av/63 St"
+  ],
+  "when": "today",
+  "summary": "Q train northbound from Times Sq-42 St to 72 St"
+ },
+ "f4be7e7815ca90d8057207f2edfd9a9bf34c2c95": {
+  "system": "NYC Subway",
+  "line": "F",
+  "other_lines": [],
+  "direction": "Manhattan-bound",
+  "board": "Jay St-MetroTech",
+  "alight": "57 St",
+  "stops_between": [
+   "York St",
+   "East Broadway",
+   "Delancey St-Essex St",
+   "2 Av",
+   "Broadway-Lafayette St",
+   "W 4 St-Wash Sq",
+   "14 St",
+   "23 St",
+   "34 St-Herald Sq",
+   "42 St-Bryant Pk",
+   "47-50 Sts-Rockefeller Ctr"
+  ],
+  "when": "today",
+  "summary": "F train Manhattan-bound from Jay St-MetroTech to 57 St"
+ }
+}
