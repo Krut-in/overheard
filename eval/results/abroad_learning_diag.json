@@ -1,0 +1,178 @@
+[
+ {
+  "id": "flight_home_1",
+  "booking": "flight_home",
+  "top_not": [
+   {
+    "p": 0.171,
+    "id": "not__flight_home__kl641_on_schedule",
+    "q": "Does the input explicitly state that flight KL 641 is operating or departing on schedule?"
+   },
+   {
+    "p": 0.161,
+    "id": "not__flight_home__disruption_only_other_direction",
+    "q": "Is the reported disruption limited to a direction other than Schiphol Airport or New York JFK?"
+   }
+  ]
+ },
+ {
+  "id": "flight_home_2",
+  "booking": "flight_home",
+  "top_not": [
+   {
+    "p": 0.46,
+    "id": "not__flight_home__other_flight_disruption",
+    "q": "Is the disruption or gate change exclusively for a flight number other than KL 641?"
+   },
+   {
+    "p": 0.457,
+    "id": "not__flight_home__problem_solely_other_flight",
+    "q": "Does the reported problem or delay apply solely to a flight number other than KL 641?"
+   }
+  ]
+ },
+ {
+  "id": "flight_home_3",
+  "booking": "flight_home",
+  "top_not": [
+   {
+    "p": 0.524,
+    "id": "not__flight_home__kl641_on_schedule",
+    "q": "Does the input explicitly state that flight KL 641 is operating or departing on schedule?"
+   },
+   {
+    "p": 0.256,
+    "id": "not__flight_home__no_disruption_for_schiphol_or_kl641",
+    "q": "Does the input report normal service to Schiphol Airport with no disruption to Schiphol or flight KL 641?"
+   }
+  ]
+ },
+ {
+  "id": "flight_out_1",
+  "booking": "flight_out",
+  "top_not": [
+   {
+    "p": 0.176,
+    "id": "not__flight_out__baggage_other_flight",
+    "q": "Is the baggage or service delay restricted to a flight other than AF 23?"
+   },
+   {
+    "p": 0.123,
+    "id": "not__flight_out__only_other_flight_number",
+    "q": "Is the disruption limited to a flight number other than AF 23?"
+   }
+  ]
+ },
+ {
+  "id": "hotel_ams_1",
+  "booking": "hotel_ams",
+  "top_not": [
+   {
+    "p": 0.221,
+    "id": "not__hotel_ams__disruption_only_other_stops",
+    "q": "Is the only disruption or skipped stop at stops other than Westermarkt?"
+   },
+   {
+    "p": 0.107,
+    "id": "not__hotel_ams__disruption_only_other_trams",
+    "q": "Is the only disruption or skipped stop for tram lines other than 13 and 17?"
+   }
+  ]
+ },
+ {
+  "id": "hotel_ams_2",
+  "booking": "hotel_ams",
+  "top_not": [
+   {
+    "p": 0.693,
+    "id": "not__hotel_ams__westermarkt_unaffected",
+    "q": "Does the input confirm that Westermarkt stop is unaffected or operating normally?"
+   },
+   {
+    "p": 0.578,
+    "id": "not__hotel_ams__no_disruption_at_westermarkt",
+    "q": "Does the input state that service at Westermarkt is unaffected or open as usual?"
+   }
+  ]
+ },
+ {
+  "id": "hotel_paris_1",
+  "booking": "hotel_paris",
+  "top_not": [
+   {
+    "p": 0.197,
+    "id": "not__hotel_paris__other_line_only",
+    "q": "Is the disruption limited to a metro or transit line other than line 1 and line 8?"
+   },
+   {
+    "p": 0.154,
+    "id": "not__hotel_paris__lines_unaffected",
+    "q": "Does the input explicitly say that the metro lines serving the hotel (line 1 and line 8) are unaffected?"
+   }
+  ]
+ },
+ {
+  "id": "hotel_paris_2",
+  "booking": "hotel_paris",
+  "top_not": [
+   {
+    "p": 0.1,
+    "id": "not__hotel_paris__station_operating_normally",
+    "q": "Does the input state that Saint-Paul and Chemin Vert stations (or lines 1 and 8) are operating normally?"
+   },
+   {
+    "p": 0.077,
+    "id": "not__hotel_paris__lines_unaffected",
+    "q": "Does the input explicitly say that the metro lines serving the hotel (line 1 and line 8) are unaffected?"
+   }
+  ]
+ },
+ {
+  "id": "museum_louvre_2",
+  "booking": "museum_louvre",
+  "top_not": [
+   {
+    "p": 0.164,
+    "id": "not__museum_louvre__disruption_tomorrow_only",
+    "q": "Is the disruption explicitly limited to tomorrow, while today is operating normally?"
+   },
+   {
+    "p": 0.065,
+    "id": "not__museum_louvre__different_venue_notice",
+    "q": "Is this notice primarily about a different museum or attraction than Musée du Louvre?"
+   }
+  ]
+ },
+ {
+  "id": "museum_louvre_3",
+  "booking": "museum_louvre",
+  "top_not": [
+   {
+    "p": 0.186,
+    "id": "not__museum_louvre__disruption_tomorrow_only",
+    "q": "Is the disruption explicitly limited to tomorrow, while today is operating normally?"
+   },
+   {
+    "p": 0.092,
+    "id": "not__museum_louvre__other_day_of_week",
+    "q": "Is the closure or disruption explicitly limited to a day other than Thursday?"
+   }
+  ]
+ },
+ {
+  "id": "train_ams_3",
+  "booking": "train_ams",
+  "top_not": [
+   {
+    "p": 0.169,
+    "id": "not__train_ams__opposite_direction_only",
+    "q": "Is the disruption limited to trains travelling from Amsterdam Centraal to Paris Gare du Nord?"
+   },
+   {
+    "p": 0.165,
+    "id": "not__train_ams__other_direction_southbound_only",
+    "q": "Does the disruption only affect southbound trains or trains heading toward Paris?"
+   }
+  ]
+ }
+]

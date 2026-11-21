@@ -1,0 +1,282 @@
+{"t": "15:55:57", "model": "gemini-decision-1", "summary": "abroad match flight_out_3 image (286 q)", "latency_s": 1.59}
+{"t": "15:55:57", "model": "gemini-decision-1", "summary": "abroad match flight_out_2 audio (286 q)", "latency_s": 1.498}
+{"t": "15:55:57", "model": "gemini-decision-1", "summary": "abroad match flight_out_1 audio (286 q)", "latency_s": 1.57}
+{"t": "15:55:58", "model": "gemini-decision-1", "summary": "abroad match flight_out_6 image (286 q)", "latency_s": 0.742}
+{"t": "15:55:58", "model": "gemini-decision-1", "summary": "abroad match flight_out_4 audio (286 q)", "latency_s": 0.966}
+{"t": "15:55:58", "model": "gemini-decision-1", "summary": "abroad match flight_out_5 audio (286 q)", "latency_s": 1.138}
+{"t": "15:55:59", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_1 audio (286 q)", "latency_s": 0.856}
+{"t": "15:55:59", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_3 image (286 q)", "latency_s": 0.747}
+{"t": "15:55:59", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_2 audio (286 q)", "latency_s": 1.016}
+{"t": "15:56:00", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_6 image (286 q)", "latency_s": 0.784}
+{"t": "15:56:00", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_4 audio (286 q)", "latency_s": 1.046}
+{"t": "15:56:00", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_5 audio (286 q)", "latency_s": 0.921}
+{"t": "15:56:01", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_3 image (286 q)", "latency_s": 1.005}
+{"t": "15:56:01", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_2 audio (286 q)", "latency_s": 1.063}
+{"t": "15:56:02", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (286 q)", "latency_s": 1.31}
+{"t": "15:56:02", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_6 image (286 q)", "latency_s": 0.893}
+{"t": "15:56:02", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_5 audio (286 q)", "latency_s": 1.013}
+{"t": "15:56:03", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_4 audio (286 q)", "latency_s": 1.044}
+{"t": "15:56:03", "model": "gemini-decision-1", "summary": "abroad match train_ams_3 image (286 q)", "latency_s": 0.809}
+{"t": "15:56:04", "model": "gemini-decision-1", "summary": "abroad match train_ams_1 audio (286 q)", "latency_s": 1.045}
+{"t": "15:56:04", "model": "gemini-decision-1", "summary": "abroad match train_ams_2 audio (286 q)", "latency_s": 1.062}
+{"t": "15:56:04", "model": "gemini-decision-1", "summary": "abroad match train_ams_6 image (286 q)", "latency_s": 0.762}
+{"t": "15:56:04", "model": "gemini-decision-1", "summary": "abroad match train_ams_4 audio (286 q)", "latency_s": 1.023}
+{"t": "15:56:05", "model": "gemini-decision-1", "summary": "abroad match train_ams_5 audio (286 q)", "latency_s": 1.187}
+{"t": "15:56:06", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_2 audio (286 q)", "latency_s": 0.944}
+{"t": "15:56:06", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_1 audio (286 q)", "latency_s": 1.159}
+{"t": "15:56:06", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_3 image (286 q)", "latency_s": 0.849}
+{"t": "15:56:06", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_6 image (286 q)", "latency_s": 0.619}
+{"t": "15:56:07", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_5 audio (286 q)", "latency_s": 0.918}
+{"t": "15:56:07", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_4 audio (286 q)", "latency_s": 1.22}
+{"t": "15:56:08", "model": "gemini-decision-1", "summary": "abroad match flight_home_1 audio (286 q)", "latency_s": 1.054}
+{"t": "15:56:08", "model": "gemini-decision-1", "summary": "abroad match flight_home_3 image (286 q)", "latency_s": 0.993}
+{"t": "15:56:08", "model": "gemini-decision-1", "summary": "abroad match flight_home_2 audio (286 q)", "latency_s": 1.19}
+{"t": "15:56:09", "model": "gemini-decision-1", "summary": "abroad match flight_home_4 audio (286 q)", "latency_s": 0.921}
+{"t": "15:56:09", "model": "gemini-decision-1", "summary": "abroad match flight_home_5 audio (286 q)", "latency_s": 1.105}
+{"t": "15:56:09", "model": "gemini-decision-1", "summary": "abroad match flight_home_6 image (286 q)", "latency_s": 1.155}
+{"t": "15:56:10", "model": "gemini-decision-1", "summary": "abroad match news_786a76395c news (286 q)", "latency_s": 1.331}
+{"t": "15:56:10", "model": "gemini-decision-1", "summary": "abroad match news_78532c9a34 news (286 q)", "latency_s": 0.848}
+{"t": "15:56:10", "model": "gemini-decision-1", "summary": "abroad match news_9c60d1cca4 news (286 q)", "latency_s": 0.964}
+{"t": "15:56:11", "model": "gemini-decision-1", "summary": "abroad match news_1ccd00925f news (286 q)", "latency_s": 1.275}
+{"t": "15:56:11", "model": "gemini-decision-1", "summary": "abroad match news_21a6e3f7b7 news (286 q)", "latency_s": 1.296}
+{"t": "15:56:11", "model": "gemini-decision-1", "summary": "abroad match news_92e77aa7ac news (286 q)", "latency_s": 1.385}
+{"t": "15:56:12", "model": "gemini-decision-1", "summary": "abroad match news_6830b4317a news (286 q)", "latency_s": 0.801}
+{"t": "15:56:12", "model": "gemini-decision-1", "summary": "abroad match news_c6340a241f news (286 q)", "latency_s": 0.921}
+{"t": "15:56:12", "model": "gemini-decision-1", "summary": "abroad match news_2759e333ca news (286 q)", "latency_s": 0.857}
+{"t": "15:56:13", "model": "gemini-decision-1", "summary": "abroad match news_b47dfd155c news (286 q)", "latency_s": 0.774}
+{"t": "15:56:13", "model": "gemini-decision-1", "summary": "abroad match news_3253072479 news (286 q)", "latency_s": 0.774}
+{"t": "15:56:13", "model": "gemini-decision-1", "summary": "abroad match news_977db582df news (286 q)", "latency_s": 0.93}
+{"t": "15:56:14", "model": "gemini-decision-1", "summary": "abroad match news_52af25a133 news (286 q)", "latency_s": 0.747}
+{"t": "15:56:14", "model": "gemini-decision-1", "summary": "abroad match news_7d9040712c news (286 q)", "latency_s": 1.027}
+{"t": "15:56:14", "model": "gemini-decision-1", "summary": "abroad match news_182943e119 news (286 q)", "latency_s": 0.744}
+{"t": "15:56:15", "model": "gemini-decision-1", "summary": "abroad match news_616b24aebb news (286 q)", "latency_s": 0.765}
+{"t": "15:56:15", "model": "gemini-decision-1", "summary": "abroad match news_77269451ba news (286 q)", "latency_s": 0.744}
+{"t": "15:56:15", "model": "gemini-decision-1", "summary": "abroad match news_1e7241d7ce news (286 q)", "latency_s": 0.937}
+{"t": "15:56:15", "model": "gemini-decision-1", "summary": "abroad match news_a604e6263d news (286 q)", "latency_s": 0.795}
+{"t": "15:56:16", "model": "gemini-decision-1", "summary": "abroad match news_e593d6b993 news (286 q)", "latency_s": 0.858}
+{"t": "15:56:16", "model": "gemini-decision-1", "summary": "abroad match news_53e343abcf news (286 q)", "latency_s": 0.778}
+{"t": "15:56:16", "model": "gemini-decision-1", "summary": "abroad match news_ef953149ed news (286 q)", "latency_s": 0.769}
+{"t": "15:56:17", "model": "gemini-decision-1", "summary": "abroad match news_05a469a789 news (286 q)", "latency_s": 1.009}
+{"t": "15:56:17", "model": "gemini-decision-1", "summary": "abroad match news_d35f8cee02 news (286 q)", "latency_s": 1.084}
+{"t": "15:56:17", "model": "gemini-decision-1", "summary": "abroad match news_c2f8a3344c news (286 q)", "latency_s": 0.932}
+{"t": "15:56:18", "model": "gemini-decision-1", "summary": "abroad match news_daa7b7bc75 news (286 q)", "latency_s": 1.021}
+{"t": "15:56:18", "model": "gemini-decision-1", "summary": "abroad match news_493f1ea497 news (286 q)", "latency_s": 1.194}
+{"t": "15:56:18", "model": "gemini-decision-1", "summary": "abroad match news_3e584ecdc7 news (286 q)", "latency_s": 0.826}
+{"t": "15:56:19", "model": "gemini-decision-1", "summary": "abroad match news_3d3f025c8a news (286 q)", "latency_s": 0.851}
+{"t": "15:56:19", "model": "gemini-decision-1", "summary": "abroad match news_dd4f900146 news (286 q)", "latency_s": 1.235}
+{"t": "15:56:19", "model": "gemini-decision-1", "summary": "abroad match news_bd2005bb6c news (286 q)", "latency_s": 1.339}
+{"t": "15:56:20", "model": "gemini-decision-1", "summary": "abroad match news_ccf74ed096 news (286 q)", "latency_s": 0.725}
+{"t": "15:56:20", "model": "gemini-decision-1", "summary": "abroad match news_86120c4c96 news (286 q)", "latency_s": 0.66}
+{"t": "15:56:20", "model": "gemini-decision-1", "summary": "abroad match news_07a144de07 news (286 q)", "latency_s": 0.906}
+{"t": "15:56:21", "model": "gemini-decision-1", "summary": "abroad match news_d332901a93 news (286 q)", "latency_s": 0.779}
+{"t": "15:56:21", "model": "gemini-decision-1", "summary": "abroad match news_37e5892ab0 news (286 q)", "latency_s": 1.065}
+{"t": "15:56:21", "model": "gemini-decision-1", "summary": "abroad match news_96b489dff2 news (286 q)", "latency_s": 1.2}
+{"t": "15:56:21", "model": "gemini-decision-1", "summary": "abroad match news_8fc3132920 news (286 q)", "latency_s": 0.769}
+{"t": "15:56:25", "model": "gemini-4-carbon", "summary": "abroad band check flight_out_5", "latency_s": 3.35}
+{"t": "15:56:25", "model": "gemini-4-carbon", "summary": "abroad band check flight_out_3", "latency_s": 3.703}
+{"t": "15:56:25", "model": "gemini-4-carbon", "summary": "abroad band check hotel_paris_4", "latency_s": 3.573}
+{"t": "15:56:26", "model": "gemini-4-carbon", "summary": "abroad band check flight_out_4", "latency_s": 4.038}
+{"t": "15:56:26", "model": "gemini-4-carbon", "summary": "abroad band check hotel_paris_6", "latency_s": 4.746}
+{"t": "15:56:26", "model": "gemini-4-carbon", "summary": "abroad band check hotel_paris_5", "latency_s": 4.772}
+{"t": "15:56:28", "model": "gemini-4-carbon", "summary": "abroad band check museum_louvre_6", "latency_s": 2.854}
+{"t": "15:56:29", "model": "gemini-4-carbon", "summary": "abroad band check museum_louvre_4", "latency_s": 3.755}
+{"t": "15:56:30", "model": "gemini-4-carbon", "summary": "abroad band check train_ams_6", "latency_s": 3.751}
+{"t": "15:56:30", "model": "gemini-4-carbon", "summary": "abroad band check museum_louvre_5", "latency_s": 4.711}
+{"t": "15:56:31", "model": "gemini-4-carbon", "summary": "abroad band check hotel_ams_4", "latency_s": 4.237}
+{"t": "15:56:31", "model": "gemini-4-carbon", "summary": "abroad band check train_ams_4", "latency_s": 5.032}
+{"t": "15:56:31", "model": "gemini-4-carbon", "summary": "abroad band check hotel_ams_5", "latency_s": 3.218}
+{"t": "15:56:32", "model": "gemini-4-carbon", "summary": "abroad band check hotel_ams_6", "latency_s": 3.419}
+{"t": "15:56:33", "model": "gemini-4-carbon", "summary": "abroad band check flight_home_5", "latency_s": 3.044}
+{"t": "15:56:33", "model": "gemini-4-carbon", "summary": "abroad band check news_92e77aa7ac", "latency_s": 2.476}
+{"t": "15:56:33", "model": "gemini-4-carbon", "summary": "abroad band check flight_home_6", "latency_s": 3.332}
+{"t": "15:56:34", "model": "gemini-4-carbon", "summary": "abroad band check news_9c60d1cca4", "latency_s": 3.453}
+{"t": "15:56:35", "model": "gemini-4-carbon", "summary": "abroad band check news_52af25a133", "latency_s": 3.484}
+{"t": "15:56:36", "model": "gemini-4-carbon", "summary": "abroad band check news_53e343abcf", "latency_s": 2.488}
+{"t": "15:56:36", "model": "gemini-4-carbon", "summary": "abroad band check news_07a144de07", "latency_s": 3.271}
+{"t": "15:56:37", "model": "gemini-4-carbon", "summary": "abroad band check news_a604e6263d", "latency_s": 4.778}
+{"t": "15:56:39", "model": "gemini-4-carbon", "summary": "abroad band check news_e593d6b993", "latency_s": 5.637}
+{"t": "15:56:39", "model": "gemini-4-carbon", "summary": "abroad band check news_8fc3132920", "latency_s": 4.72}
+{"t": "15:56:42", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_4", "latency_s": 3.168}
+{"t": "15:56:42", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_2", "latency_s": 3.143}
+{"t": "15:56:42", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_1", "latency_s": 3.265}
+{"t": "15:56:43", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_3", "latency_s": 3.974}
+{"t": "15:56:43", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_6", "latency_s": 4.478}
+{"t": "15:56:43", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_2", "latency_s": 4.177}
+{"t": "15:56:44", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_out_5", "latency_s": 4.529}
+{"t": "15:56:46", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_4", "latency_s": 3.856}
+{"t": "15:56:47", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_6", "latency_s": 3.481}
+{"t": "15:56:47", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_5", "latency_s": 3.262}
+{"t": "15:56:47", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_3", "latency_s": 4.15}
+{"t": "15:56:47", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_2", "latency_s": 5.093}
+{"t": "15:56:47", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_1", "latency_s": 5.006}
+{"t": "15:56:49", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_out_2", "latency_s": 5.801}
+{"t": "15:56:50", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_4", "latency_s": 2.573}
+{"t": "15:56:50", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_5", "latency_s": 2.624}
+{"t": "15:56:51", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_6", "latency_s": 3.855}
+{"t": "15:56:51", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_1", "latency_s": 3.437}
+{"t": "15:56:52", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_3", "latency_s": 5.553}
+{"t": "15:56:52", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_paris_1", "latency_s": 12.601}
+{"t": "15:56:52", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_2", "latency_s": 4.837}
+{"t": "15:56:53", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_3", "latency_s": 3.717}
+{"t": "15:56:54", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_4", "latency_s": 4.413}
+{"t": "15:56:54", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_5", "latency_s": 4.733}
+{"t": "15:56:55", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_6", "latency_s": 4.568}
+{"t": "15:56:56", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_1", "latency_s": 4.973}
+{"t": "15:56:56", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_3", "latency_s": 4.403}
+{"t": "15:56:57", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_paris_1", "latency_s": 5.153}
+{"t": "15:56:58", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_2", "latency_s": 5.225}
+{"t": "15:56:58", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_5", "latency_s": 3.315}
+{"t": "15:56:59", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_3", "latency_s": 6.308}
+{"t": "15:56:59", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_4", "latency_s": 5.324}
+{"t": "15:57:01", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_5", "latency_s": 2.748}
+{"t": "15:57:01", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_1", "latency_s": 4.539}
+{"t": "15:57:01", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_4", "latency_s": 3.686}
+{"t": "15:57:02", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_2", "latency_s": 5.473}
+{"t": "15:57:02", "model": "gemini-4-hydrogen", "summary": "abroad transcribe museum_louvre_6", "latency_s": 6.894}
+{"t": "15:57:02", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_5", "latency_s": 3.06}
+{"t": "15:57:04", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_1", "latency_s": 3.205}
+{"t": "15:57:04", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_3", "latency_s": 6.955}
+{"t": "15:57:04", "model": "gemini-4-hydrogen", "summary": "abroad transcribe train_ams_6", "latency_s": 3.664}
+{"t": "15:57:05", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_4", "latency_s": 4.061}
+{"t": "15:57:06", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_6", "latency_s": 3.625}
+{"t": "15:57:07", "model": "gemini-4-hydrogen", "summary": "abroad judge museum_louvre_4", "latency_s": 7.644}
+{"t": "15:57:07", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_3", "latency_s": 3.149}
+{"t": "15:57:07", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_1", "latency_s": 3.367}
+{"t": "15:57:07", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_5", "latency_s": 5.136}
+{"t": "15:57:08", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_2", "latency_s": 2.73}
+{"t": "15:57:09", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_2", "latency_s": 7.485}
+{"t": "15:57:11", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_4", "latency_s": 3.509}
+{"t": "15:57:11", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_5", "latency_s": 3.601}
+{"t": "15:57:11", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_6", "latency_s": 3.669}
+{"t": "15:57:12", "model": "gemini-4-hydrogen", "summary": "abroad judge train_ams_6", "latency_s": 7.569}
+{"t": "15:57:13", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_1", "latency_s": 5.36}
+{"t": "15:57:14", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_1", "latency_s": 4.918}
+{"t": "15:57:14", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_6", "latency_s": 3.092}
+{"t": "15:57:14", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_2", "latency_s": 5.955}
+{"t": "15:57:15", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_5", "latency_s": 3.961}
+{"t": "15:57:15", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_4", "latency_s": 4.285}
+{"t": "15:57:15", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_3", "latency_s": 2.645}
+{"t": "15:57:16", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_2", "latency_s": 4.383}
+{"t": "15:57:17", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_4", "latency_s": 2.801}
+{"t": "15:57:18", "model": "gemini-4-hydrogen", "summary": "abroad transcribe hotel_ams_3", "latency_s": 11.884}
+{"t": "15:57:18", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_1", "latency_s": 3.747}
+{"t": "15:57:19", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_3", "latency_s": 3.657}
+{"t": "15:57:20", "model": "gemini-4-hydrogen", "summary": "abroad judge news_786a76395c", "latency_s": 4.783}
+{"t": "15:57:20", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_2", "latency_s": 3.632}
+{"t": "15:57:20", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_6", "latency_s": 5.72}
+{"t": "15:57:21", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_4", "latency_s": 3.394}
+{"t": "15:57:22", "model": "gemini-4-hydrogen", "summary": "abroad judge hotel_ams_3", "latency_s": 4.202}
+{"t": "15:57:23", "model": "gemini-4-hydrogen", "summary": "abroad judge news_9c60d1cca4", "latency_s": 4.692}
+{"t": "15:57:23", "model": "gemini-4-hydrogen", "summary": "abroad judge news_1ccd00925f", "latency_s": 3.029}
+{"t": "15:57:23", "model": "gemini-4-hydrogen", "summary": "abroad judge news_78532c9a34", "latency_s": 3.895}
+{"t": "15:57:23", "model": "gemini-4-hydrogen", "summary": "abroad judge news_21a6e3f7b7", "latency_s": 3.209}
+{"t": "15:57:24", "model": "gemini-4-hydrogen", "summary": "abroad transcribe flight_home_5", "latency_s": 9.34}
+{"t": "15:57:24", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_6", "latency_s": 3.371}
+{"t": "15:57:25", "model": "gemini-4-hydrogen", "summary": "abroad judge news_92e77aa7ac", "latency_s": 4.76}
+{"t": "15:57:26", "model": "gemini-4-hydrogen", "summary": "abroad judge news_3253072479", "latency_s": 2.406}
+{"t": "15:57:27", "model": "gemini-4-hydrogen", "summary": "abroad judge news_6830b4317a", "latency_s": 4.611}
+{"t": "15:57:27", "model": "gemini-4-hydrogen", "summary": "abroad judge news_c6340a241f", "latency_s": 3.996}
+{"t": "15:57:27", "model": "gemini-4-hydrogen", "summary": "abroad judge news_977db582df", "latency_s": 4.028}
+{"t": "15:57:27", "model": "gemini-4-hydrogen", "summary": "abroad judge news_2759e333ca", "latency_s": 4.752}
+{"t": "15:57:28", "model": "gemini-4-hydrogen", "summary": "abroad judge flight_home_5", "latency_s": 3.807}
+{"t": "15:57:29", "model": "gemini-4-hydrogen", "summary": "abroad judge news_b47dfd155c", "latency_s": 5.991}
+{"t": "15:57:29", "model": "gemini-4-hydrogen", "summary": "abroad judge news_182943e119", "latency_s": 2.454}
+{"t": "15:57:30", "model": "gemini-4-hydrogen", "summary": "abroad judge news_7d9040712c", "latency_s": 4.532}
+{"t": "15:57:30", "model": "gemini-4-hydrogen", "summary": "abroad judge news_1e7241d7ce", "latency_s": 3.789}
+{"t": "15:57:31", "model": "gemini-4-hydrogen", "summary": "abroad judge news_616b24aebb", "latency_s": 4.024}
+{"t": "15:57:32", "model": "gemini-4-hydrogen", "summary": "abroad judge news_e593d6b993", "latency_s": 2.832}
+{"t": "15:57:32", "model": "gemini-4-hydrogen", "summary": "abroad judge news_a604e6263d", "latency_s": 4.799}
+{"t": "15:57:33", "model": "gemini-4-hydrogen", "summary": "abroad judge news_ef953149ed", "latency_s": 3.307}
+{"t": "15:57:33", "model": "gemini-4-hydrogen", "summary": "abroad judge news_53e343abcf", "latency_s": 4.053}
+{"t": "15:57:34", "model": "gemini-4-hydrogen", "summary": "abroad judge news_52af25a133", "latency_s": 7.965}
+{"t": "15:57:34", "model": "gemini-4-hydrogen", "summary": "abroad judge news_c2f8a3344c", "latency_s": 2.625}
+{"t": "15:57:36", "model": "gemini-4-hydrogen", "summary": "abroad judge news_493f1ea497", "latency_s": 3.292}
+{"t": "15:57:36", "model": "gemini-4-hydrogen", "summary": "abroad judge news_3e584ecdc7", "latency_s": 2.694}
+{"t": "15:57:36", "model": "gemini-4-hydrogen", "summary": "abroad judge news_daa7b7bc75", "latency_s": 3.292}
+{"t": "15:57:37", "model": "gemini-4-hydrogen", "summary": "abroad judge news_dd4f900146", "latency_s": 2.675}
+{"t": "15:57:37", "model": "gemini-4-hydrogen", "summary": "abroad judge news_77269451ba", "latency_s": 9.906}
+{"t": "15:57:37", "model": "gemini-4-hydrogen", "summary": "abroad judge news_05a469a789", "latency_s": 7.01}
+{"t": "15:57:38", "model": "gemini-4-hydrogen", "summary": "abroad judge news_bd2005bb6c", "latency_s": 3.963}
+{"t": "15:57:39", "model": "gemini-4-hydrogen", "summary": "abroad judge news_d35f8cee02", "latency_s": 8.279}
+{"t": "15:57:40", "model": "gemini-4-hydrogen", "summary": "abroad judge news_86120c4c96", "latency_s": 2.736}
+{"t": "15:57:40", "model": "gemini-4-hydrogen", "summary": "abroad judge news_3d3f025c8a", "latency_s": 4.049}
+{"t": "15:57:42", "model": "gemini-4-hydrogen", "summary": "abroad judge news_96b489dff2", "latency_s": 3.777}
+{"t": "15:57:42", "model": "gemini-4-hydrogen", "summary": "abroad judge news_d332901a93", "latency_s": 4.957}
+{"t": "15:57:43", "model": "gemini-4-hydrogen", "summary": "abroad judge news_37e5892ab0", "latency_s": 6.047}
+{"t": "15:57:44", "model": "gemini-4-hydrogen", "summary": "abroad judge news_8fc3132920", "latency_s": 4.166}
+{"t": "15:57:45", "model": "gemini-4-hydrogen", "summary": "abroad judge news_07a144de07", "latency_s": 8.225}
+{"t": "15:57:46", "model": "gemini-4-hydrogen", "summary": "abroad judge news_ccf74ed096", "latency_s": 10.608}
+{"t": "15:57:56", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 9.826}
+{"t": "15:57:57", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.182}
+{"t": "15:57:57", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.306}
+{"t": "15:57:57", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.452}
+{"t": "15:57:59", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 12.129}
+{"t": "15:57:59", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.196}
+{"t": "15:57:59", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.199}
+{"t": "15:57:59", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.305}
+{"t": "15:58:07", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.346}
+{"t": "15:58:07", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.21}
+{"t": "15:58:08", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.727}
+{"t": "15:58:08", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.653}
+{"t": "15:58:08", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.202}
+{"t": "15:58:08", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.83}
+{"t": "15:58:08", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.427}
+{"t": "15:58:08", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.496}
+{"t": "15:58:16", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.595}
+{"t": "15:58:16", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.296}
+{"t": "15:58:16", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.63}
+{"t": "15:58:16", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.672}
+{"t": "15:58:19", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.724}
+{"t": "15:58:20", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.982}
+{"t": "15:58:20", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.993}
+{"t": "15:58:20", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 1.369}
+{"t": "15:58:28", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 11.525}
+{"t": "15:58:28", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.381}
+{"t": "15:58:28", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.375}
+{"t": "15:58:28", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.636}
+{"t": "15:58:31", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.317}
+{"t": "15:58:31", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.212}
+{"t": "15:58:31", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.367}
+{"t": "15:58:31", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.374}
+{"t": "15:58:36", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.813}
+{"t": "15:58:37", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.385}
+{"t": "15:58:37", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.408}
+{"t": "15:58:37", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.663}
+{"t": "15:58:38", "model": "gemini-decision-1", "summary": "abroad match flight_out_6 image (327 q)", "latency_s": 0.62}
+{"t": "15:58:38", "model": "gemini-decision-1", "summary": "abroad match flight_home_5 audio (327 q)", "latency_s": 1.121}
+{"t": "15:58:38", "model": "gemini-decision-1", "summary": "abroad match flight_out_4 audio (327 q)", "latency_s": 1.218}
+{"t": "15:58:39", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_5 audio (327 q)", "latency_s": 0.974}
+{"t": "15:58:39", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_6 image (327 q)", "latency_s": 0.855}
+{"t": "15:58:40", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_4 audio (327 q)", "latency_s": 1.084}
+{"t": "15:58:40", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_5 audio (327 q)", "latency_s": 0.923}
+{"t": "15:58:41", "model": "gemini-decision-1", "summary": "abroad match train_ams_4 audio (327 q)", "latency_s": 1.241}
+{"t": "15:58:41", "model": "gemini-decision-1", "summary": "abroad match train_ams_6 image (327 q)", "latency_s": 1.486}
+{"t": "15:58:42", "model": "gemini-decision-1", "summary": "abroad match flight_home_1 audio (327 q)", "latency_s": 2.108}
+{"t": "15:58:44", "model": "gemini-decision-1", "summary": "abroad match flight_home_2 audio (327 q)", "latency_s": 3.413}
+{"t": "15:58:44", "model": "gemini-decision-1", "summary": "abroad match flight_home_3 image (327 q)", "latency_s": 3.203}
+{"t": "15:58:45", "model": "gemini-decision-1", "summary": "abroad match flight_out_1 audio (327 q)", "latency_s": 2.894}
+{"t": "15:58:46", "model": "gemini-decision-1", "summary": "abroad match flight_out_2 audio (327 q)", "latency_s": 1.793}
+{"t": "15:58:46", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_1 audio (327 q)", "latency_s": 1.188}
+{"t": "15:58:47", "model": "gemini-decision-1", "summary": "abroad match flight_out_3 image (327 q)", "latency_s": 2.506}
+{"t": "15:58:49", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_3 image (327 q)", "latency_s": 3.047}
+{"t": "15:58:52", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_2 audio (327 q)", "latency_s": 2.341}
+{"t": "15:58:52", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_1 audio (327 q)", "latency_s": 5.108}
+{"t": "15:58:54", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_3 image (327 q)", "latency_s": 2.249}
+{"t": "15:58:55", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_2 audio (327 q)", "latency_s": 8.496}
+{"t": "15:58:55", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (327 q)", "latency_s": 3.173}
+{"t": "15:58:56", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_2 audio (327 q)", "latency_s": 1.431}
+{"t": "15:58:56", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_3 image (327 q)", "latency_s": 0.998}
+{"t": "15:59:00", "model": "gemini-decision-1", "summary": "abroad match train_ams_2 audio (327 q)", "latency_s": 3.916}
+{"t": "15:59:01", "model": "gemini-decision-1", "summary": "abroad match train_ams_3 image (327 q)", "latency_s": 4.745}
+{"t": "15:59:03", "model": "gemini-decision-1", "summary": "abroad match train_ams_1 audio (327 q)", "latency_s": 7.747}
+{"t": "15:59:35", "model": "gemini-decision-1", "summary": "abroad learn diag flight_home_3 (9 not q)", "latency_s": 1.308}
+{"t": "15:59:36", "model": "gemini-decision-1", "summary": "abroad learn diag flight_home_1 (9 not q)", "latency_s": 1.675}
+{"t": "15:59:36", "model": "gemini-decision-1", "summary": "abroad learn diag flight_home_2 (9 not q)", "latency_s": 1.791}
+{"t": "15:59:36", "model": "gemini-decision-1", "summary": "abroad learn diag flight_out_1 (5 not q)", "latency_s": 0.775}
+{"t": "15:59:36", "model": "gemini-decision-1", "summary": "abroad learn diag hotel_ams_2 (10 not q)", "latency_s": 0.473}
+{"t": "15:59:36", "model": "gemini-decision-1", "summary": "abroad learn diag hotel_ams_1 (10 not q)", "latency_s": 0.616}
+{"t": "15:59:37", "model": "gemini-decision-1", "summary": "abroad learn diag hotel_paris_1 (3 not q)", "latency_s": 0.503}
+{"t": "15:59:37", "model": "gemini-decision-1", "summary": "abroad learn diag hotel_paris_2 (3 not q)", "latency_s": 0.399}
+{"t": "15:59:37", "model": "gemini-decision-1", "summary": "abroad learn diag museum_louvre_2 (9 not q)", "latency_s": 0.55}
+{"t": "15:59:37", "model": "gemini-decision-1", "summary": "abroad learn diag museum_louvre_3 (9 not q)", "latency_s": 0.354}
+{"t": "15:59:37", "model": "gemini-decision-1", "summary": "abroad learn diag train_ams_3 (5 not q)", "latency_s": 0.473}

@@ -1,0 +1,319 @@
+74 items, 279 fingerprint questions
+[decision] 74 new calls (0 cached)
+[gemini] gemini-decision-1 1.59s  abroad match flight_out_3 image (286 q)
+[gemini] gemini-decision-1 1.50s  abroad match flight_out_2 audio (286 q)
+[gemini] gemini-decision-1 1.57s  abroad match flight_out_1 audio (286 q)
+[gemini] gemini-decision-1 0.74s  abroad match flight_out_6 image (286 q)
+[gemini] gemini-decision-1 0.97s  abroad match flight_out_4 audio (286 q)
+[gemini] gemini-decision-1 1.14s  abroad match flight_out_5 audio (286 q)
+[gemini] gemini-decision-1 0.86s  abroad match hotel_paris_1 audio (286 q)
+[gemini] gemini-decision-1 0.75s  abroad match hotel_paris_3 image (286 q)
+[gemini] gemini-decision-1 1.02s  abroad match hotel_paris_2 audio (286 q)
+[gemini] gemini-decision-1 0.78s  abroad match hotel_paris_6 image (286 q)
+[gemini] gemini-decision-1 1.05s  abroad match hotel_paris_4 audio (286 q)
+[gemini] gemini-decision-1 0.92s  abroad match hotel_paris_5 audio (286 q)
+[gemini] gemini-decision-1 1.00s  abroad match museum_louvre_3 image (286 q)
+[gemini] gemini-decision-1 1.06s  abroad match museum_louvre_2 audio (286 q)
+[gemini] gemini-decision-1 1.31s  abroad match museum_louvre_1 audio (286 q)
+[gemini] gemini-decision-1 0.89s  abroad match museum_louvre_6 image (286 q)
+[gemini] gemini-decision-1 1.01s  abroad match museum_louvre_5 audio (286 q)
+[gemini] gemini-decision-1 1.04s  abroad match museum_louvre_4 audio (286 q)
+[gemini] gemini-decision-1 0.81s  abroad match train_ams_3 image (286 q)
+[gemini] gemini-decision-1 1.04s  abroad match train_ams_1 audio (286 q)
+[gemini] gemini-decision-1 1.06s  abroad match train_ams_2 audio (286 q)
+[gemini] gemini-decision-1 0.76s  abroad match train_ams_6 image (286 q)
+[gemini] gemini-decision-1 1.02s  abroad match train_ams_4 audio (286 q)
+[gemini] gemini-decision-1 1.19s  abroad match train_ams_5 audio (286 q)
+[gemini] gemini-decision-1 0.94s  abroad match hotel_ams_2 audio (286 q)
+[gemini] gemini-decision-1 1.16s  abroad match hotel_ams_1 audio (286 q)
+[gemini] gemini-decision-1 0.85s  abroad match hotel_ams_3 image (286 q)
+[gemini] gemini-decision-1 0.62s  abroad match hotel_ams_6 image (286 q)
+[gemini] gemini-decision-1 0.92s  abroad match hotel_ams_5 audio (286 q)
+[gemini] gemini-decision-1 1.22s  abroad match hotel_ams_4 audio (286 q)
+[gemini] gemini-decision-1 1.05s  abroad match flight_home_1 audio (286 q)
+[gemini] gemini-decision-1 0.99s  abroad match flight_home_3 image (286 q)
+[gemini] gemini-decision-1 1.19s  abroad match flight_home_2 audio (286 q)
+[gemini] gemini-decision-1 0.92s  abroad match flight_home_4 audio (286 q)
+[gemini] gemini-decision-1 1.11s  abroad match flight_home_5 audio (286 q)
+[gemini] gemini-decision-1 1.16s  abroad match flight_home_6 image (286 q)
+[gemini] gemini-decision-1 1.33s  abroad match news_786a76395c news (286 q)
+[gemini] gemini-decision-1 0.85s  abroad match news_78532c9a34 news (286 q)
+[gemini] gemini-decision-1 0.96s  abroad match news_9c60d1cca4 news (286 q)
+[gemini] gemini-decision-1 1.28s  abroad match news_1ccd00925f news (286 q)
+[gemini] gemini-decision-1 1.30s  abroad match news_21a6e3f7b7 news (286 q)
+[gemini] gemini-decision-1 1.39s  abroad match news_92e77aa7ac news (286 q)
+[gemini] gemini-decision-1 0.80s  abroad match news_6830b4317a news (286 q)
+[gemini] gemini-decision-1 0.92s  abroad match news_c6340a241f news (286 q)
+[gemini] gemini-decision-1 0.86s  abroad match news_2759e333ca news (286 q)
+[gemini] gemini-decision-1 0.77s  abroad match news_b47dfd155c news (286 q)
+[gemini] gemini-decision-1 0.77s  abroad match news_3253072479 news (286 q)
+[gemini] gemini-decision-1 0.93s  abroad match news_977db582df news (286 q)
+[gemini] gemini-decision-1 0.75s  abroad match news_52af25a133 news (286 q)
+[gemini] gemini-decision-1 1.03s  abroad match news_7d9040712c news (286 q)
+[gemini] gemini-decision-1 0.74s  abroad match news_182943e119 news (286 q)
+[gemini] gemini-decision-1 0.77s  abroad match news_616b24aebb news (286 q)
+[gemini] gemini-decision-1 0.74s  abroad match news_77269451ba news (286 q)
+[gemini] gemini-decision-1 0.94s  abroad match news_1e7241d7ce news (286 q)
+[gemini] gemini-decision-1 0.79s  abroad match news_a604e6263d news (286 q)
+[gemini] gemini-decision-1 0.86s  abroad match news_e593d6b993 news (286 q)
+[gemini] gemini-decision-1 0.78s  abroad match news_53e343abcf news (286 q)
+[gemini] gemini-decision-1 0.77s  abroad match news_ef953149ed news (286 q)
+[gemini] gemini-decision-1 1.01s  abroad match news_05a469a789 news (286 q)
+[gemini] gemini-decision-1 1.08s  abroad match news_d35f8cee02 news (286 q)
+[gemini] gemini-decision-1 0.93s  abroad match news_c2f8a3344c news (286 q)
+[gemini] gemini-decision-1 1.02s  abroad match news_daa7b7bc75 news (286 q)
+[gemini] gemini-decision-1 1.19s  abroad match news_493f1ea497 news (286 q)
+[gemini] gemini-decision-1 0.83s  abroad match news_3e584ecdc7 news (286 q)
+[gemini] gemini-decision-1 0.85s  abroad match news_3d3f025c8a news (286 q)
+[gemini] gemini-decision-1 1.24s  abroad match news_dd4f900146 news (286 q)
+[gemini] gemini-decision-1 1.34s  abroad match news_bd2005bb6c news (286 q)
+[gemini] gemini-decision-1 0.73s  abroad match news_ccf74ed096 news (286 q)
+[gemini] gemini-decision-1 0.66s  abroad match news_86120c4c96 news (286 q)
+[gemini] gemini-decision-1 0.91s  abroad match news_07a144de07 news (286 q)
+[gemini] gemini-decision-1 0.78s  abroad match news_d332901a93 news (286 q)
+[gemini] gemini-decision-1 1.07s  abroad match news_37e5892ab0 news (286 q)
+[gemini] gemini-decision-1 1.20s  abroad match news_96b489dff2 news (286 q)
+[gemini] gemini-decision-1 0.77s  abroad match news_8fc3132920 news (286 q)
+[carbon] 24 new calls (0 cached)
+[gemini] gemini-4-carbon 3.35s  abroad band check flight_out_5
+[gemini] gemini-4-carbon 3.70s  abroad band check flight_out_3
+[gemini] gemini-4-carbon 3.57s  abroad band check hotel_paris_4
+[gemini] gemini-4-carbon 4.04s  abroad band check flight_out_4
+[gemini] gemini-4-carbon 4.75s  abroad band check hotel_paris_6
+[gemini] gemini-4-carbon 4.77s  abroad band check hotel_paris_5
+[gemini] gemini-4-carbon 2.85s  abroad band check museum_louvre_6
+[gemini] gemini-4-carbon 3.76s  abroad band check museum_louvre_4
+[gemini] gemini-4-carbon 3.75s  abroad band check train_ams_6
+[gemini] gemini-4-carbon 4.71s  abroad band check museum_louvre_5
+[gemini] gemini-4-carbon 4.24s  abroad band check hotel_ams_4
+[gemini] gemini-4-carbon 5.03s  abroad band check train_ams_4
+[gemini] gemini-4-carbon 3.22s  abroad band check hotel_ams_5
+[gemini] gemini-4-carbon 3.42s  abroad band check hotel_ams_6
+[gemini] gemini-4-carbon 3.04s  abroad band check flight_home_5
+[gemini] gemini-4-carbon 2.48s  abroad band check news_92e77aa7ac
+[gemini] gemini-4-carbon 3.33s  abroad band check flight_home_6
+[gemini] gemini-4-carbon 3.45s  abroad band check news_9c60d1cca4
+[gemini] gemini-4-carbon 3.48s  abroad band check news_52af25a133
+[gemini] gemini-4-carbon 2.49s  abroad band check news_53e343abcf
+[gemini] gemini-4-carbon 3.27s  abroad band check news_07a144de07
+[gemini] gemini-4-carbon 4.78s  abroad band check news_a604e6263d
+[gemini] gemini-4-carbon 5.64s  abroad band check news_e593d6b993
+[gemini] gemini-4-carbon 4.72s  abroad band check news_8fc3132920
+[hydrogen] 74 new calls (0 cached)
+[gemini] gemini-4-hydrogen 3.17s  abroad transcribe flight_out_4
+[gemini] gemini-4-hydrogen 3.14s  abroad transcribe hotel_paris_2
+[gemini] gemini-4-hydrogen 3.26s  abroad transcribe flight_out_1
+[gemini] gemini-4-hydrogen 3.97s  abroad transcribe flight_out_3
+[gemini] gemini-4-hydrogen 4.48s  abroad transcribe flight_out_6
+[gemini] gemini-4-hydrogen 4.18s  abroad transcribe flight_out_2
+[gemini] gemini-4-hydrogen 4.53s  abroad transcribe flight_out_5
+[gemini] gemini-4-hydrogen 3.86s  abroad judge flight_out_4
+[gemini] gemini-4-hydrogen 3.48s  abroad judge flight_out_6
+[gemini] gemini-4-hydrogen 3.26s  abroad judge flight_out_5
+[gemini] gemini-4-hydrogen 4.15s  abroad judge flight_out_3
+[gemini] gemini-4-hydrogen 5.09s  abroad judge hotel_paris_2
+[gemini] gemini-4-hydrogen 5.01s  abroad judge flight_out_1
+[gemini] gemini-4-hydrogen 5.80s  abroad judge flight_out_2
+[gemini] gemini-4-hydrogen 2.57s  abroad transcribe hotel_paris_4
+[gemini] gemini-4-hydrogen 2.62s  abroad transcribe hotel_paris_5
+[gemini] gemini-4-hydrogen 3.85s  abroad transcribe hotel_paris_6
+[gemini] gemini-4-hydrogen 3.44s  abroad transcribe museum_louvre_1
+[gemini] gemini-4-hydrogen 5.55s  abroad transcribe hotel_paris_3
+[gemini] gemini-4-hydrogen 12.60s  abroad transcribe hotel_paris_1
+[gemini] gemini-4-hydrogen 4.84s  abroad transcribe museum_louvre_2
+[gemini] gemini-4-hydrogen 3.72s  abroad transcribe museum_louvre_3
+[gemini] gemini-4-hydrogen 4.41s  abroad judge hotel_paris_4
+[gemini] gemini-4-hydrogen 4.73s  abroad judge hotel_paris_5
+[gemini] gemini-4-hydrogen 4.57s  abroad judge hotel_paris_6
+[gemini] gemini-4-hydrogen 4.97s  abroad judge museum_louvre_1
+[gemini] gemini-4-hydrogen 4.40s  abroad judge hotel_paris_3
+[gemini] gemini-4-hydrogen 5.15s  abroad judge hotel_paris_1
+[gemini] gemini-4-hydrogen 5.22s  abroad judge museum_louvre_2
+[gemini] gemini-4-hydrogen 3.32s  abroad transcribe museum_louvre_5
+[gemini] gemini-4-hydrogen 6.31s  abroad judge museum_louvre_3
+[gemini] gemini-4-hydrogen 5.32s  abroad transcribe museum_louvre_4
+[gemini] gemini-4-hydrogen 2.75s  abroad judge museum_louvre_5
+[gemini] gemini-4-hydrogen 4.54s  abroad transcribe train_ams_1
+[gemini] gemini-4-hydrogen 3.69s  abroad transcribe train_ams_4
+[gemini] gemini-4-hydrogen 5.47s  abroad transcribe train_ams_2
+[gemini] gemini-4-hydrogen 6.89s  abroad transcribe museum_louvre_6
+[gemini] gemini-4-hydrogen 3.06s  abroad transcribe train_ams_5
+[gemini] gemini-4-hydrogen 3.20s  abroad judge train_ams_1
+[gemini] gemini-4-hydrogen 6.96s  abroad transcribe train_ams_3
+[gemini] gemini-4-hydrogen 3.66s  abroad transcribe train_ams_6
+[gemini] gemini-4-hydrogen 4.06s  abroad judge train_ams_4
+[gemini] gemini-4-hydrogen 3.62s  abroad judge museum_louvre_6
+[gemini] gemini-4-hydrogen 7.64s  abroad judge museum_louvre_4
+[gemini] gemini-4-hydrogen 3.15s  abroad judge train_ams_3
+[gemini] gemini-4-hydrogen 3.37s  abroad transcribe hotel_ams_1
+[gemini] gemini-4-hydrogen 5.14s  abroad judge train_ams_5
+[gemini] gemini-4-hydrogen 2.73s  abroad transcribe hotel_ams_2
+[gemini] gemini-4-hydrogen 7.49s  abroad judge train_ams_2
+[gemini] gemini-4-hydrogen 3.51s  abroad transcribe hotel_ams_4
+[gemini] gemini-4-hydrogen 3.60s  abroad transcribe hotel_ams_5
+[gemini] gemini-4-hydrogen 3.67s  abroad transcribe hotel_ams_6
+[gemini] gemini-4-hydrogen 7.57s  abroad judge train_ams_6
+[gemini] gemini-4-hydrogen 5.36s  abroad judge hotel_ams_1
+[gemini] gemini-4-hydrogen 4.92s  abroad transcribe flight_home_1
+[gemini] gemini-4-hydrogen 5.95s  abroad judge hotel_ams_2
+[gemini] gemini-4-hydrogen 3.09s  abroad judge hotel_ams_6
+[gemini] gemini-4-hydrogen 3.96s  abroad judge hotel_ams_5
+[gemini] gemini-4-hydrogen 4.28s  abroad judge hotel_ams_4
+[gemini] gemini-4-hydrogen 2.65s  abroad transcribe flight_home_3
+[gemini] gemini-4-hydrogen 4.38s  abroad transcribe flight_home_2
+[gemini] gemini-4-hydrogen 2.80s  abroad transcribe flight_home_4
+[gemini] gemini-4-hydrogen 11.88s  abroad transcribe hotel_ams_3
+[gemini] gemini-4-hydrogen 3.75s  abroad judge flight_home_1
+[gemini] gemini-4-hydrogen 3.66s  abroad judge flight_home_3
+[gemini] gemini-4-hydrogen 4.78s  abroad judge news_786a76395c
+[gemini] gemini-4-hydrogen 3.63s  abroad judge flight_home_2
+[gemini] gemini-4-hydrogen 5.72s  abroad transcribe flight_home_6
+[gemini] gemini-4-hydrogen 3.39s  abroad judge flight_home_4
+[gemini] gemini-4-hydrogen 4.20s  abroad judge hotel_ams_3
+[gemini] gemini-4-hydrogen 4.69s  abroad judge news_9c60d1cca4
+[gemini] gemini-4-hydrogen 3.03s  abroad judge news_1ccd00925f
+[gemini] gemini-4-hydrogen 3.90s  abroad judge news_78532c9a34
+[gemini] gemini-4-hydrogen 3.21s  abroad judge news_21a6e3f7b7
+[gemini] gemini-4-hydrogen 9.34s  abroad transcribe flight_home_5
+[gemini] gemini-4-hydrogen 3.37s  abroad judge flight_home_6
+[gemini] gemini-4-hydrogen 4.76s  abroad judge news_92e77aa7ac
+[gemini] gemini-4-hydrogen 2.41s  abroad judge news_3253072479
+[gemini] gemini-4-hydrogen 4.61s  abroad judge news_6830b4317a
+[gemini] gemini-4-hydrogen 4.00s  abroad judge news_c6340a241f
+[gemini] gemini-4-hydrogen 4.03s  abroad judge news_977db582df
+[gemini] gemini-4-hydrogen 4.75s  abroad judge news_2759e333ca
+[gemini] gemini-4-hydrogen 3.81s  abroad judge flight_home_5
+[gemini] gemini-4-hydrogen 5.99s  abroad judge news_b47dfd155c
+[gemini] gemini-4-hydrogen 2.45s  abroad judge news_182943e119
+[gemini] gemini-4-hydrogen 4.53s  abroad judge news_7d9040712c
+[gemini] gemini-4-hydrogen 3.79s  abroad judge news_1e7241d7ce
+[gemini] gemini-4-hydrogen 4.02s  abroad judge news_616b24aebb
+[gemini] gemini-4-hydrogen 2.83s  abroad judge news_e593d6b993
+[gemini] gemini-4-hydrogen 4.80s  abroad judge news_a604e6263d
+[gemini] gemini-4-hydrogen 3.31s  abroad judge news_ef953149ed
+[gemini] gemini-4-hydrogen 4.05s  abroad judge news_53e343abcf
+[gemini] gemini-4-hydrogen 7.97s  abroad judge news_52af25a133
+[gemini] gemini-4-hydrogen 2.62s  abroad judge news_c2f8a3344c
+[gemini] gemini-4-hydrogen 3.29s  abroad judge news_493f1ea497
+[gemini] gemini-4-hydrogen 2.69s  abroad judge news_3e584ecdc7
+[gemini] gemini-4-hydrogen 3.29s  abroad judge news_daa7b7bc75
+[gemini] gemini-4-hydrogen 2.67s  abroad judge news_dd4f900146
+[gemini] gemini-4-hydrogen 9.91s  abroad judge news_77269451ba
+[gemini] gemini-4-hydrogen 7.01s  abroad judge news_05a469a789
+[gemini] gemini-4-hydrogen 3.96s  abroad judge news_bd2005bb6c
+[gemini] gemini-4-hydrogen 8.28s  abroad judge news_d35f8cee02
+[gemini] gemini-4-hydrogen 2.74s  abroad judge news_86120c4c96
+[gemini] gemini-4-hydrogen 4.05s  abroad judge news_3d3f025c8a
+[gemini] gemini-4-hydrogen 3.78s  abroad judge news_96b489dff2
+[gemini] gemini-4-hydrogen 4.96s  abroad judge news_d332901a93
+[gemini] gemini-4-hydrogen 6.05s  abroad judge news_37e5892ab0
+[gemini] gemini-4-hydrogen 4.17s  abroad judge news_8fc3132920
+[gemini] gemini-4-hydrogen 8.23s  abroad judge news_07a144de07
+[gemini] gemini-4-hydrogen 10.61s  abroad judge news_ccf74ed096
+
+source           method       caught  false  right bk  median s  carbon
+rehearsal audio  decision    12 / 12    2/12     11      1.050        
+rehearsal audio  policy      12 / 12    2/12     11      1.404      10
+rehearsal audio  keyword     12 / 12   10/12     12      0.000        
+rehearsal audio  hydrogen    12 / 12    0/12     12      8.409        
+rehearsal signs  decision     5 / 6     0/6       5      0.829        
+rehearsal signs  policy       6 / 6     1/6       6      2.378       6
+rehearsal signs  keyword      6 / 6     5/6       6      0.000        
+rehearsal signs  hydrogen     6 / 6     0/6       6      9.530        
+radar news       decision     3 / 3     5/35      3      0.882        
+radar news       policy       3 / 3     6/35      3      1.015       8
+radar news       keyword      2 / 3    11/35      1      0.000        
+radar news       hydrogen     3 / 3     7/35      3      4.040        
+[gemini] gemini-4-hydrogen 9.83s  learn not-questions
+[gemini] gemini-decision-1 0.18s  learn guard example 1 (5 q)
+[gemini] gemini-decision-1 0.31s  learn guard example 0 (5 q)
+[gemini] gemini-decision-1 0.45s  learn guard example 2 (5 q)
+[gemini] gemini-4-hydrogen 12.13s  learn not-questions
+[gemini] gemini-decision-1 0.20s  learn guard example 1 (6 q)
+[gemini] gemini-decision-1 0.20s  learn guard example 2 (6 q)
+[gemini] gemini-decision-1 0.31s  learn guard example 0 (6 q)
+[gemini] gemini-4-hydrogen 10.35s  learn not-questions
+[gemini] gemini-decision-1 0.21s  learn guard example 1 (6 q)
+[gemini] gemini-4-hydrogen 8.73s  learn not-questions
+[gemini] gemini-decision-1 0.65s  learn guard example 0 (6 q)
+[gemini] gemini-decision-1 0.20s  learn guard example 1 (6 q)
+[gemini] gemini-decision-1 0.83s  learn guard example 2 (6 q)
+[gemini] gemini-decision-1 0.43s  learn guard example 0 (6 q)
+[gemini] gemini-decision-1 0.50s  learn guard example 2 (6 q)
+[gemini] gemini-4-hydrogen 7.60s  learn not-questions
+[gemini] gemini-decision-1 0.30s  learn guard example 0 (5 q)
+[gemini] gemini-decision-1 0.63s  learn guard example 1 (5 q)
+[gemini] gemini-decision-1 0.67s  learn guard example 2 (5 q)
+[gemini] gemini-4-hydrogen 10.72s  learn not-questions
+[gemini] gemini-decision-1 0.98s  learn guard example 1 (5 q)
+[gemini] gemini-decision-1 0.99s  learn guard example 0 (5 q)
+[gemini] gemini-decision-1 1.37s  learn guard example 2 (5 q)
+[gemini] gemini-4-hydrogen 11.52s  learn not-questions
+[gemini] gemini-decision-1 0.38s  learn guard example 0 (5 q)
+[gemini] gemini-decision-1 0.38s  learn guard example 2 (5 q)
+[gemini] gemini-decision-1 0.64s  learn guard example 1 (5 q)
+[gemini] gemini-4-hydrogen 10.32s  learn not-questions
+[gemini] gemini-decision-1 0.21s  learn guard example 0 (5 q)
+[gemini] gemini-decision-1 0.37s  learn guard example 2 (5 q)
+[gemini] gemini-decision-1 0.37s  learn guard example 1 (5 q)
+[gemini] gemini-4-hydrogen 7.81s  learn not-questions
+[gemini] gemini-decision-1 0.38s  learn guard example 0 (6 q)
+[gemini] gemini-decision-1 0.41s  learn guard example 1 (6 q)
+[gemini] gemini-decision-1 0.66s  learn guard example 2 (6 q)
+[decision_learned] 27 new calls (0 cached)
+[gemini] gemini-decision-1 0.62s  abroad match flight_out_6 image (327 q)
+[gemini] gemini-decision-1 1.12s  abroad match flight_home_5 audio (327 q)
+[gemini] gemini-decision-1 1.22s  abroad match flight_out_4 audio (327 q)
+[gemini] gemini-decision-1 0.97s  abroad match hotel_ams_5 audio (327 q)
+[gemini] gemini-decision-1 0.85s  abroad match hotel_paris_6 image (327 q)
+[gemini] gemini-decision-1 1.08s  abroad match hotel_paris_4 audio (327 q)
+[gemini] gemini-decision-1 0.92s  abroad match museum_louvre_5 audio (327 q)
+[gemini] gemini-decision-1 1.24s  abroad match train_ams_4 audio (327 q)
+[gemini] gemini-decision-1 1.49s  abroad match train_ams_6 image (327 q)
+[gemini] gemini-decision-1 2.11s  abroad match flight_home_1 audio (327 q)
+[gemini] gemini-decision-1 3.41s  abroad match flight_home_2 audio (327 q)
+[gemini] gemini-decision-1 3.20s  abroad match flight_home_3 image (327 q)
+[gemini] gemini-decision-1 2.89s  abroad match flight_out_1 audio (327 q)
+[gemini] gemini-decision-1 1.79s  abroad match flight_out_2 audio (327 q)
+[gemini] gemini-decision-1 1.19s  abroad match hotel_ams_1 audio (327 q)
+[gemini] gemini-decision-1 2.51s  abroad match flight_out_3 image (327 q)
+[gemini] gemini-decision-1 3.05s  abroad match hotel_ams_3 image (327 q)
+[gemini] gemini-decision-1 2.34s  abroad match hotel_paris_2 audio (327 q)
+[gemini] gemini-decision-1 5.11s  abroad match hotel_paris_1 audio (327 q)
+[gemini] gemini-decision-1 2.25s  abroad match hotel_paris_3 image (327 q)
+[gemini] gemini-decision-1 8.50s  abroad match hotel_ams_2 audio (327 q)
+[gemini] gemini-decision-1 3.17s  abroad match museum_louvre_1 audio (327 q)
+[gemini] gemini-decision-1 1.43s  abroad match museum_louvre_2 audio (327 q)
+[gemini] gemini-decision-1 1.00s  abroad match museum_louvre_3 image (327 q)
+[gemini] gemini-decision-1 3.92s  abroad match train_ams_2 audio (327 q)
+[gemini] gemini-decision-1 4.75s  abroad match train_ams_3 image (327 q)
+[gemini] gemini-decision-1 7.75s  abroad match train_ams_1 audio (327 q)
+
+Learning, held out: dismissed 9 half-1 near misses once each, 41 not-questions kept
+  half 2 near misses (9): false alerts 0 -> 0, Carbon band 8 -> 1
+  relevant rehearsal items alerting at 0.8: 17 -> 6; fell below 0.8: [{'id': 'flight_home_1', 'before': 0.9232, 'after': 0.7651}, {'id': 'flight_home_2', 'before': 0.8383, 'after': 0.4524}, {'id': 'flight_home_3', 'before': 0.9181, 'after': 0.5374}, {'id': 'flight_out_1', 'before': 0.9118, 'after': 0.7509}, {'id': 'hotel_ams_1', 'before': 0.8788, 'after': 0.6848}, {'id': 'hotel_ams_2', 'before': 0.9218, 'after': 0.3813}, {'id': 'hotel_paris_1', 'before': 0.9393, 'after': 0.7544}, {'id': 'hotel_paris_2', 'before': 0.8451, 'after': 0.7589}, {'id': 'museum_louvre_2', 'before': 0.861, 'after': 0.72}, {'id': 'museum_louvre_3', 'before': 0.9308, 'after': 0.6952}, {'id': 'train_ams_3', 'before': 0.9421, 'after': 0.7228}]
+
+Decision 1 median latency over 74 calls: 0.95 s (audio 1.05, signs 0.83, news 0.88)
+
+Wrong calls (54 item-method pairs) for Decision and policy:
+  decision flight_out_3       truth=['flight_out'] alert=False booking=flight_out rel=0.703 The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 fo
+  decision hotel_paris_2      truth=['hotel_paris'] alert=True booking=train_ams rel=0.845 
+  policy   hotel_paris_2      truth=['hotel_paris'] alert=True booking=train_ams rel=0.845 
+  decision train_ams_5        truth=- alert=True booking=train_ams rel=0.813 
+  policy   train_ams_5        truth=- alert=True booking=train_ams rel=0.813 
+  policy   train_ams_6        truth=- alert=True booking=train_ams rel=0.696 Wait
+  decision flight_home_4      truth=- alert=True booking=flight_home rel=0.800 
+  policy   flight_home_4      truth=- alert=True booking=flight_home rel=0.800 
+  decision news_6830b4317a    truth=- alert=True booking=train_ams rel=0.814 
+  policy   news_6830b4317a    truth=- alert=True booking=train_ams rel=0.814 
+  decision news_ef953149ed    truth=- alert=True booking=hotel_ams rel=0.909 
+  policy   news_ef953149ed    truth=- alert=True booking=hotel_ams rel=0.909 
+  decision news_d35f8cee02    truth=- alert=True booking=hotel_ams rel=0.821 
+  policy   news_d35f8cee02    truth=- alert=True booking=hotel_ams rel=0.821 
+  decision news_493f1ea497    truth=- alert=True booking=hotel_paris rel=0.856 
+  policy   news_493f1ea497    truth=- alert=True booking=hotel_paris rel=0.856 
+  decision news_ccf74ed096    truth=- alert=True booking=museum_louvre rel=0.930 
+  policy   news_ccf74ed096    truth=- alert=True booking=museum_louvre rel=0.930 
+  policy   news_8fc3132920    truth=- alert=True booking=flight_home rel=0.765 KLM announced winter flight cancellations starting October 26 through early March 2027 to 
+
+Saved eval/results/abroad_summary.json, abroad_rows.json, abroad_learning.json, chart abroad_summary.png (189 s)

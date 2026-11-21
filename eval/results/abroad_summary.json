@@ -1,0 +1,779 @@
+{
+ "per_source": {
+  "rehearsal audio": {
+   "items": 24,
+   "relevant": 12,
+   "decision": {
+    "caught": 12,
+    "false_alerts": 2,
+    "right_booking": 11,
+    "median_latency_s": 1.05
+   },
+   "policy": {
+    "caught": 12,
+    "false_alerts": 2,
+    "right_booking": 11,
+    "median_latency_s": 1.404,
+    "sent_to_carbon": 10
+   },
+   "keyword": {
+    "caught": 12,
+    "false_alerts": 10,
+    "right_booking": 12,
+    "median_latency_s": 0.0
+   },
+   "hydrogen": {
+    "caught": 12,
+    "false_alerts": 0,
+    "right_booking": 12,
+    "median_latency_s": 8.409
+   }
+  },
+  "rehearsal signs": {
+   "items": 12,
+   "relevant": 6,
+   "decision": {
+    "caught": 5,
+    "false_alerts": 0,
+    "right_booking": 5,
+    "median_latency_s": 0.829
+   },
+   "policy": {
+    "caught": 6,
+    "false_alerts": 1,
+    "right_booking": 6,
+    "median_latency_s": 2.378,
+    "sent_to_carbon": 6
+   },
+   "keyword": {
+    "caught": 6,
+    "false_alerts": 5,
+    "right_booking": 6,
+    "median_latency_s": 0.0
+   },
+   "hydrogen": {
+    "caught": 6,
+    "false_alerts": 0,
+    "right_booking": 6,
+    "median_latency_s": 9.53
+   }
+  },
+  "radar news": {
+   "items": 38,
+   "relevant": 3,
+   "decision": {
+    "caught": 3,
+    "false_alerts": 5,
+    "right_booking": 3,
+    "median_latency_s": 0.882
+   },
+   "policy": {
+    "caught": 3,
+    "false_alerts": 6,
+    "right_booking": 3,
+    "median_latency_s": 1.015,
+    "sent_to_carbon": 8
+   },
+   "keyword": {
+    "caught": 2,
+    "false_alerts": 11,
+    "right_booking": 1,
+    "median_latency_s": 0.0
+   },
+   "hydrogen": {
+    "caught": 3,
+    "false_alerts": 7,
+    "right_booking": 3,
+    "median_latency_s": 4.04
+   }
+  }
+ },
+ "learning": {
+  "half1": [
+   "flight_home_4",
+   "flight_home_6",
+   "flight_out_5",
+   "hotel_ams_4",
+   "hotel_ams_6",
+   "hotel_paris_5",
+   "museum_louvre_4",
+   "museum_louvre_6",
+   "train_ams_5"
+  ],
+  "half2": [
+   "flight_home_5",
+   "flight_out_4",
+   "flight_out_6",
+   "hotel_ams_5",
+   "hotel_paris_4",
+   "hotel_paris_6",
+   "museum_louvre_5",
+   "train_ams_4",
+   "train_ams_6"
+  ],
+  "dismissed": [
+   {
+    "id": "flight_home_4",
+    "booking_id": "flight_home",
+    "relevance": 0.8002
+   },
+   {
+    "id": "flight_home_6",
+    "booking_id": "flight_home",
+    "relevance": 0.5661
+   },
+   {
+    "id": "flight_out_5",
+    "booking_id": "flight_out",
+    "relevance": 0.6953
+   },
+   {
+    "id": "hotel_ams_4",
+    "booking_id": "hotel_ams",
+    "relevance": 0.7275
+   },
+   {
+    "id": "hotel_ams_6",
+    "booking_id": "hotel_ams",
+    "relevance": 0.6718
+   },
+   {
+    "id": "hotel_paris_5",
+    "booking_id": "hotel_paris",
+    "relevance": 0.7249
+   },
+   {
+    "id": "museum_louvre_4",
+    "booking_id": "museum_louvre",
+    "relevance": 0.7042
+   },
+   {
+    "id": "museum_louvre_6",
+    "booking_id": "museum_louvre",
+    "relevance": 0.6774
+   },
+   {
+    "id": "train_ams_5",
+    "booking_id": "train_ams",
+    "relevance": 0.8129
+   }
+  ],
+  "n_learned": 41,
+  "half2_false_alerts_before": 0,
+  "half2_false_alerts_after": 0,
+  "half2_band_before": 8,
+  "half2_band_after": 1,
+  "relevant_alerting_before": 17,
+  "relevant_alerting_after": 6,
+  "relevant_fell_below_0.8": [
+   {
+    "id": "flight_home_1",
+    "before": 0.9232,
+    "after": 0.7651
+   },
+   {
+    "id": "flight_home_2",
+    "before": 0.8383,
+    "after": 0.4524
+   },
+   {
+    "id": "flight_home_3",
+    "before": 0.9181,
+    "after": 0.5374
+   },
+   {
+    "id": "flight_out_1",
+    "before": 0.9118,
+    "after": 0.7509
+   },
+   {
+    "id": "hotel_ams_1",
+    "before": 0.8788,
+    "after": 0.6848
+   },
+   {
+    "id": "hotel_ams_2",
+    "before": 0.9218,
+    "after": 0.3813
+   },
+   {
+    "id": "hotel_paris_1",
+    "before": 0.9393,
+    "after": 0.7544
+   },
+   {
+    "id": "hotel_paris_2",
+    "before": 0.8451,
+    "after": 0.7589
+   },
+   {
+    "id": "museum_louvre_2",
+    "before": 0.861,
+    "after": 0.72
+   },
+   {
+    "id": "museum_louvre_3",
+    "before": 0.9308,
+    "after": 0.6952
+   },
+   {
+    "id": "train_ams_3",
+    "before": 0.9421,
+    "after": 0.7228
+   }
+  ]
+ },
+ "decision_median_latency_s": 0.954,
+ "wrong_calls": [
+  {
+   "id": "flight_out_3",
+   "source": "rehearsal signs",
+   "method": "decision",
+   "truth": [
+    "flight_out"
+   ],
+   "alert": false,
+   "booking_id": "flight_out",
+   "relevance": 0.7034,
+   "carbon_reason": "The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E."
+  },
+  {
+   "id": "flight_out_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_out",
+   "relevance": 0.6851,
+   "carbon_reason": "The announcement refers to Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on flight AF 23 arriving at Terminal 2E."
+  },
+  {
+   "id": "flight_out_5",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_out",
+   "relevance": 0.6953,
+   "carbon_reason": "The baggage delay applies to flight AF 15, while the traveller's flight AF 23 is explicitly stated to be unaffected."
+  },
+  {
+   "id": "flight_out_6",
+   "source": "rehearsal signs",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_out",
+   "relevance": 0.2272,
+   "carbon_reason": null
+  },
+  {
+   "id": "hotel_paris_2",
+   "source": "rehearsal audio",
+   "method": "decision",
+   "truth": [
+    "hotel_paris"
+   ],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8451,
+   "carbon_reason": null
+  },
+  {
+   "id": "hotel_paris_2",
+   "source": "rehearsal audio",
+   "method": "policy",
+   "truth": [
+    "hotel_paris"
+   ],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8451,
+   "carbon_reason": null
+  },
+  {
+   "id": "hotel_paris_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.721,
+   "carbon_reason": "The closure of Saint-Paul metro station takes place from December 1 to December 4, 2026, which is after the traveller's stay in Paris."
+  },
+  {
+   "id": "hotel_paris_5",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.7249,
+   "carbon_reason": "The closure affects Chatelet on Metro Line 4, while the lines and stations serving the traveller's Paris hotel and Louvre visit (Lines 1 and 8, including Saint-Paul) are operating normally."
+  },
+  {
+   "id": "hotel_paris_6",
+   "source": "rehearsal signs",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.6886,
+   "carbon_reason": "The closure affects Bréguet-Sabin station on Line 5, whereas the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) remain open with normal traffic."
+  },
+  {
+   "id": "museum_louvre_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.7042,
+   "carbon_reason": "The Louvre Pyramid entrance closure is on Friday, November 27, 2026, while the entrance remains open normally on the booked visit date of Thursday, November 26, 2026."
+  },
+  {
+   "id": "museum_louvre_5",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.6713,
+   "carbon_reason": "The Passage Richelieu entrance is closed, while the traveller's booked Pyramid entrance remains open as scheduled."
+  },
+  {
+   "id": "museum_louvre_6",
+   "source": "rehearsal signs",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.6774,
+   "carbon_reason": "The entrance closure applies to Musée d'Orsay, while the Pyramid entrance at Musée du Louvre is operating normally."
+  },
+  {
+   "id": "train_ams_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.7651,
+   "carbon_reason": "The announcement cancels Eurostar 9317 at 11:25, while the traveller's booked Eurostar 9315 at 09:25 is explicitly confirmed to be running normally."
+  },
+  {
+   "id": "train_ams_5",
+   "source": "rehearsal audio",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8129,
+   "carbon_reason": null
+  },
+  {
+   "id": "train_ams_5",
+   "source": "rehearsal audio",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8129,
+   "carbon_reason": null
+  },
+  {
+   "id": "train_ams_5",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8129,
+   "carbon_reason": null
+  },
+  {
+   "id": "train_ams_6",
+   "source": "rehearsal signs",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.6955,
+   "carbon_reason": "Wait"
+  },
+  {
+   "id": "train_ams_6",
+   "source": "rehearsal signs",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.6955,
+   "carbon_reason": "Wait"
+  },
+  {
+   "id": "hotel_ams_5",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.6935,
+   "carbon_reason": "The tram 13 and 17 diversion bypassing Westermarkt is from 1 to 3 December, while the Westermarkt stop remains normally open through 30 November, covering the entire Amsterdam hotel stay."
+  },
+  {
+   "id": "flight_home_4",
+   "source": "rehearsal audio",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.8002,
+   "carbon_reason": null
+  },
+  {
+   "id": "flight_home_4",
+   "source": "rehearsal audio",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.8002,
+   "carbon_reason": null
+  },
+  {
+   "id": "flight_home_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.8002,
+   "carbon_reason": null
+  },
+  {
+   "id": "flight_home_6",
+   "source": "rehearsal signs",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.5661,
+   "carbon_reason": "Trains from Amsterdam Centraal to Schiphol Airport on November 30 are running on time (normal service), and the disruption only affects trains towards Haarlem."
+  },
+  {
+   "id": "news_9c60d1cca4",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.6841,
+   "carbon_reason": "The input is just a generic webpage title for Eurostar travel news and does not contain any specific disruption details affecting the booked train."
+  },
+  {
+   "id": "news_6830b4317a",
+   "source": "radar news",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8143,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_6830b4317a",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8143,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_6830b4317a",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8143,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_52af25a133",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.6589,
+   "carbon_reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations."
+  },
+  {
+   "id": "news_52af25a133",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.6589,
+   "carbon_reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations."
+  },
+  {
+   "id": "news_ef953149ed",
+   "source": "radar news",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.9095,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ef953149ed",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.9095,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ef953149ed",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.9095,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ef953149ed",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.9095,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_d35f8cee02",
+   "source": "radar news",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.8211,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_d35f8cee02",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.8211,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_d35f8cee02",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_out",
+   "relevance": 0.8211,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_d35f8cee02",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_ams",
+   "relevance": 0.8211,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_493f1ea497",
+   "source": "radar news",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.8557,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_493f1ea497",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "hotel_paris",
+   "relevance": 0.8557,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_daa7b7bc75",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.0,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_dd4f900146",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.0,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_3d3f025c8a",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.0,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ccf74ed096",
+   "source": "radar news",
+   "method": "decision",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.93,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ccf74ed096",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.93,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ccf74ed096",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.93,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_ccf74ed096",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.93,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_07a144de07",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.4126,
+   "carbon_reason": "The advisory concerns general road traffic and construction inside JFK airport rather than a direct change to any flight's service, terminal, or gate."
+  },
+  {
+   "id": "news_86120c4c96",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_out",
+   "relevance": 0.0,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_37e5892ab0",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "museum_louvre",
+   "relevance": 0.0,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_d332901a93",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [
+    "train_ams"
+   ],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.9164,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_96b489dff2",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [
+    "train_ams"
+   ],
+   "alert": false,
+   "booking_id": null,
+   "relevance": 0.9014,
+   "carbon_reason": null
+  },
+  {
+   "id": "news_8fc3132920",
+   "source": "radar news",
+   "method": "policy",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.7647,
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+  },
+  {
+   "id": "news_8fc3132920",
+   "source": "radar news",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.7647,
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+  },
+  {
+   "id": "news_8fc3132920",
+   "source": "radar news",
+   "method": "hydrogen",
+   "truth": [],
+   "alert": true,
+   "booking_id": "flight_home",
+   "relevance": 0.7647,
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+  }
+ ]
+}
