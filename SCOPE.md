@@ -61,3 +61,17 @@ Because Decision 1 accepts audio, images and video in the same request shape, ad
 4. Carbon conflict demo, falling back to the higher-confidence source.
 
 Never cut: the fingerprint engine, silence receipts, the audio and image evals.
+
+## Decisions from grilling (2:18 PM)
+| Topic | Decision |
+|---|---|
+| Demo platform | Laptop web page at localhost (FastAPI backend, one HTML page). Photos come from a phone by AirDrop or file upload. |
+| Trip types | NYC subway only. |
+| Languages | Announcements in English and Spanish. The alert language is a dropdown, demoed in Hindi or Mandarin. |
+| Test data | Mostly synthetic: announcements voiced with Gemini TTS, posters and boards drawn with Nano Banana. Labels are exact by construction. A few real Wikimedia Commons clips and photos are added, and the README says which items are real. |
+| Eval size | 24 audio clips, 18 images, 4 videos, each labeled for 3 test trips. |
+| Test trips | T1: Q train, Times Sq-42 St to 72 St. T2: F train, Jay St-MetroTech to 57 St. T3: 7 train, Grand Central-42 St to Flushing-Main St. |
+| Extra models | TTS `gemini-3.8-flash-tts`. Annotated photo `gemini-nano-banana-2.1`. |
+| Cuts | Nothing cut up front. The cut list above applies when a milestone slips. |
+
+`PLAN.md` holds the milestones.
