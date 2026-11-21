@@ -84,7 +84,7 @@ footer{padding-block:32px 56px;color:var(--mute);font-size:14px;border-top:1px s
 
 <nav aria-label="Sections"><div class="wrap">
 <b>Overheard</b>
-<a href="#checklist">Checklist</a><a href="#pitch">Pitch</a><a href="#product">Product</a><a href="#how">How it works</a><a href="#models">Models</a><a href="#results">Results</a><a href="#future">Next</a><a href="#demo">Demo script</a><a href="#qa">Q&amp;A</a>
+<a href="#runsheet">Run sheet</a><a href="#pitch">Pitch</a><a href="#product">Product</a><a href="#how">How it works</a><a href="#models">Models</a><a href="#results">Results</a><a href="#future">Next</a><a href="#qa">Q&amp;A</a>
 </div></nav>
 
 <main class="wrap">
@@ -95,17 +95,41 @@ footer{padding-block:32px 56px;color:var(--mute);font-size:14px;border-top:1px s
   <p class="mono">github.com/Krut-in/overheard · video youtu.be/aYt0TgLVfYc</p>
 </header>
 
-<section id="checklist">
-  <div class="eyebrow">Before judges arrive · 5 minutes</div>
-  <h2>Have these open</h2>
+<section id="runsheet">
+  <div class="eyebrow">Live demo · rehearsed at 5:10 PM on the real engine</div>
+  <h2>Run sheet</h2>
+  <div class="grid wide" style="align-items:center">
+    <div>
+      <p><b>Phone URL:</b><br><code>https://manufactured-substances-elite-audit.trycloudflare.com/abroad</code></p>
+      <p class="fb">Served by the "DEMO server 8002" and "DEMO tunnel" terminal tabs. Laptop copy of the subway page: <code>http://localhost:8002/</code>.</p>
+    </div>
+    <figure style="max-width:200px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAAELUlEQVR4nO1c0W3jMAwl6QD9jIEO0FGUDW6koiN1A3uUDnCA/VnABg8kJTvNwVDqONeLzPdhRI0eErsP1CMpBRnWoaWVRABn5kDZGUtwZg6UnbEEZ+ZA2RlLcGYOlJ2xBGfmQNkZS3BmiU8IIw7y6gAAvbyqR8QTjAitvHfq06zTD3/bNaBVLIEzr3xCgQUdADcybGsAG77VFQMcmbmBSiclE+7PNgfaGbOf4svxE+3SqnwkDoUuzopR6se/7fdBKzgGZ+ZwuBhj+HgS5VQM4eMwQOhGQIBq+IvpzzYH2iuzfflEfO1GRKxl3B+Am+NnilJ3+cyrQddPvYAz7x+HjhJ8+jjgFuXy6zeyhCCNTahvbPKZ5MwSNdSqRKACCO9PjKF7jsoJ7/PcEbf5THJmgRriyz8fh3hp6wrYApSGqi0+k5xZ4BNCMTtaAVI/lGLOiBB4ADwdB+A3rQ3VcfJj3uca0CrWnphgNR/mFHjiRQtCIO8OVjOKpSFRk6J5rPskZ969Tl1XzI3kYPwhl07ikK1lAPiq9aEekZteM/8tPnMNaBVL4Mx7xyHQwGPxRcrRjQYjg1SKuhSRtHbtceg60M40ZJBuhsSc0KmQmM86IbqgNfPwse6TnHl3P9SpNoYoH7VHJpWjGqA4dD/0HdBOmHC+gk0mOlpsZtNVnKevYuPV41BpSqAtmHiaTLSk8GqxQXod6oes9RGkCeK5feFKWOeHgm37SP7Z9nnoqtbJ3y5Dlceh8pRAm+RljSZnaqdVTeaCYn3I/JAOXUMlKoFu90Ngdjrl8ZqSVZaXxVR/Kj66hkpUAt28lnGMLykb+3IRpKzN17JClUA391x7ccz988AA4wHCB0ofdpR3D8P5fpB62o32WPdJzrx/v4y/bpuOeTxYgJqrR9NsrzFmQfvrubIlYqk+ZCmZQvdTn1eKXEPlKYG269uHM2M9iJ2ec7WoJtdQkUqgTTQUzlqrc24vSBHJ+2XlKoG2qDFCTNynlkY6bnZeH7Llztey8pRAm/ihZq5ET/LhecdHKlu7hopUAt3et6+SNqbAc7EfROF+qFgl0I1MlLP1ulPRhicrUVfRSWsHf4L3XAtWwnomqykSqdi+V2nPJ4/0ibF5P+0fah72PteAVrH2V6fGOJqK0MfhwO3LAJjOSlsVe+6hPdp9kjPv3y8TmGue/VAVEzarGaU+rMHr1FnQTn/3A8UK4atJasTkh2RzGka39B982++DVnAMzvzu736wnGnltu4AZUHD0Miqpu3WUzwPi0GF5c82B9qphhRo3fpefqmhryEev+/UD00Hqx/rPsmZ/84PNVZjjJsZeTrXEfsf3i+7HrTT82VgpznUWNtBxUk56eLny4pUAq1mov/GeVH/T3JmBpSbsAhn5kDZGUtwZg6UnbEEZ+ZA2RlLcGYOj/WE/gAd/VxyEuENQwAAAABJRU5ErkJggg==" alt="QR code for the phone demo URL" style="image-rendering:pixelated;background:#fff"><figcaption>Scan with the phone camera.</figcaption></figure>
+  </div>
+  <h3>Before judges arrive (2 minutes)</h3>
   <ul class="check">
-    <li><span>Terminal 1, the server: <code>.venv/bin/uvicorn server:app --port 8000</code>. If Wi-Fi or the API is shaky, restart it as <code>OVERHEARD_FIXTURE=1 .venv/bin/uvicorn server:app --port 8000</code> (canned feed, no API calls; say so if you use it).</span></li>
-    <li><span>Terminal 2, the tunnel: <code>cloudflared tunnel --url http://localhost:8000</code>. Copy the printed <code>https://…trycloudflare.com</code> address.</span></li>
-    <li><span>Phone: open <code>&lt;tunnel&gt;/abroad</code>, set the language to Hindi, sound up. Tap "trip" once beforehand so the cached fingerprint loads fast, then reload.</span></li>
-    <li><span>Laptop tab 1: the subway page at <code>http://localhost:8000/</code>. Laptop tab 2: the Gare du Nord board image <code>data/abroad/rehearsal/train_ams_3.jpg</code>, full screen, for the photo step.</span></li>
-    <li><span>Laptop tab 3: the README on GitHub, scrolled to "Overheard abroad: results". Keep this page open on the side for the script and Q&amp;A.</span></li>
+    <li><span>Stop Gemini CLI in its "gemini video" tab (press Esc, then Ctrl-C). Its own recording taps "Not about me" and would leave learned questions behind.</span></li>
+    <li><span>AirDrop <code>data/abroad/rehearsal/train_ams_3.jpg</code> to the phone, so the board photo is in Photos as a backup.</span></li>
+    <li><span>Phone: scan the QR code, check the language says Hindi, sound up. The trip is already loaded and the feed is empty. Leave it like that.</span></li>
+    <li><span>Laptop: <code>train_ams_3.jpg</code> open full screen (the Gare du Nord board), the README results on GitHub in a second tab, the subway page in a third.</span></li>
   </ul>
+  <h3>The flow</h3>
+  <div class="tbl demo"><table>
+    <tr><th>Time</th><th>Screen and tap</th><th>What appears</th><th>Say</th><th>If it is slow</th></tr>
+    <tr><td>0:00</td><td>Phone held up, nothing tapped.</td><td>"All quiet" and the 6-booking timeline.</td><td class="say">The 20-second pitch, then: "I'm the friend who plays tour guide, and I still get anxious travelling alone. I watch older riders and people new to English miss announcements every day."</td><td class="fb">Nothing to fail.</td></tr>
+    <tr><td>0:40</td><td>Tap <b>trip</b>.</td><td>The same timeline, "286 questions", feed cleared. Instant (cached).</td><td class="say">"Six real-looking bookings from my inbox: a flight, two hotels, the Louvre, a Eurostar, a KLM flight home. Hydrogen turned them into 286 yes/no questions, each tagged with the booking it protects."</td><td class="fb"><b>Error or blank:</b> check the DEMO server tab is running, then reload the phone page.</td></tr>
+    <tr><td>1:00</td><td>Tap <b>rehearse</b>.</td><td>12 announcements in French, Dutch and English. First red cards in 10 to 15 s; all settled by about 40 s, roughly 8 for you and 4 let go.</td><td class="say">"These are the announcements I'm likely to hear on this trip, real hits mixed with near misses. Each one is a single gemini-decision-1 call that answers all 286 questions in under a second."</td><td class="fb">Keep talking through the 40 s. <b>Nothing after 30 s:</b> restart the server tab with <code>OVERHEARD_FIXTURE=1</code> in front (canned feed, same tunnel) and say so.</td></tr>
+    <tr><td>1:40</td><td>On the <b>Eurostar 9315</b> card that says cancelled ("supprimé"), tap <b>▶ Whisper</b>.</td><td>The Hindi whisper plays; the card quotes the French sentence.</td><td class="say">"My train is cancelled. It tells me in Hindi, and it shows the exact sentence it heard, so I can trust it."</td><td class="fb"><b>No sound:</b> tap once anywhere first (browsers need a tap), then Whisper again.</td></tr>
+    <tr><td>2:00</td><td>Scroll down to <b>Heard and let go</b>.</td><td>Silence receipts with scores, such as the AF 11 baggage notice at about 0.71 and the Saint-Paul closure in December.</td><td class="say">"These it heard and let go. AF 11's bags are late; I'm on AF 23. Carbon looked at the borderline ones and said not yours. Every silence leaves a receipt with its score."</td><td class="fb">If the list is short, point at the "let go" count at the top.</td></tr>
+    <tr><td>2:15</td><td>Scroll up to the <b>KL 641</b> card that reads "No change… gate E18". Tap <b>Not about me</b>.</td><td>About 9 s later: "Learned 2 questions for KL 641".</td><td class="say">"Here is a real mistake. That announcement was about KL 643's gate. Number-only near misses are my known weakness. Not about me makes Hydrogen write sharper questions for this booking, and it keeps them only if they stay quiet on true alerts. On a real MTA false alert, one tap took it from 0.79 to 0.01."</td><td class="fb"><b>Do not replay this clip.</b> In rehearsal it still alerted, because it also contains a real gate change. If a 9317 card fired too, use that one instead; it is the same kind of near miss.</td></tr>
+    <tr><td>2:35</td><td>Tap <b>photo</b> and shoot the board on the laptop screen.</td><td>Verdict in under 3 s; Hindi alert about 12 s; your photo with the 9315 line circled about 30 s.</td><td class="say">"Same engine, now a photo of a departure board. The verdict took under a second; the circled photo comes from Nano Banana and takes about 30 seconds. Every Gemini call is logged with its latency, so these numbers are measured."</td><td class="fb"><b>Camera fails:</b> choose the board from Photos (the AirDropped copy). Talk through the 30 s.</td></tr>
+    <tr><td>3:10</td><td>Tap <b>radar</b>.</td><td>38 real news items scored in about 33 s; around 9 turn red, including a real adjusted timetable for Eurostar 9315 on 28 November and GVB trams 13 and 17 skipping Westermarkt by the Amsterdam hotel.</td><td class="say">"Before I fly, it reads real French and Dutch news for my dates. This is today's news. It found a real timetable change on my exact Eurostar, and tram works by my hotel, and let almost everything else go."</td><td class="fb"><b>Slow:</b> switch to the README results tab and come back when it settles.</td></tr>
+    <tr><td>3:45</td><td>Optional: laptop, subway page.</td><td>The Q train trip, cached.</td><td class="say">"It started this afternoon as a New York subway tool. Same engine, one fingerprint, 0.8 seconds per input."</td><td class="fb">Skip if past 4:00. The live MTA button shows 0 Q alerts right now.</td></tr>
+    <tr><td>4:00</td><td>Laptop: README results.</td><td>The results table.</td><td class="say">The 30-second wrap below.</td><td class="fb">Read it from this page if the screen share drops.</td></tr>
+  </table></div>
+  <h3>30-second wrap</h3>
+  <div class="pitch"><p>"On 74 labelled items, Decision 1 alone caught 15 of 18 rehearsal changes at under a second each, and with Carbon on the borderline band it caught 18 of 18. On real news it caught all 3 true hits. The honest failure is the one you just saw: number-only near misses like KL 643 still fire. Next is a native app that listens in the background, Live API voice, and big-type modes for elderly riders. The code, the evals and every failure are public on GitHub."</p></div>
 </section>
+
 
 <section id="pitch">
   <div class="eyebrow">Level 1 · 20 seconds</div>
@@ -265,27 +289,12 @@ footer{padding-block:32px 56px;color:var(--mute);font-size:14px;border-top:1px s
   </ul>
 </section>
 
-<section id="demo">
-  <div class="eyebrow">Live · 3 to 5 minutes</div>
-  <h2>Demo script</h2>
-  <p>Phone in one hand, laptop beside you. Each row says what to tap, what to say, and what to do if it stalls.</p>
-  <div class="tbl demo"><table>
-    <tr><th>Time</th><th>Do</th><th>Say</th><th>If it stalls</th></tr>
-    <tr><td>0:00</td><td>Nothing on screen yet. Look at the judges.</td><td class="say">Read the 20-second pitch, then the origin story in one breath.</td><td class="fb">Nothing can fail here.</td></tr>
-    <tr><td>0:40</td><td>Phone, <code>/abroad</code>: tap <b>trip</b>. The timeline fills: AF 23, two hotels, the Louvre, Eurostar 9315, KL 641.</td><td class="say">"This is my trip to Paris and Amsterdam, six bookings. Neon read them from my inbox and Hydrogen turned them into one fingerprint of about 300 yes/no questions, each tagged with the booking it protects."</td><td class="fb"><b>Slow:</b> the fingerprint is cached after the warm-up tap. If the server is down, restart with <code>OVERHEARD_FIXTURE=1</code> and say it is the canned feed.</td></tr>
-    <tr><td>1:10</td><td>Tap <b>radar</b>. Receipts scroll in; a few cards turn red, such as GVB trams near the Amsterdam hotel.</td><td class="say">"Before I fly, it reads real French and Dutch news for my dates. Today it found 38 items. Almost everything stays silent with a receipt. The tram works by my Amsterdam hotel do not."</td><td class="fb"><b>Slow:</b> keep talking about receipts. If nothing arrives in 20 s, move on and show the results table later.</td></tr>
-    <tr><td>1:50</td><td>Tap <b>rehearse</b>. French and Dutch announcements play. "Eurostar 9317 cancelled" stays silent; "Eurostar 9315 supprimé" alerts. Tap <b>▶ Whisper</b>.</td><td class="say">"On the platform every announcement goes through one Decision call in about a second. The 9317 is not my train. The 9315 is, and it tells me in Hindi."</td><td class="fb"><b>Slow:</b> the alert text lands near 10 s and the whisper near 18 s. Fill the gap with the near-miss point: only the train number tells them apart.</td></tr>
-    <tr><td>2:40</td><td>Tap <b>photo</b> and shoot the Gare du Nord board on the laptop screen (<code>train_ams_3.jpg</code>).</td><td class="say">"Point the camera at the board and I get my own photo back with my train circled. That takes Nano Banana about 25 seconds, so meanwhile: the verdict itself took under a second."</td><td class="fb"><b>Camera trouble:</b> on the laptop, open <code>/abroad</code> and upload the same JPEG through the photo button.</td></tr>
-    <tr><td>3:20</td><td>On the KL 641 card that says nothing changed, tap <b>Not about me</b>.</td><td class="say">"Here is a real mistake. KL 643 changed gate, and my flight is KL 641. When it gets one wrong I say not about me. It writes up to three sharper questions for that booking and keeps them only if they stay quiet on true alerts."</td><td class="fb"><b>No time to replay:</b> quote the eval. A real MTA false alert went from 0.79 to 0.01 after one dismissal; the true alert stayed at 0.92.</td></tr>
-    <tr><td>3:50</td><td>Laptop: the README results table.</td><td class="say">"18 of 18 rehearsal changes caught with Carbon on the borderline, 3 of 3 real news hits, and every failure is written up, including that one."</td><td class="fb">If the screen share fails, read the numbers from the Results section of this page.</td></tr>
-    <tr><td>4:20</td><td>Optional, if time: subway tab, press <b>Check live MTA alerts</b>.</td><td class="say">"It started on the NYC subway this afternoon. This is the live MTA feed scored against my trip right now."</td><td class="fb">Skip it if you are past 4:30.</td></tr>
-  </table></div>
-</section>
 
 <section id="qa">
   <div class="eyebrow">Judge questions</div>
   <h2>Likely questions, honest answers</h2>
   <div class="qa">
+    <div><h3>You tapped "Not about me". Why not replay the clip?</h3><p>Because in rehearsal it still alerted. That clip also contains a real gate change for KL 643, so the learned "routine status only" questions answered no. The measured win is on the eval: a real MTA false alert went from 0.79 to 0.01 after one dismissal, with the true alert still at 0.92. Making learning handle mixed announcements is open work.</p></div>
     <div><h3>Why not just use Google Translate?</h3><p>Translate turns every announcement into words, and you still have to read all of them and decide. Overheard makes the decision for your bookings and stays quiet the rest of the time. Translation is one step that runs after the decision.</p></div>
     <div><h3>Why not TripIt or the airline apps?</h3><p>They know your bookings and push alerts from operator feeds. They never hear the platform PA, read a paper sign on a pillar, or read Dutch local news about a tram diversion by your hotel. Overheard covers those streams with one engine.</p></div>
     <div><h3>Why Decision 1 instead of a chat model?</h3><p>One call answers about 300 yes/no questions with probabilities, at 0.56 to 0.93 s median against 4.1 to 6.7 s for asking Hydrogen. Probabilities let us route by threshold. To be fair, Hydrogen in text was more accurate on rehearsal data, which is why the borderline band goes to Carbon.</p></div>
