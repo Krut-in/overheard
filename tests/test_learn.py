@@ -60,16 +60,27 @@ def test_apply_not_scales_by_one_minus_not():
     assert learn.apply_not(0.8, 1) == 0
 
 
-def test_learn_tags_questions_with_the_dismissed_booking(monkeypatch):
+def stub(monkeypatch, questions, keep=("Flushing-bound 7 skips Queensboro Plaza.",), probs=None):
+    """Stub Hydrogen (candidates plus keep examples) and the Decision guard (probabilities per keep example)."""
     seen = {}
 
-    def fake(prompt):
+    def fake_hydrogen(prompt):
         seen["prompt"] = prompt
-        return [{"id": "Other Direction", "q": "Does it say only Manhattan-bound trains are affected?"},
-                {"id": "other_dir", "q": "dup id gets a suffix?"},
-                {"id": "wrong_stop", "q": "Are the skipped stops all east of Junction Blvd?"}]
+        return {"questions": questions, "keep_examples": list(keep)}
 
-    monkeypatch.setattr(learn, "_ask_hydrogen", fake)
+    def fake_check(qs, examples):
+        seen["examples"] = examples
+        return [{q["id"]: (probs or {}).get(q["q"], 0.0) for q in qs} for _ in examples]
+
+    monkeypatch.setattr(learn, "_ask_hydrogen", fake_hydrogen)
+    monkeypatch.setattr(learn, "_check", fake_check)
+    return seen
+
+
+def test_learn_tags_questions_with_the_dismissed_booking(monkeypatch):
+    seen = stub(monkeypatch, [{"id": "Other Direction", "q": "Only Manhattan-bound trains affected?"},
+                              {"id": "other direction", "q": "Same id after slugging?"},
+                              {"id": "wrong_stop", "q": "Are the skipped stops all east of Junction Blvd?"}])
     out = learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)
     assert [x["group"] for x in out] == ["not"] * 3
     assert {x["booking_id"] for x in out} == {"t3"}
@@ -80,8 +91,18 @@ def test_learn_tags_questions_with_the_dismissed_booking(monkeypatch):
     assert "Flushing-bound" in seen["prompt"]
 
 
+def test_learn_drops_questions_that_fire_on_a_true_alert(monkeypatch):
+    seen = stub(monkeypatch, [{"id": "a", "q": "good?"}, {"id": "b", "q": "fires on true alert?"},
+                              {"id": "c", "q": "also good?"}],
+                probs={"fires on true alert?": learn.GUARD_MAX + 0.01})
+    out = learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)
+    assert [x["q"] for x in out] == ["good?", "also good?"]
+    assert seen["examples"] == ["Flushing-bound 7 skips Queensboro Plaza."]
+    assert out[0]["guard_max"] == 0.0
+
+
 def test_learn_caps_at_five_questions(monkeypatch):
-    monkeypatch.setattr(learn, "_ask_hydrogen", lambda p: [{"id": f"q{i}", "q": f"q{i}?"} for i in range(9)])
+    stub(monkeypatch, [{"id": f"q{i}", "q": f"q{i}?"} for i in range(9)])
     assert len(learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)) == 5
 
 

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "not__T3__only_manhattan_bound",
+  "booking_id": "T3",
+  "group": "not",
+  "q": "Is the service disruption or skipped stops limited to Manhattan-bound trains?",
+  "guard_max": 0.01
+ },
+ {
+  "id": "not__T3__opposite_direction_only",
+  "booking_id": "T3",
+  "group": "not",
+  "q": "Does the disruption only affect trains going in the opposite direction of Flushing-bound?",
+  "guard_max": 0.01
+ },
+ {
+  "id": "not__T3__exclusively_manhattan_bound",
+  "booking_id": "T3",
+  "group": "not",
+  "q": "Is the disruption described in the alert exclusively for Manhattan-bound service?",
+  "guard_max": 0.012
+ },
+ {
+  "id": "not__T3__skipped_only_manhattan",
+  "booking_id": "T3",
+  "group": "not",
+  "q": "Are the skipped stations only skipped by trains heading toward Manhattan?",
+  "guard_max": 0.088
+ },
+ {
+  "id": "not__T3__problem_only_manhattan",
+  "booking_id": "T3",
+  "group": "not",
+  "q": "Does the alert only report a problem for 7 trains heading toward Manhattan?",
+  "guard_max": 0.015
+ }
+]
