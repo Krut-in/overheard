@@ -80,7 +80,8 @@ def combine(answers: dict, it: Itinerary, fp: Fingerprint, learned: list[TaggedQ
     rel = per[best] if best else 0.0
     route = "alert" if rel >= config.ALERT_AT else "carbon" if rel >= config.CONFLICT_AT else "silence"
     hits = sorted(((answers[q["id"]], q["q"], q["booking_id"]) for q in allq
-                   if q["id"] in answers and q["group"] != "not"), key=lambda h: -h[0])[:5]
+                   if q["id"] in answers and q["group"] != "not"),
+                  key=lambda h: (-h[0], h[2] != best))[:5]   # ties at 0.99: the winning booking's hits first
     return {"input_id": inp["id"], "relevance": rel, "booking_id": best if rel > 0 else None, "per_booking": per,
             "change_type": answers.get("change_type", "other"),
             "top_hits": [{"p": round(p, 3), "q": q, "booking_id": bid} for p, q, bid in hits],

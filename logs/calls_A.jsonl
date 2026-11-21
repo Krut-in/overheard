@@ -1,0 +1,14 @@
+{"t": "15:36:39", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint museum_louvre", "latency_s": 17.239}
+{"t": "15:36:40", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint hotel_paris", "latency_s": 17.957}
+{"t": "15:36:41", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint flight_out", "latency_s": 18.679}
+{"t": "15:36:54", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint hotel_ams", "latency_s": 13.48}
+{"t": "15:36:54", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint flight_home", "latency_s": 12.946}
+{"t": "15:36:58", "model": "gemini-4-hydrogen", "summary": "abroad fingerprint train_ams", "latency_s": 19.09}
+{"t": "15:37:09", "model": "gemini-decision-1", "summary": "abroad match cli text (286 q)", "latency_s": 1.539}
+{"t": "15:37:09", "model": "gemini-decision-1", "summary": "abroad match cli text (286 q)", "latency_s": 1.566}
+{"t": "15:37:30", "model": "gemini-decision-1", "summary": "abroad match t0 text (286 q)", "latency_s": 1.392}
+{"t": "15:37:31", "model": "gemini-decision-1", "summary": "abroad match t1 text (286 q)", "latency_s": 0.702}
+{"t": "15:37:32", "model": "gemini-decision-1", "summary": "abroad match t2 text (286 q)", "latency_s": 0.829}
+{"t": "15:37:33", "model": "gemini-decision-1", "summary": "abroad match t3 text (286 q)", "latency_s": 0.918}
+{"t": "15:37:33", "model": "gemini-decision-1", "summary": "abroad match t4 text (286 q)", "latency_s": 0.77}
+{"t": "15:37:34", "model": "gemini-decision-1", "summary": "abroad match t5 text (286 q)", "latency_s": 0.956}
