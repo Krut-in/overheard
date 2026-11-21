@@ -1,0 +1,12 @@
+{"t": "15:36:52", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Air France: Your e-ticket receipt ", "latency_s": 6.166}
+{"t": "15:36:52", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Marais: Reservation C", "latency_s": 6.638}
+{"t": "15:36:52", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR", "latency_s": 6.685}
+{"t": "15:36:53", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - KLM Booking Confirmation KL 641 Am", "latency_s": 7.455}
+{"t": "15:36:54", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Canal: Booking Confir", "latency_s": 8.323}
+{"t": "15:36:54", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Eurostar Booking Confirmation EUSM", "latency_s": 8.429}
+{"t": "15:37:56", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Canal: Booking Confir", "latency_s": 4.957}
+{"t": "15:37:58", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Marais: Reservation C", "latency_s": 6.332}
+{"t": "15:37:58", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR", "latency_s": 6.894}
+{"t": "15:37:58", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Eurostar Booking Confirmation EUSM", "latency_s": 6.904}
+{"t": "15:38:00", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - KLM Booking Confirmation KL 641 Am", "latency_s": 8.195}
+{"t": "15:38:09", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Air France: Your e-ticket receipt ", "latency_s": 17.223}

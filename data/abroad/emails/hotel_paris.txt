@@ -1,0 +1,26 @@
+Subject: SAMPLE BOOKING - Hotel Sample Marais: Reservation Confirmation HSM-55120
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+HOTEL SAMPLE MARAIS
+Paris, France
+Reservation Confirmation / Confirmation de reservation
+
+Booking Reference: HSM-55120
+Guest Name / Nom du client: Sample Traveller
+City: Paris
+
+STAY DETAILS / DETAILS DU SEJOUR
+--------------------------------------------------
+Property: Hotel Sample Marais
+Address: 12 Rue de Turenne, 75004 Paris (Metro Saint-Paul, line 1)
+Check-in / Arrivee: Wednesday, 25 November 2026 from 15:00 local time (CET)
+Check-out / Depart: Saturday, 28 November 2026 until 11:00 local time (CET)
+Duration: 3 nights
+Room: Standard Double Room (Non-smoking)
+
+GETTING HERE / ACCES
+--------------------------------------------------
+Nearest Metro: Saint-Paul (line 1) and Chemin Vert (line 8).
+
+Nous sommes ravis de vous accueillir prochainement a Paris. Votre chambre sera prete a partir de 15h00 le mercredi 25 novembre 2026.

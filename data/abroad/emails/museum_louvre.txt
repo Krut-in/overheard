@@ -1,0 +1,24 @@
+Subject: SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR-889301 (Thu 26 Nov 10:30)
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+MUSEE DU LOUVRE
+Billet horodate / Timed-Entry E-Ticket
+
+Booking Reference / Reference de commande: LVR-889301
+Visitor / Visiteur: Sample Traveller
+City: Paris
+
+VISIT DETAILS / DETAILS DE LA VISITE
+--------------------------------------------------
+Operator: Musee du Louvre
+Date: Thursday, 26 November 2026
+Entry Time / Heure d'acces: 10:30 local time (CET)
+Valid Until / Fin de creneau conseille: Thursday, 26 November 2026 at 13:30 local time (CET)
+Location / Lieu d'entree: Pyramid entrance, Musee du Louvre (Metro Palais-Royal Musee du Louvre, lines 1 and 7)
+
+TICKET SUMMARY
+--------------------------------------------------
+Two adults. Entry by the Pyramid.
+
+Veuillez presenter ce billet a l'entree de la Pyramide dans la demi-heure suivant l'horaire indique. Bonne visite au Musee du Louvre !

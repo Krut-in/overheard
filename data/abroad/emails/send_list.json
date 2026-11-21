@@ -1,0 +1,38 @@
+[
+ {
+  "booking_id": "flight_out",
+  "to": "",
+  "subject": "SAMPLE BOOKING - Air France: Your e-ticket receipt AF 23 (Ref: SMPL7Q)",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nAIR FRANCE\nElectronic Ticket Receipt / Recu de billet electronique\n\nBooking Reference / Reference de dossier (PNR): SMPL7Q\nPassenger / Passager: Sample Traveller\nDestination City: Paris\n\nFLIGHT DETAILS / DETAILS DU VOL\n--------------------------------------------------\nFlight: Air France AF 23\nDeparture / Depart: Tuesday, 24 November 2026 at 19:30 local time (EST)\nFrom: New York JFK Terminal 1\nArrival / Arrivee: Wednesday, 25 November 2026 at 08:45 local time (CET)\nTo: Paris Charles de Gaulle Terminal 2E\n\nSEAT & CABIN INFORMATION\n--------------------------------------------------\nSeat 32K. Arrives Terminal 2E.\n\nBonjour Sample Traveller,\nMerci de voyager avec Air France. L'enregistrement en ligne ouvre 30 heures avant le depart. Veuillez vous presenter a l'aeroport muni de votre passeport et de cette confirmation.\n\nBon voyage !\n"
+ },
+ {
+  "booking_id": "hotel_paris",
+  "to": "",
+  "subject": "SAMPLE BOOKING - Hotel Sample Marais: Reservation Confirmation HSM-55120",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nHOTEL SAMPLE MARAIS\nParis, France\nReservation Confirmation / Confirmation de reservation\n\nBooking Reference: HSM-55120\nGuest Name / Nom du client: Sample Traveller\nCity: Paris\n\nSTAY DETAILS / DETAILS DU SEJOUR\n--------------------------------------------------\nProperty: Hotel Sample Marais\nAddress: 12 Rue de Turenne, 75004 Paris (Metro Saint-Paul, line 1)\nCheck-in / Arrivee: Wednesday, 25 November 2026 from 15:00 local time (CET)\nCheck-out / Depart: Saturday, 28 November 2026 until 11:00 local time (CET)\nDuration: 3 nights\nRoom: Standard Double Room (Non-smoking)\n\nGETTING HERE / ACCES\n--------------------------------------------------\nNearest Metro: Saint-Paul (line 1) and Chemin Vert (line 8).\n\nNous sommes ravis de vous accueillir prochainement a Paris. Votre chambre sera prete a partir de 15h00 le mercredi 25 novembre 2026.\n"
+ },
+ {
+  "booking_id": "museum_louvre",
+  "to": "",
+  "subject": "SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR-889301 (Thu 26 Nov 10:30)",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nMUSEE DU LOUVRE\nBillet horodate / Timed-Entry E-Ticket\n\nBooking Reference / Reference de commande: LVR-889301\nVisitor / Visiteur: Sample Traveller\nCity: Paris\n\nVISIT DETAILS / DETAILS DE LA VISITE\n--------------------------------------------------\nOperator: Musee du Louvre\nDate: Thursday, 26 November 2026\nEntry Time / Heure d'acces: 10:30 local time (CET)\nValid Until / Fin de creneau conseille: Thursday, 26 November 2026 at 13:30 local time (CET)\nLocation / Lieu d'entree: Pyramid entrance, Musee du Louvre (Metro Palais-Royal Musee du Louvre, lines 1 and 7)\n\nTICKET SUMMARY\n--------------------------------------------------\nTwo adults. Entry by the Pyramid.\n\nVeuillez presenter ce billet a l'entree de la Pyramide dans la demi-heure suivant l'horaire indique. Bonne visite au Musee du Louvre !\n"
+ },
+ {
+  "booking_id": "train_ams",
+  "to": "",
+  "subject": "SAMPLE BOOKING - Eurostar Booking Confirmation EUSMPL4: Paris to Amsterdam (Train 9315)",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nEUROSTAR\nBooking Confirmation / Confirmation de reservation / Boekingsbevestiging\n\nBooking Reference: EUSMPL4\nPassenger / Passager / Reiziger: Sample Traveller\nDestination City: Amsterdam\n\nYOUR JOURNEY / VOTRE VOYAGE / UW REIS\n--------------------------------------------------\nOperator: Eurostar\nTrain Number: 9315\nDeparture: Saturday, 28 November 2026 at 09:25 local time (CET)\nFrom: Paris Gare du Nord\nArrival: Saturday, 28 November 2026 at 12:43 local time (CET)\nTo: Amsterdam Centraal\n\nSEAT & ROUTE DETAILS\n--------------------------------------------------\nCoach 14, seat 61. Calls at Brussels-Midi, Antwerpen-Centraal, Rotterdam Centraal, Schiphol.\n\nMerci d'arriver en gare au moins 20 minutes avant le depart. Le controle des billets ferme quelques minutes avant l'heure du train.\nWelkom aan boord bij Eurostar. Wij wensen u een prettige reis naar Amsterdam Centraal.\n"
+ },
+ {
+  "booking_id": "hotel_ams",
+  "to": "",
+  "subject": "SAMPLE BOOKING - Hotel Sample Canal: Booking Confirmation HSC-20981 (Amsterdam)",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nHOTEL SAMPLE CANAL\nAmsterdam, Netherlands\nReserveringsbevestiging / Reservation Confirmation\n\nBooking Reference: HSC-20981\nGuest Name / Gastnaam: Sample Traveller\nCity: Amsterdam\n\nSTAY DETAILS / VERBLIJFSGEGEVENS\n--------------------------------------------------\nHotel: Hotel Sample Canal\nAddress: Prinsengracht 300, Amsterdam (tram 13 and 17, stop Westermarkt)\nCheck-in / Inchecken: Saturday, 28 November 2026 from 15:00 local time (CET)\nCheck-out / Uitchecken: Monday, 30 November 2026 until 11:00 local time (CET)\nDuration: 2 nights\nRoom: Canal View Queen Room\n\nDIRECTIONS / BEREIKBAARHEID\n--------------------------------------------------\nNearest tram stop: Westermarkt (lines 13 and 17).\n\nHartelijk welkom bij Hotel Sample Canal. Wij kijken ernaar uit u te verwelkomen in het centrum van Amsterdam.\n"
+ },
+ {
+  "booking_id": "flight_home",
+  "to": "",
+  "subject": "SAMPLE BOOKING - KLM Booking Confirmation KL 641 Amsterdam to New York (Ref: SMPL9X)",
+  "body": "SAMPLE BOOKING - demo data, not a real reservation.\n\nKLM ROYAL DUTCH AIRLINES\nBoekingsbevestiging / Booking Confirmation & E-Ticket\n\nBooking Code / Boekingscode: SMPL9X\nPassenger / Passagier: Sample Traveller\nDeparture City: Amsterdam\n\nFLIGHT ITINERARY / VLUCHTSCHEMA\n--------------------------------------------------\nAirline: KLM\nFlight Number: KL 641\nDeparture / Vertrek: Monday, 30 November 2026 at 10:20 local time (CET)\nFrom: Amsterdam Schiphol\nArrival / Aankomst: Monday, 30 November 2026 at 12:55 local time (EST)\nTo: New York JFK Terminal 4\n\nSEAT & TRAVEL NOTES\n--------------------------------------------------\nSeat 28A. Train from Amsterdam Centraal to Schiphol planned.\n\nBeste Sample Traveller,\nBedankt voor het boeken bij KLM. U kunt vanaf 30 uur voor vertrek online inchecken. Wij wensen u een aangename vlucht naar New York.\n"
+ }
+]

@@ -1,0 +1,26 @@
+Subject: SAMPLE BOOKING - Eurostar Booking Confirmation EUSMPL4: Paris to Amsterdam (Train 9315)
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+EUROSTAR
+Booking Confirmation / Confirmation de reservation / Boekingsbevestiging
+
+Booking Reference: EUSMPL4
+Passenger / Passager / Reiziger: Sample Traveller
+Destination City: Amsterdam
+
+YOUR JOURNEY / VOTRE VOYAGE / UW REIS
+--------------------------------------------------
+Operator: Eurostar
+Train Number: 9315
+Departure: Saturday, 28 November 2026 at 09:25 local time (CET)
+From: Paris Gare du Nord
+Arrival: Saturday, 28 November 2026 at 12:43 local time (CET)
+To: Amsterdam Centraal
+
+SEAT & ROUTE DETAILS
+--------------------------------------------------
+Coach 14, seat 61. Calls at Brussels-Midi, Antwerpen-Centraal, Rotterdam Centraal, Schiphol.
+
+Merci d'arriver en gare au moins 20 minutes avant le depart. Le controle des billets ferme quelques minutes avant l'heure du train.
+Welkom aan boord bij Eurostar. Wij wensen u een prettige reis naar Amsterdam Centraal.

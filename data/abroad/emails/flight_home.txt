@@ -1,0 +1,26 @@
+Subject: SAMPLE BOOKING - KLM Booking Confirmation KL 641 Amsterdam to New York (Ref: SMPL9X)
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+KLM ROYAL DUTCH AIRLINES
+Boekingsbevestiging / Booking Confirmation & E-Ticket
+
+Booking Code / Boekingscode: SMPL9X
+Passenger / Passagier: Sample Traveller
+Departure City: Amsterdam
+
+FLIGHT ITINERARY / VLUCHTSCHEMA
+--------------------------------------------------
+Airline: KLM
+Flight Number: KL 641
+Departure / Vertrek: Monday, 30 November 2026 at 10:20 local time (CET)
+From: Amsterdam Schiphol
+Arrival / Aankomst: Monday, 30 November 2026 at 12:55 local time (EST)
+To: New York JFK Terminal 4
+
+SEAT & TRAVEL NOTES
+--------------------------------------------------
+Seat 28A. Train from Amsterdam Centraal to Schiphol planned.
+
+Beste Sample Traveller,
+Bedankt voor het boeken bij KLM. U kunt vanaf 30 uur voor vertrek online inchecken. Wij wensen u een aangename vlucht naar New York.
