@@ -12,3 +12,9 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+data/synth/small/
+logs/videos/
+logs/test_*
+logs/server.log
+logs/gen2.log
+logs/feed.py

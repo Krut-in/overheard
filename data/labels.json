@@ -420,6 +420,75 @@
    "text": "M (orange bullet). No M trains between Myrtle Av and Metropolitan Av. Take the J or the free shuttle bus.",
    "relevant": [],
    "source": "synthetic"
+  },
+  {
+   "id": "v1",
+   "modality": "video",
+   "file": "data/synth/video/v1.mp4",
+   "relevant": [
+    "T1"
+   ],
+   "moments": [
+    {
+     "start": 6,
+     "end": 9,
+     "id": "i01",
+     "relevant": [
+      "T1"
+     ]
+    }
+   ],
+   "text": "i13 | i04 | i01 | i16 | i05",
+   "source": "synthetic"
+  },
+  {
+   "id": "v2",
+   "modality": "video",
+   "file": "data/synth/video/v2.mp4",
+   "relevant": [
+    "T2"
+   ],
+   "moments": [
+    {
+     "start": 6,
+     "end": 9,
+     "id": "i02",
+     "relevant": [
+      "T2"
+     ]
+    }
+   ],
+   "text": "i16 | i08 | i02 | i14 | i18",
+   "source": "synthetic"
+  },
+  {
+   "id": "v3",
+   "modality": "video",
+   "file": "data/synth/video/v3.mp4",
+   "relevant": [
+    "T3"
+   ],
+   "moments": [
+    {
+     "start": 9,
+     "end": 12,
+     "id": "i09",
+     "relevant": [
+      "T3"
+     ]
+    }
+   ],
+   "text": "i06 | i11 | i15 | i09 | i13",
+   "source": "synthetic"
+  },
+  {
+   "id": "v4",
+   "modality": "video",
+   "file": "data/synth/video/v4.mp4",
+   "relevant": [],
+   "moments": [],
+   "text": "i05 | i13 | i14 | i16 | i18",
+   "source": "synthetic"
   }
  ]
 }

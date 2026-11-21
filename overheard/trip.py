@@ -27,7 +27,26 @@ If the direction is not stated, infer it from board and alight (e.g. Manhattan-b
 Input: """
 
 
+_CACHE = {}
+
+
 def extract_trip(route_text: str | None = None, image: bytes | None = None, mime: str = "image/jpeg") -> dict:
+    """Typed routes are cached so the same route always maps to the same trip (and the same cached fingerprint)."""
+    import hashlib, pathlib
+    key = (route_text or "").strip().lower() if not image else hashlib.sha1(image).hexdigest()
+    cache = pathlib.Path(__file__).resolve().parent.parent / "data" / "fingerprints" / "routes.json"
+    if not _CACHE and cache.exists():
+        _CACHE.update(json.loads(cache.read_text()))
+    if key and key in _CACHE:
+        return _CACHE[key]
+    trip = _extract(route_text, image, mime)
+    if key:
+        _CACHE[key] = trip
+        cache.write_text(json.dumps(_CACHE, indent=1))
+    return trip
+
+
+def _extract(route_text, image, mime) -> dict:
     parts = [PROMPT + (route_text or "(see the ticket or screenshot image)")]
     if image:
         parts.append(types.Part.from_bytes(data=image, mime_type=mime))

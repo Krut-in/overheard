@@ -1,0 +1,224 @@
+<!doctype html>
+<!-- Overheard demo page: set a trip, feed it announcements, photos and videos, see silence receipts and whispered alerts. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overheard</title>
+<style>
+  :root { --bg:#0e0f12; --card:#17191e; --line:#262a31; --mute:#8a909c; --text:#eceef2; --accent:#f5c518; --alert:#ff5a4f; --ok:#3ecf8e; --band:#7aa2ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 -apple-system, BlinkMacSystemFont, "Inter", sans-serif; }
+  header { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; align-items:baseline; gap:14px; }
+  header h1 { margin:0; font-size:24px; letter-spacing:-.5px; }
+  header span { color:var(--mute); }
+  main { display:grid; grid-template-columns: 380px 1fr; gap:20px; padding:20px 24px; max-width:1400px; margin:auto; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:16px; }
+  .card h2 { margin:0 0 10px; font-size:13px; text-transform:uppercase; letter-spacing:1px; color:var(--mute); }
+  textarea, select, input[type=text] { width:100%; background:#0b0c0f; color:var(--text); border:1px solid var(--line); border-radius:10px; padding:10px; font:inherit; }
+  button { background:#262a31; color:var(--text); border:1px solid #333842; border-radius:10px; padding:8px 12px; font:inherit; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  button.primary { background:var(--accent); color:#111; border:none; font-weight:600; }
+  button.rec { background:var(--alert); color:#fff; border:none; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+  .trip { margin-top:10px; font-size:14px; }
+  .trip b { color:var(--accent); }
+  .pill { display:inline-block; padding:2px 8px; border-radius:99px; background:#0b0c0f; border:1px solid var(--line); font-size:12px; color:var(--mute); margin:2px 2px 0 0; }
+  #drop { border:2px dashed #333842; border-radius:12px; padding:22px; text-align:center; color:var(--mute); cursor:pointer; }
+  #drop.over { border-color:var(--accent); color:var(--text); }
+  .samples button { font-size:12px; padding:5px 8px; }
+  .ev { border-radius:12px; margin-bottom:10px; border:1px solid var(--line); background:var(--card); overflow:hidden; }
+  .ev.silent { padding:8px 14px; color:var(--mute); font-size:13.5px; }
+  .ev.silent .rel { font-variant-numeric: tabular-nums; color:var(--text); }
+  .ev.alert { border-color:var(--alert); box-shadow:0 0 0 1px var(--alert) inset; }
+  .ev .head { padding:12px 16px; display:flex; justify-content:space-between; gap:10px; align-items:center; }
+  .ev .body { padding:0 16px 14px; }
+  .big { font-size:22px; line-height:1.3; font-weight:600; margin:4px 0 6px; }
+  .orig { color:var(--mute); font-size:13px; }
+  .badge { font-size:12px; font-weight:700; padding:3px 8px; border-radius:6px; }
+  .badge.alert { background:var(--alert); color:#fff; }
+  .badge.carbon { background:var(--band); color:#111; }
+  .badge.scoring { background:#333842; }
+  img.annot, video.clip { width:100%; border-radius:10px; margin-top:10px; display:block; }
+  details { margin-top:4px; }
+  details summary { cursor:pointer; color:var(--mute); font-size:12px; }
+  .hits { font-size:12px; color:var(--mute); margin-top:4px; }
+  .bars { display:flex; align-items:flex-end; gap:2px; height:44px; margin-top:8px; }
+  .bars div { flex:1; background:#333842; border-radius:2px 2px 0 0; position:relative; }
+  .bars div.hot { background:var(--alert); }
+  .stats { display:flex; gap:16px; color:var(--mute); font-size:13px; margin-bottom:10px; }
+  .stats b { color:var(--text); font-size:18px; display:block; }
+  #conflictOut { margin-top:10px; font-size:14px; }
+  .thumb { width:46px; height:46px; object-fit:cover; border-radius:6px; vertical-align:middle; margin-right:8px; }
+</style>
+</head>
+<body>
+<header><h1>Overheard</h1><span>Everything you hear or see on a trip, filtered down to the part that's about you.</span></header>
+<main>
+<section>
+  <div class="card">
+    <h2>1 · Your trip</h2>
+    <textarea id="route" rows="2" placeholder="e.g. Q train from Times Square to 72nd Street">Q train from Times Sq-42 St to 72 St</textarea>
+    <div class="row">
+      <button class="primary" onclick="setTrip()">Set trip</button>
+      <button id="sayBtn" onclick="toggleSay()">🎤 Say it</button>
+      <label><button onclick="document.getElementById('ticket').click()">📷 Ticket photo</button></label>
+      <input type="file" id="ticket" accept="image/*" hidden onchange="setTrip(this.files[0])">
+    </div>
+    <div id="trip" class="trip"></div>
+  </div>
+  <div class="card">
+    <h2>2 · Whisper me in</h2>
+    <select id="lang" onchange="setLang()">
+      <option>Hindi</option><option>Mandarin Chinese</option><option>Spanish</option><option>English</option>
+      <option>French</option><option>Korean</option><option>Arabic</option><option>Gujarati</option>
+    </select>
+  </div>
+  <div class="card">
+    <h2>3 · What you hear and see</h2>
+    <div id="drop" onclick="document.getElementById('files').click()">Drop announcements, photos or a station video here</div>
+    <input type="file" id="files" multiple hidden accept="audio/*,image/*,video/*" onchange="sendFiles(this.files)">
+    <div class="row"><button id="recBtn" onclick="toggleRec()">🎙 Listen to the room</button></div>
+    <div class="row samples" id="samples"></div>
+  </div>
+  <div class="card">
+    <h2>Conflict check</h2>
+    <button onclick="checkConflict()">⚖️ Ask Carbon which source to trust</button>
+    <div id="conflictOut"></div>
+  </div>
+</section>
+<section>
+  <div class="stats" id="stats"></div>
+  <div id="feed"></div>
+</section>
+</main>
+<script>
+const SAMPLES = [
+  ["🔊 Q not running (EN)", "synth/audio/a01.wav"], ["🔊 Q no circula (ES)", "synth/audio/a17.wav"],
+  ["🔊 Doors closing", "synth/audio/a04.wav"], ["🔊 L maintenance", "synth/audio/a06.wav"],
+  ["🔊 F delays", "synth/audio/a02.wav"], ["🔊 Q platform change", "synth/audio/a13.wav"],
+  ["🖼 Q weekend poster", "synth/images/i01.png"], ["🖼 L poster", "synth/images/i04.png"],
+  ["🖼 Q clock DELAYED", "synth/images/i07.png"], ["🖼 F clock", "synth/images/i08.png"],
+  ["🖼 Real 7 poster", "real/images/7_train_service_change_notice_4_languages.jpg"],
+  ["🎬 Walkthrough v1", "synth/video/v1.mp4"], ["🎬 Walkthrough v4", "synth/video/v4.mp4"],
+];
+const $ = id => document.getElementById(id);
+const played = new Set();
+let lastRender = "";
+
+SAMPLES.forEach(([label, path]) => {
+  const b = document.createElement("button"); b.textContent = label;
+  b.onclick = async () => { const r = await fetch("/media/" + path); const blob = await r.blob();
+    sendFiles([new File([blob], path.split("/").pop(), {type: blob.type})]); };
+  $("samples").appendChild(b);
+});
+
+async function setTrip(file) {
+  const fd = new FormData(); fd.append("route", $("route").value);
+  if (file) { fd.append("file", file); fd.set("route", ""); }
+  $("trip").innerHTML = "Neon is reading your trip, Hydrogen is writing the fingerprint…";
+  const r = await (await fetch("/api/trip", {method:"POST", body:fd})).json();
+  if (r.trip) {
+    const t = r.trip;
+    $("trip").innerHTML = `<b>${t.line}</b> ${t.direction} · ${t.board} → ${t.alight}<br>
+      <span class="pill">${t.stops_between.length} stops between</span><span class="pill">${r.n_questions} fingerprint questions</span>
+      <span class="pill">${r.seconds}s</span><details><summary>sample questions</summary>${r.sample.map(q => `<div class="hits">• ${q}</div>`).join("")}</details>`;
+  } else $("trip").textContent = JSON.stringify(r);
+}
+async function setLang() { const fd = new FormData(); fd.append("lang", $("lang").value); await fetch("/api/lang", {method:"POST", body:fd}); }
+
+async function sendFiles(files) {
+  for (const f of files) { const fd = new FormData(); fd.append("file", f); fetch("/api/input", {method:"POST", body:fd}); }
+}
+const drop = $("drop");
+drop.ondragover = e => { e.preventDefault(); drop.classList.add("over"); };
+drop.ondragleave = () => drop.classList.remove("over");
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove("over"); sendFiles(e.dataTransfer.files); };
+
+// microphone: "Listen to the room" sends 8 s chunks; "Say it" records the route
+let rec = null, recStream = null, sayRec = null;
+async function toggleRec() {
+  if (rec) { rec.stop(); recStream.getTracks().forEach(t => t.stop()); rec = null; $("recBtn").textContent = "🎙 Listen to the room"; $("recBtn").classList.remove("rec"); return; }
+  recStream = await navigator.mediaDevices.getUserMedia({audio:true});
+  const loop = () => {
+    if (!recStream || !recStream.active) return;
+    const r = new MediaRecorder(recStream, {mimeType:"audio/webm"}); const chunks = [];
+    r.ondataavailable = e => chunks.push(e.data);
+    r.onstop = () => { sendFiles([new File(chunks, `room_${Date.now()}.webm`, {type:"audio/webm"})]); if (rec) loop(); };
+    rec = r; r.start(); setTimeout(() => r.state === "recording" && r.stop(), 8000);
+  };
+  loop(); $("recBtn").textContent = "⏹ Stop listening"; $("recBtn").classList.add("rec");
+}
+async function toggleSay() {
+  if (sayRec) { sayRec.stop(); return; }
+  const s = await navigator.mediaDevices.getUserMedia({audio:true}); const chunks = [];
+  sayRec = new MediaRecorder(s, {mimeType:"audio/webm"});
+  sayRec.ondataavailable = e => chunks.push(e.data);
+  sayRec.onstop = () => { s.getTracks().forEach(t => t.stop()); sayRec = null; $("sayBtn").textContent = "🎤 Say it"; $("sayBtn").classList.remove("rec");
+    setTrip(new File(chunks, "route.webm", {type:"audio/webm"})); };
+  sayRec.start(); $("sayBtn").textContent = "⏹ Done"; $("sayBtn").classList.add("rec");
+}
+
+async function checkConflict() {
+  $("conflictOut").textContent = "Carbon is weighing the two latest alerts…";
+  const r = await (await fetch("/api/conflict", {method:"POST"})).json();
+  if (r.error) { $("conflictOut").textContent = r.error; return; }
+  $("conflictOut").innerHTML = `<div class="big" style="font-size:17px">${r.translated ? r.translated.change : r.explanation}</div>
+    <div class="orig">Trust: <b>${r.trust === "first" ? r.first : r.trust === "second" ? r.second : "neither"}</b> · ${r.explanation}<br>Do now: ${r.do_now}</div>`;
+  if (r.whisper_wav) new Audio(r.whisper_wav).play();
+}
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function hits(s) {
+  if (!s) return "";
+  const g = Object.entries(s.groups || {}).map(([k,v]) => `${k} ${v.toFixed(2)}`).join(" · ");
+  return `<details><summary>why · direct ${s.direct} · fingerprint ${s.fingerprint} · ${s.n_questions} questions · ${s.latency_s}s</summary>
+    <div class="hits">${g} · type ${s.change_type} (${s.change_type_p})</div>${(s.top_hits||[]).map(h => `<div class="hits">${h.p.toFixed(2)} · ${esc(h.q)}</div>`).join("")}</details>`;
+}
+function bars(tl) {
+  if (!tl) return "";
+  return `<div class="bars">${tl.map(p => `<div class="${p.relevance >= .8 ? "hot" : ""}" style="height:${Math.max(4, p.relevance*100)}%" title="${p.t}s ${p.relevance}"></div>`).join("")}</div>`;
+}
+function render(ev) {
+  const s = ev.scores; const rel = s ? s.relevance.toFixed(2) : "…";
+  const icon = ev.kind === "audio" ? "🔊" : ev.kind === "video" ? "🎬" : "🖼";
+  if (ev.status === "silent") {
+    const thumb = ev.preview ? `<img class="thumb" src="${ev.preview}">` : "";
+    const carbon = ev.carbon ? ` · Carbon: not relevant (${esc(ev.carbon.reason)})` : "";
+    return `<div class="ev silent">${thumb}🔇 ignored · relevance <span class="rel">${rel}</span> · ${icon} ${esc(ev.caption || ev.name)}${carbon}${bars(ev.timeline)}${hits(s)}</div>`;
+  }
+  if (ev.status === "error") return `<div class="ev silent">⚠️ ${esc(ev.name)}: ${esc(ev.error)}</div>`;
+  if (!ev.change) {
+    const lbl = ev.status === "carbon" ? `<span class="badge carbon">CARBON CHECKING · ${rel}</span>` : `<span class="badge scoring">${esc(ev.status)}</span>`;
+    return `<div class="ev"><div class="head"><span>${icon} ${esc(ev.name)}</span>${lbl}</div><div class="body">${bars(ev.timeline)}${hits(s)}</div></div>`;
+  }
+  const t = ev.translated || {};
+  const via = ev.carbon ? `<div class="orig">Relevance ${rel} was unsure, Carbon said relevant: ${esc(ev.carbon.reason)}</div>` : "";
+  return `<div class="ev alert"><div class="head"><span>${icon} ${esc(ev.name)} · ${ev.t}</span><span class="badge alert">FOR YOU · ${rel}</span></div>
+    <div class="body"><div class="big">${esc(t.change || ev.change.change)}</div><div>${esc(t.action || ev.change.action)}</div>
+    <div class="orig" style="margin-top:6px">Heard/seen: “${esc(ev.change.quote)}” · ${esc(ev.change.change)}</div>${via}
+    ${ev.whisper_wav ? `<audio controls src="${ev.whisper_wav}" style="width:100%;margin-top:8px"></audio>` : `<div class="orig">whisper loading…</div>`}
+    ${ev.annotated ? `<img class="annot" src="${ev.annotated}">` : (ev.kind === "image" || ev.kind === "video") && !ev.annotate_error ? `<div class="orig">Nano Banana is circling it on your photo…</div>` : ""}
+    ${ev.clip ? `<video class="clip" src="${ev.clip}" controls autoplay muted loop></video>` : ""}
+    ${bars(ev.timeline)}${hits(s)}</div></div>`;
+}
+async function poll() {
+  try {
+    const r = await (await fetch("/api/feed")).json();
+    const json = JSON.stringify(r.events.map(e => [e.id, e.status, !!e.whisper_wav, !!e.annotated, !!e.clip, e.caption, !!e.change, !!e.scores]));
+    if (json !== lastRender) {
+      lastRender = json;
+      const open = new Set([...document.querySelectorAll("details[open]")].map(d => d.closest(".ev")?.dataset.id));
+      $("feed").innerHTML = r.events.map(e => render(e).replace('<div class="ev', `<div data-id="${e.id}" class="ev`)).join("");
+      const sil = r.events.filter(e => e.status === "silent").length, al = r.events.filter(e => e.change).length;
+      $("stats").innerHTML = `<div><b>${r.events.length}</b>inputs</div><div><b>${sil}</b>silence receipts</div><div><b>${al}</b>alerts</div>`;
+      r.events.forEach(e => { if (e.whisper_wav && !played.has(e.id)) { played.add(e.id); new Audio(e.whisper_wav).play().catch(() => {}); } });
+    }
+  } catch (e) {}
+  setTimeout(poll, 800);
+}
+poll();
+</script>
+</body>
+</html>
