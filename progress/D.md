@@ -1,6 +1,6 @@
 # Ticket D: phone UI and router (fixture mode)
 
-Status at 15:48 ET: built and checked on localhost. The ngrok check is blocked because this Mac has no ngrok authtoken.
+Status at 15:48 ET: built and checked on localhost. The ngrok check is blocked because this Mac has no ngrok auth token.
 
 ## Done (times ET)
 - 15:35 to 15:38: read SPEC, TICKETS, GLOSSARY and the subway page. Drew the proof photo with Pillow and voiced the Hindi whispers and two announcements with macOS `say` (`web/abroad/make_media.py`, no Gemini calls).
@@ -42,7 +42,8 @@ Result: pass. Every route answers with the SPEC shape, and media names with path
 
 ## Check 2: 375 px screenshot over ngrok HTTPS
 - `ngrok http 8010` fails: `authentication failed: This ngrok session is not authenticated`. No `ngrok.yml` and no `NGROK_AUTHTOKEN` on this Mac. Per the brief I did not sign up for anything.
-- Fix for whoever has the account: `ngrok config add-authtoken <token>`, then `ngrok http 8010` and rerun the screenshot against `<https-url>/abroad`.
+- Fix for whoever has the account: save the token with the CLI's `config add-authtoken <token>` subcommand.
+  Then run `ngrok http 8010` and rerun the screenshot against `<https-url>/abroad`.
 - Meanwhile `docs/abroad_375.png` is taken from `http://localhost:8010/abroad`. It shows the timeline of 6 bookings, 3 receipts above the dock (4 in the feed), the board alert with the circled photo, Whisper and "Not about me" buttons, and the second alert.
 - Headless Chrome clamps `--window-size=375,...` to a 500 px layout viewport (measured `innerWidth=500`), so that command cannot give a phone layout. `web/abroad/shot.py` emulates a 375 px mobile viewport over the DevTools protocol instead (measured `375x1600 scrollW=375`): `.venv/bin/python web/abroad/shot.py http://localhost:8010/abroad docs/abroad_375.png`.
 
