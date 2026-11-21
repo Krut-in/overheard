@@ -47,7 +47,7 @@ def extract_trip(route_text: str | None = None, image: bytes | None = None, mime
 
 
 def _extract(route_text, image, mime) -> dict:
-    parts = [PROMPT + (route_text or "(see the ticket or screenshot image)")]
+    parts = [PROMPT + (route_text or "(see the attached ticket photo, screenshot, or spoken route recording)")]
     if image:
         parts.append(types.Part.from_bytes(data=image, mime_type=mime))
     r = timed(config.NEON, f"trip extract {route_text or 'image'}", client().models.generate_content,

@@ -1,3 +1,5 @@
 image_blur_glare 0 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 1.0, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (0.889, 1.0, 1)}
 image_blur_glare 2 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 1.0, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (0.889, 1.0, 1)}
 image_blur_glare 4 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 0.875, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (0.889, 1.0, 1)}
+image_blur_glare 8 {'policy': (1.0, 0.875, 0), 'overheard': (1.0, 0.5, 0), 'text_baseline': (1.0, 0.5, 0), 'keyword': (1.0, 0.5, 0)}
+image_blur_glare 12 {'policy': (1.0, 0.25, 0), 'overheard': (1.0, 0.0, 0), 'text_baseline': (1.0, 0.0, 0), 'keyword': (1.0, 0.0, 0)}
