@@ -106,7 +106,6 @@ def write_scripts(it: dict, booking: dict, per_booking: int = 6) -> list[dict]:
 # ---------- media ----------
 
 PLACE = {"flight": "airport", "train": "railway station", "hotel": "metro or tram stop", "ticket": "museum and its metro station"}
-TONE = {"fr": "a French", "nl": "a Dutch", "en": "an English-speaking"}
 
 
 def _ffmpeg(args: list[str]):
@@ -114,11 +113,11 @@ def _ffmpeg(args: list[str]):
 
 
 def voice(item: dict, booking: dict, idx: int = 0) -> str:
-    """TTS the script as a PA announcement and save it as a small mp3 next to items.json."""
-    style = (f"Read this as {TONE[item['lang']]} {PLACE.get(booking['kind'], 'station')} public address announcement, "
-             f"clear and slightly echoey, in {item['lang']}")
+    """TTS the script and save it as a small mp3 next to items.json.
+    Only the script is sent: a style prefix in the prompt gets read aloud, and this TTS model rejects
+    system instructions (400 "Developer instruction is not enabled"). Variety comes from the voice."""
     r = timed(config.TTS, f"rehearsal tts {item['id']} {item['script'][:40]}", client().models.generate_content,
-              model=config.TTS, contents=f"{style}: {item['script']}",
+              model=config.TTS, contents=item["script"],
               config=types.GenerateContentConfig(
                   response_modalities=["AUDIO"],
                   speech_config=types.SpeechConfig(voice_config=types.VoiceConfig(

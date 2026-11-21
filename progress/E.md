@@ -52,3 +52,21 @@ Signs spot-checked by eye: `train_ams_3.jpg` and `museum_louvre_6.jpg` render th
 - Only 2 of 12 signs were checked by eye. The other 10 may misspell a word; ticket G should look at any sign that scores wrong before blaming the matcher.
 - The CLI row belongs in `GEMINI_MODEL_TESTS.md`, which this ticket does not own. The orchestrator can copy it from here.
 - TTS pads clips with silence (one sentence came out at 13.6 s). Harmless for scoring, slower for a live demo.
+
+## E2: re-voice (orchestrator follow-up, branch `ticket-e-revoice` from main 11a6e07)
+- **Bug:** ticket G found that all 24 mp3s spoke the TTS style prefix aloud ("Read this as an English-speaking railway station public address announcement...") before the announcement.
+- **Fix:** `voice()` now sends only the script. A system instruction was tried first and the TTS model rejects it: 400 "Developer instruction is not enabled for this model". Variety now comes only from the five rotating voices.
+- **Re-voiced:** all 24 mp3s, same file names; `items.json` ids and media paths unchanged (no diff). 18.3 s wall.
+- **Transcript check:** Hydrogen transcribed all 24 clips (fr, nl and en), not only the 3 asked for. 24 of 24 start with the announcement and none contain the style words. 23 of 24 match the script's first three words exactly; `flight_out_4` adds one word ("Attention aux passagers" for "Attention passagers").
+  - fr `flight_out_1`: "Mesdames et messieurs, en raison d'un retard de manutention au terminal 2E..."
+  - nl `hotel_ams_1`: "Mededeling van het GVB. Wegens spoorwerkzaamheden op de Rozengracht..."
+  - en `train_ams_2`: "Eurostar passenger announcement at Paris Gare du Nord on Saturday 28 November..."
+- **Tests:**
+```
+tests/test_rehearsal.py::test_check_flags_unbalanced_set PASSED          [ 25%]
+tests/test_rehearsal.py::test_schema_and_balance PASSED                  [ 50%]
+tests/test_rehearsal.py::test_size_and_mix PASSED                        [ 75%]
+tests/test_rehearsal.py::test_media_exists_and_plays PASSED              [100%]
+============================== 4 passed in 2.81s ===============================
+```
+- **Known issue:** the clips no longer sound like a PA system (no echo or announcer tone), just a clear voice reading.
