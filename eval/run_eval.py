@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import numpy as np
 from google.genai import types
 from PIL import Image, ImageFilter, ImageEnhance
-from overheard import config
+from overheard import config, alert
 from overheard.decide import score_bytes, shrink, MIME
 from overheard.fingerprint import build_fingerprint
 from overheard.gemini import client, timed, ROOT
@@ -83,7 +83,7 @@ def metrics(rows, key, thr=None):
             "accuracy": round((tp + tn) / max(1, len(rows)), 3)}
 
 
-def run_pairs(pairs, transform=None, tag="main"):
+def run_pairs(pairs, transform=None, tag="main", with_carbon=False):
     """pairs: list of (item, trip_key). Returns rows with Overheard and baseline predictions."""
     trans_cache = {}
 
@@ -114,6 +114,18 @@ def run_pairs(pairs, transform=None, tag="main"):
                      "relevance": o["relevance"], "direct": o["direct"], "fp": o["fp"], "latency": round(o["latency"], 3),
                      "text_baseline": rel, "text_latency": round(tlat + rlat, 3),
                      "keyword": keyword(text, k), "transcript": text[:300]})
+    if with_carbon:
+        band = [r for r in rows if config.CONFLICT_AT <= r["relevance"] < config.ALERT_AT]
+        def cb(r):
+            d, m = shrink(*datas[r["id"]])
+            try:
+                return alert.carbon_band(d, m, TRIPS[r["trip"]], {"relevance": r["relevance"], "top_hits": []})["relevant"]
+            except Exception:  # noqa: BLE001
+                return False
+        for r, v in zip(band, POOL.map(cb, band)):
+            r["carbon"] = v
+        for r in rows:
+            r["policy"] = r["relevance"] >= config.ALERT_AT or bool(r.get("carbon"))
     return rows
 
 
@@ -208,12 +220,12 @@ def breaking(modality, levels, make, name, xlabel):
     pairs = pos + random.sample(negs, len(pos))
     res = []
     for lv in levels:
-        rows = run_pairs(pairs, make(lv), tag=f"{name}{lv}")
-        m = {"level": lv, "overheard": metrics(rows, "relevance", config.ALERT_AT),
-             "overheard_0.5": metrics(rows, "relevance", 0.5),
+        rows = run_pairs(pairs, make(lv), tag=f"{name}{lv}", with_carbon=True)
+        (OUT / f"{name}_rows_{lv}.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False))
+        m = {"level": lv, "policy": metrics(rows, "policy"), "overheard": metrics(rows, "relevance", config.ALERT_AT),
              "text_baseline": metrics(rows, "text_baseline"), "keyword": metrics(rows, "keyword")}
         res.append(m)
-        print(name, lv, {k: (v["precision"], v["recall"], v["accuracy"]) for k, v in m.items() if k != "level"}, flush=True)
+        print(name, lv, {k: (v["precision"], v["recall"], v["fp"]) for k, v in m.items() if k != "level"}, flush=True)
     (OUT / f"{name}.json").write_text(json.dumps(res, indent=1))
     chart(res, name, xlabel)
 
@@ -223,8 +235,8 @@ def chart(res, name, xlabel):
     import matplotlib.pyplot as plt
     fig, axes = plt.subplots(1, 2, figsize=(10, 3.8))
     xs = [str(r["level"]) for r in res]
-    for key, lbl, c in [("overheard", "Overheard (Decision 1, alert at 0.8)", "#e4572e"),
-                        ("overheard_0.5", "Overheard at 0.5", "#f3a712"),
+    for key, lbl, c in [("policy", "Overheard full policy (Decision 1 + Carbon band)", "#e4572e"),
+                        ("overheard", "Decision 1 alone, alert at 0.8", "#f3a712"),
                         ("text_baseline", "Transcribe then ask Hydrogen", "#29335c"),
                         ("keyword", "Keyword match", "#8a909c")]:
         axes[0].plot(xs, [r[key]["recall"] for r in res], "o-", label=lbl, color=c)
@@ -232,7 +244,7 @@ def chart(res, name, xlabel):
     axes[0].set_title("Recall (relevant changes caught)"); axes[0].set_ylim(-0.05, 1.05)
     axes[1].set_title("False interruptions (count)")
     for a in axes: a.set_xlabel(xlabel); a.grid(alpha=.3)
-    axes[0].legend(fontsize=8, loc="lower left")
+    axes[0].legend(fontsize=7, loc="lower left")
     fig.suptitle(f"Breaking point: {name}"); fig.tight_layout()
     fig.savefig(CH / f"{name}.png", dpi=130); plt.close(fig)
 

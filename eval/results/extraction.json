@@ -1,0 +1,201 @@
+{
+ "summary": {
+  "correct": 19,
+  "partial": 0,
+  "wrong": 0,
+  "n": 19,
+  "neon_latency_median": 5.59
+ },
+ "rows": [
+  {
+   "id": "a01",
+   "trip": "T1",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.981,
+   "neon_latency": 5.59,
+   "change": "Northbound Q trains are not running between Times Sq-42 St and 72 St.",
+   "quote": "Northbound Q trains are not running between Times Square-42nd Street and 72 Street. Please take the N or R train to Lexington Avenue-59th Street and transfer to the 6."
+  },
+  {
+   "id": "a02",
+   "trip": "T2",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.893,
+   "neon_latency": 5.4,
+   "change": "Your northbound F train is delayed by about 20 minutes due to a sick customer at Delancey St-Essex St.",
+   "quote": "Northbound F trains are running with delays of about 20 minutes because of a sick customer at Delancey Street-Essex Street."
+  },
+  {
+   "id": "a03",
+   "trip": "T3",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.971,
+   "neon_latency": 6.0,
+   "change": "Flushing-bound 7 express trains are suspended and 7 local trains are delayed with waits up to 15 minutes at Grand Central.",
+   "quote": "Flushing-bound 7 express trains are suspended. 7 local trains are running with delays; expect waits of up to 15 minutes at Grand Central."
+  },
+  {
+   "id": "a07",
+   "trip": "T2",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.903,
+   "neon_latency": 6.75,
+   "change": "Manhattan-bound F trains are rerouted onto the A line until West 4th Street.",
+   "quote": "Attention customers at Jay Street-MetroTech, Manhattan-bound F trains are running on the A line to West 4th Street."
+  },
+  {
+   "id": "a10",
+   "trip": "T3",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.955,
+   "neon_latency": 5.06,
+   "change": "There is no 7 train service between Queensboro Plaza and Flushing-Main St.",
+   "quote": "Due to an earlier incident, there is no 7 train service between Queensboro Plaza and Flushing-Main Street. Free shuttle buses are available."
+  },
+  {
+   "id": "a13",
+   "trip": "T1",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.979,
+   "neon_latency": 5.67,
+   "change": "Uptown Q trains at Times Sq-42 St are now boarding on the express track (track 3) across the platform.",
+   "quote": "Uptown Q trains are now boarding on the express track across the platform on track 3."
+  },
+  {
+   "id": "a15",
+   "trip": "T2",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.973,
+   "neon_latency": 4.33,
+   "change": "Your northbound F train will skip 57 St and terminate at 47-50 Sts-Rockefeller Ctr.",
+   "quote": "this weekend Manhattan-bound F trains will skip 57th Street and end at 47-50 Streets Rockefeller Center."
+  },
+  {
+   "id": "a17",
+   "trip": "T1",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.979,
+   "neon_latency": 4.02,
+   "change": "Northbound Q trains are not running between Times Sq-42 St and 72 St.",
+   "quote": "The trains Q in direction north are not circulating between Times Square and the County 72. Please use the trains N or R."
+  },
+  {
+   "id": "a18",
+   "trip": "T2",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.961,
+   "neon_latency": 7.22,
+   "change": "Manhattan-bound F trains are delayed by 15 minutes due to signal problems at Jay St-MetroTech.",
+   "quote": "The trains F hacia Manhattan have retrasos of 15 minutes por problemas of signals in Jay Street MetroTech."
+  },
+  {
+   "id": "a19",
+   "trip": "T3",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.982,
+   "neon_latency": 6.98,
+   "change": "Flushing-bound 7 express service is suspended, and local 7 trains are running with delays.",
+   "quote": "The trains 7 express hacia Flushing are suspended. The trains local circulate with retractions."
+  },
+  {
+   "id": "a24",
+   "trip": "T2",
+   "modality": "audio",
+   "grade": "correct",
+   "grade_p": 0.971,
+   "neon_latency": 10.35,
+   "change": "F trains are not stopping at 57 St this weekend and are terminating at 47-50 Sts-Rockefeller Ctr.",
+   "quote": "Este fin de semana, los trenes F no paran en la calle 57. La última parada es 47-50 Streets Rockefeller Center."
+  },
+  {
+   "id": "i01",
+   "trip": "T1",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.977,
+   "neon_latency": 6.83,
+   "change": "There are no Q trains running past 57 St-7 Av to 72 St all day on weekends.",
+   "quote": "No Q trains between 57 St-7 Av and 96 St. Sat and Sun, all day."
+  },
+  {
+   "id": "i02",
+   "trip": "T2",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.955,
+   "neon_latency": 7.22,
+   "change": "Your northbound F train is rerouted via the A line between Jay St-MetroTech and W 4 St, skipping intermediate F stops.",
+   "quote": "Manhattan-bound F trains run via the A line from Jay St-MetroTech to W 4 St."
+  },
+  {
+   "id": "i03",
+   "trip": "T3",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.973,
+   "neon_latency": 4.47,
+   "change": "7 train service is suspended between 74 St-Broadway and Flushing-Main St this weekend.",
+   "quote": "No 7 trains between 74 St-Broadway and Flushing-Main St. Free shuttle buses provide alternate service."
+  },
+  {
+   "id": "i07",
+   "trip": "T1",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.959,
+   "neon_latency": 5.49,
+   "change": "Your northbound Q train is delayed and will arrive in 14 minutes.",
+   "quote": "Q 96 St DELAYED 14 min"
+  },
+  {
+   "id": "i09",
+   "trip": "T3",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.947,
+   "neon_latency": 4.91,
+   "change": "Flushing-bound 7 express service is suspended, so only local trains are running.",
+   "quote": "7 Flushing-Main St EXPRESS SUSPENDED; 7 Flushing-Main St local 11 min"
+  },
+  {
+   "id": "i10",
+   "trip": "T2",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.973,
+   "neon_latency": 6.83,
+   "change": "F trains are not stopping at your destination, 57 St, this weekend.",
+   "quote": "Los trenes F no paran en 57 St. Usen 47-50 Sts-Rockefeller Ctr."
+  },
+  {
+   "id": "i12",
+   "trip": "T1",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.979,
+   "neon_latency": 4.92,
+   "change": "The 2 Av and 72 St entrance at 72 St station is closed.",
+   "quote": "The 2 Av and 72 St entrance is closed. Use the entrance at 2 Av and 69 St."
+  },
+  {
+   "id": "i17",
+   "trip": "T1",
+   "modality": "image",
+   "grade": "correct",
+   "grade_p": 0.961,
+   "neon_latency": 3.62,
+   "change": "Q trains are not stopping at 72 St this weekend.",
+   "quote": "Los trenes Q no paran en la calle 72. Usen 86 St o Lexington Av/63 St."
+  }
+ ]
+}
