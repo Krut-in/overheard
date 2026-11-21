@@ -51,7 +51,7 @@ What this shows:
 ### Learning from "not me"
 
 - **Real MTA false alert (subway build).** "Manhattan-bound 7 skips 111 St..." scored 0.79 for a Flushing-bound rider. After one dismissal it scores 0.01, and the true "Flushing-bound 7 skips 52 St and 69 St" alert stays at 0.92 (`eval/learn_eval.py`).
-- **Held out on the rehearsal set.** LEARNING_HELDOUT
+- **Held out on the rehearsal set: learning hurt, and the fix is being measured.** We dismissed 9 rehearsal near misses once each and rescored the other half plus every true item. Near misses in the Carbon band fell from 8 to 1, but true alerts at 0.8 fell from 17 to 6. Weak "not" answers around 0.2 on true alerts still lowered the score through `(1 - not)`. The fix counts a learned question only above 0.5 and keeps at most 3 per dismissal; its numbers replace these when the rerun lands (`eval/results/abroad_learning_diag.json` has the diagnosis).
 
 ### Honest failures (abroad)
 
