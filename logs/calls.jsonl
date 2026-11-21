@@ -2016,3 +2016,216 @@
 {"t": "14:45:17", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 3.924}
 {"t": "14:45:19", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 6.486}
 {"t": "14:45:19", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 3.649}
+{"t": "14:47:46", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277431:26/T3 (193 q)", "latency_s": 1.353}
+{"t": "14:47:46", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277431:26/T2 (215 q)", "latency_s": 1.391}
+{"t": "14:47:47", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277431:26/T1 (197 q)", "latency_s": 1.59}
+{"t": "14:47:47", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277436:26/T1 (197 q)", "latency_s": 1.59}
+{"t": "14:47:48", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277436:26", "latency_s": 1.869}
+{"t": "14:47:49", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277431:26", "latency_s": 2.016}
+{"t": "14:47:49", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277431:26", "latency_s": 2.677}
+{"t": "14:47:49", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277436:26/T2 (215 q)", "latency_s": 0.627}
+{"t": "14:47:49", "model": "gemini-decision-1", "summary": "decide mta lmm:alert:277436:26/T3 (193 q)", "latency_s": 0.638}
+{"t": "14:47:49", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277431:26", "latency_s": 2.993}
+{"t": "14:47:50", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36690/T1 (197 q)", "latency_s": 0.582}
+{"t": "14:47:50", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36690/T2 (215 q)", "latency_s": 0.608}
+{"t": "14:47:50", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277436:26", "latency_s": 1.078}
+{"t": "14:47:51", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36690/T3 (193 q)", "latency_s": 0.559}
+{"t": "14:47:52", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36690", "latency_s": 1.644}
+{"t": "14:47:52", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:alert:277436:26", "latency_s": 2.887}
+{"t": "14:47:52", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36690", "latency_s": 2.568}
+{"t": "14:47:52", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36560/T1 (197 q)", "latency_s": 0.593}
+{"t": "14:47:53", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36560/T2 (215 q)", "latency_s": 0.554}
+{"t": "14:47:53", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36560/T3 (193 q)", "latency_s": 0.52}
+{"t": "14:47:54", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36560", "latency_s": 1.357}
+{"t": "14:47:55", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36690", "latency_s": 3.858}
+{"t": "14:47:55", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36460/T1 (197 q)", "latency_s": 0.56}
+{"t": "14:47:55", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36560", "latency_s": 2.002}
+{"t": "14:47:55", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36460/T3 (193 q)", "latency_s": 0.723}
+{"t": "14:47:55", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36460/T2 (215 q)", "latency_s": 0.831}
+{"t": "14:47:56", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36560", "latency_s": 3.913}
+{"t": "14:47:57", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36460", "latency_s": 2.231}
+{"t": "14:47:57", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36427/T1 (197 q)", "latency_s": 0.725}
+{"t": "14:47:57", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36427/T2 (215 q)", "latency_s": 0.586}
+{"t": "14:47:59", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36427", "latency_s": 1.614}
+{"t": "14:47:59", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36460", "latency_s": 3.616}
+{"t": "14:47:59", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36427/T3 (193 q)", "latency_s": 0.573}
+{"t": "14:47:59", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36427", "latency_s": 2.041}
+{"t": "14:48:00", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36012/T1 (197 q)", "latency_s": 0.611}
+{"t": "14:48:00", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36012/T2 (215 q)", "latency_s": 0.656}
+{"t": "14:48:01", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36460", "latency_s": 5.37}
+{"t": "14:48:01", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:36012/T3 (193 q)", "latency_s": 0.531}
+{"t": "14:48:02", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 2.164}
+{"t": "14:48:03", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36427", "latency_s": 4.097}
+{"t": "14:48:04", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35806/T1 (197 q)", "latency_s": 0.613}
+{"t": "14:48:04", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36012", "latency_s": 2.364}
+{"t": "14:48:05", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36012", "latency_s": 4.495}
+{"t": "14:48:05", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35806/T2 (215 q)", "latency_s": 0.664}
+{"t": "14:48:05", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35806/T3 (193 q)", "latency_s": 0.57}
+{"t": "14:48:06", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35806", "latency_s": 1.145}
+{"t": "14:48:07", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35803/T1 (197 q)", "latency_s": 0.585}
+{"t": "14:48:08", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35806", "latency_s": 2.371}
+{"t": "14:48:08", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35803/T2 (215 q)", "latency_s": 0.822}
+{"t": "14:48:09", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35803", "latency_s": 1.963}
+{"t": "14:48:09", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35803/T3 (193 q)", "latency_s": 0.527}
+{"t": "14:48:11", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:36012", "latency_s": 10.16}
+{"t": "14:48:12", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35803", "latency_s": 3.472}
+{"t": "14:48:12", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35803", "latency_s": 2.995}
+{"t": "14:48:12", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35802/T1 (197 q)", "latency_s": 0.724}
+{"t": "14:48:13", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35802/T2 (215 q)", "latency_s": 0.72}
+{"t": "14:48:13", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35802/T3 (193 q)", "latency_s": 0.683}
+{"t": "14:48:13", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35806", "latency_s": 9.485}
+{"t": "14:48:14", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35796/T1 (197 q)", "latency_s": 0.713}
+{"t": "14:48:15", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35802", "latency_s": 3.263}
+{"t": "14:48:16", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35802", "latency_s": 3.609}
+{"t": "14:48:16", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35796/T2 (215 q)", "latency_s": 0.794}
+{"t": "14:48:16", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35802", "latency_s": 3.645}
+{"t": "14:48:17", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35790/T1 (197 q)", "latency_s": 0.598}
+{"t": "14:48:17", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35796", "latency_s": 2.988}
+{"t": "14:48:17", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35796/T3 (193 q)", "latency_s": 0.781}
+{"t": "14:48:18", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35790/T2 (215 q)", "latency_s": 0.723}
+{"t": "14:48:19", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35790", "latency_s": 1.45}
+{"t": "14:48:20", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35790", "latency_s": 2.573}
+{"t": "14:48:20", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35790/T3 (193 q)", "latency_s": 0.525}
+{"t": "14:48:20", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35789/T1 (197 q)", "latency_s": 0.626}
+{"t": "14:48:22", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35796", "latency_s": 5.763}
+{"t": "14:48:23", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35789/T2 (215 q)", "latency_s": 0.615}
+{"t": "14:48:23", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35789", "latency_s": 2.487}
+{"t": "14:48:23", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35789/T3 (193 q)", "latency_s": 0.682}
+{"t": "14:48:24", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35796", "latency_s": 6.642}
+{"t": "14:48:24", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35788/T1 (197 q)", "latency_s": 0.787}
+{"t": "14:48:26", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35788", "latency_s": 1.775}
+{"t": "14:48:27", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35789", "latency_s": 3.959}
+{"t": "14:48:27", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35788/T2 (215 q)", "latency_s": 0.57}
+{"t": "14:48:27", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35790", "latency_s": 7.177}
+{"t": "14:48:27", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35788/T3 (193 q)", "latency_s": 0.644}
+{"t": "14:48:27", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35775/T1 (197 q)", "latency_s": 0.545}
+{"t": "14:48:30", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35775", "latency_s": 2.312}
+{"t": "14:48:30", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35788", "latency_s": 2.952}
+{"t": "14:48:30", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 2.836}
+{"t": "14:48:30", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35775/T2 (215 q)", "latency_s": 0.685}
+{"t": "14:48:31", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35775/T3 (193 q)", "latency_s": 0.746}
+{"t": "14:48:33", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35789", "latency_s": 9.411}
+{"t": "14:48:33", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35788", "latency_s": 2.995}
+{"t": "14:48:33", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35772/T1 (197 q)", "latency_s": 0.607}
+{"t": "14:48:34", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35775", "latency_s": 3.275}
+{"t": "14:48:34", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35772/T2 (215 q)", "latency_s": 0.622}
+{"t": "14:48:34", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35772/T3 (193 q)", "latency_s": 0.511}
+{"t": "14:48:34", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35775", "latency_s": 3.726}
+{"t": "14:48:35", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35770/T1 (197 q)", "latency_s": 0.567}
+{"t": "14:48:35", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35772", "latency_s": 1.454}
+{"t": "14:48:35", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35772", "latency_s": 1.411}
+{"t": "14:48:35", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35770/T2 (215 q)", "latency_s": 0.61}
+{"t": "14:48:36", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35770/T3 (193 q)", "latency_s": 0.508}
+{"t": "14:48:37", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35772", "latency_s": 2.326}
+{"t": "14:48:37", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35770", "latency_s": 1.876}
+{"t": "14:48:37", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35705/T1 (197 q)", "latency_s": 0.626}
+{"t": "14:48:37", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35705/T2 (215 q)", "latency_s": 0.598}
+{"t": "14:48:37", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35770", "latency_s": 1.989}
+{"t": "14:48:38", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35770", "latency_s": 2.27}
+{"t": "14:48:38", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35705/T3 (193 q)", "latency_s": 0.608}
+{"t": "14:48:39", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35704/T1 (197 q)", "latency_s": 0.595}
+{"t": "14:48:40", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35704", "latency_s": 1.181}
+{"t": "14:48:40", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35705", "latency_s": 1.842}
+{"t": "14:48:40", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35704/T2 (215 q)", "latency_s": 0.65}
+{"t": "14:48:41", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35704/T3 (193 q)", "latency_s": 0.627}
+{"t": "14:48:43", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35704", "latency_s": 2.498}
+{"t": "14:48:44", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35572/T1 (197 q)", "latency_s": 0.592}
+{"t": "14:48:44", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35704", "latency_s": 3.403}
+{"t": "14:48:44", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35572/T2 (215 q)", "latency_s": 0.602}
+{"t": "14:48:45", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35705", "latency_s": 7.405}
+{"t": "14:48:45", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35572/T3 (193 q)", "latency_s": 0.677}
+{"t": "14:48:46", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35572", "latency_s": 2.54}
+{"t": "14:48:47", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35571/T1 (197 q)", "latency_s": 0.667}
+{"t": "14:48:47", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35572", "latency_s": 1.501}
+{"t": "14:48:48", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35571/T2 (215 q)", "latency_s": 0.631}
+{"t": "14:48:48", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35572", "latency_s": 3.742}
+{"t": "14:48:48", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35571", "latency_s": 1.616}
+{"t": "14:48:49", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35571/T3 (193 q)", "latency_s": 0.58}
+{"t": "14:48:49", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35562/T1 (197 q)", "latency_s": 0.592}
+{"t": "14:48:50", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35571", "latency_s": 1.777}
+{"t": "14:48:51", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35705", "latency_s": 13.883}
+{"t": "14:48:51", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35562/T2 (215 q)", "latency_s": 0.594}
+{"t": "14:48:52", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35562/T3 (193 q)", "latency_s": 0.664}
+{"t": "14:48:52", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35571", "latency_s": 4.709}
+{"t": "14:48:53", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35562", "latency_s": 3.874}
+{"t": "14:48:53", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35561/T1 (197 q)", "latency_s": 0.786}
+{"t": "14:48:54", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35561/T2 (215 q)", "latency_s": 0.621}
+{"t": "14:48:54", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35562", "latency_s": 2.438}
+{"t": "14:48:54", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35561/T3 (193 q)", "latency_s": 0.56}
+{"t": "14:48:55", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35562", "latency_s": 2.773}
+{"t": "14:48:55", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35561", "latency_s": 1.615}
+{"t": "14:48:55", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35560/T1 (197 q)", "latency_s": 0.561}
+{"t": "14:48:55", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35560/T2 (215 q)", "latency_s": 0.773}
+{"t": "14:48:58", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 2.271}
+{"t": "14:48:58", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35561", "latency_s": 3.586}
+{"t": "14:48:58", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35560/T3 (193 q)", "latency_s": 0.516}
+{"t": "14:48:59", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35560", "latency_s": 1.421}
+{"t": "14:48:59", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35560", "latency_s": 4.233}
+{"t": "14:49:00", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35540/T1 (197 q)", "latency_s": 0.801}
+{"t": "14:49:00", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35540/T2 (215 q)", "latency_s": 0.624}
+{"t": "14:49:00", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35560", "latency_s": 2.006}
+{"t": "14:49:01", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 7.081}
+{"t": "14:49:01", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35540/T3 (193 q)", "latency_s": 0.546}
+{"t": "14:49:02", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 2.55}
+{"t": "14:49:03", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 2.33}
+{"t": "14:49:05", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35540", "latency_s": 1.547}
+{"t": "14:49:05", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35561", "latency_s": 4.416}
+{"t": "14:49:05", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35539/T1 (197 q)", "latency_s": 0.62}
+{"t": "14:49:06", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35540", "latency_s": 3.065}
+{"t": "14:49:06", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35539/T2 (215 q)", "latency_s": 0.64}
+{"t": "14:49:06", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35539/T3 (193 q)", "latency_s": 0.614}
+{"t": "14:49:07", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35539", "latency_s": 1.684}
+{"t": "14:49:07", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35386/T1 (197 q)", "latency_s": 0.519}
+{"t": "14:49:08", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 7.598}
+{"t": "14:49:08", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35539", "latency_s": 2.33}
+{"t": "14:49:09", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35386/T2 (215 q)", "latency_s": 0.762}
+{"t": "14:49:10", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35386", "latency_s": 2.055}
+{"t": "14:49:10", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35540", "latency_s": 2.097}
+{"t": "14:49:10", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35386", "latency_s": 1.028}
+{"t": "14:49:10", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35386/T3 (193 q)", "latency_s": 0.556}
+{"t": "14:49:10", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35366/T1 (197 q)", "latency_s": 0.555}
+{"t": "14:49:10", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35539", "latency_s": 4.093}
+{"t": "14:49:10", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35366/T2 (215 q)", "latency_s": 0.594}
+{"t": "14:49:11", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35366/T3 (193 q)", "latency_s": 0.495}
+{"t": "14:49:12", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35366", "latency_s": 1.257}
+{"t": "14:49:12", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35366", "latency_s": 1.686}
+{"t": "14:49:12", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35124/T1 (197 q)", "latency_s": 0.688}
+{"t": "14:49:12", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35124/T2 (215 q)", "latency_s": 0.578}
+{"t": "14:49:14", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35366", "latency_s": 3.718}
+{"t": "14:49:15", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35124", "latency_s": 2.066}
+{"t": "14:49:15", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35386", "latency_s": 4.893}
+{"t": "14:49:15", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35124/T3 (193 q)", "latency_s": 0.585}
+{"t": "14:49:15", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35011/T1 (197 q)", "latency_s": 0.545}
+{"t": "14:49:15", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35124", "latency_s": 3.131}
+{"t": "14:49:16", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35011/T2 (215 q)", "latency_s": 0.597}
+{"t": "14:49:16", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:35011/T3 (193 q)", "latency_s": 0.575}
+{"t": "14:49:17", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35011", "latency_s": 2.034}
+{"t": "14:49:17", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35011", "latency_s": 1.637}
+{"t": "14:49:17", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35011", "latency_s": 1.296}
+{"t": "14:49:18", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:33366/T1 (197 q)", "latency_s": 0.655}
+{"t": "14:49:18", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:33366/T2 (215 q)", "latency_s": 0.591}
+{"t": "14:49:18", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:33366/T3 (193 q)", "latency_s": 0.779}
+{"t": "14:49:21", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:33366", "latency_s": 2.824}
+{"t": "14:49:21", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:33366", "latency_s": 2.778}
+{"t": "14:49:21", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 3.249}
+{"t": "14:49:21", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:31498/T1 (197 q)", "latency_s": 0.567}
+{"t": "14:49:22", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:35124", "latency_s": 6.466}
+{"t": "14:49:22", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:31498/T2 (215 q)", "latency_s": 0.651}
+{"t": "14:49:22", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:31498/T3 (193 q)", "latency_s": 0.617}
+{"t": "14:49:22", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:31498", "latency_s": 1.062}
+{"t": "14:49:23", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:29949/T1 (197 q)", "latency_s": 0.735}
+{"t": "14:49:24", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:31498", "latency_s": 2.307}
+{"t": "14:49:24", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:33366", "latency_s": 2.895}
+{"t": "14:49:24", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:29949", "latency_s": 1.164}
+{"t": "14:49:24", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:29949/T2 (215 q)", "latency_s": 0.614}
+{"t": "14:49:25", "model": "gemini-decision-1", "summary": "decide mta lmm:planned_work:29949/T3 (193 q)", "latency_s": 0.595}
+{"t": "14:49:25", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:31498", "latency_s": 3.07}
+{"t": "14:49:26", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:29949", "latency_s": 1.977}
+{"t": "14:49:27", "model": "gemini-4-hydrogen", "summary": "baseline relevance mta lmm:planned_work:29949", "latency_s": 2.512}
+{"t": "14:50:15", "model": "gemini-4-neon", "summary": "trip extract F train from Jay St-MetroTech to 57 St", "latency_s": 9.257}
+{"t": "14:50:17", "model": "gemini-decision-1", "summary": "decide MTA alert E, F (207 q)", "latency_s": 1.297}
+{"t": "14:50:17", "model": "gemini-decision-1", "summary": "decide MTA alert A, C, F (207 q)", "latency_s": 1.358}
+{"t": "14:50:19", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 1.625}
+{"t": "14:50:22", "model": "gemini-4-neon", "summary": "extract change for F train Manhattan-bound from Jay St-MetroTech to 57 St", "latency_s": 4.874}
+{"t": "14:50:27", "model": "gemini-4-hydrogen", "summary": "translate to Hindi", "latency_s": 4.863}
+{"t": "14:50:34", "model": "gemini-3.8-flash-tts", "summary": "whisper Manhattan \u092e\u0947\u0902 \u091a\u0932 \u0930\u0939\u0947 \u0915\u093e\u092e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0906\u092a\u0915\u0940 F ", "latency_s": 7.541}

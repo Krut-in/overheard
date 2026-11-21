@@ -35,5 +35,28 @@
   ],
   "when": "today",
   "summary": "F train Manhattan-bound from Jay St-MetroTech to 57 St"
+ },
+ "f train from jay st-metrotech to 57 st": {
+  "system": "NYC Subway",
+  "line": "F",
+  "other_lines": [],
+  "direction": "Manhattan-bound",
+  "board": "Jay St-MetroTech",
+  "alight": "57 St",
+  "stops_between": [
+   "York St",
+   "East Broadway",
+   "Delancey St-Essex St",
+   "2 Av",
+   "Broadway-Lafayette St",
+   "W 4 St-Wash Sq",
+   "14 St",
+   "23 St",
+   "34 St-Herald Sq",
+   "42 St-Bryant Pk",
+   "47-50 Sts-Rockefeller Ctr"
+  ],
+  "when": "today",
+  "summary": "F train Manhattan-bound from Jay St-MetroTech to 57 St"
  }
 }

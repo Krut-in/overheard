@@ -18,3 +18,5 @@ logs/test_*
 logs/server.log
 logs/gen2.log
 logs/feed.py
+logs/agent_highlight.mp4
+logs/mta_alerts.json
