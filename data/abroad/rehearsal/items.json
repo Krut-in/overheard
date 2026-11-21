@@ -1,0 +1,614 @@
+[
+ {
+  "id": "flight_out_1",
+  "booking_id": "flight_out",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Mesdames et messieurs, en raison d'un retard de manutention au Terminal 2E de Paris-Charles-de-Gaulle, la livraison des bagages du vol Air France AF 23 en provenance de New York JFK subit un retard d'environ 45 minutes. Vos valises seront livrées sur le tapis 38 au lieu du tapis 32.",
+  "media": "flight_out_1.mp3",
+  "labels": {
+   "flight_out": true,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Announces a 45-minute baggage delay and belt change at CDG Terminal 2E specifically for Air France flight AF 23 from New York JFK."
+ },
+ {
+  "id": "flight_out_2",
+  "booking_id": "flight_out",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Attention passengers arriving on Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E. Baggage delivery for AF 23 has been delayed by 40 minutes and moved from carousel 32 to carousel 36 in the Terminal 2E arrival hall.",
+  "media": "flight_out_2.mp3",
+  "labels": {
+   "flight_out": true,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Announces a baggage delivery delay and carousel change at CDG Terminal 2E for flight AF 23 from New York JFK."
+ },
+ {
+  "id": "flight_out_3",
+  "booking_id": "flight_out",
+  "lang": "fr",
+  "kind": "image",
+  "script": "PARIS CDG - TERMINAL 2E\nVOL AIR FRANCE AF 23 (NEW YORK JFK)\nLivraison des bagages retardée (+40 min)\nChangement de tapis : Tapis 36",
+  "media": "flight_out_3.jpg",
+  "labels": {
+   "flight_out": true,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Displays a baggage delay and belt change at CDG Terminal 2E for flight AF 23 from New York JFK."
+ },
+ {
+  "id": "flight_out_4",
+  "booking_id": "flight_out",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Attention passagers du vol Air France AF 11 en provenance de New York JFK, arrivé au Terminal 2F. La livraison des bagages au Terminal 2F accuse un retard de 30 minutes sur le tapis 21.",
+  "media": "flight_out_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Applies to flight AF 11 at Terminal 2F rather than flight AF 23 at Terminal 2E."
+ },
+ {
+  "id": "flight_out_5",
+  "booking_id": "flight_out",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Please note that baggage delivery for Air France flight AF 15 from New York JFK at CDG Terminal 2E is delayed by 35 minutes on belt 34. Baggage for flight AF 23 is unaffected by this incident.",
+  "media": "flight_out_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Concerns flight AF 15 rather than AF 23 and explicitly states AF 23 is unaffected."
+ },
+ {
+  "id": "flight_out_6",
+  "booking_id": "flight_out",
+  "lang": "fr",
+  "kind": "image",
+  "script": "PARIS CDG - TERMINAL 2F\nVOL AF 22 - VERS NEW YORK JFK\nEmbarquement à l'heure - Porte F34\nTerminal 2E bagages AF 23 : service normal",
+  "media": "flight_out_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Refers to outbound flight AF 22 at Terminal 2F and indicates normal baggage service for AF 23."
+ },
+ {
+  "id": "hotel_paris_1",
+  "booking_id": "hotel_paris",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Information voyageurs RATP sur la ligne 1 du métro. En raison de travaux de rénovation du 25 au 28 novembre 2026 inclus, la station Saint-Paul est fermée au public et les rames ne marquent pas l'arrêt.",
+  "media": "hotel_paris_1.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": true,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes Metro line 1 station Saint-Paul during the exact stay dates of 25 to 28 November."
+ },
+ {
+  "id": "hotel_paris_2",
+  "booking_id": "hotel_paris",
+  "lang": "en",
+  "kind": "audio",
+  "script": "RATP traffic announcement for Metro line 8. From 25 to 28 November 2026, Chemin Vert station is closed for platform repairs and trains will not stop at Chemin Vert; please use Bastille or Filles du Calvaire.",
+  "media": "hotel_paris_2.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": true,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes Chemin Vert station on Metro line 8, one of the hotel's nearest stations, from 25 to 28 November."
+ },
+ {
+  "id": "hotel_paris_3",
+  "booking_id": "hotel_paris",
+  "lang": "fr",
+  "kind": "image",
+  "script": "RATP - MÉTRO LIGNE 1\nSTATION SAINT-PAUL FERMÉE\nDu 25 au 28 novembre 2026\nLes trains ne s'arrêtent pas à Saint-Paul.",
+  "media": "hotel_paris_3.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": true,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Notifies passengers that Saint-Paul station on line 1 is closed from 25 to 28 November 2026."
+ },
+ {
+  "id": "hotel_paris_4",
+  "booking_id": "hotel_paris",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Information RATP ligne 1 : la station Saint-Paul sera fermée pour travaux du 1er au 4 décembre 2026. Jusqu'au 30 novembre inclus, la station Saint-Paul reste normalement desservie.",
+  "media": "hotel_paris_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "The Saint-Paul closure is in December after the 25 to 28 November hotel stay."
+ },
+ {
+  "id": "hotel_paris_5",
+  "booking_id": "hotel_paris",
+  "lang": "en",
+  "kind": "audio",
+  "script": "RATP service update: on Metro line 4, Chatelet station is closed on 26 November for maintenance. All stations on Metro line 1, including Saint-Paul, and line 8 are operating normally.",
+  "media": "hotel_paris_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Affects Chatelet on line 4 while confirming normal operation at Saint-Paul on line 1 and on line 8."
+ },
+ {
+  "id": "hotel_paris_6",
+  "booking_id": "hotel_paris",
+  "lang": "fr",
+  "kind": "image",
+  "script": "RATP - LIGNE 5\nStation Bréguet-Sabin fermée du 25 au 28 nov\nLigne 1 (Saint-Paul) et Ligne 8 (Chemin Vert) :\nTrafic normal, stations ouvertes.",
+  "media": "hotel_paris_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes Breguet-Sabin on line 5 while Saint-Paul and Chemin Vert remain open and normal."
+ },
+ {
+  "id": "museum_louvre_1",
+  "booking_id": "museum_louvre",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Mesdames et messieurs, bienvenue au Musée du Louvre. En raison d'une intervention technique ce jeudi 26 novembre 2026, l'entrée par la Pyramide est fermée toute la journée; les visiteurs munis d'un billet horodaté doivent utiliser l'entrée du Carrousel.",
+  "media": "museum_louvre_1.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": true,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes the Louvre Pyramid entrance on Thursday 26 November 2026 and redirects timed-entry holders to the Carrousel entrance."
+ },
+ {
+  "id": "museum_louvre_2",
+  "booking_id": "museum_louvre",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Attention Louvre visitors on Thursday 26 November 2026. The Pyramid entrance is closed today; all timed-entry ticket holders, including the 10:30 slot, must enter via the Carrousel entrance or Porte des Lions.",
+  "media": "museum_louvre_2.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": true,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes the Pyramid entrance on Thursday 26 November 2026 and redirects 10:30 timed-entry visitors to alternative entrances."
+ },
+ {
+  "id": "museum_louvre_3",
+  "booking_id": "museum_louvre",
+  "lang": "fr",
+  "kind": "image",
+  "script": "MUSÉE DU LOUVRE\nJEUDI 26 NOVEMBRE 2026\nENTRÉE PYRAMIDE FERMÉE\nBillets horodatés : merci d'emprunter l'entrée Carrousel.",
+  "media": "museum_louvre_3.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": true,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "States the Pyramid entrance is closed on Thursday 26 November 2026 and directs timed-ticket visitors to the Carrousel entrance."
+ },
+ {
+  "id": "museum_louvre_4",
+  "booking_id": "museum_louvre",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Information Musée du Louvre : l'entrée par la Pyramide sera exceptionnellement fermée demain vendredi 27 novembre 2026. Aujourd'hui jeudi 26 novembre, l'entrée Pyramide est ouverte normalement pour tous les billets horodatés.",
+  "media": "museum_louvre_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "The Pyramid closure is on Friday 27 November, whereas the timed entry is on Thursday 26 November when the Pyramid is open."
+ },
+ {
+  "id": "museum_louvre_5",
+  "booking_id": "museum_louvre",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Louvre visitor notice for Thursday 26 November 2026: the Passage Richelieu entrance is closed today for maintenance. The main Pyramid entrance remains open as scheduled for all timed-entry reservations.",
+  "media": "museum_louvre_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Closes only the Richelieu entrance while confirming the Pyramid entrance is open on 26 November."
+ },
+ {
+  "id": "museum_louvre_6",
+  "booking_id": "museum_louvre",
+  "lang": "fr",
+  "kind": "image",
+  "script": "MUSÉE D'ORSAY - JEUDI 26 NOVEMBRE 2026\nEntrée A fermée pour travaux\nMusée du Louvre (Pyramide) : accès ouvert normalement",
+  "media": "museum_louvre_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Concerns the Musee d'Orsay entrance and notes the Louvre Pyramid entrance is open normally."
+ },
+ {
+  "id": "train_ams_1",
+  "booking_id": "train_ams",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Attention en gare de Paris-Nord ce samedi 28 novembre 2026. Le train Eurostar 9315 à destination d'Amsterdam Centraal, départ initialement prévu à 09h25, est supprimé en raison d'un incident d'alimentation électrique; les voyageurs sont réacheminés sur les trains suivants.",
+  "media": "train_ams_1.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": true,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Cancels Eurostar 9315 from Paris Gare du Nord to Amsterdam Centraal at 09:25 on Saturday 28 November."
+ },
+ {
+  "id": "train_ams_2",
+  "booking_id": "train_ams",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Eurostar passenger announcement at Paris Gare du Nord on Saturday 28 November. Eurostar service 9315 at 09:25 to Brussels-Midi, Rotterdam Centraal, and Amsterdam Centraal has been cancelled; please go to the Eurostar customer desk for rebooking.",
+  "media": "train_ams_2.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": true,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Announces the cancellation of Eurostar 9315 on 28 November and instructs passengers to rebook."
+ },
+ {
+  "id": "train_ams_3",
+  "booking_id": "train_ams",
+  "lang": "fr",
+  "kind": "image",
+  "script": "PARIS GARE DU NORD - SAMEDI 28 NOV 2026\n09:25 | EUROSTAR 9315 | AMSTERDAM CENTRAAL\nSTATUT : SUPPRIMÉ\nRéacheminement au guichet Eurostar",
+  "media": "train_ams_3.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": true,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Displays the cancellation status for the 09:25 Eurostar 9315 to Amsterdam Centraal on 28 November."
+ },
+ {
+  "id": "train_ams_4",
+  "booking_id": "train_ams",
+  "lang": "fr",
+  "kind": "audio",
+  "script": "Information Eurostar à Paris-Nord ce samedi 28 novembre : le train Eurostar 9317 de 11h25 à destination d'Amsterdam Centraal est supprimé. Le train Eurostar 9315 de 09h25 circule normalement.",
+  "media": "train_ams_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Cancels Eurostar 9317 at 11:25 while confirming Eurostar 9315 at 09:25 is running normally."
+ },
+ {
+  "id": "train_ams_5",
+  "booking_id": "train_ams",
+  "lang": "en",
+  "kind": "audio",
+  "script": "Notice for Saturday 28 November 2026: Eurostar 9314 from Amsterdam Centraal to Paris Gare du Nord has been cancelled. Northbound Eurostar 9315 from Paris to Amsterdam is operating on schedule.",
+  "media": "train_ams_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Cancels the opposite-direction train Eurostar 9314 and explicitly states Eurostar 9315 is on schedule."
+ },
+ {
+  "id": "train_ams_6",
+  "booking_id": "train_ams",
+  "lang": "en",
+  "kind": "image",
+  "script": "PARIS GARE DU NORD - SAT 28 NOV 2026\n09:25 | EUROSTAR 9315 -> AMSTERDAM | ON TIME - VOIE 7\n13:25 | EUROSTAR 9319 -> AMSTERDAM | CANCELLED",
+  "media": "train_ams_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Shows Eurostar 9315 on time and cancels a different train, Eurostar 9319."
+ },
+ {
+  "id": "hotel_ams_1",
+  "booking_id": "hotel_ams",
+  "lang": "nl",
+  "kind": "audio",
+  "script": "Mededeling van het GVB: wegens spoorwerkzaamheden op de Rozengracht rijden tram 13 en tram 17 van 28 tot en met 30 november een omleiding. De halte Westermarkt vervalt in beide richtingen.",
+  "media": "hotel_ams_1.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": true,
+   "flight_home": false
+  },
+  "why": "Diverts trams 13 and 17 away from stop Westermarkt during the 28 to 30 November Amsterdam stay."
+ },
+ {
+  "id": "hotel_ams_2",
+  "booking_id": "hotel_ams",
+  "lang": "en",
+  "kind": "audio",
+  "script": "GVB service announcement: from 28 to 30 November, trams 13 and 17 are diverted due to track works and do not stop at Westermarkt. Please use stops Dam or Marnixstraat instead.",
+  "media": "hotel_ams_2.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": true,
+   "flight_home": false
+  },
+  "why": "Announces trams 13 and 17 skip Westermarkt stop between 28 and 30 November."
+ },
+ {
+  "id": "hotel_ams_3",
+  "booking_id": "hotel_ams",
+  "lang": "nl",
+  "kind": "image",
+  "script": "GVB OMLEIDING 28 T/M 30 NOV 2026\nTram 13 en 17 rijden via Raadhuisstraat-Marnixstraat\nHalte Westermarkt vervallen wegens werkzaamheden.",
+  "media": "hotel_ams_3.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": true,
+   "flight_home": false
+  },
+  "why": "Sign at the stop indicates trams 13 and 17 bypass Westermarkt from 28 to 30 November."
+ },
+ {
+  "id": "hotel_ams_4",
+  "booking_id": "hotel_ams",
+  "lang": "nl",
+  "kind": "audio",
+  "script": "GVB reisinformatie: tram 14 stopt van 28 tot en met 30 november niet bij halte Waterlooplein wegens bestratingswerk. Tram 13 en tram 17 stoppen normaal bij halte Westermarkt.",
+  "media": "hotel_ams_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Affects tram 14 at Waterlooplein while confirming trams 13 and 17 serve Westermarkt normally."
+ },
+ {
+  "id": "hotel_ams_5",
+  "booking_id": "hotel_ams",
+  "lang": "nl",
+  "kind": "audio",
+  "script": "GVB vooraankondiging: van 1 tot en met 3 december rijden tram 13 en 17 een omleiding buiten halte Westermarkt om. Tot en met 30 november blijft halte Westermarkt normaal geopend.",
+  "media": "hotel_ams_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "The diversion starts on 1 December, after the hotel stay ends on 30 November."
+ },
+ {
+  "id": "hotel_ams_6",
+  "booking_id": "hotel_ams",
+  "lang": "nl",
+  "kind": "image",
+  "script": "GVB TRAMINFO 28-30 NOV\nTram 13 & 17: Halte Westermarkt OPEN (normale dienst)\nTram 2 & 12: Halte Rijksmuseum vervallen",
+  "media": "hotel_ams_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "States Westermarkt is open for trams 13 and 17 and only closes Rijksmuseum for trams 2 and 12."
+ },
+ {
+  "id": "flight_home_1",
+  "booking_id": "flight_home",
+  "lang": "nl",
+  "kind": "audio",
+  "script": "Attentie passagiers op Schiphol op maandag 30 november. KLM-vlucht KL 641 naar New York JFK van 10:20 vertrekt niet vanaf gate E18 maar is verplaatst naar gate F07.",
+  "media": "flight_home_1.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": true
+  },
+  "why": "Announces a gate change from E18 to F07 for KLM KL 641 to New York JFK on 30 November."
+ },
+ {
+  "id": "flight_home_2",
+  "booking_id": "flight_home",
+  "lang": "en",
+  "kind": "audio",
+  "script": "NS travel update at Amsterdam Centraal on Monday morning 30 November 2026. Due to a signal failure, no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30; replacement buses depart from the IJzijde bus platform.",
+  "media": "flight_home_2.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": true
+  },
+  "why": "Suspends the planned morning train from Amsterdam Centraal to Schiphol on 30 November before the 10:20 flight."
+ },
+ {
+  "id": "flight_home_3",
+  "booking_id": "flight_home",
+  "lang": "nl",
+  "kind": "image",
+  "script": "SCHIPHOL VERTREK - MA 30 NOV 2026\n10:20 | KL 641 NEW YORK JFK\nGATE GEWIJZIGD: E18 -> F07\nVertrekhal 2, ga naar gate F07",
+  "media": "flight_home_3.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": true
+  },
+  "why": "Departure board displays the gate change for KL 641 to New York JFK on 30 November."
+ },
+ {
+  "id": "flight_home_4",
+  "booking_id": "flight_home",
+  "lang": "nl",
+  "kind": "audio",
+  "script": "Schiphol mededeling voor maandag 30 november: KLM-vlucht KL 643 van 13:45 naar New York JFK heeft een gatewijziging naar gate E22. Vlucht KL 641 om 10:20 vertrekt volgens schema vanaf gate E18.",
+  "media": "flight_home_4.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Changes the gate for flight KL 643 rather than KL 641, which stays on schedule."
+ },
+ {
+  "id": "flight_home_5",
+  "booking_id": "flight_home",
+  "lang": "en",
+  "kind": "audio",
+  "script": "NS announcement at Amsterdam Centraal on Monday morning 30 November: trains between Amsterdam Centraal and Utrecht Centraal are suspended until 11:00. Trains from Amsterdam Centraal to Schiphol Airport are running normally.",
+  "media": "flight_home_5.mp3",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Suspends trains to Utrecht while confirming trains from Amsterdam Centraal to Schiphol run normally."
+ },
+ {
+  "id": "flight_home_6",
+  "booking_id": "flight_home",
+  "lang": "nl",
+  "kind": "image",
+  "script": "AMSTERDAM CENTRAAL - MA 30 NOV\nSprinter & Intercity naar Schiphol Airport: RIJDT OP TIJD\nGeen treinen richting Haarlem (werkzaamheden)",
+  "media": "flight_home_6.jpg",
+  "labels": {
+   "flight_out": false,
+   "hotel_paris": false,
+   "museum_louvre": false,
+   "train_ams": false,
+   "hotel_ams": false,
+   "flight_home": false
+  },
+  "why": "Affects trains toward Haarlem while confirming trains to Schiphol Airport run on time."
+ }
+]
