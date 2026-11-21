@@ -1,0 +1,194 @@
+{"t": "15:56:46", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Eurostar Booking Confirmation EUSM", "latency_s": 5.252}
+{"t": "15:56:46", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR", "latency_s": 5.329}
+{"t": "15:56:47", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Canal: Booking Confir", "latency_s": 6.104}
+{"t": "15:56:47", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Marais: Reservation C", "latency_s": 6.771}
+{"t": "15:56:51", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Air France: Your e-ticket receipt ", "latency_s": 10.02}
+{"t": "15:56:51", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - KLM Booking Confirmation KL 641 Am", "latency_s": 10.477}
+{"t": "15:57:53", "model": "gemini-decision-1", "summary": "abroad match in_69ff62 image (286 q)", "latency_s": 1.226}
+{"t": "15:57:54", "model": "gemini-decision-1", "summary": "abroad match in_a4dda3 audio (286 q)", "latency_s": 1.026}
+{"t": "15:57:55", "model": "gemini-decision-1", "summary": "abroad match in_1f797e audio (286 q)", "latency_s": 1.35}
+{"t": "15:57:58", "model": "gemini-4-carbon", "summary": "abroad band in_1f797e train_ams", "latency_s": 3.458}
+{"t": "15:57:58", "model": "gemini-4-neon", "summary": "abroad change in_69ff62 for train_ams", "latency_s": 5.129}
+{"t": "15:58:00", "model": "gemini-4-neon", "summary": "abroad change in_a4dda3 for train_ams", "latency_s": 5.573}
+{"t": "15:58:01", "model": "gemini-4-hydrogen", "summary": "abroad gist in_1f797e", "latency_s": 2.356}
+{"t": "15:58:02", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.771}
+{"t": "15:58:03", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.772}
+{"t": "15:58:09", "model": "gemini-3.8-flash-tts", "summary": "whisper Paris Gare du Nord \u0938\u0947 Amsterdam Centraal", "latency_s": 6.582}
+{"t": "15:58:10", "model": "gemini-3.8-flash-tts", "summary": "whisper \u092c\u093f\u091c\u0932\u0940 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0915\u0940 \u0938\u092e\u0938\u094d\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 09:25 \u092c\u091c", "latency_s": 7.438}
+{"t": "15:58:16", "model": "gemini-nano-banana-2.1", "summary": "annotate STATUT : SUPPRIM\u00c9 R\u00e9acheminement au guic", "latency_s": 13.371}
+{"t": "15:58:39", "model": "gemini-decision-1", "summary": "abroad match in_ea8900 image (286 q)", "latency_s": 1.641}
+{"t": "15:58:40", "model": "gemini-decision-1", "summary": "abroad match in_4d04c0 audio (286 q)", "latency_s": 1.253}
+{"t": "15:58:43", "model": "gemini-4-carbon", "summary": "abroad band in_4d04c0 train_ams", "latency_s": 3.628}
+{"t": "15:58:45", "model": "gemini-4-neon", "summary": "abroad change in_ea8900 for train_ams", "latency_s": 5.535}
+{"t": "15:58:46", "model": "gemini-4-hydrogen", "summary": "abroad gist in_4d04c0", "latency_s": 3.174}
+{"t": "15:58:48", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.16}
+{"t": "15:58:54", "model": "gemini-3.8-flash-tts", "summary": "whisper Amsterdam Centraal \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0940 09:25 \u0915\u0940 Eu", "latency_s": 6.398}
+{"t": "15:59:11", "model": "gemini-nano-banana-2.1", "summary": "annotate STATUT : SUPPRIM\u00c9 R\u00e9acheminement au guic", "latency_s": 23.116}
+{"t": "15:59:29", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 9.45}
+{"t": "15:59:29", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.261}
+{"t": "15:59:30", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.28}
+{"t": "15:59:30", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.343}
+{"t": "15:59:31", "model": "gemini-decision-1", "summary": "abroad match in_4fa7d2 audio (291 q)", "latency_s": 0.86}
+{"t": "15:59:31", "model": "gemini-decision-1", "summary": "abroad match in_453712 audio (291 q)", "latency_s": 0.822}
+{"t": "15:59:34", "model": "gemini-4-hydrogen", "summary": "abroad gist in_4fa7d2", "latency_s": 2.701}
+{"t": "15:59:36", "model": "gemini-4-neon", "summary": "abroad change in_453712 for train_ams", "latency_s": 5.118}
+{"t": "15:59:40", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.544}
+{"t": "15:59:46", "model": "gemini-3.8-flash-tts", "summary": "whisper \u092c\u093f\u091c\u0932\u0940 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0915\u0940 \u0938\u092e\u0938\u094d\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 Paris Ga", "latency_s": 6.757}
+{"t": "15:59:56", "model": "gemini-decision-1", "summary": "abroad match in_rd_f4648f news (291 q)", "latency_s": 0.841}
+{"t": "15:59:56", "model": "gemini-decision-1", "summary": "abroad match in_rd_2da334 news (291 q)", "latency_s": 0.893}
+{"t": "15:59:56", "model": "gemini-decision-1", "summary": "abroad match in_rd_abfed1 news (291 q)", "latency_s": 0.953}
+{"t": "15:59:57", "model": "gemini-decision-1", "summary": "abroad match in_rd_c94f26 news (291 q)", "latency_s": 0.9}
+{"t": "15:59:57", "model": "gemini-decision-1", "summary": "abroad match in_rd_e7ac9b news (291 q)", "latency_s": 0.982}
+{"t": "15:59:57", "model": "gemini-decision-1", "summary": "abroad match in_rd_c66fdf news (291 q)", "latency_s": 1.148}
+{"t": "15:59:58", "model": "gemini-decision-1", "summary": "abroad match in_rd_e87cb9 news (291 q)", "latency_s": 0.902}
+{"t": "15:59:58", "model": "gemini-decision-1", "summary": "abroad match in_rd_32b7d4 news (291 q)", "latency_s": 1.223}
+{"t": "15:59:58", "model": "gemini-decision-1", "summary": "abroad match in_rd_88261f news (291 q)", "latency_s": 1.133}
+{"t": "15:59:58", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_2da334", "latency_s": 2.21}
+{"t": "15:59:58", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_abfed1", "latency_s": 2.401}
+{"t": "15:59:59", "model": "gemini-decision-1", "summary": "abroad match in_rd_e4f481 news (291 q)", "latency_s": 0.856}
+{"t": "15:59:59", "model": "gemini-decision-1", "summary": "abroad match in_rd_79c603 news (291 q)", "latency_s": 0.898}
+{"t": "15:59:59", "model": "gemini-decision-1", "summary": "abroad match in_rd_3e13e7 news (291 q)", "latency_s": 0.991}
+{"t": "15:59:59", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_c66fdf", "latency_s": 2.32}
+{"t": "16:00:00", "model": "gemini-decision-1", "summary": "abroad match in_rd_ac67c9 news (291 q)", "latency_s": 0.816}
+{"t": "16:00:00", "model": "gemini-4-carbon", "summary": "abroad band in_rd_e7ac9b hotel_paris", "latency_s": 2.745}
+{"t": "16:00:00", "model": "gemini-decision-1", "summary": "abroad match in_rd_415a64 news (291 q)", "latency_s": 0.879}
+{"t": "16:00:00", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_c94f26", "latency_s": 3.314}
+{"t": "16:00:00", "model": "gemini-decision-1", "summary": "abroad match in_rd_851bf4 news (291 q)", "latency_s": 0.764}
+{"t": "16:00:00", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_e87cb9", "latency_s": 2.374}
+{"t": "16:00:01", "model": "gemini-4-carbon", "summary": "abroad band in_rd_88261f train_ams", "latency_s": 3.177}
+{"t": "16:00:01", "model": "gemini-decision-1", "summary": "abroad match in_rd_b5c2b6 news (291 q)", "latency_s": 0.932}
+{"t": "16:00:01", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_32b7d4", "latency_s": 3.363}
+{"t": "16:00:01", "model": "gemini-decision-1", "summary": "abroad match in_rd_df5701 news (291 q)", "latency_s": 1.344}
+{"t": "16:00:02", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_79c603", "latency_s": 2.711}
+{"t": "16:00:02", "model": "gemini-4-neon", "summary": "abroad change in_rd_f4648f for hotel_ams", "latency_s": 6.204}
+{"t": "16:00:02", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_851bf4", "latency_s": 2.156}
+{"t": "16:00:02", "model": "gemini-decision-1", "summary": "abroad match in_rd_b4e5d7 news (291 q)", "latency_s": 1.013}
+{"t": "16:00:02", "model": "gemini-decision-1", "summary": "abroad match in_rd_dc3c4d news (291 q)", "latency_s": 0.784}
+{"t": "16:00:02", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_e4f481", "latency_s": 3.552}
+{"t": "16:00:03", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_e7ac9b", "latency_s": 2.847}
+{"t": "16:00:03", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_ac67c9", "latency_s": 3.24}
+{"t": "16:00:03", "model": "gemini-decision-1", "summary": "abroad match in_rd_d57ff0 news (291 q)", "latency_s": 0.77}
+{"t": "16:00:03", "model": "gemini-decision-1", "summary": "abroad match in_rd_b34a94 news (291 q)", "latency_s": 0.983}
+{"t": "16:00:03", "model": "gemini-decision-1", "summary": "abroad match in_rd_32c140 news (291 q)", "latency_s": 0.786}
+{"t": "16:00:04", "model": "gemini-decision-1", "summary": "abroad match in_rd_342e46 news (291 q)", "latency_s": 1.043}
+{"t": "16:00:04", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_88261f", "latency_s": 3.002}
+{"t": "16:00:04", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_3e13e7", "latency_s": 5.248}
+{"t": "16:00:04", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_df5701", "latency_s": 2.936}
+{"t": "16:00:04", "model": "gemini-4-carbon", "summary": "abroad band in_rd_415a64 hotel_paris", "latency_s": 4.609}
+{"t": "16:00:05", "model": "gemini-decision-1", "summary": "abroad match in_rd_86491e news (291 q)", "latency_s": 0.716}
+{"t": "16:00:05", "model": "gemini-decision-1", "summary": "abroad match in_rd_c45eb2 news (291 q)", "latency_s": 0.813}
+{"t": "16:00:05", "model": "gemini-decision-1", "summary": "abroad match in_rd_41efa6 news (291 q)", "latency_s": 0.797}
+{"t": "16:00:06", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.698}
+{"t": "16:00:06", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_342e46", "latency_s": 1.839}
+{"t": "16:00:06", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_b4e5d7", "latency_s": 3.734}
+{"t": "16:00:06", "model": "gemini-4-carbon", "summary": "abroad band in_rd_b34a94 hotel_paris", "latency_s": 2.861}
+{"t": "16:00:06", "model": "gemini-4-carbon", "summary": "abroad band in_rd_dc3c4d hotel_paris", "latency_s": 3.946}
+{"t": "16:00:06", "model": "gemini-4-carbon", "summary": "abroad band in_rd_d57ff0 hotel_paris", "latency_s": 3.205}
+{"t": "16:00:07", "model": "gemini-decision-1", "summary": "abroad match in_rd_81814f news (291 q)", "latency_s": 0.835}
+{"t": "16:00:07", "model": "gemini-decision-1", "summary": "abroad match in_rd_269de7 news (291 q)", "latency_s": 0.823}
+{"t": "16:00:07", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_b5c2b6", "latency_s": 5.733}
+{"t": "16:00:07", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_415a64", "latency_s": 2.8}
+{"t": "16:00:08", "model": "gemini-decision-1", "summary": "abroad match in_rd_c86797 news (291 q)", "latency_s": 0.871}
+{"t": "16:00:08", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_86491e", "latency_s": 2.859}
+{"t": "16:00:08", "model": "gemini-decision-1", "summary": "abroad match in_rd_d0ccf4 news (291 q)", "latency_s": 0.772}
+{"t": "16:00:08", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_dc3c4d", "latency_s": 1.87}
+{"t": "16:00:09", "model": "gemini-decision-1", "summary": "abroad match in_rd_b65b2d news (291 q)", "latency_s": 0.819}
+{"t": "16:00:09", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_b34a94", "latency_s": 2.558}
+{"t": "16:00:09", "model": "gemini-decision-1", "summary": "abroad match in_rd_29f907 news (291 q)", "latency_s": 0.908}
+{"t": "16:00:14", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_269de7", "latency_s": 7.162}
+{"t": "16:00:14", "model": "gemini-4-neon", "summary": "abroad change in_rd_32c140 for hotel_ams", "latency_s": 10.859}
+{"t": "16:00:14", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_81814f", "latency_s": 7.324}
+{"t": "16:00:14", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_d0ccf4", "latency_s": 6.389}
+{"t": "16:00:15", "model": "gemini-4-neon", "summary": "abroad change in_rd_29f907 for museum_louvre", "latency_s": 6.121}
+{"t": "16:00:15", "model": "gemini-4-neon", "summary": "abroad change in_rd_c45eb2 for hotel_ams", "latency_s": 10.364}
+{"t": "16:00:16", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_c86797", "latency_s": 7.674}
+{"t": "16:00:16", "model": "gemini-decision-1", "summary": "abroad match in_rd_a4a984 news (291 q)", "latency_s": 1.763}
+{"t": "16:00:16", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_b65b2d", "latency_s": 7.193}
+{"t": "16:00:16", "model": "gemini-decision-1", "summary": "abroad match in_rd_adc683 news (291 q)", "latency_s": 1.705}
+{"t": "16:00:31", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_adc683", "latency_s": 14.619}
+{"t": "16:00:31", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_a4a984", "latency_s": 15.184}
+{"t": "16:00:32", "model": "gemini-decision-1", "summary": "abroad match in_rd_8c5d26 news (291 q)", "latency_s": 15.757}
+{"t": "16:00:34", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 18.607}
+{"t": "16:00:34", "model": "gemini-4-carbon", "summary": "abroad band in_rd_8c5d26 train_ams", "latency_s": 2.578}
+{"t": "16:00:35", "model": "gemini-4-neon", "summary": "abroad change in_rd_41efa6 for hotel_paris", "latency_s": 29.359}
+{"t": "16:00:35", "model": "gemini-decision-1", "summary": "abroad match in_rd_7b2d68 news (291 q)", "latency_s": 3.686}
+{"t": "16:00:36", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 21.22}
+{"t": "16:00:38", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 23.325}
+{"t": "16:00:38", "model": "gemini-decision-1", "summary": "abroad match in_rd_e1c75e news (291 q)", "latency_s": 29.254}
+{"t": "16:00:39", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 4.357}
+{"t": "16:00:39", "model": "gemini-4-carbon", "summary": "abroad band in_rd_7b2d68 flight_home", "latency_s": 3.724}
+{"t": "16:00:41", "model": "gemini-4-neon", "summary": "abroad change in_rd_8c5d26 for train_ams", "latency_s": 6.591}
+{"t": "16:00:42", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_d57ff0", "latency_s": 35.825}
+{"t": "16:00:44", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_7b2d68", "latency_s": 4.692}
+{"t": "16:00:46", "model": "gemini-4-carbon", "summary": "abroad band in_rd_e1c75e flight_home", "latency_s": 8.299}
+{"t": "16:00:50", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 8.715}
+{"t": "16:00:52", "model": "gemini-decision-1", "summary": "abroad match in_rd_83a5f9 news (291 q)", "latency_s": 36.336}
+{"t": "16:00:56", "model": "gemini-4-carbon", "summary": "abroad band in_rd_83a5f9 flight_home", "latency_s": 3.956}
+{"t": "16:00:57", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0915\u093e\u0930\u094d\u092f \u0915\u0947 \u0915\u093e\u0930\u0923 2026-11-28 \u0938\u0947 2026", "latency_s": 51.192}
+{"t": "16:00:58", "model": "gemini-4-neon", "summary": "abroad change in_rd_e1c75e for flight_home", "latency_s": 11.575}
+{"t": "16:00:59", "model": "gemini-3.8-flash-tts", "summary": "whisper Overtoomse Sluis \u0915\u0947 \u0915\u093e\u092e \u0915\u0947 \u0915\u093e\u0930\u0923 GVB Tram", "latency_s": 21.383}
+{"t": "16:00:59", "model": "gemini-3.8-flash-tts", "summary": "whisper Westermarkt \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0940 GVB Tram 13 \u0938\u0947\u0935\u093e \u092c", "latency_s": 24.894}
+{"t": "16:00:59", "model": "gemini-3.8-flash-tts", "summary": "whisper Hotel Sample Marais \u092e\u0947\u0902 \u0906\u092a\u0915\u0947 \u0920\u0939\u0930\u0928\u0947 \u0915\u0947 \u0926\u094c", "latency_s": 20.419}
+{"t": "16:01:00", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0917\u0941\u0930\u0941\u0935\u093e\u0930 26 \u0928\u0935\u0902\u092c\u0930 \u0915\u094b \u0938\u0941\u092c\u0939 10:30 \u092c\u091c\u0947 \u0906\u092a\u0915\u0940 ", "latency_s": 23.744}
+{"t": "16:01:00", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rd_83a5f9", "latency_s": 4.187}
+{"t": "16:01:02", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.698}
+{"t": "16:01:02", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0907\u0902\u091c\u0940\u0928\u093f\u092f\u0930\u093f\u0902\u0917 \u0915\u093e\u0930\u094d\u092f\u094b\u0902 \u0915\u0947 \u0915\u093e\u0930\u0923 28 \u0928\u0935\u0902\u092c\u0930 202", "latency_s": 12.857}
+{"t": "16:01:11", "model": "gemini-3.8-flash-tts", "summary": "whisper New York JFK \u092e\u0947\u0902 \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0915\u093e\u0930\u094d\u092f \u0915\u0947 \u0915\u093e\u0930\u0923 2", "latency_s": 9.841}
+{"t": "16:01:52", "model": "gemini-4-neon", "summary": "trip extract image", "latency_s": 5.586}
+{"t": "16:02:26", "model": "gemini-4-hydrogen", "summary": "fingerprint No ticket photo, screenshot, or spoken route recording was provided.", "latency_s": 33.863}
+{"t": "16:02:28", "model": "gemini-decision-1", "summary": "decide a01.wav (242 q)", "latency_s": 0.916}
+{"t": "16:02:29", "model": "gemini-4-hydrogen", "summary": "receipt caption", "latency_s": 1.881}
+{"t": "16:02:34", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 5.737}
+{"t": "16:02:50", "model": "gemini-decision-1", "summary": "decide a01.wav (197 q)", "latency_s": 0.701}
+{"t": "16:02:51", "model": "gemini-4-hydrogen", "summary": "receipt caption", "latency_s": 1.81}
+{"t": "16:02:56", "model": "gemini-4-neon", "summary": "extract change for Q train northbound from Times Sq-42 St to 72 St", "latency_s": 6.207}
+{"t": "16:02:58", "model": "gemini-4-hydrogen", "summary": "translate to Hindi", "latency_s": 1.938}
+{"t": "16:03:04", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0909\u0924\u094d\u0924\u0930 \u0915\u0940 \u0913\u0930 \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0940 Q \u091f\u094d\u0930\u0947\u0928\u0947\u0902 Times Sq", "latency_s": 6.496}
+{"t": "16:03:16", "model": "gemini-decision-1", "summary": "abroad match in_rh_7c3387 audio (291 q)", "latency_s": 0.962}
+{"t": "16:03:16", "model": "gemini-decision-1", "summary": "abroad match in_rh_9d6431 audio (291 q)", "latency_s": 0.993}
+{"t": "16:03:16", "model": "gemini-decision-1", "summary": "abroad match in_rh_2ee53c audio (291 q)", "latency_s": 1.213}
+{"t": "16:03:17", "model": "gemini-decision-1", "summary": "abroad match in_rh_b1b8a5 audio (291 q)", "latency_s": 0.923}
+{"t": "16:03:17", "model": "gemini-decision-1", "summary": "abroad match in_rh_462254 audio (291 q)", "latency_s": 0.873}
+{"t": "16:03:17", "model": "gemini-decision-1", "summary": "abroad match in_rh_3b8d63 audio (291 q)", "latency_s": 1.074}
+{"t": "16:03:18", "model": "gemini-decision-1", "summary": "abroad match in_rh_77cfa8 audio (291 q)", "latency_s": 0.944}
+{"t": "16:03:18", "model": "gemini-decision-1", "summary": "abroad match in_rh_6ebe33 audio (291 q)", "latency_s": 1.046}
+{"t": "16:03:18", "model": "gemini-decision-1", "summary": "abroad match in_rh_097ea6 audio (291 q)", "latency_s": 1.095}
+{"t": "16:03:19", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rh_3b8d63", "latency_s": 1.734}
+{"t": "16:03:19", "model": "gemini-decision-1", "summary": "abroad match in_rh_cb60e0 audio (291 q)", "latency_s": 0.918}
+{"t": "16:03:19", "model": "gemini-decision-1", "summary": "abroad match in_rh_85aa07 audio (291 q)", "latency_s": 0.94}
+{"t": "16:03:19", "model": "gemini-decision-1", "summary": "abroad match in_rh_511e9c audio (291 q)", "latency_s": 0.902}
+{"t": "16:03:21", "model": "gemini-4-carbon", "summary": "abroad band in_rh_2ee53c flight_out", "latency_s": 4.995}
+{"t": "16:03:21", "model": "gemini-4-carbon", "summary": "abroad band in_rh_462254 museum_louvre", "latency_s": 4.089}
+{"t": "16:03:21", "model": "gemini-4-neon", "summary": "abroad change in_rh_9d6431 for flight_out", "latency_s": 5.61}
+{"t": "16:03:22", "model": "gemini-4-carbon", "summary": "abroad band in_rh_85aa07 hotel_ams", "latency_s": 2.765}
+{"t": "16:03:22", "model": "gemini-4-neon", "summary": "abroad change in_rh_7c3387 for hotel_paris", "latency_s": 6.621}
+{"t": "16:03:23", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rh_2ee53c", "latency_s": 1.778}
+{"t": "16:03:23", "model": "gemini-4-neon", "summary": "abroad change in_rh_b1b8a5 for museum_louvre", "latency_s": 6.488}
+{"t": "16:03:23", "model": "gemini-4-neon", "summary": "abroad change in_rh_77cfa8 for hotel_ams", "latency_s": 5.504}
+{"t": "16:03:24", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rh_85aa07", "latency_s": 1.591}
+{"t": "16:03:24", "model": "gemini-4-carbon", "summary": "abroad band in_rh_6ebe33 museum_louvre", "latency_s": 5.732}
+{"t": "16:03:24", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rh_462254", "latency_s": 2.995}
+{"t": "16:03:24", "model": "gemini-4-neon", "summary": "abroad change in_rh_097ea6 for train_ams", "latency_s": 5.808}
+{"t": "16:03:24", "model": "gemini-4-neon", "summary": "abroad change in_rh_cb60e0 for flight_home", "latency_s": 5.369}
+{"t": "16:03:24", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 3.011}
+{"t": "16:03:25", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.575}
+{"t": "16:03:25", "model": "gemini-4-neon", "summary": "abroad change in_rh_511e9c for flight_home", "latency_s": 5.965}
+{"t": "16:03:26", "model": "gemini-4-hydrogen", "summary": "abroad gist in_rh_6ebe33", "latency_s": 1.69}
+{"t": "16:03:26", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.537}
+{"t": "16:03:26", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.619}
+{"t": "16:03:27", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.518}
+{"t": "16:03:27", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.403}
+{"t": "16:03:27", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.186}
+{"t": "16:03:31", "model": "gemini-3.8-flash-tts", "summary": "whisper Paris CDG Terminal 2E \u092a\u0930 Air France AF 2", "latency_s": 6.63}
+{"t": "16:03:32", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0917\u0941\u0930\u0941\u0935\u093e\u0930 26 \u0928\u0935\u0902\u092c\u0930 \u0915\u094b 10:30 \u092c\u091c\u0947 \u0906\u092a\u0915\u0947 Mus\u00e9e", "latency_s": 6.179}
+{"t": "16:03:32", "model": "gemini-3.8-flash-tts", "summary": "whisper \u092c\u093f\u091c\u0932\u0940 \u0906\u092a\u0942\u0930\u094d\u0924\u093f \u0915\u0940 \u0918\u091f\u0928\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 Paris Gare", "latency_s": 5.79}
+{"t": "16:03:33", "model": "gemini-3.8-flash-tts", "summary": "whisper 25 \u0938\u0947 28 \u0928\u0935\u0902\u092c\u0930 2026 \u0915\u0947 \u092c\u0940\u091a \u0928\u0935\u0940\u0928\u0940\u0915\u0930\u0923 \u0915\u0947 \u0915", "latency_s": 7.705}
+{"t": "16:03:33", "model": "gemini-3.8-flash-tts", "summary": "whisper New York JFK \u0915\u0947 \u0932\u093f\u090f 10:20 \u092c\u091c\u0947 \u0915\u0940 KLM \u0909\u0921\u093c", "latency_s": 6.199}
+{"t": "16:03:33", "model": "gemini-3.8-flash-tts", "summary": "whisper 28 \u0938\u0947 30 \u0928\u0935\u0902\u092c\u0930 \u0924\u0915 GVB \u091f\u094d\u0930\u093e\u092e 13 \u0914\u0930 17 \u0926\u094b\u0928", "latency_s": 7.087}
+{"t": "16:03:36", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0915\u094b\u0908 \u092c\u0926\u0932\u093e\u0935 \u0928\u0939\u0940\u0902 \u0939\u0948, 10:20 \u092a\u0930 KLM KL 641 \u0917", "latency_s": 4.996}
+{"t": "16:05:32", "model": "gemini-decision-1", "summary": "abroad match in_3ce564 image (291 q)", "latency_s": 0.718}
+{"t": "16:05:35", "model": "gemini-4-carbon", "summary": "abroad band in_3ce564 train_ams", "latency_s": 2.744}
+{"t": "16:05:40", "model": "gemini-4-neon", "summary": "abroad change in_3ce564 for train_ams", "latency_s": 5.543}
+{"t": "16:05:43", "model": "gemini-4-hydrogen", "summary": "abroad translate to Hindi", "latency_s": 2.517}
+{"t": "16:05:49", "model": "gemini-3.8-flash-tts", "summary": "whisper \u0915\u0943\u092a\u092f\u093e \u0936\u093e\u0902\u0924 \u0930\u0939\u0947\u0902, 09:25 \u0915\u0940 Amsterdam Cent", "latency_s": 5.917}
+{"t": "16:05:55", "model": "gemini-nano-banana-2.1", "summary": "annotate STATUT : SUPPRIM\u00c9 R\u00e9acheminement au guic", "latency_s": 11.869}
