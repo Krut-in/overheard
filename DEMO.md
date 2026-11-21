@@ -11,7 +11,7 @@ Start `.venv/bin/uvicorn server:app --port 8000` and `cloudflared tunnel --url h
 | 0:20 to 0:35 | Tap "rehearse". French and Dutch announcements play; "Eurostar 9317 cancelled" stays silent, then "Eurostar 9315 supprime" alerts and the Hindi whisper plays. | "On the platform, every announcement goes through one Decision call in about a second. The 9317 is not my train. The 9315 is, and it tells me in Hindi." |
 | 0:35 to 0:45 | Tap "photo" and shoot the printed Gare du Nord board. The alert shows the photo with the 9315 line circled. | "Point the camera at the board and I get my own photo back, with my train circled." |
 | 0:45 to 0:55 | On the KL 641 card that says nothing changed, tap "Not about me". Then replay that clip: it lands under 0.4. | "When it gets one wrong, I say not about me. It writes sharper questions for that booking, checks they stay quiet on real alerts, and the same mistake goes silent." |
-| 0:55 to 1:00 | Cut to the results table in the README. | "Seventeen of eighteen rehearsal changes caught at one second each, and every failure is in the README." |
+| 0:55 to 1:00 | Cut to the results table in the README. | "All eighteen rehearsal changes caught, under a second each for most, and every failure is in the README." |
 
 ### Before recording
 1. Load the demo trip once beforehand so the cached fingerprint loads in under a second.

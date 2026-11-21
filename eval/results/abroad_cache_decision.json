@@ -1,87 +1,87 @@
 {
  "flight_out_1": {
-  "relevance": 0.9118,
+  "relevance": 0.9173,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.9118,
-   "hotel_paris": 0.3573,
-   "museum_louvre": 0.1188,
-   "train_ams": 0.293,
-   "hotel_ams": 0.1872,
-   "flight_home": 0.2852
+   "flight_out": 0.9173,
+   "hotel_paris": 0.3923,
+   "museum_louvre": 0.081,
+   "train_ams": 0.3789,
+   "hotel_ams": 0.307,
+   "flight_home": 0.2799
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.984,
+    "p": 0.987,
     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.984,
+    "p": 0.982,
     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.98,
-    "q": "Does the input mention New York JFK airport?",
+    "p": 0.975,
+    "q": "Does the input show a route from New York JFK to Paris CDG?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.979,
-    "q": "Does the input mention Air France?",
-    "booking_id": "flight_out"
-   },
-   {
-    "p": 0.979,
-    "q": "Does the input mention Paris Charles de Gaulle or CDG?",
-    "booking_id": "flight_out"
-   }
-  ],
-  "route": "alert",
-  "latency_s": 1.57
- },
- "flight_out_2": {
-  "relevance": 0.9479,
-  "booking_id": "flight_out",
-  "per_booking": {
-   "flight_out": 0.9479,
-   "hotel_paris": 0.3747,
-   "museum_louvre": 0.0898,
-   "train_ams": 0.3432,
-   "hotel_ams": 0.2216,
-   "flight_home": 0.3036
-  },
-  "change_type": "delay",
-  "top_hits": [
-   {
-    "p": 0.99,
-    "q": "Does the input mention Paris Charles de Gaulle or CDG?",
-    "booking_id": "flight_out"
-   },
-   {
-    "p": 0.982,
-    "q": "Does the input mention New York JFK airport?",
-    "booking_id": "flight_out"
-   },
-   {
-    "p": 0.978,
+    "p": 0.965,
     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.976,
-    "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.974,
-    "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
-    "booking_id": "museum_louvre"
+    "p": 0.96,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
    }
   ],
   "route": "alert",
-  "latency_s": 1.498
+  "latency_s": 1.662
+ },
+ "flight_out_2": {
+  "relevance": 0.9022,
+  "booking_id": "flight_out",
+  "per_booking": {
+   "flight_out": 0.9022,
+   "hotel_paris": 0.4121,
+   "museum_louvre": 0.1421,
+   "train_ams": 0.2685,
+   "hotel_ams": 0.256,
+   "flight_home": 0.3055
+  },
+  "change_type": "delay",
+  "top_hits": [
+   {
+    "p": 0.978,
+    "q": "Does the input mention New York JFK airport?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.972,
+    "q": "Does the input mention Terminal 2E or T2E?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.972,
+    "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.97,
+    "q": "Does the input mention Air France?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.964,
+    "q": "Does the input show a route from New York JFK to Paris CDG?",
+    "booking_id": "flight_out"
+   }
+  ],
+  "route": "alert",
+  "latency_s": 1.569
  },
  "flight_out_3": {
   "relevance": 0.7034,
@@ -123,91 +123,91 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 1.59
+  "latency_s": 1.154
  },
  "flight_out_4": {
-  "relevance": 0.6851,
+  "relevance": 0.7117,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.6851,
-   "hotel_paris": 0.3573,
-   "museum_louvre": 0.1246,
-   "train_ams": 0.3931,
-   "hotel_ams": 0.3139,
-   "flight_home": 0.3685
+   "flight_out": 0.7117,
+   "hotel_paris": 0.3914,
+   "museum_louvre": 0.107,
+   "train_ams": 0.5649,
+   "hotel_ams": 0.469,
+   "flight_home": 0.5014
   },
   "change_type": "delay",
   "top_hits": [
    {
-    "p": 0.976,
+    "p": 0.98,
     "q": "Does the input mention Air France?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.974,
+    "p": 0.98,
     "q": "Does the input mention New York JFK airport?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.971,
+    "p": 0.978,
     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.966,
+    "p": 0.965,
     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.942,
+    "p": 0.948,
     "q": "Does the input mention Terminal 2E or T2E?",
     "booking_id": "flight_out"
    }
   ],
   "route": "carbon",
-  "latency_s": 0.966
+  "latency_s": 0.902
  },
  "flight_out_5": {
-  "relevance": 0.6953,
+  "relevance": 0.6629,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.6953,
-   "hotel_paris": 0.2642,
-   "museum_louvre": 0.0508,
-   "train_ams": 0.4113,
-   "hotel_ams": 0.2187,
-   "flight_home": 0.4751
+   "flight_out": 0.6629,
+   "hotel_paris": 0.2394,
+   "museum_louvre": 0.0823,
+   "train_ams": 0.2629,
+   "hotel_ams": 0.1529,
+   "flight_home": 0.3208
   },
   "change_type": "delay",
   "top_hits": [
    {
-    "p": 0.975,
-    "q": "Does the input mention Terminal 2E or T2E?",
+    "p": 0.961,
+    "q": "Does the input mention Air France?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.969,
+    "p": 0.956,
+    "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.955,
     "q": "Does the input mention New York JFK airport?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.968,
+    "p": 0.946,
     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.968,
-    "q": "Does the input report disruptions or delays at CDG Terminal 2E?",
-    "booking_id": "flight_out"
-   },
-   {
-    "p": 0.963,
-    "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+    "p": 0.942,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
     "booking_id": "flight_out"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.138
+  "latency_s": 0.962
  },
  "flight_out_6": {
   "relevance": 0.2272,
@@ -249,91 +249,91 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.742
+  "latency_s": 0.769
  },
  "hotel_paris_1": {
-  "relevance": 0.9393,
+  "relevance": 0.8985,
   "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.3126,
-   "hotel_paris": 0.9393,
-   "museum_louvre": 0.807,
-   "train_ams": 0.348,
-   "hotel_ams": 0.292,
-   "flight_home": 0.4646
+   "flight_out": 0.3233,
+   "hotel_paris": 0.8985,
+   "museum_louvre": 0.8082,
+   "train_ams": 0.5443,
+   "hotel_ams": 0.3788,
+   "flight_home": 0.4204
   },
   "change_type": "closure",
   "top_hits": [
    {
-    "p": 0.989,
-    "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
-    "booking_id": "museum_louvre"
-   },
-   {
-    "p": 0.979,
-    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.977,
+    "p": 0.98,
     "q": "Does the input say Saint-Paul station is closed (\"fermée\", \"gesloten\", \"closed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.976,
+    "p": 0.978,
     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.969,
+    "p": 0.965,
     "q": "Does the input mention a closure, ferme, or gesloten?",
     "booking_id": "flight_home"
+   },
+   {
+    "p": 0.96,
+    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.957,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
    }
   ],
   "route": "alert",
-  "latency_s": 0.856
+  "latency_s": 0.999
  },
  "hotel_paris_2": {
-  "relevance": 0.8451,
-  "booking_id": "train_ams",
+  "relevance": 0.8824,
+  "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.4351,
-   "hotel_paris": 0.8431,
-   "museum_louvre": 0.7661,
-   "train_ams": 0.8451,
-   "hotel_ams": 0.3486,
-   "flight_home": 0.3604
+   "flight_out": 0.2638,
+   "hotel_paris": 0.8824,
+   "museum_louvre": 0.8777,
+   "train_ams": 0.8095,
+   "hotel_ams": 0.3187,
+   "flight_home": 0.3274
   },
   "change_type": "closure",
   "top_hits": [
+   {
+    "p": 0.974,
+    "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+    "booking_id": "hotel_paris"
+   },
    {
     "p": 0.973,
     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.97,
+    "p": 0.965,
     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.968,
-    "q": "Does the input mention a disruption, perturbation, or verstoring?",
-    "booking_id": "flight_out"
+    "p": 0.964,
+    "q": "Does it say a station is closed, station fermée, or station gesloten?",
+    "booking_id": "museum_louvre"
    },
    {
-    "p": 0.967,
-    "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.963,
-    "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+    "p": 0.962,
+    "q": "Does the input mention Chemin Vert metro station?",
     "booking_id": "hotel_paris"
    }
   ],
   "route": "alert",
-  "latency_s": 1.016
+  "latency_s": 0.885
  },
  "hotel_paris_3": {
   "relevance": 0.9039,
@@ -375,70 +375,38 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.747
+  "latency_s": 0.529
  },
  "hotel_paris_4": {
-  "relevance": 0.721,
-  "booking_id": "museum_louvre",
-  "per_booking": {
-   "flight_out": 0.3635,
-   "hotel_paris": 0.6907,
-   "museum_louvre": 0.721,
-   "train_ams": 0.3764,
-   "hotel_ams": 0.3783,
-   "flight_home": 0.3718
-  },
-  "change_type": "closure",
-  "top_hits": [
-   {
-    "p": 0.969,
-    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.964,
-    "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
-    "booking_id": "museum_louvre"
-   },
-   {
-    "p": 0.962,
-    "q": "Does the input mention Saint-Paul metro station?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.953,
-    "q": "Does the input mention Paris Metro line 1 (\"ligne 1\" or \"lijn 1\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.949,
-    "q": "Does the input mention a closure, ferme, or gesloten?",
-    "booking_id": "flight_home"
-   }
-  ],
-  "route": "carbon",
-  "latency_s": 1.046
- },
- "hotel_paris_5": {
-  "relevance": 0.7249,
+  "relevance": 0.6371,
   "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.265,
-   "hotel_paris": 0.7249,
-   "museum_louvre": 0.6412,
-   "train_ams": 0.4031,
-   "hotel_ams": 0.3383,
-   "flight_home": 0.426
+   "flight_out": 0.3266,
+   "hotel_paris": 0.6371,
+   "museum_louvre": 0.5926,
+   "train_ams": 0.5172,
+   "hotel_ams": 0.3326,
+   "flight_home": 0.5083
   },
   "change_type": "closure",
   "top_hits": [
    {
-    "p": 0.978,
+    "p": 0.957,
     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.968,
+    "p": 0.954,
+    "q": "Does the input mention a closure, ferme, or gesloten?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.935,
+    "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.933,
     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
     "booking_id": "museum_louvre"
    },
@@ -446,20 +414,52 @@
     "p": 0.933,
     "q": "Does the input say \"Saint-Paul\" aloud?",
     "booking_id": "hotel_paris"
+   }
+  ],
+  "route": "carbon",
+  "latency_s": 0.867
+ },
+ "hotel_paris_5": {
+  "relevance": 0.7094,
+  "booking_id": "hotel_paris",
+  "per_booking": {
+   "flight_out": 0.308,
+   "hotel_paris": 0.7094,
+   "museum_louvre": 0.6605,
+   "train_ams": 0.7009,
+   "hotel_ams": 0.265,
+   "flight_home": 0.4779
+  },
+  "change_type": "closure",
+  "top_hits": [
+   {
+    "p": 0.968,
+    "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+    "booking_id": "museum_louvre"
    },
    {
-    "p": 0.917,
+    "p": 0.965,
+    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.964,
+    "q": "Does the input mention a closure, ferme, or gesloten?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.932,
     "q": "Does the input mention Saint-Paul metro station?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.914,
-    "q": "Does the input mention a closure, ferme, or gesloten?",
-    "booking_id": "flight_home"
+    "p": 0.899,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
    }
   ],
   "route": "carbon",
-  "latency_s": 0.921
+  "latency_s": 0.94
  },
  "hotel_paris_6": {
   "relevance": 0.6886,
@@ -501,91 +501,91 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.784
+  "latency_s": 0.436
  },
  "museum_louvre_1": {
-  "relevance": 0.9579,
+  "relevance": 0.9528,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.2373,
-   "hotel_paris": 0.3671,
-   "museum_louvre": 0.9579,
-   "train_ams": 0.289,
-   "hotel_ams": 0.2283,
-   "flight_home": 0.3573
-  },
-  "change_type": "closure",
-  "top_hits": [
-   {
-    "p": 0.99,
-    "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
-    "booking_id": "museum_louvre"
-   },
-   {
-    "p": 0.975,
-    "q": "Does it mention the Louvre or Louvre Museum?",
-    "booking_id": "museum_louvre"
-   },
-   {
-    "p": 0.975,
-    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.972,
-    "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.964,
-    "q": "Does the input mention a closure, ferme, or gesloten?",
-    "booking_id": "flight_home"
-   }
-  ],
-  "route": "alert",
-  "latency_s": 1.31
- },
- "museum_louvre_2": {
-  "relevance": 0.861,
-  "booking_id": "museum_louvre",
-  "per_booking": {
-   "flight_out": 0.2881,
-   "hotel_paris": 0.4027,
-   "museum_louvre": 0.861,
-   "train_ams": 0.3455,
-   "hotel_ams": 0.2277,
-   "flight_home": 0.3089
+   "flight_out": 0.2776,
+   "hotel_paris": 0.3081,
+   "museum_louvre": 0.9528,
+   "train_ams": 0.2688,
+   "hotel_ams": 0.1608,
+   "flight_home": 0.2325
   },
   "change_type": "closure",
   "top_hits": [
    {
     "p": 0.977,
-    "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+    "q": "Does it mention the Louvre or Louvre Museum?",
     "booking_id": "museum_louvre"
    },
    {
     "p": 0.976,
-    "q": "Does it direct Louvre visitors to a different entrance?",
+    "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.964,
+    "p": 0.976,
     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
     "booking_id": "hotel_paris"
    },
    {
+    "p": 0.965,
+    "q": "Does it direct Louvre visitors to a different entrance?",
+    "booking_id": "museum_louvre"
+   },
+   {
+    "p": 0.962,
+    "q": "Does the input mention a closure, ferme, or gesloten?",
+    "booking_id": "flight_home"
+   }
+  ],
+  "route": "alert",
+  "latency_s": 0.9
+ },
+ "museum_louvre_2": {
+  "relevance": 0.7792,
+  "booking_id": "museum_louvre",
+  "per_booking": {
+   "flight_out": 0.4579,
+   "hotel_paris": 0.3417,
+   "museum_louvre": 0.7792,
+   "train_ams": 0.3167,
+   "hotel_ams": 0.2921,
+   "flight_home": 0.3289
+  },
+  "change_type": "closure",
+  "top_hits": [
+   {
     "p": 0.952,
+    "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.941,
     "q": "Does the input mention a closure, ferme, or gesloten?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.91,
-    "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
+    "p": 0.927,
+    "q": "Does it direct Louvre visitors to a different entrance?",
     "booking_id": "museum_louvre"
+   },
+   {
+    "p": 0.914,
+    "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?",
+    "booking_id": "museum_louvre"
+   },
+   {
+    "p": 0.91,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
    }
   ],
-  "route": "alert",
-  "latency_s": 1.063
+  "route": "carbon",
+  "latency_s": 0.898
  },
  "museum_louvre_3": {
   "relevance": 0.9308,
@@ -627,91 +627,91 @@
    }
   ],
   "route": "alert",
-  "latency_s": 1.005
+  "latency_s": 0.477
  },
  "museum_louvre_4": {
-  "relevance": 0.7042,
+  "relevance": 0.6868,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.2381,
-   "hotel_paris": 0.3877,
-   "museum_louvre": 0.7042,
-   "train_ams": 0.2611,
-   "hotel_ams": 0.1609,
-   "flight_home": 0.1761
+   "flight_out": 0.2323,
+   "hotel_paris": 0.2544,
+   "museum_louvre": 0.6868,
+   "train_ams": 0.2902,
+   "hotel_ams": 0.1297,
+   "flight_home": 0.2668
   },
   "change_type": "closure",
   "top_hits": [
    {
-    "p": 0.973,
+    "p": 0.957,
+    "q": "Does the input mention a closure, ferme, or gesloten?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.952,
     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.972,
-    "q": "Does the input mention a closure, ferme, or gesloten?",
-    "booking_id": "flight_home"
-   },
-   {
-    "p": 0.965,
+    "p": 0.885,
     "q": "Does it mention the Louvre or Louvre Museum?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.96,
+    "p": 0.865,
     "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.948,
-    "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?",
+    "p": 0.802,
+    "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
     "booking_id": "museum_louvre"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.044
+  "latency_s": 0.893
  },
  "museum_louvre_5": {
-  "relevance": 0.6713,
+  "relevance": 0.6905,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.2287,
-   "hotel_paris": 0.3387,
-   "museum_louvre": 0.6713,
-   "train_ams": 0.2901,
-   "hotel_ams": 0.2123,
-   "flight_home": 0.2791
+   "flight_out": 0.2915,
+   "hotel_paris": 0.5554,
+   "museum_louvre": 0.6905,
+   "train_ams": 0.3035,
+   "hotel_ams": 0.3342,
+   "flight_home": 0.3329
   },
   "change_type": "closure",
   "top_hits": [
    {
-    "p": 0.978,
-    "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
-    "booking_id": "museum_louvre"
-   },
-   {
-    "p": 0.954,
+    "p": 0.958,
     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.949,
+    "p": 0.955,
     "q": "Does the input mention a closure, ferme, or gesloten?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.93,
-    "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+    "p": 0.955,
+    "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
     "booking_id": "museum_louvre"
    },
    {
-    "p": 0.922,
-    "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
-    "booking_id": "hotel_ams"
+    "p": 0.921,
+    "q": "Does the input say Rue de Turenne is closed or blocked (\"fermée\", \"barrée\", \"afgesloten\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.92,
+    "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+    "booking_id": "museum_louvre"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.013
+  "latency_s": 0.887
  },
  "museum_louvre_6": {
   "relevance": 0.6774,
@@ -753,91 +753,91 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.893
+  "latency_s": 0.616
  },
  "train_ams_1": {
-  "relevance": 0.9669,
+  "relevance": 0.9587,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.369,
-   "hotel_paris": 0.3102,
-   "museum_louvre": 0.2219,
-   "train_ams": 0.9669,
-   "hotel_ams": 0.2814,
-   "flight_home": 0.3331
+   "flight_out": 0.5019,
+   "hotel_paris": 0.3765,
+   "museum_louvre": 0.2953,
+   "train_ams": 0.9587,
+   "hotel_ams": 0.4805,
+   "flight_home": 0.3979
   },
   "change_type": "cancelled",
   "top_hits": [
    {
-    "p": 0.988,
-    "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
-    "booking_id": "train_ams"
-   },
-   {
     "p": 0.976,
-    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.975,
     "q": "Does the input mention Eurostar?",
-    "booking_id": "train_ams"
-   },
-   {
-    "p": 0.975,
-    "q": "Does the input mention Eurostar 9315 or EST 9315?",
     "booking_id": "train_ams"
    },
    {
     "p": 0.974,
-    "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
-    "booking_id": "train_ams"
-   }
-  ],
-  "route": "alert",
-  "latency_s": 1.045
- },
- "train_ams_2": {
-  "relevance": 0.9628,
-  "booking_id": "train_ams",
-  "per_booking": {
-   "flight_out": 0.641,
-   "hotel_paris": 0.3776,
-   "museum_louvre": 0.0949,
-   "train_ams": 0.9628,
-   "hotel_ams": 0.4451,
-   "flight_home": 0.4015
-  },
-  "change_type": "cancelled",
-  "top_hits": [
-   {
-    "p": 0.988,
     "q": "Does the input mention train number 9315?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.975,
-    "q": "Does the input mention Eurostar?",
+    "p": 0.972,
+    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.968,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.963,
+    "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
     "booking_id": "train_ams"
+   }
+  ],
+  "route": "alert",
+  "latency_s": 0.889
+ },
+ "train_ams_2": {
+  "relevance": 0.9538,
+  "booking_id": "train_ams",
+  "per_booking": {
+   "flight_out": 0.6171,
+   "hotel_paris": 0.3514,
+   "museum_louvre": 0.0875,
+   "train_ams": 0.9538,
+   "hotel_ams": 0.504,
+   "flight_home": 0.3201
+  },
+  "change_type": "cancelled",
+  "top_hits": [
+   {
+    "p": 0.975,
+    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+    "booking_id": "hotel_paris"
    },
    {
-    "p": 0.968,
-    "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
-    "booking_id": "museum_louvre"
+    "p": 0.967,
+    "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+    "booking_id": "flight_home"
    },
    {
-    "p": 0.968,
+    "p": 0.967,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.966,
     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.966,
+    "p": 0.962,
     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
     "booking_id": "train_ams"
    }
   ],
   "route": "alert",
-  "latency_s": 1.062
+  "latency_s": 0.977
  },
  "train_ams_3": {
   "relevance": 0.9421,
@@ -879,91 +879,91 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.809
+  "latency_s": 0.468
  },
  "train_ams_4": {
-  "relevance": 0.7651,
+  "relevance": 0.8215,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.2915,
-   "hotel_paris": 0.3553,
-   "museum_louvre": 0.0801,
-   "train_ams": 0.7651,
-   "hotel_ams": 0.351,
-   "flight_home": 0.3623
+   "flight_out": 0.2022,
+   "hotel_paris": 0.3091,
+   "museum_louvre": 0.1436,
+   "train_ams": 0.8215,
+   "hotel_ams": 0.6076,
+   "flight_home": 0.4796
   },
   "change_type": "cancelled",
   "top_hits": [
    {
-    "p": 0.967,
+    "p": 0.99,
     "q": "Does the input mention Eurostar?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.965,
-    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.955,
+    "p": 0.979,
     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.949,
+    "p": 0.974,
     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.948,
+    "p": 0.973,
+    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.951,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
+   }
+  ],
+  "route": "alert",
+  "latency_s": 1.016
+ },
+ "train_ams_5": {
+  "relevance": 0.7314,
+  "booking_id": "train_ams",
+  "per_booking": {
+   "flight_out": 0.6189,
+   "hotel_paris": 0.4216,
+   "museum_louvre": 0.1212,
+   "train_ams": 0.7314,
+   "hotel_ams": 0.3818,
+   "flight_home": 0.366
+  },
+  "change_type": "cancelled",
+  "top_hits": [
+   {
+    "p": 0.975,
+    "q": "Does the input mention Eurostar?",
+    "booking_id": "train_ams"
+   },
+   {
+    "p": 0.971,
+    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+    "booking_id": "hotel_paris"
+   },
+   {
+    "p": 0.968,
     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
+    "booking_id": "train_ams"
+   },
+   {
+    "p": 0.966,
+    "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
+    "booking_id": "train_ams"
+   },
+   {
+    "p": 0.96,
+    "q": "Does the input mention Antwerpen-Centraal, Anvers-Central, or Antwerp Central?",
     "booking_id": "train_ams"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.023
- },
- "train_ams_5": {
-  "relevance": 0.8129,
-  "booking_id": "train_ams",
-  "per_booking": {
-   "flight_out": 0.5829,
-   "hotel_paris": 0.3289,
-   "museum_louvre": 0.0934,
-   "train_ams": 0.8129,
-   "hotel_ams": 0.3781,
-   "flight_home": 0.465
-  },
-  "change_type": "cancelled",
-  "top_hits": [
-   {
-    "p": 0.988,
-    "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.985,
-    "q": "Does the input mention Eurostar?",
-    "booking_id": "train_ams"
-   },
-   {
-    "p": 0.976,
-    "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
-    "booking_id": "train_ams"
-   },
-   {
-    "p": 0.972,
-    "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
-    "booking_id": "train_ams"
-   },
-   {
-    "p": 0.941,
-    "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
-    "booking_id": "train_ams"
-   }
-  ],
-  "route": "alert",
-  "latency_s": 1.187
+  "latency_s": 0.851
  },
  "train_ams_6": {
   "relevance": 0.6955,
@@ -1005,91 +1005,91 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.762
+  "latency_s": 0.423
  },
  "hotel_ams_1": {
-  "relevance": 0.8788,
+  "relevance": 0.8946,
   "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.3295,
-   "hotel_paris": 0.7023,
-   "museum_louvre": 0.7142,
-   "train_ams": 0.7688,
-   "hotel_ams": 0.8788,
-   "flight_home": 0.3807
-  },
-  "change_type": "closure",
-  "top_hits": [
-   {
-    "p": 0.972,
-    "q": "Does the input mention disruptions, perturbations, or verstoringen?",
-    "booking_id": "flight_home"
-   },
-   {
-    "p": 0.972,
-    "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.969,
-    "q": "Does the input say a train is diverted, \"detourne\", or \"omgeleid\"?",
-    "booking_id": "train_ams"
-   },
-   {
-    "p": 0.958,
-    "q": "Does the input mention tram 17 or lijn 17?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.957,
-    "q": "Does the input say 'Westermarkt'?",
-    "booking_id": "hotel_ams"
-   }
-  ],
-  "route": "alert",
-  "latency_s": 1.159
- },
- "hotel_ams_2": {
-  "relevance": 0.9218,
-  "booking_id": "hotel_ams",
-  "per_booking": {
-   "flight_out": 0.1875,
-   "hotel_paris": 0.4242,
-   "museum_louvre": 0.2554,
-   "train_ams": 0.7755,
-   "hotel_ams": 0.9218,
-   "flight_home": 0.4218
+   "flight_out": 0.2697,
+   "hotel_paris": 0.4961,
+   "museum_louvre": 0.3931,
+   "train_ams": 0.5592,
+   "hotel_ams": 0.8946,
+   "flight_home": 0.2787
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.972,
+    "p": 0.975,
+    "q": "Does the input say 'Westermarkt'?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.962,
     "q": "Does the input mention GVB trams 13 or 17?",
     "booking_id": "hotel_ams"
    },
    {
-    "p": 0.947,
+    "p": 0.96,
     "q": "Does the input mention a disruption, perturbation, or verstoring?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.941,
+    "p": 0.955,
+    "q": "Does the input say tram 13 is diverted, 'omgeleid', or 'devie'?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.953,
+    "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
+    "booking_id": "hotel_ams"
+   }
+  ],
+  "route": "alert",
+  "latency_s": 1.105
+ },
+ "hotel_ams_2": {
+  "relevance": 0.9197,
+  "booking_id": "hotel_ams",
+  "per_booking": {
+   "flight_out": 0.2471,
+   "hotel_paris": 0.3922,
+   "museum_louvre": 0.3044,
+   "train_ams": 0.6968,
+   "hotel_ams": 0.9197,
+   "flight_home": 0.3843
+  },
+  "change_type": "gate",
+  "top_hits": [
+   {
+    "p": 0.967,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.958,
+    "q": "Does the input mention GVB trams 13 or 17?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.95,
     "q": "Does the input say tram 17 is diverted, 'omgeleid', or 'devie'?",
     "booking_id": "hotel_ams"
    },
    {
     "p": 0.935,
-    "q": "Does the input mention tram 17 or lijn 17?",
-    "booking_id": "hotel_ams"
+    "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+    "booking_id": "flight_home"
    },
    {
     "p": 0.933,
-    "q": "Does the input mention disruptions, perturbations, or verstoringen?",
-    "booking_id": "flight_home"
+    "q": "Does the input mention tram 17 or lijn 17?",
+    "booking_id": "hotel_ams"
    }
   ],
   "route": "alert",
-  "latency_s": 0.944
+  "latency_s": 0.924
  },
  "hotel_ams_3": {
   "relevance": 0.928,
@@ -1131,91 +1131,91 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.849
+  "latency_s": 0.593
  },
  "hotel_ams_4": {
-  "relevance": 0.7275,
+  "relevance": 0.6963,
   "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.1936,
-   "hotel_paris": 0.5285,
-   "museum_louvre": 0.5192,
-   "train_ams": 0.7028,
-   "hotel_ams": 0.7275,
-   "flight_home": 0.3824
+   "flight_out": 0.2434,
+   "hotel_paris": 0.3709,
+   "museum_louvre": 0.2077,
+   "train_ams": 0.6571,
+   "hotel_ams": 0.6963,
+   "flight_home": 0.4023
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.957,
-    "q": "Does the input say 'Westermarkt'?",
-    "booking_id": "hotel_ams"
+    "p": 0.968,
+    "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+    "booking_id": "train_ams"
    },
    {
-    "p": 0.953,
-    "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.953,
+    "p": 0.958,
     "q": "Does the input mention a disruption, perturbation, or verstoring?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.953,
+    "p": 0.948,
+    "q": "Does the input say 'Westermarkt'?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.945,
     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.936,
-    "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
-    "booking_id": "hotel_paris"
+    "p": 0.937,
+    "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+    "booking_id": "hotel_ams"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.22
+  "latency_s": 1.232
  },
  "hotel_ams_5": {
-  "relevance": 0.6935,
+  "relevance": 0.6855,
   "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.2288,
-   "hotel_paris": 0.3852,
-   "museum_louvre": 0.5282,
-   "train_ams": 0.6567,
-   "hotel_ams": 0.6935,
-   "flight_home": 0.3584
+   "flight_out": 0.1995,
+   "hotel_paris": 0.386,
+   "museum_louvre": 0.4311,
+   "train_ams": 0.6545,
+   "hotel_ams": 0.6855,
+   "flight_home": 0.3499
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.971,
+    "p": 0.969,
     "q": "Does the input mention GVB trams 13 or 17?",
     "booking_id": "hotel_ams"
    },
    {
-    "p": 0.953,
-    "q": "Does the input mention tram 17 or lijn 17?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.953,
-    "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.951,
-    "q": "Does the input mention tram 13 or lijn 13?",
-    "booking_id": "hotel_ams"
-   },
-   {
-    "p": 0.938,
+    "p": 0.969,
     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+    "booking_id": "hotel_ams"
+   },
+   {
+    "p": 0.96,
+    "q": "Does the input say diverted, deroute, or omgeleid?",
+    "booking_id": "flight_out"
+   },
+   {
+    "p": 0.96,
+    "q": "Does the input say diverted, deroute, or omgeleid?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.957,
+    "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
     "booking_id": "hotel_ams"
    }
   ],
   "route": "carbon",
-  "latency_s": 0.918
+  "latency_s": 1.053
  },
  "hotel_ams_6": {
   "relevance": 0.6718,
@@ -1257,91 +1257,91 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.619
+  "latency_s": 0.67
  },
  "flight_home_1": {
-  "relevance": 0.9232,
+  "relevance": 0.9479,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.6496,
-   "hotel_paris": 0.3365,
-   "museum_louvre": 0.148,
-   "train_ams": 0.4073,
-   "hotel_ams": 0.3758,
-   "flight_home": 0.9232
+   "flight_out": 0.7343,
+   "hotel_paris": 0.3329,
+   "museum_louvre": 0.1949,
+   "train_ams": 0.4838,
+   "hotel_ams": 0.3221,
+   "flight_home": 0.9479
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.958,
-    "q": "Does the input announce a gate change or porte change for KL 641?",
+    "p": 0.982,
+    "q": "Does the input show the airline code KL with a flight number?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.955,
-    "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
-    "booking_id": "flight_home"
-   },
-   {
-    "p": 0.953,
-    "q": "Does the input mention le vol KLM or de KLM-vlucht?",
-    "booking_id": "flight_home"
-   },
-   {
-    "p": 0.949,
+    "p": 0.977,
     "q": "Does the input mention New York JFK airport?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.948,
+    "p": 0.97,
+    "q": "Does the input show or say KLM 641?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.97,
+    "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.958,
     "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
     "booking_id": "flight_home"
    }
   ],
   "route": "alert",
-  "latency_s": 1.054
+  "latency_s": 0.914
  },
  "flight_home_2": {
-  "relevance": 0.8383,
+  "relevance": 0.7673,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.3148,
-   "hotel_paris": 0.3991,
-   "museum_louvre": 0.1917,
-   "train_ams": 0.7343,
-   "hotel_ams": 0.2516,
-   "flight_home": 0.8383
+   "flight_out": 0.3481,
+   "hotel_paris": 0.3127,
+   "museum_louvre": 0.2066,
+   "train_ams": 0.7232,
+   "hotel_ams": 0.3343,
+   "flight_home": 0.7673
   },
   "change_type": "schedule",
   "top_hits": [
    {
-    "p": 0.983,
-    "q": "Does the input mention a disruption, perturbation, or verstoring?",
-    "booking_id": "flight_out"
-   },
-   {
-    "p": 0.979,
+    "p": 0.989,
     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.969,
-    "q": "Does the input mention train delays or verstoringen to Schiphol Airport?",
-    "booking_id": "flight_home"
+    "p": 0.986,
+    "q": "Does the input mention a disruption, perturbation, or verstoring?",
+    "booking_id": "flight_out"
    },
    {
-    "p": 0.966,
+    "p": 0.968,
     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
     "booking_id": "flight_home"
    },
    {
+    "p": 0.964,
+    "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+    "booking_id": "flight_home"
+   },
+   {
     "p": 0.96,
-    "q": "Does the input say service is suspended or interrupted (\"interrompu\", \"onderbroken\")?",
-    "booking_id": "hotel_paris"
+    "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?",
+    "booking_id": "train_ams"
    }
   ],
-  "route": "alert",
-  "latency_s": 1.19
+  "route": "carbon",
+  "latency_s": 1.021
  },
  "flight_home_3": {
   "relevance": 0.9181,
@@ -1383,60 +1383,60 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.993
+  "latency_s": 0.592
  },
  "flight_home_4": {
-  "relevance": 0.8002,
+  "relevance": 0.89,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.6641,
-   "hotel_paris": 0.3624,
-   "museum_louvre": 0.0654,
-   "train_ams": 0.2898,
-   "hotel_ams": 0.2358,
-   "flight_home": 0.8002
+   "flight_out": 0.6744,
+   "hotel_paris": 0.4013,
+   "museum_louvre": 0.084,
+   "train_ams": 0.246,
+   "hotel_ams": 0.24,
+   "flight_home": 0.89
   },
   "change_type": "gate",
   "top_hits": [
    {
-    "p": 0.964,
+    "p": 0.959,
+    "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.956,
     "q": "Does the input mention New York JFK airport?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.958,
-    "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
-    "booking_id": "flight_home"
+    "p": 0.949,
+    "q": "Does the input mention a platform change, \"changement de voie\", or \"spoorwijziging\"?",
+    "booking_id": "train_ams"
    },
    {
-    "p": 0.955,
+    "p": 0.941,
     "q": "Does the input show the airline code KL with a flight number?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.951,
-    "q": "Does the input mention le vol KLM or de KLM-vlucht?",
-    "booking_id": "flight_home"
-   },
-   {
-    "p": 0.949,
-    "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+    "p": 0.917,
+    "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
     "booking_id": "flight_home"
    }
   ],
   "route": "alert",
-  "latency_s": 0.921
+  "latency_s": 0.906
  },
  "flight_home_5": {
-  "relevance": 0.7196,
+  "relevance": 0.7726,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.3342,
-   "hotel_paris": 0.3993,
-   "museum_louvre": 0.1906,
-   "train_ams": 0.7196,
-   "hotel_ams": 0.3911,
-   "flight_home": 0.6251
+   "flight_out": 0.3171,
+   "hotel_paris": 0.3037,
+   "museum_louvre": 0.0907,
+   "train_ams": 0.7726,
+   "hotel_ams": 0.3899,
+   "flight_home": 0.7192
   },
   "change_type": "delay",
   "top_hits": [
@@ -1446,28 +1446,28 @@
     "booking_id": "train_ams"
    },
    {
-    "p": 0.957,
+    "p": 0.971,
+    "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+    "booking_id": "flight_home"
+   },
+   {
+    "p": 0.97,
     "q": "Does the input mention a disruption, perturbation, or verstoring?",
     "booking_id": "flight_out"
    },
    {
-    "p": 0.94,
-    "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
-    "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.94,
+    "p": 0.952,
     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
     "booking_id": "flight_home"
    },
    {
-    "p": 0.938,
-    "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?",
+    "p": 0.929,
+    "q": "Does the input say there is a disruption, strike, or cancellation at Antwerpen-Centraal?",
     "booking_id": "train_ams"
    }
   ],
   "route": "carbon",
-  "latency_s": 1.105
+  "latency_s": 0.997
  },
  "flight_home_6": {
   "relevance": 0.5661,
@@ -1509,7 +1509,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 1.155
+  "latency_s": 0.528
  },
  "news_786a76395c": {
   "relevance": 0.3421,
@@ -1551,7 +1551,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.331
+  "latency_s": 0.76
  },
  "news_9c60d1cca4": {
   "relevance": 0.6841,
@@ -1593,7 +1593,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.964
+  "latency_s": 0.689
  },
  "news_78532c9a34": {
   "relevance": 0.9732,
@@ -1635,7 +1635,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.848
+  "latency_s": 0.783
  },
  "news_1ccd00925f": {
   "relevance": 0.2255,
@@ -1677,7 +1677,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.275
+  "latency_s": 0.812
  },
  "news_21a6e3f7b7": {
   "relevance": 0.2448,
@@ -1719,7 +1719,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.296
+  "latency_s": 0.722
  },
  "news_92e77aa7ac": {
   "relevance": 0.6372,
@@ -1761,7 +1761,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 1.385
+  "latency_s": 0.734
  },
  "news_6830b4317a": {
   "relevance": 0.8143,
@@ -1803,7 +1803,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.801
+  "latency_s": 0.678
  },
  "news_c6340a241f": {
   "relevance": 0.2227,
@@ -1845,7 +1845,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.921
+  "latency_s": 0.709
  },
  "news_2759e333ca": {
   "relevance": 0.2133,
@@ -1887,7 +1887,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.857
+  "latency_s": 0.659
  },
  "news_b47dfd155c": {
   "relevance": 0.2677,
@@ -1929,7 +1929,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.774
+  "latency_s": 1.56
  },
  "news_977db582df": {
   "relevance": 0.1395,
@@ -1971,7 +1971,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.93
+  "latency_s": 0.666
  },
  "news_3253072479": {
   "relevance": 0.0,
@@ -2013,7 +2013,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.774
+  "latency_s": 0.681
  },
  "news_7d9040712c": {
   "relevance": 0.0,
@@ -2055,7 +2055,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.027
+  "latency_s": 0.747
  },
  "news_52af25a133": {
   "relevance": 0.6589,
@@ -2097,7 +2097,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.747
+  "latency_s": 0.748
  },
  "news_182943e119": {
   "relevance": 0.2154,
@@ -2139,7 +2139,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.744
+  "latency_s": 0.814
  },
  "news_1e7241d7ce": {
   "relevance": 0.2611,
@@ -2181,7 +2181,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.937
+  "latency_s": 0.709
  },
  "news_616b24aebb": {
   "relevance": 0.1597,
@@ -2223,7 +2223,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.765
+  "latency_s": 0.766
  },
  "news_77269451ba": {
   "relevance": 0.1985,
@@ -2265,7 +2265,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.744
+  "latency_s": 0.692
  },
  "news_a604e6263d": {
   "relevance": 0.762,
@@ -2307,7 +2307,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.795
+  "latency_s": 0.702
  },
  "news_e593d6b993": {
   "relevance": 0.4823,
@@ -2349,7 +2349,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.858
+  "latency_s": 0.701
  },
  "news_53e343abcf": {
   "relevance": 0.671,
@@ -2391,7 +2391,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.778
+  "latency_s": 0.734
  },
  "news_ef953149ed": {
   "relevance": 0.9095,
@@ -2433,7 +2433,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.769
+  "latency_s": 0.708
  },
  "news_05a469a789": {
   "relevance": 0.2341,
@@ -2475,7 +2475,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.009
+  "latency_s": 0.724
  },
  "news_d35f8cee02": {
   "relevance": 0.8211,
@@ -2517,7 +2517,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 1.084
+  "latency_s": 0.769
  },
  "news_c2f8a3344c": {
   "relevance": 0.1727,
@@ -2559,7 +2559,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.932
+  "latency_s": 0.681
  },
  "news_493f1ea497": {
   "relevance": 0.8557,
@@ -2601,7 +2601,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 1.194
+  "latency_s": 0.719
  },
  "news_daa7b7bc75": {
   "relevance": 0.0,
@@ -2643,7 +2643,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.021
+  "latency_s": 0.722
  },
  "news_3e584ecdc7": {
   "relevance": 0.2321,
@@ -2685,7 +2685,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.826
+  "latency_s": 0.798
  },
  "news_dd4f900146": {
   "relevance": 0.0,
@@ -2727,7 +2727,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.235
+  "latency_s": 0.727
  },
  "news_bd2005bb6c": {
   "relevance": 0.1601,
@@ -2769,7 +2769,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.339
+  "latency_s": 0.707
  },
  "news_3d3f025c8a": {
   "relevance": 0.0,
@@ -2811,7 +2811,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.851
+  "latency_s": 0.86
  },
  "news_ccf74ed096": {
   "relevance": 0.93,
@@ -2853,7 +2853,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.725
+  "latency_s": 0.879
  },
  "news_07a144de07": {
   "relevance": 0.4126,
@@ -2895,7 +2895,7 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.906
+  "latency_s": 0.741
  },
  "news_86120c4c96": {
   "relevance": 0.0,
@@ -2937,7 +2937,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.66
+  "latency_s": 0.748
  },
  "news_37e5892ab0": {
   "relevance": 0.0,
@@ -2979,7 +2979,7 @@
    }
   ],
   "route": "silence",
-  "latency_s": 1.065
+  "latency_s": 0.966
  },
  "news_d332901a93": {
   "relevance": 0.9164,
@@ -3021,7 +3021,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 0.779
+  "latency_s": 0.769
  },
  "news_96b489dff2": {
   "relevance": 0.9014,
@@ -3063,7 +3063,7 @@
    }
   ],
   "route": "alert",
-  "latency_s": 1.2
+  "latency_s": 0.735
  },
  "news_8fc3132920": {
   "relevance": 0.7647,
@@ -3105,6 +3105,6 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 0.769
+  "latency_s": 0.706
  }
 }

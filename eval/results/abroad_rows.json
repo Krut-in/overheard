@@ -7,75 +7,75 @@
    "flight_out"
   ],
   "decision": {
-   "relevance": 0.9118,
+   "relevance": 0.9173,
    "booking_id": "flight_out",
    "per_booking": {
-    "flight_out": 0.9118,
-    "hotel_paris": 0.3573,
-    "museum_louvre": 0.1188,
-    "train_ams": 0.293,
-    "hotel_ams": 0.1872,
-    "flight_home": 0.2852
+    "flight_out": 0.9173,
+    "hotel_paris": 0.3923,
+    "museum_louvre": 0.081,
+    "train_ams": 0.3789,
+    "hotel_ams": 0.307,
+    "flight_home": 0.2799
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.984,
+     "p": 0.987,
      "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.984,
+     "p": 0.982,
      "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.98,
-     "q": "Does the input mention New York JFK airport?",
+     "p": 0.975,
+     "q": "Does the input show a route from New York JFK to Paris CDG?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.979,
-     "q": "Does the input mention Air France?",
-     "booking_id": "flight_out"
+     "p": 0.965,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
     },
     {
-     "p": 0.979,
-     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "p": 0.96,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
      "booking_id": "flight_out"
     }
    ],
    "route": "alert",
-   "latency_s": 1.57
+   "latency_s": 1.662
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.57
+    "latency_s": 1.662
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.57,
+    "latency_s": 1.662,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 0.000992
+    "latency_s": 0.000129
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 8.618,
+    "latency_s": 5.532,
     "all_yes": [
      "flight_out"
     ]
    }
   },
-  "hydrogen_text": "Read this as a French airport public address announcement, clear and slightly echoey, in French. Mesdames et messieurs, en raison d'un retard de manutention au terminal 2E de Paris Charles de Gaulle, la livraison des bagages du vol Air France AF 23 en provenance de New York JFK, subit un retard d'environ 45 minutes. Vos valises seront livrées sur le tapis 38 au lieu du tapis 32."
+  "hydrogen_text": "Mesdames et messieurs, en raison d'un retard de manutention au terminal 2E de Paris Charles de Gaulle, la livraison des bagages du vol Air France AF 23 en provenance de New York JFK subit un retard d'environ 45 minutes. Vos valises seront livrées sur le tapis 38 au lieu du tapis 32."
  },
  {
   "id": "flight_out_2",
@@ -85,75 +85,75 @@
    "flight_out"
   ],
   "decision": {
-   "relevance": 0.9479,
+   "relevance": 0.9022,
    "booking_id": "flight_out",
    "per_booking": {
-    "flight_out": 0.9479,
-    "hotel_paris": 0.3747,
-    "museum_louvre": 0.0898,
-    "train_ams": 0.3432,
-    "hotel_ams": 0.2216,
-    "flight_home": 0.3036
+    "flight_out": 0.9022,
+    "hotel_paris": 0.4121,
+    "museum_louvre": 0.1421,
+    "train_ams": 0.2685,
+    "hotel_ams": 0.256,
+    "flight_home": 0.3055
    },
    "change_type": "delay",
    "top_hits": [
     {
-     "p": 0.99,
-     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
-     "booking_id": "flight_out"
-    },
-    {
-     "p": 0.982,
+     "p": 0.978,
      "q": "Does the input mention New York JFK airport?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.978,
-     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
-     "booking_id": "flight_home"
+     "p": 0.972,
+     "q": "Does the input mention Terminal 2E or T2E?",
+     "booking_id": "flight_out"
     },
     {
-     "p": 0.976,
-     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
-     "booking_id": "hotel_paris"
+     "p": 0.972,
+     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "booking_id": "flight_out"
     },
     {
-     "p": 0.974,
-     "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
-     "booking_id": "museum_louvre"
+     "p": 0.97,
+     "q": "Does the input mention Air France?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input show a route from New York JFK to Paris CDG?",
+     "booking_id": "flight_out"
     }
    ],
    "route": "alert",
-   "latency_s": 1.498
+   "latency_s": 1.569
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.498
+    "latency_s": 1.569
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.498,
+    "latency_s": 1.569,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.4e-05
+    "latency_s": 6.1e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 10.329,
+    "latency_s": 6.293,
     "all_yes": [
      "flight_out"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English-speaking airport public address announcement, clear and slightly echoey. Intensi. Attention passengers arriving on Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E. Baggage delivery for AF 23 has been delayed by 40 minutes and moved from Carousel 32 to Carousel 36 in the Terminal 2E arrival hall."
+  "hydrogen_text": "Attention passengers arriving on Air France flight AF23 from New York JFK at Paris CDG Terminal 2E. Baggage delivery for AF23 has been delayed by 40 minutes and moved from carousel 32 to carousel 36 in the Terminal 2E arrival hall."
  },
  {
   "id": "flight_out_3",
@@ -202,35 +202,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 1.59
+   "latency_s": 1.154
   },
   "carbon": {
    "relevant": true,
    "booking_id": "flight_out",
-   "reason": "The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E.",
-   "latency_s": 3.729
+   "reason": "The display announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 arriving at Paris CDG Terminal 2E from New York JFK.",
+   "latency_s": 4.881
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 1.59
+    "latency_s": 1.154
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 5.319,
+    "latency_s": 6.035,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.3e-05
+    "latency_s": 5e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 8.166,
+    "latency_s": 5.192,
     "all_yes": [
      "flight_out"
     ]
@@ -244,78 +244,78 @@
   "lang": "fr",
   "truth": [],
   "decision": {
-   "relevance": 0.6851,
+   "relevance": 0.7117,
    "booking_id": "flight_out",
    "per_booking": {
-    "flight_out": 0.6851,
-    "hotel_paris": 0.3573,
-    "museum_louvre": 0.1246,
-    "train_ams": 0.3931,
-    "hotel_ams": 0.3139,
-    "flight_home": 0.3685
+    "flight_out": 0.7117,
+    "hotel_paris": 0.3914,
+    "museum_louvre": 0.107,
+    "train_ams": 0.5649,
+    "hotel_ams": 0.469,
+    "flight_home": 0.5014
    },
    "change_type": "delay",
    "top_hits": [
     {
-     "p": 0.976,
+     "p": 0.98,
      "q": "Does the input mention Air France?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.974,
+     "p": 0.98,
      "q": "Does the input mention New York JFK airport?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.971,
+     "p": 0.978,
      "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.966,
+     "p": 0.965,
      "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.942,
+     "p": 0.948,
      "q": "Does the input mention Terminal 2E or T2E?",
      "booking_id": "flight_out"
     }
    ],
    "route": "carbon",
-   "latency_s": 0.966
+   "latency_s": 0.902
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The announcement refers to Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on flight AF 23 arriving at Terminal 2E.",
-   "latency_s": 4.261
+   "reason": "The announcement concerns Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on Air France flight AF 23 arriving at Terminal 2E.",
+   "latency_s": 7.67
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.966
+    "latency_s": 0.902
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 5.227,
+    "latency_s": 8.572,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.4e-05
+    "latency_s": 5.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.323,
+    "latency_s": 7.533,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a French airport public address announcement, clear and slightly echoey, in French. Attention aux passagers du vol Air France AF11, en provenance de New York JFK, arrivé au terminal 2F. La livraison des bagages au terminal 2F accuse un retard de 30 minutes sur le tapis 21."
+  "hydrogen_text": "Attention aux passagers du vol Air France AF11 en provenance de New York JFK, arrivé au terminal 2F. La livraison des bagages au terminal 2F accuse un retard de 30 minutes sur le tapis 21."
  },
  {
   "id": "flight_out_5",
@@ -323,78 +323,78 @@
   "lang": "en",
   "truth": [],
   "decision": {
-   "relevance": 0.6953,
+   "relevance": 0.6629,
    "booking_id": "flight_out",
    "per_booking": {
-    "flight_out": 0.6953,
-    "hotel_paris": 0.2642,
-    "museum_louvre": 0.0508,
-    "train_ams": 0.4113,
-    "hotel_ams": 0.2187,
-    "flight_home": 0.4751
+    "flight_out": 0.6629,
+    "hotel_paris": 0.2394,
+    "museum_louvre": 0.0823,
+    "train_ams": 0.2629,
+    "hotel_ams": 0.1529,
+    "flight_home": 0.3208
    },
    "change_type": "delay",
    "top_hits": [
     {
-     "p": 0.975,
-     "q": "Does the input mention Terminal 2E or T2E?",
+     "p": 0.961,
+     "q": "Does the input mention Air France?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.969,
+     "p": 0.956,
+     "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.955,
      "q": "Does the input mention New York JFK airport?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.968,
+     "p": 0.946,
      "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.968,
-     "q": "Does the input report disruptions or delays at CDG Terminal 2E?",
-     "booking_id": "flight_out"
-    },
-    {
-     "p": 0.963,
-     "q": "Does the input mention Paris Charles de Gaulle or CDG?",
+     "p": 0.942,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
      "booking_id": "flight_out"
     }
    ],
    "route": "carbon",
-   "latency_s": 1.138
+   "latency_s": 0.962
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
    "reason": "The baggage delay applies to flight AF 15, while the traveller's flight AF 23 is explicitly stated to be unaffected.",
-   "latency_s": 3.578
+   "latency_s": 5.128
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 1.138
+    "latency_s": 0.962
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 4.716,
+    "latency_s": 6.09,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 1.2e-05
+    "latency_s": 4.2e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 8.116,
+    "latency_s": 5.034,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as an English-speaking airport public address announcement. Clear and slightly echoey. Please note that baggage delivery for Air France flight AF15 from New York JFK at CDG Terminal 2E is delayed by 35 minutes on belt 34. Baggage for flight AF23 is unaffected by this incident."
+  "hydrogen_text": "Please note that baggage delivery for Air France flight AF15 from New York JFK at CDG terminal 2E is delayed by 35 minutes on belt 34. Baggage for flight AF23 is unaffected by this incident."
  },
  {
   "id": "flight_out_6",
@@ -441,30 +441,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.742
+   "latency_s": 0.769
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.742
+    "latency_s": 0.769
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.742,
+    "latency_s": 0.769,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 2.3e-05
+    "latency_s": 8.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.988,
+    "latency_s": 9.292,
     "all_yes": []
    }
   },
@@ -478,75 +478,75 @@
    "hotel_paris"
   ],
   "decision": {
-   "relevance": 0.9393,
+   "relevance": 0.8985,
    "booking_id": "hotel_paris",
    "per_booking": {
-    "flight_out": 0.3126,
-    "hotel_paris": 0.9393,
-    "museum_louvre": 0.807,
-    "train_ams": 0.348,
-    "hotel_ams": 0.292,
-    "flight_home": 0.4646
+    "flight_out": 0.3233,
+    "hotel_paris": 0.8985,
+    "museum_louvre": 0.8082,
+    "train_ams": 0.5443,
+    "hotel_ams": 0.3788,
+    "flight_home": 0.4204
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.989,
-     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.979,
-     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.977,
+     "p": 0.98,
      "q": "Does the input say Saint-Paul station is closed (\"fermée\", \"gesloten\", \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.976,
+     "p": 0.978,
      "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.969,
+     "p": 0.965,
      "q": "Does the input mention a closure, ferme, or gesloten?",
      "booking_id": "flight_home"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.957,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
     }
    ],
    "route": "alert",
-   "latency_s": 0.856
+   "latency_s": 0.999
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 0.856
+    "latency_s": 0.999
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 0.856,
+    "latency_s": 0.999,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.7e-05
+    "latency_s": 6.4e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 18.062,
+    "latency_s": 8.813,
     "all_yes": [
      "hotel_paris"
     ]
    }
   },
-  "hydrogen_text": "Read this as a French metro or tram stop public address announcement, clear and slightly echoey in FR. Information voyageurs RATP sur la ligne 1 du métro. En raison de travaux de rénovation du 25 au 28 novembre 2026 inclus, la station Saint-Paul est fermée au public et les rames ne marquent pas l'arrêt."
+  "hydrogen_text": "Information voyageurs RATP sur la ligne 1 du métro. En raison de travaux de rénovation du 25 au 28 novembre 2026 inclus, la station Saint-Paul est fermée au public et les rames ne marquent pas l'arrêt."
  },
  {
   "id": "hotel_paris_2",
@@ -556,75 +556,75 @@
    "hotel_paris"
   ],
   "decision": {
-   "relevance": 0.8451,
-   "booking_id": "train_ams",
+   "relevance": 0.8824,
+   "booking_id": "hotel_paris",
    "per_booking": {
-    "flight_out": 0.4351,
-    "hotel_paris": 0.8431,
-    "museum_louvre": 0.7661,
-    "train_ams": 0.8451,
-    "hotel_ams": 0.3486,
-    "flight_home": 0.3604
+    "flight_out": 0.2638,
+    "hotel_paris": 0.8824,
+    "museum_louvre": 0.8777,
+    "train_ams": 0.8095,
+    "hotel_ams": 0.3187,
+    "flight_home": 0.3274
    },
    "change_type": "closure",
    "top_hits": [
+    {
+     "p": 0.974,
+     "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
     {
      "p": 0.973,
      "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.97,
+     "p": 0.965,
      "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.968,
-     "q": "Does the input mention a disruption, perturbation, or verstoring?",
-     "booking_id": "flight_out"
+     "p": 0.964,
+     "q": "Does it say a station is closed, station fermée, or station gesloten?",
+     "booking_id": "museum_louvre"
     },
     {
-     "p": 0.967,
-     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.963,
-     "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?",
+     "p": 0.962,
+     "q": "Does the input mention Chemin Vert metro station?",
      "booking_id": "hotel_paris"
     }
    ],
    "route": "alert",
-   "latency_s": 1.016
+   "latency_s": 0.885
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
-    "booking_id": "train_ams",
-    "latency_s": 1.016
+    "booking_id": "hotel_paris",
+    "latency_s": 0.885
    },
    "policy": {
     "alert": true,
-    "booking_id": "train_ams",
-    "latency_s": 1.016,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.885,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.5e-05
+    "latency_s": 5.8e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 8.567,
+    "latency_s": 6.319,
     "all_yes": [
      "hotel_paris"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English-speaking metro or tram stop public address announcement, clear and slightly echoey. Attention, RATP traffic announcement for Metro Line 8. From 25th to 28th November 2026, Chemin Vert station is closed for platform repairs, and trains will not stop at Chemin Vert. Please use Bastille or Filles du Calvaire."
+  "hydrogen_text": "RATP traffic announcement for metro line 8. From 25 to 28 November 2026, Chemin Vert station is closed for platform repairs and trains will not stop at Chemin Vert. Please use Bastille or Filles du Calvaire."
  },
  {
   "id": "hotel_paris_3",
@@ -673,36 +673,36 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.747
+   "latency_s": 0.529
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 0.747
+    "latency_s": 0.529
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 0.747,
+    "latency_s": 0.529,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.4e-05
+    "latency_s": 5.3e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 9.962,
+    "latency_s": 7.091,
     "all_yes": [
      "hotel_paris"
     ]
    }
   },
-  "hydrogen_text": "RATP - MÉTRO LIGNE 1 STATION SAINT-PAUL FERMÉE Du 25 au 28 novembre 2026 Les trains ne s’arrêtent pas à Saint-Paul. RATP"
+  "hydrogen_text": "RATP - MÉTRO LIGNE 1 STATION SAINT-PAUL FERMÉE Du 25 au 28 novembre 2026 Les trains ne s'arrêtent pas à Saint-Paul. RATP"
  },
  {
   "id": "hotel_paris_4",
@@ -710,104 +710,35 @@
   "lang": "fr",
   "truth": [],
   "decision": {
-   "relevance": 0.721,
-   "booking_id": "museum_louvre",
-   "per_booking": {
-    "flight_out": 0.3635,
-    "hotel_paris": 0.6907,
-    "museum_louvre": 0.721,
-    "train_ams": 0.3764,
-    "hotel_ams": 0.3783,
-    "flight_home": 0.3718
-   },
-   "change_type": "closure",
-   "top_hits": [
-    {
-     "p": 0.969,
-     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.964,
-     "q": "Does it mention Metro line 1, ligne 1, or lijn 1?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.962,
-     "q": "Does the input mention Saint-Paul metro station?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.953,
-     "q": "Does the input mention Paris Metro line 1 (\"ligne 1\" or \"lijn 1\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.949,
-     "q": "Does the input mention a closure, ferme, or gesloten?",
-     "booking_id": "flight_home"
-    }
-   ],
-   "route": "carbon",
-   "latency_s": 1.046
-  },
-  "carbon": {
-   "relevant": false,
-   "booking_id": "none",
-   "reason": "The closure of Saint-Paul metro station takes place from December 1 to December 4, 2026, which is after the traveller's stay in Paris.",
-   "latency_s": 3.797
-  },
-  "outcomes": {
-   "decision": {
-    "alert": false,
-    "booking_id": "museum_louvre",
-    "latency_s": 1.046
-   },
-   "policy": {
-    "alert": false,
-    "booking_id": "museum_louvre",
-    "latency_s": 4.843,
-    "carbon": true
-   },
-   "keyword": {
-    "alert": true,
-    "booking_id": "hotel_paris",
-    "latency_s": 1.6e-05
-   },
-   "hydrogen": {
-    "alert": false,
-    "booking_id": null,
-    "latency_s": 7.1,
-    "all_yes": []
-   }
-  },
-  "hydrogen_text": "Read this as a French metro or tram stop public address announcement, clear and slightly echoing, in French. Information RATP. Ligne 1. La station Saint-Paul sera fermée pour travaux du 1er au 4 décembre 2026. Jusqu'au 30 novembre inclus, la station Saint-Paul reste normalement desservie."
- },
- {
-  "id": "hotel_paris_5",
-  "source": "rehearsal audio",
-  "lang": "en",
-  "truth": [],
-  "decision": {
-   "relevance": 0.7249,
+   "relevance": 0.6371,
    "booking_id": "hotel_paris",
    "per_booking": {
-    "flight_out": 0.265,
-    "hotel_paris": 0.7249,
-    "museum_louvre": 0.6412,
-    "train_ams": 0.4031,
-    "hotel_ams": 0.3383,
-    "flight_home": 0.426
+    "flight_out": 0.3266,
+    "hotel_paris": 0.6371,
+    "museum_louvre": 0.5926,
+    "train_ams": 0.5172,
+    "hotel_ams": 0.3326,
+    "flight_home": 0.5083
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.978,
+     "p": 0.957,
      "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.968,
+     "p": 0.954,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.935,
+     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.933,
      "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
      "booking_id": "museum_louvre"
     },
@@ -815,52 +746,121 @@
      "p": 0.933,
      "q": "Does the input say \"Saint-Paul\" aloud?",
      "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.917,
-     "q": "Does the input mention Saint-Paul metro station?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.914,
-     "q": "Does the input mention a closure, ferme, or gesloten?",
-     "booking_id": "flight_home"
     }
    ],
    "route": "carbon",
-   "latency_s": 0.921
+   "latency_s": 0.867
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The closure affects Chatelet on Metro Line 4, while the lines and stations serving the traveller's Paris hotel and Louvre visit (Lines 1 and 8, including Saint-Paul) are operating normally.",
-   "latency_s": 5.002
+   "reason": "The closure of the Saint-Paul station on Metro Line 1 occurs from December 1 to 4, 2026, which is after the traveller's Paris hotel stay ends on November 28, 2026.",
+   "latency_s": 3.358
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.921
+    "latency_s": 0.867
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 5.923,
+    "latency_s": 4.225,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.4e-05
+    "latency_s": 6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.458,
+    "latency_s": 6.681,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as an English-speaking metro or tram stop public address announcement, clear and slightly echoey, in AS. RATP service update. On metro line 4, Châtelet station is closed on 26 November for maintenance. All stations on metro line 1, including Saint-Paul, and line 8, are operating normally."
+  "hydrogen_text": "Information RATP ligne 1. La station Saint-Paul sera fermée pour travaux du 1er au 4 décembre 2026. Jusqu'au 30 novembre inclus, la station Saint-Paul reste normalement desservie."
+ },
+ {
+  "id": "hotel_paris_5",
+  "source": "rehearsal audio",
+  "lang": "en",
+  "truth": [],
+  "decision": {
+   "relevance": 0.7094,
+   "booking_id": "hotel_paris",
+   "per_booking": {
+    "flight_out": 0.308,
+    "hotel_paris": 0.7094,
+    "museum_louvre": 0.6605,
+    "train_ams": 0.7009,
+    "hotel_ams": 0.265,
+    "flight_home": 0.4779
+   },
+   "change_type": "closure",
+   "top_hits": [
+    {
+     "p": 0.968,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.965,
+     "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.964,
+     "q": "Does the input mention a closure, ferme, or gesloten?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.932,
+     "q": "Does the input mention Saint-Paul metro station?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.899,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    }
+   ],
+   "route": "carbon",
+   "latency_s": 0.94
+  },
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The closure affects Chatelet on Metro line 4 rather than any station or line associated with the traveller's bookings, while Metro lines 1 and 8 are operating normally.",
+   "latency_s": 3.924
+  },
+  "outcomes": {
+   "decision": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 0.94
+   },
+   "policy": {
+    "alert": false,
+    "booking_id": "hotel_paris",
+    "latency_s": 4.864,
+    "carbon": true
+   },
+   "keyword": {
+    "alert": true,
+    "booking_id": "hotel_paris",
+    "latency_s": 6.3e-05
+   },
+   "hydrogen": {
+    "alert": false,
+    "booking_id": null,
+    "latency_s": 6.375,
+    "all_yes": []
+   }
+  },
+  "hydrogen_text": "RATP service update. On Metro Line 4, Châtelet station is closed on 26 November for maintenance. All stations on Metro Line 1, including Saint-Paul, and Line 8 are operating normally."
  },
  {
   "id": "hotel_paris_6",
@@ -907,35 +907,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.784
+   "latency_s": 0.436
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The closure affects Bréguet-Sabin station on Line 5, whereas the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) remain open with normal traffic.",
-   "latency_s": 4.779
+   "reason": "The closure affects Line 5 at Bréguet-Sabin, while the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) explicitly remain open with normal service.",
+   "latency_s": 3.47
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.784
+    "latency_s": 0.436
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 5.563,
+    "latency_s": 3.906,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.5e-05
+    "latency_s": 5.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 8.428,
+    "latency_s": 8.394,
     "all_yes": []
    }
   },
@@ -949,75 +949,75 @@
    "museum_louvre"
   ],
   "decision": {
-   "relevance": 0.9579,
+   "relevance": 0.9528,
    "booking_id": "museum_louvre",
    "per_booking": {
-    "flight_out": 0.2373,
-    "hotel_paris": 0.3671,
-    "museum_louvre": 0.9579,
-    "train_ams": 0.289,
-    "hotel_ams": 0.2283,
-    "flight_home": 0.3573
+    "flight_out": 0.2776,
+    "hotel_paris": 0.3081,
+    "museum_louvre": 0.9528,
+    "train_ams": 0.2688,
+    "hotel_ams": 0.1608,
+    "flight_home": 0.2325
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.99,
-     "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.975,
+     "p": 0.977,
      "q": "Does it mention the Louvre or Louvre Museum?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.975,
+     "p": 0.976,
+     "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.976,
      "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.972,
-     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
-     "booking_id": "hotel_ams"
+     "p": 0.965,
+     "q": "Does it direct Louvre visitors to a different entrance?",
+     "booking_id": "museum_louvre"
     },
     {
-     "p": 0.964,
+     "p": 0.962,
      "q": "Does the input mention a closure, ferme, or gesloten?",
      "booking_id": "flight_home"
     }
    ],
    "route": "alert",
-   "latency_s": 1.31
+   "latency_s": 0.9
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.31
+    "latency_s": 0.9
    },
    "policy": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.31,
+    "latency_s": 0.9,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 2e-05
+    "latency_s": 8.3e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 8.512,
+    "latency_s": 7.072,
     "all_yes": [
      "museum_louvre"
     ]
    }
   },
-  "hydrogen_text": "Read this as a French museum and its metro station public address announcement, clear and slightly echoey in French. Mesdames et messieurs, bienvenue au musée du Louvre. En raison d'une intervention technique ce jeudi 26 novembre 2026, l'entrée par la pyramide est fermée toute la journée. Les visiteurs munis d'un billet horodaté doivent utiliser l'entrée du Carrousel."
+  "hydrogen_text": "Mesdames et messieurs, bienvenue au musée du Louvre. En raison d'une intervention technique, ce jeudi 26 novembre 2026, l'entrée par la pyramide est fermée toute la journée. Les visiteurs munis d'un billet horodaté doivent utiliser l'entrée du carrousel."
  },
  {
   "id": "museum_louvre_2",
@@ -1027,75 +1027,80 @@
    "museum_louvre"
   ],
   "decision": {
-   "relevance": 0.861,
+   "relevance": 0.7792,
    "booking_id": "museum_louvre",
    "per_booking": {
-    "flight_out": 0.2881,
-    "hotel_paris": 0.4027,
-    "museum_louvre": 0.861,
-    "train_ams": 0.3455,
-    "hotel_ams": 0.2277,
-    "flight_home": 0.3089
+    "flight_out": 0.4579,
+    "hotel_paris": 0.3417,
+    "museum_louvre": 0.7792,
+    "train_ams": 0.3167,
+    "hotel_ams": 0.2921,
+    "flight_home": 0.3289
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.977,
-     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.976,
-     "q": "Does it direct Louvre visitors to a different entrance?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.964,
+     "p": 0.952,
      "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.952,
+     "p": 0.941,
      "q": "Does the input mention a closure, ferme, or gesloten?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.91,
-     "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?",
+     "p": 0.927,
+     "q": "Does it direct Louvre visitors to a different entrance?",
      "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.914,
+     "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.91,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
     }
    ],
-   "route": "alert",
-   "latency_s": 1.063
+   "route": "carbon",
+   "latency_s": 0.898
   },
-  "carbon": null,
+  "carbon": {
+   "relevant": true,
+   "booking_id": "museum_louvre",
+   "reason": "The Pyramid entrance at the Louvre is closed on Thursday, 26 November 2026, requiring 10:30 timed-entry ticket holders to use the Carrousel entrance or Porte des Lions instead.",
+   "latency_s": 4.513
+  },
   "outcomes": {
    "decision": {
-    "alert": true,
+    "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 1.063
+    "latency_s": 0.898
    },
    "policy": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.063,
-    "carbon": false
+    "latency_s": 5.411,
+    "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.5e-05
+    "latency_s": 5.5e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 10.166,
+    "latency_s": 6.57,
     "all_yes": [
      "museum_louvre"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English-speaking museum and its metro station public address announcement, clear and slightly echoey in Attention Louvre visitors, on Thursday 26 November, 2026, the Pyramid entrance is closed today. All timed entry ticket holders, including the 10:30 slot, must enter via the Carrousel entrance or Porte des Lions."
+  "hydrogen_text": "Attention Louvre visitors on Thursday, 26 November 2026. The Pyramid entrance is closed today. All timed entry ticket holders, including the 10:30 slot, must enter via the Carrousel entrance or Porte des Lions."
  },
  {
   "id": "museum_louvre_3",
@@ -1144,30 +1149,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 1.005
+   "latency_s": 0.477
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.005
+    "latency_s": 0.477
    },
    "policy": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.005,
+    "latency_s": 0.477,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.4e-05
+    "latency_s": 5.4e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 10.03,
+    "latency_s": 7.311,
     "all_yes": [
      "museum_louvre"
     ]
@@ -1181,78 +1186,78 @@
   "lang": "fr",
   "truth": [],
   "decision": {
-   "relevance": 0.7042,
+   "relevance": 0.6868,
    "booking_id": "museum_louvre",
    "per_booking": {
-    "flight_out": 0.2381,
-    "hotel_paris": 0.3877,
-    "museum_louvre": 0.7042,
-    "train_ams": 0.2611,
-    "hotel_ams": 0.1609,
-    "flight_home": 0.1761
+    "flight_out": 0.2323,
+    "hotel_paris": 0.2544,
+    "museum_louvre": 0.6868,
+    "train_ams": 0.2902,
+    "hotel_ams": 0.1297,
+    "flight_home": 0.2668
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.973,
-     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.972,
+     "p": 0.957,
      "q": "Does the input mention a closure, ferme, or gesloten?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.965,
+     "p": 0.952,
+     "q": "Does it mention Musée du Louvre or Musee du Louvre?",
+     "booking_id": "museum_louvre"
+    },
+    {
+     "p": 0.885,
      "q": "Does it mention the Louvre or Louvre Museum?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.96,
+     "p": 0.865,
      "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.948,
-     "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?",
+     "p": 0.802,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
      "booking_id": "museum_louvre"
     }
    ],
    "route": "carbon",
-   "latency_s": 1.044
+   "latency_s": 0.893
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The Louvre Pyramid entrance closure is on Friday, November 27, 2026, while the entrance remains open normally on the booked visit date of Thursday, November 26, 2026.",
-   "latency_s": 3.982
+   "reason": "The Louvre Pyramid entrance closure is on Friday 27 November 2026, while the traveller's booking is on Thursday 26 November when the entrance is operating normally.",
+   "latency_s": 2.555
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 1.044
+    "latency_s": 0.893
    },
    "policy": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 5.026,
+    "latency_s": 3.448,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.8e-05
+    "latency_s": 6.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 13.079,
+    "latency_s": 5.091,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a French museum and its metro station public address announcement, clear and slightly echoey in French. Information Musée du Louvre. L'entrée par la pyramide sera exceptionnellement fermée demain, vendredi 27 novembre 2026. Aujourd'hui, jeudi 26 novembre, l'entrée pyramide est ouverte normalement pour tous les billets horodatés."
+  "hydrogen_text": "Information. Musée du Louvre. L'entrée par la pyramide sera exceptionnellement fermée demain, vendredi 27 novembre 2026. Aujourd'hui, jeudi 26 novembre, l'entrée pyramide est ouverte normalement pour tous les billets horodatés."
  },
  {
   "id": "museum_louvre_5",
@@ -1260,78 +1265,78 @@
   "lang": "en",
   "truth": [],
   "decision": {
-   "relevance": 0.6713,
+   "relevance": 0.6905,
    "booking_id": "museum_louvre",
    "per_booking": {
-    "flight_out": 0.2287,
-    "hotel_paris": 0.3387,
-    "museum_louvre": 0.6713,
-    "train_ams": 0.2901,
-    "hotel_ams": 0.2123,
-    "flight_home": 0.2791
+    "flight_out": 0.2915,
+    "hotel_paris": 0.5554,
+    "museum_louvre": 0.6905,
+    "train_ams": 0.3035,
+    "hotel_ams": 0.3342,
+    "flight_home": 0.3329
    },
    "change_type": "closure",
    "top_hits": [
     {
-     "p": 0.978,
-     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
-     "booking_id": "museum_louvre"
-    },
-    {
-     "p": 0.954,
+     "p": 0.958,
      "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?",
      "booking_id": "hotel_paris"
     },
     {
-     "p": 0.949,
+     "p": 0.955,
      "q": "Does the input mention a closure, ferme, or gesloten?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.93,
-     "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+     "p": 0.955,
+     "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?",
      "booking_id": "museum_louvre"
     },
     {
-     "p": 0.922,
-     "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?",
-     "booking_id": "hotel_ams"
+     "p": 0.921,
+     "q": "Does the input say Rue de Turenne is closed or blocked (\"fermée\", \"barrée\", \"afgesloten\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.92,
+     "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?",
+     "booking_id": "museum_louvre"
     }
    ],
    "route": "carbon",
-   "latency_s": 1.013
+   "latency_s": 0.887
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The Passage Richelieu entrance is closed, while the traveller's booked Pyramid entrance remains open as scheduled.",
-   "latency_s": 4.816
+   "reason": "The Passage Richelieu entrance closure does not affect the Louvre booking, as its designated Pyramid entrance remains open as scheduled.",
+   "latency_s": 3.668
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 1.013
+    "latency_s": 0.887
    },
    "policy": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 5.829,
+    "latency_s": 4.555,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.5e-05
+    "latency_s": 5.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 6.163,
+    "latency_s": 5.625,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as an English speaking museum and its metro station public address announcement, clear and slightly echoey. Louvre visitor notice for Thursday, 26 November 2026. The Passage Richelieu entrance is closed today for maintenance. The main Pyramid entrance remains open as scheduled for all timed entry reservations."
+  "hydrogen_text": "Louvre visitor notice for Thursday, 26 November 2026. The Passage Richelieu entrance is closed today for maintenance. The main Pyramid entrance remains open as scheduled for all timed-entry reservations."
  },
  {
   "id": "museum_louvre_6",
@@ -1378,35 +1383,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.893
+   "latency_s": 0.616
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
    "reason": "The entrance closure applies to Musée d'Orsay, while the Pyramid entrance at Musée du Louvre is operating normally.",
-   "latency_s": 2.859
+   "latency_s": 4.81
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 0.893
+    "latency_s": 0.616
    },
    "policy": {
     "alert": false,
     "booking_id": "museum_louvre",
-    "latency_s": 3.752,
+    "latency_s": 5.426,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.4e-05
+    "latency_s": 5.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 10.525,
+    "latency_s": 6.353,
     "all_yes": []
    }
   },
@@ -1420,75 +1425,75 @@
    "train_ams"
   ],
   "decision": {
-   "relevance": 0.9669,
+   "relevance": 0.9587,
    "booking_id": "train_ams",
    "per_booking": {
-    "flight_out": 0.369,
-    "hotel_paris": 0.3102,
-    "museum_louvre": 0.2219,
-    "train_ams": 0.9669,
-    "hotel_ams": 0.2814,
-    "flight_home": 0.3331
+    "flight_out": 0.5019,
+    "hotel_paris": 0.3765,
+    "museum_louvre": 0.2953,
+    "train_ams": 0.9587,
+    "hotel_ams": 0.4805,
+    "flight_home": 0.3979
    },
    "change_type": "cancelled",
    "top_hits": [
     {
-     "p": 0.988,
-     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
-     "booking_id": "train_ams"
-    },
-    {
      "p": 0.976,
-     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.975,
      "q": "Does the input mention Eurostar?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.975,
-     "q": "Does the input mention Eurostar 9315 or EST 9315?",
+     "p": 0.974,
+     "q": "Does the input mention train number 9315?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.974,
-     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "p": 0.972,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.968,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.963,
+     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
      "booking_id": "train_ams"
     }
    ],
    "route": "alert",
-   "latency_s": 1.045
+   "latency_s": 0.889
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.045
+    "latency_s": 0.889
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.045,
+    "latency_s": 0.889,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 2.1e-05
+    "latency_s": 8e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 7.856,
+    "latency_s": 7.759,
     "all_yes": [
      "train_ams"
     ]
    }
   },
-  "hydrogen_text": "Read this as a French railway station public address announcement, clear and slightly echoey, in French. Attention, en gare de Paris Nord, ce samedi 28 novembre 2026, le train Eurostar 9315 à destination d'Amsterdam Central, départ initialement prévu à 9h25, est supprimé en raison d'un incident d'alimentation électrique. Les voyageurs sont réacheminés sur les trains suivants."
+  "hydrogen_text": "Attention en gare de Paris Nord ce samedi 28 novembre 2026, le train Eurostar 93 15 à destination d'Amsterdam Central, départ initialement prévu à 9h25, est supprimé en raison d'un incident d'alimentation électrique. Les voyageurs sont réacheminés sur les trains suivants."
  },
  {
   "id": "train_ams_2",
@@ -1498,75 +1503,75 @@
    "train_ams"
   ],
   "decision": {
-   "relevance": 0.9628,
+   "relevance": 0.9538,
    "booking_id": "train_ams",
    "per_booking": {
-    "flight_out": 0.641,
-    "hotel_paris": 0.3776,
-    "museum_louvre": 0.0949,
-    "train_ams": 0.9628,
-    "hotel_ams": 0.4451,
-    "flight_home": 0.4015
+    "flight_out": 0.6171,
+    "hotel_paris": 0.3514,
+    "museum_louvre": 0.0875,
+    "train_ams": 0.9538,
+    "hotel_ams": 0.504,
+    "flight_home": 0.3201
    },
    "change_type": "cancelled",
    "top_hits": [
     {
-     "p": 0.988,
-     "q": "Does the input mention train number 9315?",
-     "booking_id": "train_ams"
-    },
-    {
      "p": 0.975,
-     "q": "Does the input mention Eurostar?",
-     "booking_id": "train_ams"
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
     },
     {
-     "p": 0.968,
-     "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?",
-     "booking_id": "museum_louvre"
+     "p": 0.967,
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
     },
     {
-     "p": 0.968,
+     "p": 0.967,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.966,
      "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.966,
+     "p": 0.962,
      "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
      "booking_id": "train_ams"
     }
    ],
    "route": "alert",
-   "latency_s": 1.062
+   "latency_s": 0.977
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.062
+    "latency_s": 0.977
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.062,
+    "latency_s": 0.977,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.2e-05
+    "latency_s": 4.7e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 13.068,
+    "latency_s": 6.481,
     "all_yes": [
      "train_ams"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English-speaking railway station public address announcement, clear and slightly echoey. Eurostar passenger announcement at Paris Gare du Nord on Saturday 28 November. Eurostar service 9315 at 09:25 to Brussels Midi, Rotterdam Centraal, and Amsterdam Centraal has been cancelled. Please go to the Eurostar customer desk for rebooking."
+  "hydrogen_text": "Eurostar passenger announcement at Paris Gare du Nord on Saturday 28 November. Eurostar service 9315 at 09:25 to Brussels Midi, Rotterdam Central, and Amsterdam Central has been cancelled. Please go to the Eurostar customer desk for rebooking."
  },
  {
   "id": "train_ams_3",
@@ -1615,30 +1620,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.809
+   "latency_s": 0.468
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.809
+    "latency_s": 0.468
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.809,
+    "latency_s": 0.468,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.6e-05
+    "latency_s": 5.9e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 10.112,
+    "latency_s": 5.91,
     "all_yes": [
      "train_ams"
     ]
@@ -1652,78 +1657,73 @@
   "lang": "fr",
   "truth": [],
   "decision": {
-   "relevance": 0.7651,
+   "relevance": 0.8215,
    "booking_id": "train_ams",
    "per_booking": {
-    "flight_out": 0.2915,
-    "hotel_paris": 0.3553,
-    "museum_louvre": 0.0801,
-    "train_ams": 0.7651,
-    "hotel_ams": 0.351,
-    "flight_home": 0.3623
+    "flight_out": 0.2022,
+    "hotel_paris": 0.3091,
+    "museum_louvre": 0.1436,
+    "train_ams": 0.8215,
+    "hotel_ams": 0.6076,
+    "flight_home": 0.4796
    },
    "change_type": "cancelled",
    "top_hits": [
     {
-     "p": 0.967,
+     "p": 0.99,
      "q": "Does the input mention Eurostar?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.965,
-     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.955,
+     "p": 0.979,
      "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.949,
+     "p": 0.974,
      "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.948,
-     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
-     "booking_id": "train_ams"
+     "p": 0.973,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.951,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
     }
    ],
-   "route": "carbon",
-   "latency_s": 1.023
+   "route": "alert",
+   "latency_s": 1.016
   },
-  "carbon": {
-   "relevant": false,
-   "booking_id": "none",
-   "reason": "The announcement cancels Eurostar 9317 at 11:25, while the traveller's booked Eurostar 9315 at 09:25 is explicitly confirmed to be running normally.",
-   "latency_s": 5.139
-  },
+  "carbon": null,
   "outcomes": {
    "decision": {
-    "alert": false,
+    "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.023
+    "latency_s": 1.016
    },
    "policy": {
-    "alert": false,
+    "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 6.162,
-    "carbon": true
+    "latency_s": 1.016,
+    "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.8e-05
+    "latency_s": 6.9e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.862,
+    "latency_s": 7.256,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a French railway station public address announcement, clear and slightly echoey, in French. Information Eurostar, à Paris-Nord, ce samedi 28 novembre, le train Eurostar 9317 de 11h25 à destination d'Amsterdam-Central est supprimé. Le train Eurostar 9315 de 9h25 circule normalement."
+  "hydrogen_text": "Information Eurostar à Paris Nord ce samedi 28 novembre. Le train Eurostar 9317 de 11h25 à destination d'Amsterdam Central est supprimé. Le train Eurostar 9315 de 9h25 circule normalement."
  },
  {
   "id": "train_ams_5",
@@ -1731,73 +1731,78 @@
   "lang": "en",
   "truth": [],
   "decision": {
-   "relevance": 0.8129,
+   "relevance": 0.7314,
    "booking_id": "train_ams",
    "per_booking": {
-    "flight_out": 0.5829,
-    "hotel_paris": 0.3289,
-    "museum_louvre": 0.0934,
-    "train_ams": 0.8129,
-    "hotel_ams": 0.3781,
-    "flight_home": 0.465
+    "flight_out": 0.6189,
+    "hotel_paris": 0.4216,
+    "museum_louvre": 0.1212,
+    "train_ams": 0.7314,
+    "hotel_ams": 0.3818,
+    "flight_home": 0.366
    },
    "change_type": "cancelled",
    "top_hits": [
     {
-     "p": 0.988,
-     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.985,
+     "p": 0.975,
      "q": "Does the input mention Eurostar?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.976,
+     "p": 0.971,
+     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
+     "booking_id": "hotel_paris"
+    },
+    {
+     "p": 0.968,
      "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.972,
+     "p": 0.966,
      "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.941,
-     "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+     "p": 0.96,
+     "q": "Does the input mention Antwerpen-Centraal, Anvers-Central, or Antwerp Central?",
      "booking_id": "train_ams"
     }
    ],
-   "route": "alert",
-   "latency_s": 1.187
+   "route": "carbon",
+   "latency_s": 0.851
   },
-  "carbon": null,
+  "carbon": {
+   "relevant": false,
+   "booking_id": "none",
+   "reason": "The cancellation is for southbound Eurostar 9314, while the traveller's northbound Eurostar 9315 is operating on schedule.",
+   "latency_s": 3.609
+  },
   "outcomes": {
    "decision": {
-    "alert": true,
+    "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 1.187
+    "latency_s": 0.851
    },
    "policy": {
-    "alert": true,
+    "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 1.187,
-    "carbon": false
+    "latency_s": 4.46,
+    "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.1e-05
+    "latency_s": 4.3e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 8.306,
+    "latency_s": 6.407,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as an English-speaking railway station public address announcement, clear and slightly echoey in English. Notice for Saturday 28 November 2026. Eurostar 9314 from Amsterdam Centraal to Paris Gare du Nord has been cancelled. Northbound Eurostar 9315 from Paris to Amsterdam is operating on schedule."
+  "hydrogen_text": "Notice for Saturday, 28 November 2026. Eurostar 9314 from Amsterdam Centraal to Paris Gare du Nord has been cancelled. Northbound Eurostar 9315 from Paris to Amsterdam is operating on schedule."
  },
  {
   "id": "train_ams_6",
@@ -1844,35 +1849,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.762
+   "latency_s": 0.423
   },
   "carbon": {
    "relevant": true,
    "booking_id": "train_ams",
-   "reason": "Wait",
-   "latency_s": 3.758
+   "reason": "The departure board directly assigns platform Voie 7 for the booked 09:25 Eurostar 9315 train to Amsterdam on Saturday, November 28, 2026.",
+   "latency_s": 4.964
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.762
+    "latency_s": 0.423
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 4.52,
+    "latency_s": 5.387,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1e-05
+    "latency_s": 3.9e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 11.239,
+    "latency_s": 9.833,
     "all_yes": []
    }
   },
@@ -1886,75 +1891,75 @@
    "hotel_ams"
   ],
   "decision": {
-   "relevance": 0.8788,
+   "relevance": 0.8946,
    "booking_id": "hotel_ams",
    "per_booking": {
-    "flight_out": 0.3295,
-    "hotel_paris": 0.7023,
-    "museum_louvre": 0.7142,
-    "train_ams": 0.7688,
-    "hotel_ams": 0.8788,
-    "flight_home": 0.3807
+    "flight_out": 0.2697,
+    "hotel_paris": 0.4961,
+    "museum_louvre": 0.3931,
+    "train_ams": 0.5592,
+    "hotel_ams": 0.8946,
+    "flight_home": 0.2787
    },
-   "change_type": "closure",
+   "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.972,
-     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
-     "booking_id": "flight_home"
-    },
-    {
-     "p": 0.972,
-     "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.969,
-     "q": "Does the input say a train is diverted, \"detourne\", or \"omgeleid\"?",
-     "booking_id": "train_ams"
-    },
-    {
-     "p": 0.958,
-     "q": "Does the input mention tram 17 or lijn 17?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.957,
+     "p": 0.975,
      "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.962,
+     "q": "Does the input mention GVB trams 13 or 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.955,
+     "q": "Does the input say tram 13 is diverted, 'omgeleid', or 'devie'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.953,
+     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
      "booking_id": "hotel_ams"
     }
    ],
    "route": "alert",
-   "latency_s": 1.159
+   "latency_s": 1.105
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.159
+    "latency_s": 1.105
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.159,
+    "latency_s": 1.105,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.7e-05
+    "latency_s": 4.9e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 8.847,
+    "latency_s": 6.511,
     "all_yes": [
      "hotel_ams"
     ]
    }
   },
-  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement, clear and slightly echoey, in NL. Mededeling van het GVB. Wegens spoorwerkzaamheden op de Rozengracht rijden tram 13 en tram 17 van 28 tot en met 30 november een omleiding. De halte Westermarkt vervalt in beide richtingen."
+  "hydrogen_text": "Mededeling van het GVB. Wegens spoorwerkzaamheden op de Rozengracht rijden tram 13 en tram 17 van 28 tot en met 30 november een omleiding. De halte Westermarkt vervalt in beide richtingen."
  },
  {
   "id": "hotel_ams_2",
@@ -1964,75 +1969,75 @@
    "hotel_ams"
   ],
   "decision": {
-   "relevance": 0.9218,
+   "relevance": 0.9197,
    "booking_id": "hotel_ams",
    "per_booking": {
-    "flight_out": 0.1875,
-    "hotel_paris": 0.4242,
-    "museum_louvre": 0.2554,
-    "train_ams": 0.7755,
-    "hotel_ams": 0.9218,
-    "flight_home": 0.4218
+    "flight_out": 0.2471,
+    "hotel_paris": 0.3922,
+    "museum_louvre": 0.3044,
+    "train_ams": 0.6968,
+    "hotel_ams": 0.9197,
+    "flight_home": 0.3843
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.972,
-     "q": "Does the input mention GVB trams 13 or 17?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.947,
+     "p": 0.967,
      "q": "Does the input mention a disruption, perturbation, or verstoring?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.941,
+     "p": 0.958,
+     "q": "Does the input mention GVB trams 13 or 17?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.95,
      "q": "Does the input say tram 17 is diverted, 'omgeleid', or 'devie'?",
      "booking_id": "hotel_ams"
     },
     {
      "p": 0.935,
-     "q": "Does the input mention tram 17 or lijn 17?",
-     "booking_id": "hotel_ams"
+     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
+     "booking_id": "flight_home"
     },
     {
      "p": 0.933,
-     "q": "Does the input mention disruptions, perturbations, or verstoringen?",
-     "booking_id": "flight_home"
+     "q": "Does the input mention tram 17 or lijn 17?",
+     "booking_id": "hotel_ams"
     }
    ],
    "route": "alert",
-   "latency_s": 0.944
+   "latency_s": 0.924
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.944
+    "latency_s": 0.924
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.944,
+    "latency_s": 0.924,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.6e-05
+    "latency_s": 4.7e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 8.791,
+    "latency_s": 6.083,
     "all_yes": [
      "hotel_ams"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English speaking metro or tram stop public address announcement, clear and slightly echoey. GVB service announcement. From 28 to 30 November, trams 13 and 17 are diverted due to track works, and do not stop at Westermarkt. Please use stops Dam or Marnixstraat instead."
+  "hydrogen_text": "GVB service announcement. From 28 to 30 November, trams 13 and 17 are diverted due to track works, and do not stop at Westermarkt. Please use stops Dam or Marnixstraat instead."
  },
  {
   "id": "hotel_ams_3",
@@ -2081,30 +2086,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.849
+   "latency_s": 0.593
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.849
+    "latency_s": 0.593
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.849,
+    "latency_s": 0.593,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.5e-05
+    "latency_s": 4.4e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 16.102,
+    "latency_s": 5.756,
     "all_yes": [
      "hotel_ams"
     ]
@@ -2118,78 +2123,78 @@
   "lang": "nl",
   "truth": [],
   "decision": {
-   "relevance": 0.7275,
+   "relevance": 0.6963,
    "booking_id": "hotel_ams",
    "per_booking": {
-    "flight_out": 0.1936,
-    "hotel_paris": 0.5285,
-    "museum_louvre": 0.5192,
-    "train_ams": 0.7028,
-    "hotel_ams": 0.7275,
-    "flight_home": 0.3824
+    "flight_out": 0.2434,
+    "hotel_paris": 0.3709,
+    "museum_louvre": 0.2077,
+    "train_ams": 0.6571,
+    "hotel_ams": 0.6963,
+    "flight_home": 0.4023
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.957,
-     "q": "Does the input say 'Westermarkt'?",
-     "booking_id": "hotel_ams"
+     "p": 0.968,
+     "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?",
+     "booking_id": "train_ams"
     },
     {
-     "p": 0.953,
-     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.953,
+     "p": 0.958,
      "q": "Does the input mention a disruption, perturbation, or verstoring?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.953,
+     "p": 0.948,
+     "q": "Does the input say 'Westermarkt'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.945,
      "q": "Does the input mention disruptions, perturbations, or verstoringen?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.936,
-     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
-     "booking_id": "hotel_paris"
+     "p": 0.937,
+     "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?",
+     "booking_id": "hotel_ams"
     }
    ],
    "route": "carbon",
-   "latency_s": 1.22
+   "latency_s": 1.232
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The announcement reports a disruption only on tram 14 at Waterlooplein, while trams 13 and 17 continue to stop normally at Westermarkt for hotel_ams.",
-   "latency_s": 4.337
+   "reason": "The disruption affects tram 14 at Waterlooplein, while trams 13 and 17 serving the Amsterdam hotel's Westermarkt stop are operating normally.",
+   "latency_s": 3.222
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 1.22
+    "latency_s": 1.232
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 5.557,
+    "latency_s": 4.454,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.8e-05
+    "latency_s": 5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.897,
+    "latency_s": 6.587,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement, clear and slightly echoey, in NL. GVB reisinformatie. Tram 14 stopt van 28 tot en met 30 november niet bij halte Waterlooplein wegens bestratingswerk. Tram 13 en tram 17 stoppen normaal bij halte Westermarkt."
+  "hydrogen_text": "GVB reisinformatie. Tram 14 stopt van 28 tot en met 30 november niet bij halte Waterlooplein wegens bestratingswerk. Tram 13 en tram 17 stoppen normaal bij halte Westermarkt."
  },
  {
   "id": "hotel_ams_5",
@@ -2197,78 +2202,78 @@
   "lang": "nl",
   "truth": [],
   "decision": {
-   "relevance": 0.6935,
+   "relevance": 0.6855,
    "booking_id": "hotel_ams",
    "per_booking": {
-    "flight_out": 0.2288,
-    "hotel_paris": 0.3852,
-    "museum_louvre": 0.5282,
-    "train_ams": 0.6567,
-    "hotel_ams": 0.6935,
-    "flight_home": 0.3584
+    "flight_out": 0.1995,
+    "hotel_paris": 0.386,
+    "museum_louvre": 0.4311,
+    "train_ams": 0.6545,
+    "hotel_ams": 0.6855,
+    "flight_home": 0.3499
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.971,
+     "p": 0.969,
      "q": "Does the input mention GVB trams 13 or 17?",
      "booking_id": "hotel_ams"
     },
     {
-     "p": 0.953,
-     "q": "Does the input mention tram 17 or lijn 17?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.953,
-     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.951,
-     "q": "Does the input mention tram 13 or lijn 13?",
-     "booking_id": "hotel_ams"
-    },
-    {
-     "p": 0.938,
+     "p": 0.969,
      "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?",
+     "booking_id": "hotel_ams"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input say diverted, deroute, or omgeleid?",
+     "booking_id": "flight_out"
+    },
+    {
+     "p": 0.96,
+     "q": "Does the input say diverted, deroute, or omgeleid?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.957,
+     "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?",
      "booking_id": "hotel_ams"
     }
    ],
    "route": "carbon",
-   "latency_s": 0.918
+   "latency_s": 1.053
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The tram 13 and 17 diversion bypassing Westermarkt is from 1 to 3 December, while the Westermarkt stop remains normally open through 30 November, covering the entire Amsterdam hotel stay.",
-   "latency_s": 3.326
+   "reason": "The tram 13 and 17 diversion bypassing Westermarkt occurs from December 1 to 3, after the traveller checks out of hotel_ams on November 30, while service remains normal through November 30.",
+   "latency_s": 4.376
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 0.918
+    "latency_s": 1.053
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 4.244,
+    "latency_s": 5.429,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.7e-05
+    "latency_s": 5.6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.66,
+    "latency_s": 5.044,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a Dutch metro or tram stop public address announcement. Clear and slightly echoey in NL. GVB vooraankondiging. Van 1 tot en met 3 december rijden tram 13 en 17 een omleiding buiten halte Westermarkt om. Tot en met 30 november blijft halte Westermarkt normaal geopend."
+  "hydrogen_text": "GVB vooraankondiging. Van 1 tot en met 3 december rijden tram 13 en 17 een omleiding buiten halte Westermarkt om. Tot en met 30 november blijft halte Westermarkt normaal geopend."
  },
  {
   "id": "hotel_ams_6",
@@ -2315,35 +2320,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.619
+   "latency_s": 0.67
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The notice confirms normal service for Trams 13 and 17 at the Westermarkt stop, while the skipped stop (Rijksmuseum on Trams 2 and 12) does not affect any of the traveller's bookings.",
-   "latency_s": 3.426
+   "reason": "The notice confirms normal service for Trams 13 and 17 at Westermarkt, while the cancelled stop (Rijksmuseum on Trams 2 and 12) does not affect any of the traveller's bookings.",
+   "latency_s": 4.26
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 0.619
+    "latency_s": 0.67
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 4.045,
+    "latency_s": 4.93,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.5e-05
+    "latency_s": 4.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 6.772,
+    "latency_s": 4.355,
     "all_yes": []
    }
   },
@@ -2357,75 +2362,75 @@
    "flight_home"
   ],
   "decision": {
-   "relevance": 0.9232,
+   "relevance": 0.9479,
    "booking_id": "flight_home",
    "per_booking": {
-    "flight_out": 0.6496,
-    "hotel_paris": 0.3365,
-    "museum_louvre": 0.148,
-    "train_ams": 0.4073,
-    "hotel_ams": 0.3758,
-    "flight_home": 0.9232
+    "flight_out": 0.7343,
+    "hotel_paris": 0.3329,
+    "museum_louvre": 0.1949,
+    "train_ams": 0.4838,
+    "hotel_ams": 0.3221,
+    "flight_home": 0.9479
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.958,
-     "q": "Does the input announce a gate change or porte change for KL 641?",
+     "p": 0.982,
+     "q": "Does the input show the airline code KL with a flight number?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.955,
-     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
-     "booking_id": "flight_home"
-    },
-    {
-     "p": 0.953,
-     "q": "Does the input mention le vol KLM or de KLM-vlucht?",
-     "booking_id": "flight_home"
-    },
-    {
-     "p": 0.949,
+     "p": 0.977,
      "q": "Does the input mention New York JFK airport?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.948,
+     "p": 0.97,
+     "q": "Does the input show or say KLM 641?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.97,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.958,
      "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
      "booking_id": "flight_home"
     }
    ],
    "route": "alert",
-   "latency_s": 1.054
+   "latency_s": 0.914
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.054
+    "latency_s": 0.914
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.054,
+    "latency_s": 0.914,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 2.2e-05
+    "latency_s": 6.8e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 8.781,
+    "latency_s": 10.336,
     "all_yes": [
      "flight_home"
     ]
    }
   },
-  "hydrogen_text": "Read this as a Dutch airport public address announcement, clear and slightly echoey, in NL. Attentie passagiers op Schiphol op maandag 30 november. KLM vlucht KL641 naar New York JFK van 10 uur 20 vertrekt niet vanaf gate E18, maar is verplaatst naar gate F07."
+  "hydrogen_text": "Attentie passagiers op Schiphol op maandag 30 november. KLM-vlucht KL641 naar New York JFK van tien over twee vertrekt niet vanaf gate E18, maar is verplaatst naar gate F07."
  },
  {
   "id": "flight_home_2",
@@ -2435,75 +2440,80 @@
    "flight_home"
   ],
   "decision": {
-   "relevance": 0.8383,
+   "relevance": 0.7673,
    "booking_id": "flight_home",
    "per_booking": {
-    "flight_out": 0.3148,
-    "hotel_paris": 0.3991,
-    "museum_louvre": 0.1917,
-    "train_ams": 0.7343,
-    "hotel_ams": 0.2516,
-    "flight_home": 0.8383
+    "flight_out": 0.3481,
+    "hotel_paris": 0.3127,
+    "museum_louvre": 0.2066,
+    "train_ams": 0.7232,
+    "hotel_ams": 0.3343,
+    "flight_home": 0.7673
    },
    "change_type": "schedule",
    "top_hits": [
     {
-     "p": 0.983,
-     "q": "Does the input mention a disruption, perturbation, or verstoring?",
-     "booking_id": "flight_out"
-    },
-    {
-     "p": 0.979,
+     "p": 0.989,
      "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
      "booking_id": "train_ams"
     },
     {
-     "p": 0.969,
-     "q": "Does the input mention train delays or verstoringen to Schiphol Airport?",
-     "booking_id": "flight_home"
+     "p": 0.986,
+     "q": "Does the input mention a disruption, perturbation, or verstoring?",
+     "booking_id": "flight_out"
     },
     {
-     "p": 0.966,
+     "p": 0.968,
      "q": "Does the input mention disruptions, perturbations, or verstoringen?",
      "booking_id": "flight_home"
     },
     {
+     "p": 0.964,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
      "p": 0.96,
-     "q": "Does the input say service is suspended or interrupted (\"interrompu\", \"onderbroken\")?",
-     "booking_id": "hotel_paris"
+     "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?",
+     "booking_id": "train_ams"
     }
    ],
-   "route": "alert",
-   "latency_s": 1.19
+   "route": "carbon",
+   "latency_s": 1.021
   },
-  "carbon": null,
+  "carbon": {
+   "relevant": true,
+   "booking_id": "flight_home",
+   "reason": "The audio announces that no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30 on Monday morning, November 30, 2026, which directly disrupts the planned train transfer for the 10:20 flight home.",
+   "latency_s": 3.535
+  },
   "outcomes": {
    "decision": {
-    "alert": true,
+    "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 1.19
+    "latency_s": 1.021
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.19,
-    "carbon": false
+    "latency_s": 4.556,
+    "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 2.9e-05
+    "latency_s": 8.5e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 8.138,
+    "latency_s": 6.685,
     "all_yes": [
      "flight_home"
     ]
    }
   },
-  "hydrogen_text": "Read this as an English speaking airport public address announcement, clear and slightly echoey, in NS. Travel update at Amsterdam Centraal on Monday morning, 30 November 2026. Due to a signal failure, no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30. Replacement buses depart from the IJzijde bus platform."
+  "hydrogen_text": "NS travel update at Amsterdam Centraal on Monday morning, 30 November 2026. Due to a signal failure, no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30. Replacement buses depart from the IJ-side bus platform."
  },
  {
   "id": "flight_home_3",
@@ -2552,30 +2562,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.993
+   "latency_s": 0.592
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 0.993
+    "latency_s": 0.592
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 0.993,
+    "latency_s": 0.592,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.8e-05
+    "latency_s": 5.3e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 6.311,
+    "latency_s": 5.922,
     "all_yes": [
      "flight_home"
     ]
@@ -2589,73 +2599,73 @@
   "lang": "nl",
   "truth": [],
   "decision": {
-   "relevance": 0.8002,
+   "relevance": 0.89,
    "booking_id": "flight_home",
    "per_booking": {
-    "flight_out": 0.6641,
-    "hotel_paris": 0.3624,
-    "museum_louvre": 0.0654,
-    "train_ams": 0.2898,
-    "hotel_ams": 0.2358,
-    "flight_home": 0.8002
+    "flight_out": 0.6744,
+    "hotel_paris": 0.4013,
+    "museum_louvre": 0.084,
+    "train_ams": 0.246,
+    "hotel_ams": 0.24,
+    "flight_home": 0.89
    },
    "change_type": "gate",
    "top_hits": [
     {
-     "p": 0.964,
+     "p": 0.959,
+     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.956,
      "q": "Does the input mention New York JFK airport?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.958,
-     "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
-     "booking_id": "flight_home"
+     "p": 0.949,
+     "q": "Does the input mention a platform change, \"changement de voie\", or \"spoorwijziging\"?",
+     "booking_id": "train_ams"
     },
     {
-     "p": 0.955,
+     "p": 0.941,
      "q": "Does the input show the airline code KL with a flight number?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.951,
-     "q": "Does the input mention le vol KLM or de KLM-vlucht?",
-     "booking_id": "flight_home"
-    },
-    {
-     "p": 0.949,
-     "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?",
+     "p": 0.917,
+     "q": "Does the input mention a gate change, changement de porte, or gatewijziging?",
      "booking_id": "flight_home"
     }
    ],
    "route": "alert",
-   "latency_s": 0.921
+   "latency_s": 0.906
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 0.921
+    "latency_s": 0.906
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 0.921,
+    "latency_s": 0.906,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 2e-05
+    "latency_s": 5.8e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 6.307,
+    "latency_s": 7.726,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as a Dutch airport public address announcement, clear and slightly echoey, in NL. Schiphol mededeling voor maandag 30 november. KLM vlucht KL643 van 13:45 naar New York JFK heeft een gatewijziging naar gate E22. Vlucht KL641 om 10:20 vertrekt volgens schema vanaf gate E18."
+  "hydrogen_text": "Schiphol mededeling voor maandag 30 november. KLM-vlucht KL 643 van 13:45 naar New York JFK heeft een gatewijziging naar gate E22. Vlucht KL 641 om 10:20 vertrekt volgens schema vanaf gate E18."
  },
  {
   "id": "flight_home_5",
@@ -2663,15 +2673,15 @@
   "lang": "en",
   "truth": [],
   "decision": {
-   "relevance": 0.7196,
+   "relevance": 0.7726,
    "booking_id": "train_ams",
    "per_booking": {
-    "flight_out": 0.3342,
-    "hotel_paris": 0.3993,
-    "museum_louvre": 0.1906,
-    "train_ams": 0.7196,
-    "hotel_ams": 0.3911,
-    "flight_home": 0.6251
+    "flight_out": 0.3171,
+    "hotel_paris": 0.3037,
+    "museum_louvre": 0.0907,
+    "train_ams": 0.7726,
+    "hotel_ams": 0.3899,
+    "flight_home": 0.7192
    },
    "change_type": "delay",
    "top_hits": [
@@ -2681,60 +2691,60 @@
      "booking_id": "train_ams"
     },
     {
-     "p": 0.957,
+     "p": 0.971,
+     "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?",
+     "booking_id": "flight_home"
+    },
+    {
+     "p": 0.97,
      "q": "Does the input mention a disruption, perturbation, or verstoring?",
      "booking_id": "flight_out"
     },
     {
-     "p": 0.94,
-     "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?",
-     "booking_id": "hotel_paris"
-    },
-    {
-     "p": 0.94,
+     "p": 0.952,
      "q": "Does the input mention disruptions, perturbations, or verstoringen?",
      "booking_id": "flight_home"
     },
     {
-     "p": 0.938,
-     "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?",
+     "p": 0.929,
+     "q": "Does the input say there is a disruption, strike, or cancellation at Antwerpen-Centraal?",
      "booking_id": "train_ams"
     }
    ],
    "route": "carbon",
-   "latency_s": 1.105
+   "latency_s": 0.997
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The announcement suspends trains to Utrecht Centraal which the traveller is not using, and confirms that trains from Amsterdam Centraal to Schiphol Airport on November 30 are running normally.",
-   "latency_s": 3.179
+   "reason": "The announcement reports a suspension on the Utrecht line and confirms that trains from Amsterdam Centraal to Schiphol Airport on 30 November are running normally.",
+   "latency_s": 3.062
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 1.105
+    "latency_s": 0.997
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 4.284,
+    "latency_s": 4.059,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.9e-05
+    "latency_s": 5.3e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 13.248,
+    "latency_s": 6.016,
     "all_yes": []
    }
   },
-  "hydrogen_text": "Read this as an English-speaking airport public address announcement, clear and slightly echoey. In... NS announcement at Amsterdam Centraal on Monday morning, 30 November. Trains between Amsterdam Centraal and Utrecht Centraal are suspended until 11:00. Trains from Amsterdam Centraal to Schiphol Airport are running normally."
+  "hydrogen_text": "NS announcement at Amsterdam Centraal on Monday morning, 30 November. Trains between Amsterdam Centraal and Utrecht Centraal are suspended until 11 o'clock. Trains from Amsterdam Centraal to Schiphol Airport are running normally."
  },
  {
   "id": "flight_home_6",
@@ -2781,35 +2791,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 1.155
+   "latency_s": 0.528
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "Trains from Amsterdam Centraal to Schiphol Airport on November 30 are running on time (normal service), and the disruption only affects trains towards Haarlem.",
-   "latency_s": 3.336
+   "reason": "The display shows normal, on-time train service from Amsterdam Centraal to Schiphol Airport on November 30, while the disruption affects trains toward Haarlem.",
+   "latency_s": 12.659
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 1.155
+    "latency_s": 0.528
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 4.491,
+    "latency_s": 13.187,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.8e-05
+    "latency_s": 5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 9.099,
+    "latency_s": 7.432,
     "all_yes": []
    }
   },
@@ -2860,30 +2870,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.331
+   "latency_s": 0.76
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.331
+    "latency_s": 0.76
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.331,
+    "latency_s": 0.76,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.4e-05
+    "latency_s": 6.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.787,
+    "latency_s": 3.802,
     "all_yes": []
    }
   },
@@ -2934,35 +2944,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.964
+   "latency_s": 0.689
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The input is just a generic webpage title for Eurostar travel news and does not contain any specific disruption details affecting the booked train.",
-   "latency_s": 3.453
+   "reason": "The input is only a generic page title for Eurostar travel disruptions without specifying any actual changes to a particular train or date.",
+   "latency_s": 3.414
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.964
+    "latency_s": 0.689
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 4.417,
+    "latency_s": 4.103,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.4e-05
+    "latency_s": 4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.692,
+    "latency_s": 3.684,
     "all_yes": []
    }
   },
@@ -3015,30 +3025,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.848
+   "latency_s": 0.783
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.848
+    "latency_s": 0.783
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.848,
+    "latency_s": 0.783,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 2.2e-05
+    "latency_s": 7.8e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 3.896,
+    "latency_s": 4.603,
     "all_yes": [
      "hotel_ams"
     ]
@@ -3091,30 +3101,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.275
+   "latency_s": 0.812
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.275
+    "latency_s": 0.812
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.275,
+    "latency_s": 0.812,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.3e-05
+    "latency_s": 6.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.029,
+    "latency_s": 4.32,
     "all_yes": []
    }
   },
@@ -3165,30 +3175,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.296
+   "latency_s": 0.722
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 1.296
+    "latency_s": 0.722
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_ams",
-    "latency_s": 1.296,
+    "latency_s": 0.722,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.8e-05
+    "latency_s": 8e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.209,
+    "latency_s": 3.851,
     "all_yes": []
    }
   },
@@ -3239,35 +3249,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 1.385
+   "latency_s": 0.734
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "A general municipal strike notice for the City of Paris with no specific closures detailed does not directly change the hotel, national museum, or any booked transport services, stations, or entrances.",
-   "latency_s": 2.476
+   "reason": "A general municipal strike notice for the City of Paris with no detailed closures does not directly change the service, entrance, station, or stop of any of the traveller's specific bookings.",
+   "latency_s": 2.412
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.385
+    "latency_s": 0.734
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 3.861,
+    "latency_s": 3.146,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.1e-05
+    "latency_s": 5.8e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.761,
+    "latency_s": 4.583,
     "all_yes": []
    }
   },
@@ -3318,30 +3328,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.801
+   "latency_s": 0.678
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.801
+    "latency_s": 0.678
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.801,
+    "latency_s": 0.678,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2e-05
+    "latency_s": 5.7e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 4.612,
+    "latency_s": 3.668,
     "all_yes": [
      "train_ams"
     ]
@@ -3394,30 +3404,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.921
+   "latency_s": 0.709
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.921
+    "latency_s": 0.709
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.921,
+    "latency_s": 0.709,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.2e-05
+    "latency_s": 6.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.999,
+    "latency_s": 8.277,
     "all_yes": []
    }
   },
@@ -3468,30 +3478,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.857
+   "latency_s": 0.659
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.857
+    "latency_s": 0.659
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.857,
+    "latency_s": 0.659,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.3e-05
+    "latency_s": 3.5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.752,
+    "latency_s": 3.132,
     "all_yes": []
    }
   },
@@ -3542,30 +3552,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.774
+   "latency_s": 1.56
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.774
+    "latency_s": 1.56
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.774,
+    "latency_s": 1.56,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.1e-05
+    "latency_s": 5.9e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 5.991,
+    "latency_s": 3.247,
     "all_yes": []
    }
   },
@@ -3616,30 +3626,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.93
+   "latency_s": 0.666
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.93
+    "latency_s": 0.666
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_out",
-    "latency_s": 0.93,
+    "latency_s": 0.666,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.7e-05
+    "latency_s": 7.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.029,
+    "latency_s": 5.448,
     "all_yes": []
    }
   },
@@ -3690,30 +3700,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.774
+   "latency_s": 0.681
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.774
+    "latency_s": 0.681
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.774,
+    "latency_s": 0.681,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.000401
+    "latency_s": 0.000985
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.406,
+    "latency_s": 2.397,
     "all_yes": []
    }
   },
@@ -3764,30 +3774,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.027
+   "latency_s": 0.747
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.027
+    "latency_s": 0.747
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.027,
+    "latency_s": 0.747,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2e-05
+    "latency_s": 5.6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.533,
+    "latency_s": 3.164,
     "all_yes": []
    }
   },
@@ -3838,35 +3848,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.747
+   "latency_s": 0.748
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations.",
-   "latency_s": 3.485
+   "reason": "The input describes general local metro disruptions in Paris without specifying direct changes or closures to the Eurostar train service, Gare du Nord itself, or the hotel's specific metro stations.",
+   "latency_s": 3.239
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.747
+    "latency_s": 0.748
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 4.232,
+    "latency_s": 3.987,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 2.4e-05
+    "latency_s": 6.8e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 7.966,
+    "latency_s": 4.899,
     "all_yes": [
      "hotel_paris",
      "train_ams"
@@ -3920,30 +3930,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.744
+   "latency_s": 0.814
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.744
+    "latency_s": 0.814
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.744,
+    "latency_s": 0.814,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.3e-05
+    "latency_s": 6.6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.455,
+    "latency_s": 4.164,
     "all_yes": []
    }
   },
@@ -3994,30 +4004,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.937
+   "latency_s": 0.709
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.937
+    "latency_s": 0.709
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.937,
+    "latency_s": 0.709,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.4e-05
+    "latency_s": 6.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.79,
+    "latency_s": 2.266,
     "all_yes": []
    }
   },
@@ -4068,30 +4078,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.765
+   "latency_s": 0.766
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.765
+    "latency_s": 0.766
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.765,
+    "latency_s": 0.766,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.1e-05
+    "latency_s": 5.8e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.025,
+    "latency_s": 4.187,
     "all_yes": []
    }
   },
@@ -4142,30 +4152,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.744
+   "latency_s": 0.692
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.744
+    "latency_s": 0.692
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 0.744,
+    "latency_s": 0.692,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.4e-05
+    "latency_s": 0.000123
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 9.907,
+    "latency_s": 4.507,
     "all_yes": []
    }
   },
@@ -4216,35 +4226,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.795
+   "latency_s": 0.702
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The article only mentions a general standing RATP strike notice for supervisory staff and an action ending November 20, without confirming any direct change or closure to a specific booking's service, station, or stop on the traveller's dates.",
-   "latency_s": 4.779
+   "reason": "The article only mentions a general RATP strike notice without specifying any direct service changes, closures, or disruptions to the traveller's specific Metro stations, lines, trains, or flights on their booked dates.",
+   "latency_s": 3.07
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.795
+    "latency_s": 0.702
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 5.574,
+    "latency_s": 3.772,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.6e-05
+    "latency_s": 7.3e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.799,
+    "latency_s": 5.053,
     "all_yes": []
    }
   },
@@ -4295,35 +4305,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.858
+   "latency_s": 0.701
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The input reports a general, vaguely defined student protest in Paris on November 26 without specifying any direct changes to the hotel, Louvre museum entrance, or specific metro stations used by the traveller.",
-   "latency_s": 5.637
+   "reason": "The input describes a general student protest in Paris on November 26 without specifying any direct changes to the hotel, Louvre entrance, or their associated metro stations.",
+   "latency_s": 3.377
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.858
+    "latency_s": 0.701
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 6.495,
+    "latency_s": 4.078,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3e-05
+    "latency_s": 9.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.833,
+    "latency_s": 4.19,
     "all_yes": []
    }
   },
@@ -4374,35 +4384,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.778
+   "latency_s": 0.734
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The article states that no specific locations, metro stations, or transport notices are known yet for November 28, so no booking is directly changed.",
-   "latency_s": 2.488
+   "reason": "The article states that no specific locations, times, routes, or transport strike notices are currently known for the November 28 protest in Paris, so no booked station or service is confirmed to be changed.",
+   "latency_s": 2.655
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.778
+    "latency_s": 0.734
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 3.266,
+    "latency_s": 3.389,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.5e-05
+    "latency_s": 7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.055,
+    "latency_s": 4.536,
     "all_yes": []
    }
   },
@@ -4453,30 +4463,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.769
+   "latency_s": 0.708
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.769
+    "latency_s": 0.708
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 0.769,
+    "latency_s": 0.708,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 2.2e-05
+    "latency_s": 6.2e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 3.308,
+    "latency_s": 4.379,
     "all_yes": [
      "hotel_ams"
     ]
@@ -4529,30 +4539,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.009
+   "latency_s": 0.724
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.009
+    "latency_s": 0.724
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 1.009,
+    "latency_s": 0.724,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.4e-05
+    "latency_s": 6.7e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 7.01,
+    "latency_s": 2.612,
     "all_yes": []
    }
   },
@@ -4603,30 +4613,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 1.084
+   "latency_s": 0.769
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.084
+    "latency_s": 0.769
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 1.084,
+    "latency_s": 0.769,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 2e-05
+    "latency_s": 5.4e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "hotel_ams",
-    "latency_s": 8.28,
+    "latency_s": 4.606,
     "all_yes": [
      "hotel_ams"
     ]
@@ -4679,30 +4689,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.932
+   "latency_s": 0.681
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.932
+    "latency_s": 0.681
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.932,
+    "latency_s": 0.681,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.3e-05
+    "latency_s": 6.5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.625,
+    "latency_s": 3.689,
     "all_yes": []
    }
   },
@@ -4753,30 +4763,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 1.194
+   "latency_s": 0.719
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.194
+    "latency_s": 0.719
    },
    "policy": {
     "alert": true,
     "booking_id": "hotel_paris",
-    "latency_s": 1.194,
+    "latency_s": 0.719,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3e-05
+    "latency_s": 9.5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.292,
+    "latency_s": 4.344,
     "all_yes": []
    }
   },
@@ -4827,30 +4837,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.021
+   "latency_s": 0.722
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.021
+    "latency_s": 0.722
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.021,
+    "latency_s": 0.722,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.6e-05
+    "latency_s": 4.4e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.293,
+    "latency_s": 3.449,
     "all_yes": []
    }
   },
@@ -4901,30 +4911,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.826
+   "latency_s": 0.798
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.826
+    "latency_s": 0.798
    },
    "policy": {
     "alert": false,
     "booking_id": "hotel_paris",
-    "latency_s": 0.826,
+    "latency_s": 0.798,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.1e-05
+    "latency_s": 8.6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.695,
+    "latency_s": 2.839,
     "all_yes": []
    }
   },
@@ -4975,30 +4985,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.235
+   "latency_s": 0.727
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.235
+    "latency_s": 0.727
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.235,
+    "latency_s": 0.727,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 2.2e-05
+    "latency_s": 6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.676,
+    "latency_s": 2.863,
     "all_yes": []
    }
   },
@@ -5049,30 +5059,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.339
+   "latency_s": 0.707
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 1.339
+    "latency_s": 0.707
    },
    "policy": {
     "alert": false,
     "booking_id": "train_ams",
-    "latency_s": 1.339,
+    "latency_s": 0.707,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.4e-05
+    "latency_s": 7.1e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 3.964,
+    "latency_s": 2.91,
     "all_yes": []
    }
   },
@@ -5123,30 +5133,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.851
+   "latency_s": 0.86
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.851
+    "latency_s": 0.86
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.851,
+    "latency_s": 0.86,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 2e-05
+    "latency_s": 5.5e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 4.05,
+    "latency_s": 4.098,
     "all_yes": []
    }
   },
@@ -5197,30 +5207,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.725
+   "latency_s": 0.879
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 0.725
+    "latency_s": 0.879
    },
    "policy": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 0.725,
+    "latency_s": 0.879,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 2.9e-05
+    "latency_s": 8.3e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 10.609,
+    "latency_s": 5.348,
     "all_yes": [
      "museum_louvre"
     ]
@@ -5273,36 +5283,37 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.906
+   "latency_s": 0.741
   },
   "carbon": {
    "relevant": false,
    "booking_id": "none",
-   "reason": "The advisory concerns general road traffic and construction inside JFK airport rather than a direct change to any flight's service, terminal, or gate.",
-   "latency_s": 3.271
+   "reason": "The input describes general road construction and potential traffic delays at JFK airport rather than directly changing a flight's service, terminal, or gate.",
+   "latency_s": 4.845
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.906
+    "latency_s": 0.741
    },
    "policy": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 4.177,
+    "latency_s": 5.586,
     "carbon": true
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.1e-05
+    "latency_s": 6e-05
    },
    "hydrogen": {
     "alert": true,
-    "booking_id": "flight_home",
-    "latency_s": 8.226,
+    "booking_id": "flight_out",
+    "latency_s": 4.721,
     "all_yes": [
+     "flight_out",
      "flight_home"
     ]
    }
@@ -5354,30 +5365,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 0.66
+   "latency_s": 0.748
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.66
+    "latency_s": 0.748
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 0.66,
+    "latency_s": 0.748,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_out",
-    "latency_s": 2e-05
+    "latency_s": 6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.737,
+    "latency_s": 3.302,
     "all_yes": []
    }
   },
@@ -5428,30 +5439,30 @@
     }
    ],
    "route": "silence",
-   "latency_s": 1.065
+   "latency_s": 0.966
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.065
+    "latency_s": 0.966
    },
    "policy": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 1.065,
+    "latency_s": 0.966,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "museum_louvre",
-    "latency_s": 1.9e-05
+    "latency_s": 5.6e-05
    },
    "hydrogen": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 6.047,
+    "latency_s": 2.63,
     "all_yes": []
    }
   },
@@ -5504,30 +5515,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 0.779
+   "latency_s": 0.769
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.779
+    "latency_s": 0.769
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 0.779,
+    "latency_s": 0.769,
     "carbon": false
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 2.2e-05
+    "latency_s": 6.4e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 4.957,
+    "latency_s": 4.249,
     "all_yes": [
      "train_ams"
     ]
@@ -5582,30 +5593,30 @@
     }
    ],
    "route": "alert",
-   "latency_s": 1.2
+   "latency_s": 0.735
   },
   "carbon": null,
   "outcomes": {
    "decision": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.2
+    "latency_s": 0.735
    },
    "policy": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 1.2,
+    "latency_s": 0.735,
     "carbon": false
    },
    "keyword": {
     "alert": false,
     "booking_id": null,
-    "latency_s": 2.3e-05
+    "latency_s": 6.7e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "train_ams",
-    "latency_s": 3.777,
+    "latency_s": 4.218,
     "all_yes": [
      "train_ams"
     ]
@@ -5658,35 +5669,35 @@
     }
    ],
    "route": "carbon",
-   "latency_s": 0.769
+   "latency_s": 0.706
   },
   "carbon": {
    "relevant": true,
    "booking_id": "flight_home",
-   "reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026).",
-   "latency_s": 4.721
+   "reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the return flight KL 641 on November 30, 2026.",
+   "latency_s": 3.871
   },
   "outcomes": {
    "decision": {
     "alert": false,
     "booking_id": "flight_home",
-    "latency_s": 0.769
+    "latency_s": 0.706
    },
    "policy": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 5.49,
+    "latency_s": 4.577,
     "carbon": true
    },
    "keyword": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 1.7e-05
+    "latency_s": 5.1e-05
    },
    "hydrogen": {
     "alert": true,
     "booking_id": "flight_home",
-    "latency_s": 4.167,
+    "latency_s": 3.535,
     "all_yes": [
      "flight_home"
     ]

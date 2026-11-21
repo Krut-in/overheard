@@ -29,34 +29,36 @@ Rerun with `.venv/bin/python eval/abroad_eval.py all` (cached verdicts in `eval/
 
 | Source | Method | Caught | False alerts | Median latency |
 |---|---|---|---|---|
-| Rehearsal audio (12 relevant, 12 near misses) | Decision 1 at 0.8 | 12 of 12 | 2 of 12 | 1.05 s |
-| | Full policy (Carbon on 0.4 to 0.8) | 12 of 12 | 2 of 12 | 1.40 s |
-| | Transcribe, then ask Hydrogen | 12 of 12 | 0 of 12 | 8.4 s |
+| Rehearsal audio (12 relevant, 12 near misses) | Decision 1 at 0.8 | 10 of 12 | 2 of 12 | 0.93 s |
+| | Full policy (Carbon on 0.4 to 0.8) | 12 of 12 | 2 of 12 | 2.6 s |
+| | Transcribe, then ask Hydrogen | 12 of 12 | 0 of 12 | 6.5 s |
 | | Keyword match (on the ground-truth scripts) | 12 of 12 | 10 of 12 | |
-| Rehearsal signs (6 relevant, 6 near misses) | Decision 1 at 0.8 | 5 of 6 | 0 of 6 | 0.83 s |
-| | Full policy | 6 of 6 | 1 of 6 | 2.4 s |
-| | Read, then ask Hydrogen | 6 of 6 | 0 of 6 | 9.5 s |
+| Rehearsal signs (6 relevant, 6 near misses) | Decision 1 at 0.8 | 5 of 6 | 0 of 6 | 0.56 s |
+| | Full policy | 6 of 6 | 1 of 6 | 2.3 s |
+| | Read, then ask Hydrogen | 6 of 6 | 0 of 6 | 6.7 s |
 | | Keyword match | 6 of 6 | 5 of 6 | |
-| Real radar news (3 relevant, 35 not) | Decision 1 at 0.8 | 3 of 3 | 5 of 35 | 0.88 s |
-| | Full policy | 3 of 3 | 6 of 35 | 1.0 s |
-| | Ask Hydrogen | 3 of 3 | 7 of 35 | 4.0 s |
+| Real radar news (3 relevant, 35 not) | Decision 1 at 0.8 | 3 of 3 | 5 of 35 | 0.73 s |
+| | Full policy | 3 of 3 | 6 of 35 | 0.76 s |
+| | Ask Hydrogen | 3 of 3 | 7 of 35 | 4.1 s |
 | | Keyword match | 2 of 3 | 11 of 35 | |
 
+The numbers above are from the final cold run (4:17 PM, after the rehearsal clips were re-voiced without a spoken style prefix). An earlier run on the old clips had Decision 1 at 12 of 12 on audio, so expect a couple of items of run-to-run movement on sets this small.
+
 What this shows:
-- **Decision 1 is the fast path, Hydrogen is the accurate one.** On rehearsal data, transcribing and judging in text made no mistakes at 8 to 10 times the latency. Decision 1 caught 17 of 18 at about 1 s.
-- **The near misses are hard on purpose.** "Eurostar 9314 cancelled; 9315 runs normally" scored 0.81 for the 9315 booking. Operator, route and cancellation all match, and only the number tells them apart. Keyword matching fires on almost every near miss.
-- **Carbon was a net loss here.** It rescued the one missed sign and added two false alerts, one of them a structured answer that broke off mid-thought.
+- **Decision 1 is the fast path, Hydrogen is the accurate one.** On rehearsal data, transcribing and judging in text made no mistakes at 7 to 12 times the latency. Decision 1 alone caught 15 of 18 at under a second; with Carbon on the borderline band, the full policy caught 18 of 18.
+- **Carbon earns its place on recall.** It rescued all 3 rehearsal misses (a French baggage sign for AF 23, a Louvre Pyramid closure, a Schiphol train outage before KL 641) and added 2 false alerts, one of them a structured answer that broke off mid-thought.
+- **The near misses are hard on purpose.** "Eurostar 9317 cancelled; 9315 runs normally" scored 0.82 for the 9315 booking. Operator, route and cancellation all match, and only the number tells them apart. Keyword matching fires on almost every near miss.
 - **Real news is thin on true hits.** Only 3 of 228 item and booking pairs were relevant, so recall on real news rests on 3 items. All 5 false alerts from Decision 1 on news were borderline: the right place and dates, with a change that misses the booking (a Louvre gallery closed for works, a metro skip one station away from the hotel).
 
 ### Learning from "not me"
 
 - **Real MTA false alert (subway build).** "Manhattan-bound 7 skips 111 St..." scored 0.79 for a Flushing-bound rider. After one dismissal it scores 0.01, and the true "Flushing-bound 7 skips 52 St and 69 St" alert stays at 0.92 (`eval/learn_eval.py`).
-- **Held out on the rehearsal set: learning hurt, and the fix is being measured.** We dismissed 9 rehearsal near misses once each and rescored the other half plus every true item. Near misses in the Carbon band fell from 8 to 1, but true alerts at 0.8 fell from 17 to 6. Weak "not" answers around 0.2 on true alerts still lowered the score through `(1 - not)`. The fix counts a learned question only above 0.5 and keeps at most 3 per dismissal; its numbers replace these when the rerun lands (`eval/results/abroad_learning_diag.json` has the diagnosis).
+- **Held out on the rehearsal set.** We dismiss 9 rehearsal near misses once each, then rescore the other 9 near misses and every true item. The first version hurt: true alerts at 0.8 fell from 17 to 6, because weak "not" answers around 0.2 on true alerts still lowered the score through `(1 - not)`. The fix counts a learned question only above 0.5, keeps at most 3 per dismissal, and drops date-limited questions. Two runs of the fixed version: true alerts 17 to 17 (Carbon band 8 to 6), and 15 to 14 with held-out false alerts 1 to 0 (the final run; one Amsterdam tram alert fell from 0.92 to 0.70). Learning now fixes the dismissed mistake without costing real alerts, but its benefit on unseen near misses is small. Diagnosis in `eval/results/abroad_learning_diag.json`.
 
 ### Honest failures (abroad)
 
-- **Wrong booking on a near tie.** A Paris line 8 closure alerted on the Eurostar (0.845) instead of the Paris hotel (0.843): the shared disruption questions and Paris place questions lift both.
-- **The threshold is sharp.** "KL 643 gate change; KL 641 departs on time" scored exactly 0.800 and alerted. It is visible in the screenshot above as the KL 641 card that says nothing changed.
+- **Wrong booking on a near tie.** In one run a Paris line 8 closure alerted on the Eurostar (0.845) instead of the Paris hotel (0.843): the shared disruption questions and Paris place questions lift both.
+- **Number-only near misses alert.** "KL 643 gate change; KL 641 departs on time" alerted in every run (0.80 to 0.89). It is visible in the screenshot above as the KL 641 card that says nothing changed. One "not about me" silences it.
 - **Real news labels are few.** 3 relevant pairs is a weak recall test; we report it rather than pad it with synthetic news.
 - **Latency outside Decision 1.** The verdict lands in about 1 s, the translated alert in about 10 s, the whisper by about 18 s and the circled photo by 25 to 35 s (Nano Banana takes 13 to 25 s).
 - **Gmail is wired but was not demoed live.** The read-only OAuth client exists; the consent with the lab account is the remaining step, so the demo uses "Load demo trip" or pasted booking emails.

@@ -4,17 +4,17 @@
    "items": 24,
    "relevant": 12,
    "decision": {
-    "caught": 12,
+    "caught": 10,
     "false_alerts": 2,
-    "right_booking": 11,
-    "median_latency_s": 1.05
+    "right_booking": 10,
+    "median_latency_s": 0.932
    },
    "policy": {
     "caught": 12,
     "false_alerts": 2,
-    "right_booking": 11,
-    "median_latency_s": 1.404,
-    "sent_to_carbon": 10
+    "right_booking": 12,
+    "median_latency_s": 2.555,
+    "sent_to_carbon": 12
    },
    "keyword": {
     "caught": 12,
@@ -26,7 +26,7 @@
     "caught": 12,
     "false_alerts": 0,
     "right_booking": 12,
-    "median_latency_s": 8.409
+    "median_latency_s": 6.496
    }
   },
   "rehearsal signs": {
@@ -36,13 +36,13 @@
     "caught": 5,
     "false_alerts": 0,
     "right_booking": 5,
-    "median_latency_s": 0.829
+    "median_latency_s": 0.56
    },
    "policy": {
     "caught": 6,
     "false_alerts": 1,
     "right_booking": 6,
-    "median_latency_s": 2.378,
+    "median_latency_s": 2.337,
     "sent_to_carbon": 6
    },
    "keyword": {
@@ -55,7 +55,7 @@
     "caught": 6,
     "false_alerts": 0,
     "right_booking": 6,
-    "median_latency_s": 9.53
+    "median_latency_s": 6.722
    }
   },
   "radar news": {
@@ -65,13 +65,13 @@
     "caught": 3,
     "false_alerts": 5,
     "right_booking": 3,
-    "median_latency_s": 0.882
+    "median_latency_s": 0.73
    },
    "policy": {
     "caught": 3,
     "false_alerts": 6,
     "right_booking": 3,
-    "median_latency_s": 1.015,
+    "median_latency_s": 0.763,
     "sent_to_carbon": 8
    },
    "keyword": {
@@ -84,7 +84,7 @@
     "caught": 3,
     "false_alerts": 7,
     "right_booking": 3,
-    "median_latency_s": 4.04
+    "median_latency_s": 4.131
    }
   }
  },
@@ -115,7 +115,7 @@
    {
     "id": "flight_home_4",
     "booking_id": "flight_home",
-    "relevance": 0.8002
+    "relevance": 0.89
    },
    {
     "id": "flight_home_6",
@@ -125,12 +125,12 @@
    {
     "id": "flight_out_5",
     "booking_id": "flight_out",
-    "relevance": 0.6953
+    "relevance": 0.6629
    },
    {
     "id": "hotel_ams_4",
     "booking_id": "hotel_ams",
-    "relevance": 0.7275
+    "relevance": 0.6963
    },
    {
     "id": "hotel_ams_6",
@@ -140,12 +140,12 @@
    {
     "id": "hotel_paris_5",
     "booking_id": "hotel_paris",
-    "relevance": 0.7249
+    "relevance": 0.7094
    },
    {
     "id": "museum_louvre_4",
     "booking_id": "museum_louvre",
-    "relevance": 0.7042
+    "relevance": 0.6868
    },
    {
     "id": "museum_louvre_6",
@@ -155,19 +155,25 @@
    {
     "id": "train_ams_5",
     "booking_id": "train_ams",
-    "relevance": 0.8129
+    "relevance": 0.7314
    }
   ],
-  "n_learned": 25,
-  "half2_false_alerts_before": 0,
+  "n_learned": 23,
+  "half2_false_alerts_before": 1,
   "half2_false_alerts_after": 0,
-  "half2_band_before": 8,
-  "half2_band_after": 6,
-  "relevant_alerting_before": 17,
-  "relevant_alerting_after": 17,
-  "relevant_fell_below_0.8": []
+  "half2_band_before": 7,
+  "half2_band_after": 7,
+  "relevant_alerting_before": 15,
+  "relevant_alerting_after": 14,
+  "relevant_fell_below_0.8": [
+   {
+    "id": "hotel_ams_2",
+    "before": 0.9197,
+    "after": 0.6968
+   }
+  ]
  },
- "decision_median_latency_s": 0.954,
+ "decision_median_latency_s": 0.763,
  "wrong_calls": [
   {
    "id": "flight_out_3",
@@ -179,7 +185,7 @@
    "alert": false,
    "booking_id": "flight_out",
    "relevance": 0.7034,
-   "carbon_reason": "The sign announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 from New York JFK at Paris CDG Terminal 2E."
+   "carbon_reason": "The display announces a 40-minute baggage delivery delay and a carousel change to Tapis 36 for Air France flight AF 23 arriving at Paris CDG Terminal 2E from New York JFK."
   },
   {
    "id": "flight_out_4",
@@ -188,8 +194,8 @@
    "truth": [],
    "alert": true,
    "booking_id": "flight_out",
-   "relevance": 0.6851,
-   "carbon_reason": "The announcement refers to Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on flight AF 23 arriving at Terminal 2E."
+   "relevance": 0.7117,
+   "carbon_reason": "The announcement concerns Air France flight AF 11 arriving at Terminal 2F, whereas the traveller is booked on Air France flight AF 23 arriving at Terminal 2E."
   },
   {
    "id": "flight_out_5",
@@ -198,7 +204,7 @@
    "truth": [],
    "alert": true,
    "booking_id": "flight_out",
-   "relevance": 0.6953,
+   "relevance": 0.6629,
    "carbon_reason": "The baggage delay applies to flight AF 15, while the traveller's flight AF 23 is explicitly stated to be unaffected."
   },
   {
@@ -212,38 +218,14 @@
    "carbon_reason": null
   },
   {
-   "id": "hotel_paris_2",
-   "source": "rehearsal audio",
-   "method": "decision",
-   "truth": [
-    "hotel_paris"
-   ],
-   "alert": true,
-   "booking_id": "train_ams",
-   "relevance": 0.8451,
-   "carbon_reason": null
-  },
-  {
-   "id": "hotel_paris_2",
-   "source": "rehearsal audio",
-   "method": "policy",
-   "truth": [
-    "hotel_paris"
-   ],
-   "alert": true,
-   "booking_id": "train_ams",
-   "relevance": 0.8451,
-   "carbon_reason": null
-  },
-  {
    "id": "hotel_paris_4",
    "source": "rehearsal audio",
    "method": "keyword",
    "truth": [],
    "alert": true,
    "booking_id": "hotel_paris",
-   "relevance": 0.721,
-   "carbon_reason": "The closure of Saint-Paul metro station takes place from December 1 to December 4, 2026, which is after the traveller's stay in Paris."
+   "relevance": 0.6371,
+   "carbon_reason": "The closure of the Saint-Paul station on Metro Line 1 occurs from December 1 to 4, 2026, which is after the traveller's Paris hotel stay ends on November 28, 2026."
   },
   {
    "id": "hotel_paris_5",
@@ -252,8 +234,8 @@
    "truth": [],
    "alert": true,
    "booking_id": "hotel_paris",
-   "relevance": 0.7249,
-   "carbon_reason": "The closure affects Chatelet on Metro Line 4, while the lines and stations serving the traveller's Paris hotel and Louvre visit (Lines 1 and 8, including Saint-Paul) are operating normally."
+   "relevance": 0.7094,
+   "carbon_reason": "The closure affects Chatelet on Metro line 4 rather than any station or line associated with the traveller's bookings, while Metro lines 1 and 8 are operating normally."
   },
   {
    "id": "hotel_paris_6",
@@ -263,7 +245,19 @@
    "alert": true,
    "booking_id": "hotel_paris",
    "relevance": 0.6886,
-   "carbon_reason": "The closure affects Bréguet-Sabin station on Line 5, whereas the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) remain open with normal traffic."
+   "carbon_reason": "The closure affects Line 5 at Bréguet-Sabin, while the stations for the Paris hotel (Saint-Paul on Line 1 and Chemin Vert on Line 8) explicitly remain open with normal service."
+  },
+  {
+   "id": "museum_louvre_2",
+   "source": "rehearsal audio",
+   "method": "decision",
+   "truth": [
+    "museum_louvre"
+   ],
+   "alert": false,
+   "booking_id": "museum_louvre",
+   "relevance": 0.7792,
+   "carbon_reason": "The Pyramid entrance at the Louvre is closed on Thursday, 26 November 2026, requiring 10:30 timed-entry ticket holders to use the Carrousel entrance or Porte des Lions instead."
   },
   {
    "id": "museum_louvre_4",
@@ -272,8 +266,8 @@
    "truth": [],
    "alert": true,
    "booking_id": "museum_louvre",
-   "relevance": 0.7042,
-   "carbon_reason": "The Louvre Pyramid entrance closure is on Friday, November 27, 2026, while the entrance remains open normally on the booked visit date of Thursday, November 26, 2026."
+   "relevance": 0.6868,
+   "carbon_reason": "The Louvre Pyramid entrance closure is on Friday 27 November 2026, while the traveller's booking is on Thursday 26 November when the entrance is operating normally."
   },
   {
    "id": "museum_louvre_5",
@@ -282,8 +276,8 @@
    "truth": [],
    "alert": true,
    "booking_id": "museum_louvre",
-   "relevance": 0.6713,
-   "carbon_reason": "The Passage Richelieu entrance is closed, while the traveller's booked Pyramid entrance remains open as scheduled."
+   "relevance": 0.6905,
+   "carbon_reason": "The Passage Richelieu entrance closure does not affect the Louvre booking, as its designated Pyramid entrance remains open as scheduled."
   },
   {
    "id": "museum_louvre_6",
@@ -298,31 +292,31 @@
   {
    "id": "train_ams_4",
    "source": "rehearsal audio",
-   "method": "keyword",
-   "truth": [],
-   "alert": true,
-   "booking_id": "train_ams",
-   "relevance": 0.7651,
-   "carbon_reason": "The announcement cancels Eurostar 9317 at 11:25, while the traveller's booked Eurostar 9315 at 09:25 is explicitly confirmed to be running normally."
-  },
-  {
-   "id": "train_ams_5",
-   "source": "rehearsal audio",
    "method": "decision",
    "truth": [],
    "alert": true,
    "booking_id": "train_ams",
-   "relevance": 0.8129,
+   "relevance": 0.8215,
    "carbon_reason": null
   },
   {
-   "id": "train_ams_5",
+   "id": "train_ams_4",
    "source": "rehearsal audio",
    "method": "policy",
    "truth": [],
    "alert": true,
    "booking_id": "train_ams",
-   "relevance": 0.8129,
+   "relevance": 0.8215,
+   "carbon_reason": null
+  },
+  {
+   "id": "train_ams_4",
+   "source": "rehearsal audio",
+   "method": "keyword",
+   "truth": [],
+   "alert": true,
+   "booking_id": "train_ams",
+   "relevance": 0.8215,
    "carbon_reason": null
   },
   {
@@ -332,8 +326,8 @@
    "truth": [],
    "alert": true,
    "booking_id": "train_ams",
-   "relevance": 0.8129,
-   "carbon_reason": null
+   "relevance": 0.7314,
+   "carbon_reason": "The cancellation is for southbound Eurostar 9314, while the traveller's northbound Eurostar 9315 is operating on schedule."
   },
   {
    "id": "train_ams_6",
@@ -343,7 +337,7 @@
    "alert": true,
    "booking_id": "train_ams",
    "relevance": 0.6955,
-   "carbon_reason": "Wait"
+   "carbon_reason": "The departure board directly assigns platform Voie 7 for the booked 09:25 Eurostar 9315 train to Amsterdam on Saturday, November 28, 2026."
   },
   {
    "id": "train_ams_6",
@@ -353,7 +347,7 @@
    "alert": true,
    "booking_id": "train_ams",
    "relevance": 0.6955,
-   "carbon_reason": "Wait"
+   "carbon_reason": "The departure board directly assigns platform Voie 7 for the booked 09:25 Eurostar 9315 train to Amsterdam on Saturday, November 28, 2026."
   },
   {
    "id": "hotel_ams_5",
@@ -362,8 +356,20 @@
    "truth": [],
    "alert": true,
    "booking_id": "hotel_ams",
-   "relevance": 0.6935,
-   "carbon_reason": "The tram 13 and 17 diversion bypassing Westermarkt is from 1 to 3 December, while the Westermarkt stop remains normally open through 30 November, covering the entire Amsterdam hotel stay."
+   "relevance": 0.6855,
+   "carbon_reason": "The tram 13 and 17 diversion bypassing Westermarkt occurs from December 1 to 3, after the traveller checks out of hotel_ams on November 30, while service remains normal through November 30."
+  },
+  {
+   "id": "flight_home_2",
+   "source": "rehearsal audio",
+   "method": "decision",
+   "truth": [
+    "flight_home"
+   ],
+   "alert": false,
+   "booking_id": "flight_home",
+   "relevance": 0.7673,
+   "carbon_reason": "The audio announces that no trains are running between Amsterdam Centraal and Schiphol Airport until 11:30 on Monday morning, November 30, 2026, which directly disrupts the planned train transfer for the 10:20 flight home."
   },
   {
    "id": "flight_home_4",
@@ -372,7 +378,7 @@
    "truth": [],
    "alert": true,
    "booking_id": "flight_home",
-   "relevance": 0.8002,
+   "relevance": 0.89,
    "carbon_reason": null
   },
   {
@@ -382,7 +388,7 @@
    "truth": [],
    "alert": true,
    "booking_id": "flight_home",
-   "relevance": 0.8002,
+   "relevance": 0.89,
    "carbon_reason": null
   },
   {
@@ -392,7 +398,7 @@
    "truth": [],
    "alert": true,
    "booking_id": "flight_home",
-   "relevance": 0.8002,
+   "relevance": 0.89,
    "carbon_reason": null
   },
   {
@@ -403,7 +409,7 @@
    "alert": true,
    "booking_id": "flight_home",
    "relevance": 0.5661,
-   "carbon_reason": "Trains from Amsterdam Centraal to Schiphol Airport on November 30 are running on time (normal service), and the disruption only affects trains towards Haarlem."
+   "carbon_reason": "The display shows normal, on-time train service from Amsterdam Centraal to Schiphol Airport on November 30, while the disruption affects trains toward Haarlem."
   },
   {
    "id": "news_9c60d1cca4",
@@ -413,7 +419,7 @@
    "alert": true,
    "booking_id": "train_ams",
    "relevance": 0.6841,
-   "carbon_reason": "The input is just a generic webpage title for Eurostar travel news and does not contain any specific disruption details affecting the booked train."
+   "carbon_reason": "The input is only a generic page title for Eurostar travel disruptions without specifying any actual changes to a particular train or date."
   },
   {
    "id": "news_6830b4317a",
@@ -453,7 +459,7 @@
    "alert": true,
    "booking_id": "train_ams",
    "relevance": 0.6589,
-   "carbon_reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations."
+   "carbon_reason": "The input describes general local metro disruptions in Paris without specifying direct changes or closures to the Eurostar train service, Gare du Nord itself, or the hotel's specific metro stations."
   },
   {
    "id": "news_52af25a133",
@@ -463,7 +469,7 @@
    "alert": true,
    "booking_id": "hotel_paris",
    "relevance": 0.6589,
-   "carbon_reason": "The input describes general unspecified metro disruptions in Paris on 28 November without directly changing Eurostar train service at Gare du Nord or explicitly closing the hotel's specific metro stations."
+   "carbon_reason": "The input describes general local metro disruptions in Paris without specifying direct changes or closures to the Eurostar train service, Gare du Nord itself, or the hotel's specific metro stations."
   },
   {
    "id": "news_ef953149ed",
@@ -641,9 +647,9 @@
    "method": "hydrogen",
    "truth": [],
    "alert": true,
-   "booking_id": "flight_home",
+   "booking_id": "flight_out",
    "relevance": 0.4126,
-   "carbon_reason": "The advisory concerns general road traffic and construction inside JFK airport rather than a direct change to any flight's service, terminal, or gate."
+   "carbon_reason": "The input describes general road construction and potential traffic delays at JFK airport rather than directly changing a flight's service, terminal, or gate."
   },
   {
    "id": "news_86120c4c96",
@@ -697,7 +703,7 @@
    "alert": true,
    "booking_id": "flight_home",
    "relevance": 0.7647,
-   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the return flight KL 641 on November 30, 2026."
   },
   {
    "id": "news_8fc3132920",
@@ -707,7 +713,7 @@
    "alert": true,
    "booking_id": "flight_home",
    "relevance": 0.7647,
-   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the return flight KL 641 on November 30, 2026."
   },
   {
    "id": "news_8fc3132920",
@@ -717,7 +723,7 @@
    "alert": true,
    "booking_id": "flight_home",
    "relevance": 0.7647,
-   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the intercontinental flight_home booking (KL 641 on November 30, 2026)."
+   "carbon_reason": "KLM announced winter flight cancellations starting October 26 through early March 2027 to free up intercontinental aircraft, which covers the date and airline of the return flight KL 641 on November 30, 2026."
   }
  ]
 }
