@@ -5,7 +5,7 @@ Every agent (Gemini CLI or Claude Code) updates this file after each milestone a
 ## Current milestone
 Abroad pivot shipped as of 4:18 PM: all tickets in `TICKETS.md` merged, README and DEMO updated, repo public. Open: the Gmail live fetch needs the lab account added as a test user on the `overheard-demo` OAuth consent screen and one consent run (`python -m overheard.gmail --fetch --parse`); the 6 SAMPLE BOOKING emails in `data/abroad/emails/send_list.json` are not sent yet. The user records the demo from `DEMO.md`.
 
-**Handoff to Gemini CLI (4:22 PM):** Claude usage is exhausted. The live Gmail phase continues in Gemini CLI from `prompts/gemini_gmail.md` (steps, checks and guardrails). Start it with `set -a; . ./.env; set +a; gemini -i "Read prompts/gemini_gmail.md and do it step by step."`.
+**Handoff to Gemini CLI (4:35 PM):** Live Gmail works from the CLI: 6 SAMPLE BOOKING emails sent to the lab inbox (devstar2198@gcplab.me, added as OAuth test user), consent done, `python -m overheard.gmail --fetch --parse` returned 6 bookings that all match the fixture. Remaining: the server route hung on one Neon ingest call; fix, measure and record it from `prompts/gemini_finish.md`. Start: `gemini -m gemini-4-neon -i "Read prompts/gemini_finish.md and do it step by step."`.
 
 ## Previous milestone
 M6 ship prep. Core path, video, managed agent, live MTA check, all evals and the README are done as of 2:49 PM, about 90 min ahead of `PLAN.md`. Demo server: `.venv/bin/uvicorn server:app --port 8000`. Build agent: Claude Code.
