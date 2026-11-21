@@ -1,0 +1,236 @@
+[
+ {
+  "level": null,
+  "overheard": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 1,
+   "fn": 0,
+   "tn": 10,
+   "precision": 0.917,
+   "recall": 1.0,
+   "accuracy": 0.955
+  },
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 2,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.818,
+   "accuracy": 0.909
+  }
+ },
+ {
+  "level": 10,
+  "overheard": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 1,
+   "fn": 0,
+   "tn": 10,
+   "precision": 0.917,
+   "recall": 1.0,
+   "accuracy": 0.955
+  },
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  }
+ },
+ {
+  "level": 5,
+  "overheard": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 2,
+   "fn": 0,
+   "tn": 9,
+   "precision": 0.846,
+   "recall": 1.0,
+   "accuracy": 0.909
+  },
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  }
+ },
+ {
+  "level": 0,
+  "overheard": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 2,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.818,
+   "accuracy": 0.909
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 4,
+   "fn": 0,
+   "tn": 7,
+   "precision": 0.733,
+   "recall": 1.0,
+   "accuracy": 0.818
+  },
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  }
+ },
+ {
+  "level": -5,
+  "overheard": {
+   "tp": 7,
+   "fp": 0,
+   "fn": 4,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.636,
+   "accuracy": 0.818
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 6,
+   "fn": 0,
+   "tn": 5,
+   "precision": 0.647,
+   "recall": 1.0,
+   "accuracy": 0.727
+  },
+  "text_baseline": {
+   "tp": 11,
+   "fp": 0,
+   "fn": 0,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 1.0,
+   "accuracy": 1.0
+  },
+  "keyword": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 2,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.818,
+   "accuracy": 0.909
+  }
+ },
+ {
+  "level": -10,
+  "overheard": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 7,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.364,
+   "accuracy": 0.682
+  },
+  "overheard_0.5": {
+   "tp": 11,
+   "fp": 8,
+   "fn": 0,
+   "tn": 3,
+   "precision": 0.579,
+   "recall": 1.0,
+   "accuracy": 0.636
+  },
+  "text_baseline": {
+   "tp": 10,
+   "fp": 0,
+   "fn": 1,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.909,
+   "accuracy": 0.955
+  },
+  "keyword": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 2,
+   "tn": 11,
+   "precision": 1.0,
+   "recall": 0.818,
+   "accuracy": 0.909
+  }
+ }
+]

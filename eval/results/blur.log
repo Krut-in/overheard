@@ -1,2 +1,6 @@
 image_blur_glare 0 {'overheard': (1.0, 1.0, 1.0), 'overheard_0.5': (1.0, 1.0, 1.0), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (0.889, 1.0, 0.938)}
 image_blur_glare 2 {'overheard': (1.0, 1.0, 1.0), 'overheard_0.5': (1.0, 1.0, 1.0), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (0.889, 1.0, 0.938)}
+image_blur_glare 4 {'overheard': (1.0, 0.875, 0.938), 'overheard_0.5': (1.0, 1.0, 1.0), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (0.889, 1.0, 0.938)}
+image_blur_glare 8 {'overheard': (1.0, 0.5, 0.75), 'overheard_0.5': (1.0, 0.875, 0.938), 'text_baseline': (1.0, 0.375, 0.688), 'keyword': (1.0, 0.375, 0.688)}
+image_blur_glare 12 {'overheard': (1.0, 0.0, 0.5), 'overheard_0.5': (0.545, 0.75, 0.562), 'text_baseline': (1.0, 0.0, 0.5), 'keyword': (1.0, 0.0, 0.5)}
+Matplotlib is building the font cache; this may take a moment.

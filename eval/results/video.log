@@ -1,0 +1,13 @@
+{'id': 'v1', 'trip': 'T1', 'truth': True, 'alerted': True, 'located': True, 'segments': [(6.0, 9.0)], 'max_rel': 0.949, 'frame_latency_median': 0.558}
+{'id': 'v1', 'trip': 'T2', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.104, 'frame_latency_median': 0.522}
+{'id': 'v1', 'trip': 'T3', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.355, 'frame_latency_median': 0.511}
+{'id': 'v2', 'trip': 'T1', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.438, 'frame_latency_median': 0.72}
+{'id': 'v2', 'trip': 'T2', 'truth': True, 'alerted': True, 'located': True, 'segments': [(6.0, 9.0)], 'max_rel': 0.958, 'frame_latency_median': 0.528}
+{'id': 'v2', 'trip': 'T3', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.399, 'frame_latency_median': 0.537}
+{'id': 'v3', 'trip': 'T1', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.136, 'frame_latency_median': 0.837}
+{'id': 'v3', 'trip': 'T2', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.104, 'frame_latency_median': 0.592}
+{'id': 'v3', 'trip': 'T3', 'truth': True, 'alerted': True, 'located': True, 'segments': [(9.0, 12.0)], 'max_rel': 0.862, 'frame_latency_median': 0.471}
+{'id': 'v4', 'trip': 'T1', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.424, 'frame_latency_median': 0.591}
+{'id': 'v4', 'trip': 'T2', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.188, 'frame_latency_median': 0.528}
+{'id': 'v4', 'trip': 'T3', 'truth': False, 'alerted': False, 'located': False, 'segments': [], 'max_rel': 0.355, 'frame_latency_median': 0.513}
+{'tp': 3, 'fp': 0, 'fn': 0, 'tn': 9, 'precision': 1.0, 'recall': 1.0, 'accuracy': 1.0, 'moment_located': 3}

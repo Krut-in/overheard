@@ -1,1 +1,6 @@
 audio_noise None {'overheard': (1.0, 1.0, 1.0), 'overheard_0.5': (0.917, 1.0, 0.955), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (1.0, 0.818, 0.909)}
+audio_noise 10 {'overheard': (1.0, 0.909, 0.955), 'overheard_0.5': (0.917, 1.0, 0.955), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (1.0, 0.909, 0.955)}
+audio_noise 5 {'overheard': (1.0, 0.909, 0.955), 'overheard_0.5': (0.846, 1.0, 0.909), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (1.0, 0.909, 0.955)}
+audio_noise 0 {'overheard': (1.0, 0.818, 0.909), 'overheard_0.5': (0.733, 1.0, 0.818), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (1.0, 0.909, 0.955)}
+audio_noise -5 {'overheard': (1.0, 0.636, 0.818), 'overheard_0.5': (0.647, 1.0, 0.727), 'text_baseline': (1.0, 1.0, 1.0), 'keyword': (1.0, 0.818, 0.909)}
+audio_noise -10 {'overheard': (1.0, 0.364, 0.682), 'overheard_0.5': (0.579, 1.0, 0.636), 'text_baseline': (1.0, 0.909, 0.955), 'keyword': (1.0, 0.818, 0.909)}
