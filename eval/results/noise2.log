@@ -2,3 +2,5 @@ audio_noise None {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 1.0, 0), 'text_bas
 audio_noise 10 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 0.909, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (1.0, 0.909, 0)}
 audio_noise 5 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 0.909, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (1.0, 0.909, 0)}
 audio_noise 0 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 0.818, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (1.0, 0.909, 0)}
+audio_noise -5 {'policy': (1.0, 0.909, 0), 'overheard': (1.0, 0.636, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (1.0, 0.909, 0)}
+audio_noise -10 {'policy': (1.0, 1.0, 0), 'overheard': (1.0, 0.364, 0), 'text_baseline': (1.0, 1.0, 0), 'keyword': (1.0, 0.818, 0)}

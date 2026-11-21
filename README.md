@@ -6,7 +6,7 @@ Tell Overheard your subway trip, or show it your ticket. It listens to station a
 
 Built solo in one afternoon at the Gemini 4 NYC Hackathon (Cerebral Valley and Google DeepMind, 2026-11-21) for the Element 119 problem: messy real-world audio, images and video, pushed until they break.
 
-![Annotated poster: the relevant line circled, with a Hindi note](docs/annotated_example.jpg)
+![Overheard demo: a Hindi alert with the relevant poster line circled](docs/demo_screenshot.jpg)
 
 ## How it works
 
@@ -50,7 +50,28 @@ On clean inputs, the transcribe-then-ask baseline is just as accurate, at about 
 
 ### Breaking points
 
-BREAKING_TEXT
+Each chart uses every relevant (input, trip) pair plus the same number of non-relevant pairs (22 audio pairs, 16 image pairs) and degrades the input step by step. Audio gets real subway train and platform noise from Wikimedia Commons recordings, mixed in at a falling signal-to-noise ratio. Images get Gaussian blur plus a glare patch. "Full policy" means alert at 0.8, Carbon on 0.4 to 0.8.
+
+| Audio, SNR | Clean | 10 dB | 5 dB | 0 dB | -5 dB | -10 dB |
+|---|---|---|---|---|---|---|
+| Overheard full policy | 11/11 | 11/11 | 11/11 | 11/11 | 10/11 | 11/11 |
+| Decision 1 alone at 0.8 | 11/11 | 10/11 | 10/11 | 9/11 | 7/11 | 4/11 |
+| Transcribe, then ask Hydrogen | 11/11 | 11/11 | 11/11 | 11/11 | 11/11 | 11/11 |
+| Keyword match | 10/11 | 10/11 | 10/11 | 10/11 | 10/11 | 9/11 |
+| Pairs sent to Carbon | 3 | 5 | 5 | 8 | 15 | 17 |
+
+| Images, blur radius | 0 | 2 px | 4 px | 8 px | 12 px |
+|---|---|---|---|---|---|
+| Overheard full policy | 8/8 | 8/8 | 8/8 | **7/8** | **2/8** |
+| Decision 1 alone at 0.8 | 8/8 | 8/8 | 7/8 | 4/8 | 0/8 |
+| Transcribe, then ask Hydrogen | 8/8 | 8/8 | 8/8 | 4/8 | 0/8 |
+| Keyword match | 8/8, 1 false | 8/8, 1 false | 8/8, 1 false | 4/8 | 0/8 |
+
+No method raised a false alert at any level except keyword matching on clean images. The text-baseline line is hidden under the keyword line in the blur chart because their recall is identical.
+
+What this shows:
+- **Blurry and glared signs are where Overheard wins.** Scoring the image directly holds on to signs that OCR can no longer read: at blur 8 the full policy catches 7 of 8 against 4 of 8 for both text baselines.
+- **On noisy audio, transcription is stronger than Decision 1 alone.** Hydrogen transcribed every announcement correctly even at -10 dB, while Decision 1's scores sank into the borderline band. Overheard's full policy keeps up only because Carbon reviews those pairs (17 of 22 at -10 dB, about 4 s each), so in heavy noise Overheard loses most of its speed advantage.
 
 ![Audio noise breaking point](eval/charts/audio_noise.png)
 ![Image blur and glare breaking point](eval/charts/image_blur_glare.png)
@@ -61,7 +82,7 @@ BREAKING_TEXT
 - **The 0.3/0.7 weighting was picked on the same eval set.** With equal weights, the direct question let through false alerts on Spanish and L-train announcements (an L train announcement scored 0.96 on the direct question for the 7 train trip). The set is small (11 relevant audio pairs, 9 image pairs), so treat the perfect clean scores as an upper bound.
 - **Look-alike station names.** Hydrogen's station questions fire on near names ("52 St" for "59 Street"). Gating the fingerprint score on the rider's line fixes this in the eval, but a trip with a common station name on several lines would still be at risk.
 - **Direction is weak.** "Manhattan-bound 7 trains are running on schedule" scored 0.66 for the Flushing-bound 7 trip. It lands in the borderline band, so Carbon has to catch it, which costs about 4 s.
-- **Noise.** NOISE_FAILURE
+- **Noise.** At -5 dB one relevant announcement (relevance 0.55) went to Carbon, and Carbon said no. Real platforms often sit around 0 to -5 dB during a train arrival, so this is the realistic failure zone. A sensible next step would be to route low-confidence audio to transcription instead of to Carbon.
 - **Latency outside Decision 1.** The first whisper arrives about 10 s after the input (Neon extraction plus Hydrogen translation plus TTS), and the annotated photo about 10 to 15 s later. Decision 1 itself is under a second when inputs are shrunk to 16 kHz mono mp3 or 1024 px JPEG; sending the full-size files made it 3 to 8 times slower.
 
 ## Run it
