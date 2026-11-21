@@ -48,6 +48,18 @@ All numbers come from `eval/` and can be rerun with `.venv/bin/python eval/run_e
 
 On clean inputs, the transcribe-then-ask baseline is just as accurate, at about six times the latency. Overheard's advantage there is speed and one engine for every modality, so the breaking-point charts are where the methods separate.
 
+### Real MTA alerts (live feed, 2026-11-21 at 2:50 PM)
+
+The demo's "Check live MTA alerts" button pulls the public MTA subway alerts feed and scores every alert on the rider's line through the same fingerprint. For the eval we scored all 33 alerts active at 2:50 PM against all 3 trips (99 pairs). The snapshot is in `data/real/mta_alerts_snapshot.json`. Two pairs are relevant under our rule: "Uptown A/C/F trains are running with delays" for the F trip, and "Flushing-bound 7 skips 52 St and 69 St" for the 7 trip. The build agent assigned these labels; they are listed in `eval/mta_eval.py`.
+
+| Method | Caught | False alerts |
+|---|---|---|
+| Overheard full policy | 2 of 2 | 1 |
+| Hydrogen reads the alert text | 2 of 2 | 0 |
+| Keyword match | 2 of 2 | 4 |
+
+The one false alert was "Manhattan-bound 7 skips 111 St, 103 St, 90 St and 82 St; all trains at Junction Blvd board from the Flushing-bound platform", for the Flushing-bound rider. Decision 1 scored it 0.79 and Carbon then said relevant, probably misled by "Flushing-bound platform". That is the direction weakness below, on real data. Decision 1 took a median 0.6 s per alert.
+
 ### Breaking points
 
 Each chart uses every relevant (input, trip) pair plus the same number of non-relevant pairs (22 audio pairs, 16 image pairs) and degrades the input step by step. Audio gets real subway train and platform noise from Wikimedia Commons recordings, mixed in at a falling signal-to-noise ratio. Images get Gaussian blur plus a glare patch. "Full policy" means alert at 0.8, Carbon on 0.4 to 0.8.
@@ -78,10 +90,10 @@ What this shows:
 
 ### Honest failures and caveats
 
-- **Mostly synthetic data.** Announcements are voiced by Gemini TTS and posters are drawn by Nano Banana, which makes the labels exact but the inputs cleaner than a real platform. Wikimedia Commons has no real NYC subway PA announcements, so the real audio we found (6 clips of train and platform noise) is used as the noise bed for the audio chart. One real multilingual 7 train poster and three other real signs are in the image eval, and the 7 train poster was caught for the Flushing trip.
+- **Mostly synthetic media.** Announcements are voiced by Gemini TTS and posters are drawn by Nano Banana, which makes the labels exact but the inputs cleaner than a real platform. Wikimedia Commons has no real NYC subway PA announcements, so the real audio we found (6 clips of train and platform noise) is used as the noise bed for the audio chart. One real multilingual 7 train poster and three other real signs are in the image eval, and the 7 train poster was caught for the Flushing trip.
 - **The 0.3/0.7 weighting was picked on the same eval set.** With equal weights, the direct question let through false alerts on Spanish and L-train announcements (an L train announcement scored 0.96 on the direct question for the 7 train trip). The set is small (11 relevant audio pairs, 9 image pairs), so treat the perfect clean scores as an upper bound.
 - **Look-alike station names.** Hydrogen's station questions fire on near names ("52 St" for "59 Street"). Gating the fingerprint score on the rider's line fixes this in the eval, but a trip with a common station name on several lines would still be at risk.
-- **Direction is weak.** "Manhattan-bound 7 trains are running on schedule" scored 0.66 for the Flushing-bound 7 trip. It lands in the borderline band, so Carbon has to catch it, which costs about 4 s.
+- **Direction is weak.** "Manhattan-bound 7 trains are running on schedule" scored 0.66 for the Flushing-bound 7 trip. It lands in the borderline band, so Carbon has to catch it, which costs about 4 s. On the live MTA feed, Carbon missed one such case (see above).
 - **Noise.** At -5 dB one relevant announcement (relevance 0.55) went to Carbon, and Carbon said no. Real platforms often sit around 0 to -5 dB during a train arrival, so this is the realistic failure zone. A sensible next step would be to route low-confidence audio to transcription instead of to Carbon.
 - **Latency outside Decision 1.** The first whisper arrives about 10 s after the input (Neon extraction plus Hydrogen translation plus TTS), and the annotated photo about 10 to 15 s later. Decision 1 itself is under a second when inputs are shrunk to 16 kHz mono mp3 or 1024 px JPEG; sending the full-size files made it 3 to 8 times slower.
 

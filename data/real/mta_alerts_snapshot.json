@@ -1,0 +1,488 @@
+[
+ {
+  "id": "lmm:alert:277431:26",
+  "routes": [
+   "A",
+   "C",
+   "F"
+  ],
+  "header": "Uptown [A][C][F] trains are running with delays while we conduct planned work in Manhattan.",
+  "description": "Planned Work Reminder: In Brooklyn and Manhattan, C service is rerouted via D and F in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
+  "stops": []
+ },
+ {
+  "id": "lmm:alert:277436:26",
+  "routes": [
+   "G"
+  ],
+  "header": "[G] trains are delayed entering and leaving Court Sq while we address a switch problem at that station.",
+  "description": "",
+  "stops": []
+ },
+ {
+  "id": "lmm:planned_work:36690",
+  "routes": [
+   "1"
+  ],
+  "header": "Downtown [1] trains are stopping at 116 St-Columbia University, Cathedral Pkwy-110 St, and 103 St, but real-time arrival information may be unavailable",
+  "description": "What's happening? Technical issue",
+  "stops": [
+   "117",
+   "118",
+   "119"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:36560",
+  "routes": [
+   "J"
+  ],
+  "header": "In Brooklyn, Manhattan-bound [J] trains at Broadway Junction board from the express track",
+  "description": "Please listen carefully to announcements and check the destination displayed on the train before boarding. What's happening? Structural maintenance",
+  "stops": [
+   "J27"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:36460",
+  "routes": [
+   "M"
+  ],
+  "header": "In Brooklyn, transfer across the platform at Myrtle-Wyckoff Avs to continue your [M] trip",
+  "description": "All Metropolitan Av-bound [M] trains at Myrtle-Wyckoff Avs will board/exit on the Metropolitan Av-bound platform. All Myrtle Av-bound [M] trains at Myrtle-Wyckoff Avs will board/exit on the Manhattan-bound platform. Please listen carefully to announcements and check the destination displayed on the train before boarding. Note: No [M] between Myrtle Av (Broadway) and Delancey St-Essex St during this time. What's happening? We're replacing tracks",
+  "stops": [
+   "M08"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:36427",
+  "routes": [
+   "A"
+  ],
+  "header": "In Manhattan, downtown [A] stops at 50 St, 23 St and Spring St",
+  "description": "Schedule reminder: Late night [A] also serves these stations. What's happening? We're making electrical improvements",
+  "stops": [
+   "A15",
+   "A16",
+   "A17",
+   "A18",
+   "A19",
+   "A20",
+   "A21",
+   "A22",
+   "A24",
+   "A25",
+   "A27",
+   "A28",
+   "A30",
+   "A31",
+   "A32",
+   "A33"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:36012",
+  "routes": [
+   "4",
+   "5",
+   "6"
+  ],
+  "header": "In Manhattan, downtown [4][5][6] skip 86 St",
+  "description": "Travel alternatives: For service to this station, take the [4][5] or [6] to 59 St and transfer to an uptown [4][5] or [6]. For service from this station, take the [4][5] or [6] to 125 St and transfer to a downtown train. Travel tip: Consider the M101, M102 or M103 bus making stops along Lexington Ave, or use 86 St [Q] Station on 2 Av. Schedule reminder: Overnight [5] service operates only in the Bronx between Dyre Av and E 180 St. Note: Downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St during this time. What's happening? We're replacing tracks",
+  "stops": [
+   "626"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35806",
+  "routes": [
+   "A"
+  ],
+  "header": "In Upper Manhattan, [A] stops in both directions at 155 St and 163 St-Amsterdam Av",
+  "description": "Schedule reminder: Late night [A] stops at these stations. What's happening? We're replacing tracks",
+  "stops": [
+   "A09",
+   "A10",
+   "A11",
+   "A12",
+   "A14",
+   "A15",
+   "A16",
+   "A17",
+   "A18",
+   "A19",
+   "A20",
+   "A21",
+   "A22",
+   "A24"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35803",
+  "routes": [
+   "C"
+  ],
+  "header": "In Upper Manhattan, no [C] between 145 St and 168 St",
+  "description": "[C] runs between Euclid Av and 145 St, the last stop. [A] stops at 163 St-Amsterdam Av and 155 St in both directions. Transfer between [A] and [C] at 145 St or 125 St [accessibility icon] Note: At 145 St [C] trains stop at the lower level [D] platform. Schedule reminder: [C] does not run overnight. What's happening? We're replacing tracks [accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+  "stops": [
+   "A09",
+   "A10",
+   "A11",
+   "A12"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35802",
+  "routes": [
+   "A"
+  ],
+  "header": "In Upper Manhattan, no [A] between 168 St and 207 St",
+  "description": "[A] runs between Queens and 168 St, the last stop. [1] serves nearby stations between 168 St-Washington Hts and 207 St. [shuttle bus icon] Free T221 (Broadway) shuttle buses make stops between 168 St and Inwood-207 St. [shuttle bus icon] Free T220 (Fort Washington Av) shuttle buses make stops between 168 St and 190 St. Transfer at 168 St [accessibility icon] (A) | [1][A][shuttle bus icon] See a map of this service change. What's happening? We're replacing tracks [accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully a",
+  "stops": [
+   "A02",
+   "A03",
+   "A05",
+   "A06",
+   "A07",
+   "A09"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35796",
+  "routes": [
+   "D"
+  ],
+  "header": "In the Bronx, Manhattan-bound [D] skips 182-183 Sts, 174-175 Sts and 170 St",
+  "description": "All trains board from the Norwood-bound platform at Kingsbridge Rd and Tremont Av. For service to these stations, take the [D] to Tremont Av or 167 St and transfer to a Norwood-bound [D]. For service from these stations, take the [D] Tremont Av or Fordham Rd and transfer to a Manhattan-bound [D]. What's happening? Structural maintenance",
+  "stops": [
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35790",
+  "routes": [
+   "1",
+   "2"
+  ],
+  "header": "In Manhattan, downtown [1] and [2] local skip 86 St, 79 St, 66 St-Lincoln Center, 59 St-Columbus Circle and 50 St",
+  "description": "For service to these stations, take the [1] or [2] to 72 St or Times Sq-42 St [accessibility icon] and transfer to an uptown [1] or [2] local. For service from these stations, take the [1] or [2] to 72 St [accessibility icon] or 96 St and transfer to a downtown [1] or [2]. Schedule reminder: [2] skips these stations days and evenings. What's happening? We're making structural improvements",
+  "stops": [
+   "120",
+   "121",
+   "122",
+   "123",
+   "124",
+   "125",
+   "126",
+   "127"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35789",
+  "routes": [
+   "5"
+  ],
+  "header": "[5] runs every 20 minutes",
+  "description": "[5] service operates on a modified schedule because [4][5] and [6] trains are sharing a track in Manhattan. What's happening? We're replacing tracks",
+  "stops": []
+ },
+ {
+  "id": "lmm:planned_work:35788",
+  "routes": [
+   "7"
+  ],
+  "header": "In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nAll trains at Junction Blvd board from the Flushing-bound platform",
+  "description": "For service to these stations, take the [7] to Junction Blvd or 74 St-Broadway and transfer to a Flushing-bound [7]. For service from these stations, take the [7] to Junction Blvd or Mets-Willets Point and transfer to a Manhattan-bound [7]. Note: [7] service operates every 8 minutes, days and evenings. What's happening? Track maintenance",
+  "stops": [
+   "702",
+   "705",
+   "706",
+   "707",
+   "708",
+   "709",
+   "710"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35775",
+  "routes": [
+   "H"
+  ],
+  "header": "In Southeast Queens, [H] Rockaway Park Shuttle is replaced by free shuttle buses",
+  "description": "[shuttle bus icon] Free T351 shuttle buses make stops between Beach 67 St [A] and Rockaway Park-Beach 116 St. For Broad Channel, take the [A]. Transfer between [A] and [shuttle bus icon] buses at Beach 67 St [accessibility icon]. See a map of this service change. What's happening? Track maintenance",
+  "stops": [
+   "H12",
+   "H13",
+   "H14",
+   "H15"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35772",
+  "routes": [
+   "D"
+  ],
+  "header": "In Brooklyn, Coney Island-bound [D] skips Fort Hamilton Pkwy, 50 St and 55 St",
+  "description": "At 9 Av and 62 St trains board from the Manhattan-bound platform. For service to these stations, take the [D] to 62 St and transfer to a Manhattan-bound [D]. For service from these stations, take the [D] to 9 Av and transfer to a Coney Island-bound [D]. What's happening? We're replacing tracks",
+  "stops": [
+   "B12",
+   "B13",
+   "B14",
+   "B15",
+   "B16"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35770",
+  "routes": [
+   "R"
+  ],
+  "header": "In Brooklyn, Manhattan-bound [R] skips 25 St, Prospect Av, 4 Av-9 St and Union St",
+  "description": "For service to 25 St, Prospect Av, 4 Av-9 St and Union St, take the [R] to Atlantic Av-Barclays Ctr and transfer to a Bay Ridge-bound [R] or local Coney Island-bound [D][N]. For service from these stations, take the [D][N] or [R] to 36 St and transfer to a Manhattan-bound [R]. What's happening? We're replacing tracks",
+  "stops": [
+   "R31",
+   "R32",
+   "R33",
+   "R34",
+   "R35",
+   "R36",
+   "R39",
+   "R40",
+   "R41"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35705",
+  "routes": [
+   "M"
+  ],
+  "header": "In Queens, all [M] trains at Fresh Pond Rd, Forest Av and Seneca Av board from the Metropolitan Av-bound platform",
+  "description": "Please listen carefully to announcements and check the destination displayed on the train before boarding. What's happening? We're replacing tracks",
+  "stops": [
+   "M04",
+   "M05",
+   "M06"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35704",
+  "routes": [
+   "M"
+  ],
+  "header": "In Brooklyn, all [M] trains at Central Av and Knickerbocker Av board from the Manhattan-bound platform",
+  "description": "Please listen carefully to announcements and check the destination displayed on the train before boarding. Note: No [M] between Myrtle Av (Broadway) and Delancey St-Essex St during this time. What's happening? We're replacing tracks",
+  "stops": [
+   "M09",
+   "M10"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35572",
+  "routes": [
+   "M"
+  ],
+  "header": "No [M] between Myrtle Av (Broadway) and Delancey St-Essex St\nAll trains at Myrtle Av (Broadway) board from the Manhattan-bound platform",
+  "description": "[M] service operates in two sections every 20 minutes: 1. Between Middle Village-Metropolitan Av and Myrtle-Wyckoff Avs 2. Between Myrtle-Wyckoff Avs and Myrtle Av, the last stop Transfer at Myrtle-Wyckoff Avs [accessibility icon] to continue your trip. [shuttle bus icon] Free T432 shuttle buses run between Myrtle Av and Delancey St-Essex St. When exiting at Myrtle Av or Delancey St-Essex St, get a GO ticket to re-enter the subway. See a map of this service change. Travel tip: For direct service to/from Manhattan, consider the [L] at Myrtle-Wyckoff Avs [accessibility icon]. Note: No [J] betwee",
+  "stops": [
+   "F15",
+   "M08",
+   "M09",
+   "M10",
+   "M11",
+   "M12",
+   "M13",
+   "M14",
+   "M16"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35571",
+  "routes": [
+   "J"
+  ],
+  "header": "No [J] between Myrtle Av and Broad St",
+  "description": "[J] runs between Jamaica Center-York College and Myrtle Av, the last stop. [shuttle bus icon] Free T432 shuttle buses run between Myrtle Av and Delancey St-Essex St. Travel Alternatives: For service between Brooklyn and Manhattan, take the [A][C] or [L]. For Lower Manhattan, take the [4][5][6] to/from nearby stops. When exiting at Myrtle Av or Delancey St-Essex St, get a GO ticket to re-enter the subway. See a map of this service change. Brooklyn transfer stations: Broadway Junction [J] and [A][C][L] Myrtle Av [shuttle bus icon] [J][M] Manhattan transfer stations: Delancey St-Essex St [shuttle",
+  "stops": [
+   "M11",
+   "M12",
+   "M13",
+   "M14",
+   "M16",
+   "M18",
+   "M19",
+   "M20",
+   "M21",
+   "M22",
+   "M23"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35562",
+  "routes": [
+   "A"
+  ],
+  "header": "In Manhattan, uptown [A] stops at 23 St and 50 St",
+  "description": "Schedule reminder: Late night [A] also serves these stations. What's happening? We're making electrical improvements",
+  "stops": [
+   "A25",
+   "A27",
+   "A28",
+   "A30",
+   "A31",
+   "A32"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35561",
+  "routes": [
+   "A"
+  ],
+  "header": "In Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St",
+  "description": "Inwood-bound [A] runs via the [F] from Jay St-MetroTech to W 4 St-Wash Sq. Travel alternatives: For High St, use the nearby York St [F] station instead. For Fulton St, use the nearby World Trade Center [accessibility icon] | [E] station via transfer at W 4 St-Wash Sq [accessibility icon]. For Chambers St/World Trade Center, Canal St and Spring St, take the [E] or downtown [A] via transfer at W 4 St-Wash Sq. What's happening? We're making electrical improvements [accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully ac",
+  "stops": [
+   "A33",
+   "A34",
+   "A36",
+   "A38",
+   "A40"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35560",
+  "routes": [
+   "C"
+  ],
+  "header": "In Brooklyn and Manhattan, [C] service is rerouted via [D] and [F] in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
+  "description": "168 St-bound [C] runs via the [F] from Jay St-MetroTech to 34 St-Herald Sq and via the [D] to 59 St-Columbus Circle. Euclid Av-bound [C] runs via the [D] from 59 St-Columbus Circle to 34 St-Herald Sq and via the [F] to Jay St-MetroTech. Travel alternatives: For High St, use the nearby York St [F] station instead. For Fulton St, use the nearby World Trade Center [accessibility icon] | [E] station via transfer at W 4 St-Wash Sq [accessibility icon]. For Chambers St/World Trade Center, Canal St and Spring St, take the [E] or a downtown [A]. For 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authori",
+  "stops": [
+   "A24",
+   "A25",
+   "A27",
+   "A28",
+   "A30",
+   "A31",
+   "A32",
+   "A33",
+   "A34",
+   "A36",
+   "A38",
+   "A40",
+   "A41"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35540",
+  "routes": [
+   "1"
+  ],
+  "header": "[1] runs every 8 minutes",
+  "description": "[1] service operates on a modified schedule because [1][2] and [3] trains are sharing a track in Manhattan. What's happening? We're making structural improvements",
+  "stops": []
+ },
+ {
+  "id": "lmm:planned_work:35539",
+  "routes": [
+   "2",
+   "3"
+  ],
+  "header": "[2][3] runs every 12 minutes",
+  "description": "[2][3] service operates on a modified schedule because [1][2] and [3] trains are sharing a track in Manhattan. What's happening? We're making structural improvements",
+  "stops": []
+ },
+ {
+  "id": "lmm:planned_work:35386",
+  "routes": [
+   "4",
+   "6"
+  ],
+  "header": "In Manhattan, downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St",
+  "description": "For service to these stations, take the [4] or [6] to 59 St or Grand Central-42 St [accessibility icon] and transfer to an uptown [4] local or [6]. For service from these stations, take the [4] or [6] to 59 St or 125 St [accessibility icon] and transfer to a downtown [4] or [6]. Travel tip: Consider the M101, M102 or M103 bus making stops along Lexington Ave. Schedule reminder: [4] does not serve these local stations days and evenings. Note: Downtown [4][5][6] skip 86 St during this time. What's happening? We're replacing tracks [accessibility icon] This service change affects one or more ADA ",
+  "stops": [
+   "621",
+   "622",
+   "623",
+   "624",
+   "625",
+   "626",
+   "627",
+   "628",
+   "629",
+   "630",
+   "631"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35366",
+  "routes": [
+   "6"
+  ],
+  "header": "[6] runs every 8 minutes",
+  "description": "[6] runs on a modified schedule while [4][5] and [6] trains share a track in Manhattan. What's happening? We're replacing tracks",
+  "stops": []
+ },
+ {
+  "id": "lmm:planned_work:35124",
+  "routes": [
+   "1"
+  ],
+  "header": "Downtown [1] skips 125 St",
+  "description": "Use nearby 137 St-City College or 116 St-Columbia University stations. Additional travel alternatives: For service to this station, take the [1] 116 St-Columbia University and transfer to an uptown train. For service from this station, take an uptown [1] 168 St-Washington Hts and transfer to a downtown train. Travel tips: Transfer between uptown and downtown trains with fare-capped OMNY at 137 St-City College, or take the M4/M104 to 116 St* for [1]. Consider the M125 to the 125 St [A][C] [B][D] Station. *(except when trains run express to 96 St) Note: Downtown [1] skips 125 St, 116 St-Columbia",
+  "stops": [
+   "112",
+   "116",
+   "117"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:35011",
+  "routes": [
+   "SI"
+  ],
+  "header": "[SIR] New Dorp Station - St George-bound - east end entrance is closed until further notice",
+  "description": "Note: The New Dorp Lane staircase and elevator can be used as an alternative. What's Happening? Station house repairs",
+  "stops": [
+   "S22"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:33366",
+  "routes": [
+   "E",
+   "F"
+  ],
+  "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only - Madison Av side of station is exit only",
+  "description": "What's happening? We're replacing escalators",
+  "stops": [
+   "F12"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:31498",
+  "routes": [
+   "7"
+  ],
+  "header": "In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Woodside-61 St board from the Manhattan-bound platform",
+  "description": "Use nearby 46 St-Bliss St, Woodside-61 St or 74 St-Broadway stations. Additional travel alternatives: For service to these stations, take the [7] to Woodside-61 St or 74 St-Broadway and transfer to a Manhattan-bound [7]. For service from these stations, take the [7] to Woodside-61 St or 46 St-Bliss St and transfer to a Flushing-bound [7]. Note: There will be temporary platforms on the Flushing-bound side at 33 St-Rawson St, 40 St-Lowery St and 46 St-Bliss St What's happening? We're making structural improvements",
+  "stops": [
+   "711",
+   "712",
+   "713"
+  ]
+ },
+ {
+  "id": "lmm:planned_work:29949",
+  "routes": [
+   "4"
+  ],
+  "header": "In the Bronx, Woodlawn-bound [4] skips Burnside Av",
+  "description": "Use nearby 176 St or 183 St stations. Additional travel alternatives: For service to this station, take the [4] to 183 St and transfer to a Manhattan-bound train. For service from this station, take the [4] to 176 St and transfer to a Woodlawn-bound train. What's happening? We're making station improvements",
+  "stops": [
+   "409"
+  ]
+ }
+]

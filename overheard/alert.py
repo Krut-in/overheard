@@ -9,6 +9,8 @@ LOW = types.ThinkingConfig(thinking_level="low")
 
 
 def _part(data: bytes, mime: str):
+    if mime.startswith("text"):
+        return "Input text: " + data.decode("utf-8", "ignore")
     return types.Part.from_bytes(data=data, mime_type=mime)
 
 

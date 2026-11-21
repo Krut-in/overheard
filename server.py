@@ -9,7 +9,8 @@ from fastapi import FastAPI, File, Form, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from overheard import config, alert, video
+from overheard import config, alert, video, mta
+from overheard.decide import score
 from overheard.decide import MIME, score_bytes, shrink
 from overheard.fingerprint import build_fingerprint
 from overheard.trip import extract_trip
@@ -80,8 +81,12 @@ def run_alert(ev: dict, data: bytes, mime: str):
 
 def process(ev: dict, data: bytes, mime: str):
     try:
-        cap = pool.submit(alert.caption, data, mime)
-        s = score_bytes(data, mime, STATE["trip"], STATE["fp"], label=ev["name"])
+        if mime.startswith("text"):
+            cap = pool.submit(lambda: ev.get("headline", ""))
+            s = score([{"type": "text", "text": data.decode()}], STATE["trip"], STATE["fp"], label=ev["name"])
+        else:
+            cap = pool.submit(alert.caption, data, mime)
+            s = score_bytes(data, mime, STATE["trip"], STATE["fp"], label=ev["name"])
         ev["scores"] = s
         rel = s["relevance"]
         if rel >= config.ALERT_AT:
@@ -128,6 +133,19 @@ async def add_input(file: UploadFile = File(...)):
 def process_frame_hit(ev: dict, frame: bytes):
     """Video: the best frame of a relevant moment goes through the normal alert path."""
     run_alert(ev, frame, "image/jpeg")
+
+
+@app.post("/api/mta")
+async def live_mta():
+    """Today's real MTA alerts on the rider's line, scored like any other input."""
+    if not STATE["trip"]:
+        return JSONResponse({"error": "set a trip first"}, status_code=400)
+    alerts = mta.fetch_alerts()
+    mine = mta.on_line(alerts, STATE["trip"]["line"])
+    for a in mine[:12]:
+        ev = new_event(name=f"MTA alert {', '.join(a['routes'][:6])}", kind="mta", headline=a["header"][:140])
+        pool.submit(process, ev, mta.as_text(a).encode(), "text/plain")
+    return {"active_alerts": len(alerts), "on_line": len(mine), "scored": min(12, len(mine))}
 
 
 @app.post("/api/conflict")

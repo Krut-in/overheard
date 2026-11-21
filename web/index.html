@@ -79,7 +79,9 @@
     <h2>3 · What you hear and see</h2>
     <div id="drop" onclick="document.getElementById('files').click()">Drop announcements, photos or a station video here</div>
     <input type="file" id="files" multiple hidden accept="audio/*,image/*,video/*" onchange="sendFiles(this.files)">
-    <div class="row"><button id="recBtn" onclick="toggleRec()">🎙 Listen to the room</button></div>
+    <div class="row"><button id="recBtn" onclick="toggleRec()">🎙 Listen to the room</button>
+      <button onclick="liveMta()">📡 Check live MTA alerts</button></div>
+    <div id="mtaOut" class="orig"></div>
     <div class="row samples" id="samples"></div>
   </div>
   <div class="card">
@@ -161,6 +163,11 @@ async function toggleSay() {
   sayRec.start(); $("sayBtn").textContent = "⏹ Done"; $("sayBtn").classList.add("rec");
 }
 
+async function liveMta() {
+  $("mtaOut").textContent = "Pulling today's real MTA alerts…";
+  const r = await (await fetch("/api/mta", {method:"POST"})).json();
+  $("mtaOut").textContent = r.error || `${r.active_alerts} active MTA alerts right now, ${r.on_line} name your line, scoring ${r.scored} against your fingerprint.`;
+}
 async function checkConflict() {
   $("conflictOut").textContent = "Carbon is weighing the two latest alerts…";
   const r = await (await fetch("/api/conflict", {method:"POST"})).json();
@@ -183,7 +190,7 @@ function bars(tl) {
 }
 function render(ev) {
   const s = ev.scores; const rel = s ? s.relevance.toFixed(2) : "…";
-  const icon = ev.kind === "audio" ? "🔊" : ev.kind === "video" ? "🎬" : "🖼";
+  const icon = ev.kind === "audio" ? "🔊" : ev.kind === "video" ? "🎬" : ev.kind === "mta" ? "📡" : "🖼";
   if (ev.status === "silent") {
     const thumb = ev.preview ? `<img class="thumb" src="${ev.preview}">` : "";
     const carbon = ev.carbon ? ` · Carbon: not relevant (${esc(ev.carbon.reason)})` : "";

@@ -1,0 +1,1535 @@
+{
+ "summary": {
+  "policy": {
+   "tp": 2,
+   "fp": 1,
+   "fn": 0
+  },
+  "text_baseline": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0
+  },
+  "keyword": {
+   "tp": 2,
+   "fp": 4,
+   "fn": 0
+  },
+  "pairs": 99,
+  "alerts": 33,
+  "positives": 2,
+  "sent_to_carbon": 8,
+  "decision_latency_median": 0.615
+ },
+ "rows": [
+  {
+   "id": "lmm:alert:277431:26",
+   "trip": "T1",
+   "routes": [
+    "A",
+    "C",
+    "F"
+   ],
+   "header": "Uptown [A][C][F] trains are running with delays while we conduct planned work in Manhattan.",
+   "truth": false,
+   "relevance": 0.099,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 1.593
+  },
+  {
+   "id": "lmm:alert:277431:26",
+   "trip": "T2",
+   "routes": [
+    "A",
+    "C",
+    "F"
+   ],
+   "header": "Uptown [A][C][F] trains are running with delays while we conduct planned work in Manhattan.",
+   "truth": true,
+   "relevance": 0.836,
+   "carbon": null,
+   "policy": true,
+   "text_baseline": true,
+   "keyword": true,
+   "latency": 1.392
+  },
+  {
+   "id": "lmm:alert:277431:26",
+   "trip": "T3",
+   "routes": [
+    "A",
+    "C",
+    "F"
+   ],
+   "header": "Uptown [A][C][F] trains are running with delays while we conduct planned work in Manhattan.",
+   "truth": false,
+   "relevance": 0.067,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 1.354
+  },
+  {
+   "id": "lmm:alert:277436:26",
+   "trip": "T1",
+   "routes": [
+    "G"
+   ],
+   "header": "[G] trains are delayed entering and leaving Court Sq while we address a switch problem at that station.",
+   "truth": false,
+   "relevance": 0.158,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 1.593
+  },
+  {
+   "id": "lmm:alert:277436:26",
+   "trip": "T2",
+   "routes": [
+    "G"
+   ],
+   "header": "[G] trains are delayed entering and leaving Court Sq while we address a switch problem at that station.",
+   "truth": false,
+   "relevance": 0.064,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.628
+  },
+  {
+   "id": "lmm:alert:277436:26",
+   "trip": "T3",
+   "routes": [
+    "G"
+   ],
+   "header": "[G] trains are delayed entering and leaving Court Sq while we address a switch problem at that station.",
+   "truth": false,
+   "relevance": 0.229,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.639
+  },
+  {
+   "id": "lmm:planned_work:36690",
+   "trip": "T1",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] trains are stopping at 116 St-Columbia University, Cathedral Pkwy-110 St, and 103 St, but real-time arrival information may be unavailable",
+   "truth": false,
+   "relevance": 0.154,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.583
+  },
+  {
+   "id": "lmm:planned_work:36690",
+   "trip": "T2",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] trains are stopping at 116 St-Columbia University, Cathedral Pkwy-110 St, and 103 St, but real-time arrival information may be unavailable",
+   "truth": false,
+   "relevance": 0.255,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.609
+  },
+  {
+   "id": "lmm:planned_work:36690",
+   "trip": "T3",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] trains are stopping at 116 St-Columbia University, Cathedral Pkwy-110 St, and 103 St, but real-time arrival information may be unavailable",
+   "truth": false,
+   "relevance": 0.257,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.56
+  },
+  {
+   "id": "lmm:planned_work:36560",
+   "trip": "T1",
+   "routes": [
+    "J"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [J] trains at Broadway Junction board from the express track",
+   "truth": false,
+   "relevance": 0.072,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.594
+  },
+  {
+   "id": "lmm:planned_work:36560",
+   "trip": "T2",
+   "routes": [
+    "J"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [J] trains at Broadway Junction board from the express track",
+   "truth": false,
+   "relevance": 0.044,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.556
+  },
+  {
+   "id": "lmm:planned_work:36560",
+   "trip": "T3",
+   "routes": [
+    "J"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [J] trains at Broadway Junction board from the express track",
+   "truth": false,
+   "relevance": 0.128,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.521
+  },
+  {
+   "id": "lmm:planned_work:36460",
+   "trip": "T1",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, transfer across the platform at Myrtle-Wyckoff Avs to continue your [M] trip",
+   "truth": false,
+   "relevance": 0.076,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.561
+  },
+  {
+   "id": "lmm:planned_work:36460",
+   "trip": "T2",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, transfer across the platform at Myrtle-Wyckoff Avs to continue your [M] trip",
+   "truth": false,
+   "relevance": 0.066,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.834
+  },
+  {
+   "id": "lmm:planned_work:36460",
+   "trip": "T3",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, transfer across the platform at Myrtle-Wyckoff Avs to continue your [M] trip",
+   "truth": false,
+   "relevance": 0.135,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.728
+  },
+  {
+   "id": "lmm:planned_work:36427",
+   "trip": "T1",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, downtown [A] stops at 50 St, 23 St and Spring St",
+   "truth": false,
+   "relevance": 0.057,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.767
+  },
+  {
+   "id": "lmm:planned_work:36427",
+   "trip": "T2",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, downtown [A] stops at 50 St, 23 St and Spring St",
+   "truth": false,
+   "relevance": 0.043,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.587
+  },
+  {
+   "id": "lmm:planned_work:36427",
+   "trip": "T3",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, downtown [A] stops at 50 St, 23 St and Spring St",
+   "truth": false,
+   "relevance": 0.076,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.573
+  },
+  {
+   "id": "lmm:planned_work:36012",
+   "trip": "T1",
+   "routes": [
+    "4",
+    "5",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4][5][6] skip 86 St",
+   "truth": false,
+   "relevance": 0.698,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": true,
+   "latency": 0.612
+  },
+  {
+   "id": "lmm:planned_work:36012",
+   "trip": "T2",
+   "routes": [
+    "4",
+    "5",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4][5][6] skip 86 St",
+   "truth": false,
+   "relevance": 0.121,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.656
+  },
+  {
+   "id": "lmm:planned_work:36012",
+   "trip": "T3",
+   "routes": [
+    "4",
+    "5",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4][5][6] skip 86 St",
+   "truth": false,
+   "relevance": 0.204,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.532
+  },
+  {
+   "id": "lmm:planned_work:35806",
+   "trip": "T1",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, [A] stops in both directions at 155 St and 163 St-Amsterdam Av",
+   "truth": false,
+   "relevance": 0.052,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.614
+  },
+  {
+   "id": "lmm:planned_work:35806",
+   "trip": "T2",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, [A] stops in both directions at 155 St and 163 St-Amsterdam Av",
+   "truth": false,
+   "relevance": 0.029,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.666
+  },
+  {
+   "id": "lmm:planned_work:35806",
+   "trip": "T3",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, [A] stops in both directions at 155 St and 163 St-Amsterdam Av",
+   "truth": false,
+   "relevance": 0.076,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.572
+  },
+  {
+   "id": "lmm:planned_work:35803",
+   "trip": "T1",
+   "routes": [
+    "C"
+   ],
+   "header": "In Upper Manhattan, no [C] between 145 St and 168 St",
+   "truth": false,
+   "relevance": 0.063,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.586
+  },
+  {
+   "id": "lmm:planned_work:35803",
+   "trip": "T2",
+   "routes": [
+    "C"
+   ],
+   "header": "In Upper Manhattan, no [C] between 145 St and 168 St",
+   "truth": false,
+   "relevance": 0.054,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.824
+  },
+  {
+   "id": "lmm:planned_work:35803",
+   "trip": "T3",
+   "routes": [
+    "C"
+   ],
+   "header": "In Upper Manhattan, no [C] between 145 St and 168 St",
+   "truth": false,
+   "relevance": 0.253,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.528
+  },
+  {
+   "id": "lmm:planned_work:35802",
+   "trip": "T1",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, no [A] between 168 St and 207 St",
+   "truth": false,
+   "relevance": 0.151,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.726
+  },
+  {
+   "id": "lmm:planned_work:35802",
+   "trip": "T2",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, no [A] between 168 St and 207 St",
+   "truth": false,
+   "relevance": 0.035,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.722
+  },
+  {
+   "id": "lmm:planned_work:35802",
+   "trip": "T3",
+   "routes": [
+    "A"
+   ],
+   "header": "In Upper Manhattan, no [A] between 168 St and 207 St",
+   "truth": false,
+   "relevance": 0.065,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.684
+  },
+  {
+   "id": "lmm:planned_work:35796",
+   "trip": "T1",
+   "routes": [
+    "D"
+   ],
+   "header": "In the Bronx, Manhattan-bound [D] skips 182-183 Sts, 174-175 Sts and 170 St",
+   "truth": false,
+   "relevance": 0.043,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.714
+  },
+  {
+   "id": "lmm:planned_work:35796",
+   "trip": "T2",
+   "routes": [
+    "D"
+   ],
+   "header": "In the Bronx, Manhattan-bound [D] skips 182-183 Sts, 174-175 Sts and 170 St",
+   "truth": false,
+   "relevance": 0.036,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.794
+  },
+  {
+   "id": "lmm:planned_work:35796",
+   "trip": "T3",
+   "routes": [
+    "D"
+   ],
+   "header": "In the Bronx, Manhattan-bound [D] skips 182-183 Sts, 174-175 Sts and 170 St",
+   "truth": false,
+   "relevance": 0.231,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.813
+  },
+  {
+   "id": "lmm:planned_work:35790",
+   "trip": "T1",
+   "routes": [
+    "1",
+    "2"
+   ],
+   "header": "In Manhattan, downtown [1] and [2] local skip 86 St, 79 St, 66 St-Lincoln Center, 59 St-Columbus Circle and 50 St",
+   "truth": false,
+   "relevance": 0.061,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.6
+  },
+  {
+   "id": "lmm:planned_work:35790",
+   "trip": "T2",
+   "routes": [
+    "1",
+    "2"
+   ],
+   "header": "In Manhattan, downtown [1] and [2] local skip 86 St, 79 St, 66 St-Lincoln Center, 59 St-Columbus Circle and 50 St",
+   "truth": false,
+   "relevance": 0.044,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.724
+  },
+  {
+   "id": "lmm:planned_work:35790",
+   "trip": "T3",
+   "routes": [
+    "1",
+    "2"
+   ],
+   "header": "In Manhattan, downtown [1] and [2] local skip 86 St, 79 St, 66 St-Lincoln Center, 59 St-Columbus Circle and 50 St",
+   "truth": false,
+   "relevance": 0.164,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.526
+  },
+  {
+   "id": "lmm:planned_work:35789",
+   "trip": "T1",
+   "routes": [
+    "5"
+   ],
+   "header": "[5] runs every 20 minutes",
+   "truth": false,
+   "relevance": 0.065,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.627
+  },
+  {
+   "id": "lmm:planned_work:35789",
+   "trip": "T2",
+   "routes": [
+    "5"
+   ],
+   "header": "[5] runs every 20 minutes",
+   "truth": false,
+   "relevance": 0.342,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.617
+  },
+  {
+   "id": "lmm:planned_work:35789",
+   "trip": "T3",
+   "routes": [
+    "5"
+   ],
+   "header": "[5] runs every 20 minutes",
+   "truth": false,
+   "relevance": 0.316,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.683
+  },
+  {
+   "id": "lmm:planned_work:35788",
+   "trip": "T1",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nAll trains at Junction Blvd board from the Flushing-bound platform",
+   "truth": false,
+   "relevance": 0.148,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.788
+  },
+  {
+   "id": "lmm:planned_work:35788",
+   "trip": "T2",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nAll trains at Junction Blvd board from the Flushing-bound platform",
+   "truth": false,
+   "relevance": 0.145,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.571
+  },
+  {
+   "id": "lmm:planned_work:35788",
+   "trip": "T3",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nAll trains at Junction Blvd board from the Flushing-bound platform",
+   "truth": false,
+   "relevance": 0.793,
+   "carbon": true,
+   "policy": true,
+   "text_baseline": false,
+   "keyword": true,
+   "latency": 0.646
+  },
+  {
+   "id": "lmm:planned_work:35775",
+   "trip": "T1",
+   "routes": [
+    "H"
+   ],
+   "header": "In Southeast Queens, [H] Rockaway Park Shuttle is replaced by free shuttle buses",
+   "truth": false,
+   "relevance": 0.15,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.546
+  },
+  {
+   "id": "lmm:planned_work:35775",
+   "trip": "T2",
+   "routes": [
+    "H"
+   ],
+   "header": "In Southeast Queens, [H] Rockaway Park Shuttle is replaced by free shuttle buses",
+   "truth": false,
+   "relevance": 0.046,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.687
+  },
+  {
+   "id": "lmm:planned_work:35775",
+   "trip": "T3",
+   "routes": [
+    "H"
+   ],
+   "header": "In Southeast Queens, [H] Rockaway Park Shuttle is replaced by free shuttle buses",
+   "truth": false,
+   "relevance": 0.162,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.747
+  },
+  {
+   "id": "lmm:planned_work:35772",
+   "trip": "T1",
+   "routes": [
+    "D"
+   ],
+   "header": "In Brooklyn, Coney Island-bound [D] skips Fort Hamilton Pkwy, 50 St and 55 St",
+   "truth": false,
+   "relevance": 0.052,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.608
+  },
+  {
+   "id": "lmm:planned_work:35772",
+   "trip": "T2",
+   "routes": [
+    "D"
+   ],
+   "header": "In Brooklyn, Coney Island-bound [D] skips Fort Hamilton Pkwy, 50 St and 55 St",
+   "truth": false,
+   "relevance": 0.041,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.66
+  },
+  {
+   "id": "lmm:planned_work:35772",
+   "trip": "T3",
+   "routes": [
+    "D"
+   ],
+   "header": "In Brooklyn, Coney Island-bound [D] skips Fort Hamilton Pkwy, 50 St and 55 St",
+   "truth": false,
+   "relevance": 0.137,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.512
+  },
+  {
+   "id": "lmm:planned_work:35770",
+   "trip": "T1",
+   "routes": [
+    "R"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [R] skips 25 St, Prospect Av, 4 Av-9 St and Union St",
+   "truth": false,
+   "relevance": 0.059,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.568
+  },
+  {
+   "id": "lmm:planned_work:35770",
+   "trip": "T2",
+   "routes": [
+    "R"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [R] skips 25 St, Prospect Av, 4 Av-9 St and Union St",
+   "truth": false,
+   "relevance": 0.024,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.612
+  },
+  {
+   "id": "lmm:planned_work:35770",
+   "trip": "T3",
+   "routes": [
+    "R"
+   ],
+   "header": "In Brooklyn, Manhattan-bound [R] skips 25 St, Prospect Av, 4 Av-9 St and Union St",
+   "truth": false,
+   "relevance": 0.08,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.51
+  },
+  {
+   "id": "lmm:planned_work:35705",
+   "trip": "T1",
+   "routes": [
+    "M"
+   ],
+   "header": "In Queens, all [M] trains at Fresh Pond Rd, Forest Av and Seneca Av board from the Metropolitan Av-bound platform",
+   "truth": false,
+   "relevance": 0.166,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.627
+  },
+  {
+   "id": "lmm:planned_work:35705",
+   "trip": "T2",
+   "routes": [
+    "M"
+   ],
+   "header": "In Queens, all [M] trains at Fresh Pond Rd, Forest Av and Seneca Av board from the Metropolitan Av-bound platform",
+   "truth": false,
+   "relevance": 0.117,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.599
+  },
+  {
+   "id": "lmm:planned_work:35705",
+   "trip": "T3",
+   "routes": [
+    "M"
+   ],
+   "header": "In Queens, all [M] trains at Fresh Pond Rd, Forest Av and Seneca Av board from the Metropolitan Av-bound platform",
+   "truth": false,
+   "relevance": 0.1,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.609
+  },
+  {
+   "id": "lmm:planned_work:35704",
+   "trip": "T1",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, all [M] trains at Central Av and Knickerbocker Av board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.089,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.596
+  },
+  {
+   "id": "lmm:planned_work:35704",
+   "trip": "T2",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, all [M] trains at Central Av and Knickerbocker Av board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.035,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.651
+  },
+  {
+   "id": "lmm:planned_work:35704",
+   "trip": "T3",
+   "routes": [
+    "M"
+   ],
+   "header": "In Brooklyn, all [M] trains at Central Av and Knickerbocker Av board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.096,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.629
+  },
+  {
+   "id": "lmm:planned_work:35572",
+   "trip": "T1",
+   "routes": [
+    "M"
+   ],
+   "header": "No [M] between Myrtle Av (Broadway) and Delancey St-Essex St\nAll trains at Myrtle Av (Broadway) board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.101,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.593
+  },
+  {
+   "id": "lmm:planned_work:35572",
+   "trip": "T2",
+   "routes": [
+    "M"
+   ],
+   "header": "No [M] between Myrtle Av (Broadway) and Delancey St-Essex St\nAll trains at Myrtle Av (Broadway) board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.091,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.604
+  },
+  {
+   "id": "lmm:planned_work:35572",
+   "trip": "T3",
+   "routes": [
+    "M"
+   ],
+   "header": "No [M] between Myrtle Av (Broadway) and Delancey St-Essex St\nAll trains at Myrtle Av (Broadway) board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.115,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.678
+  },
+  {
+   "id": "lmm:planned_work:35571",
+   "trip": "T1",
+   "routes": [
+    "J"
+   ],
+   "header": "No [J] between Myrtle Av and Broad St",
+   "truth": false,
+   "relevance": 0.126,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.669
+  },
+  {
+   "id": "lmm:planned_work:35571",
+   "trip": "T2",
+   "routes": [
+    "J"
+   ],
+   "header": "No [J] between Myrtle Av and Broad St",
+   "truth": false,
+   "relevance": 0.181,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.632
+  },
+  {
+   "id": "lmm:planned_work:35571",
+   "trip": "T3",
+   "routes": [
+    "J"
+   ],
+   "header": "No [J] between Myrtle Av and Broad St",
+   "truth": false,
+   "relevance": 0.239,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.582
+  },
+  {
+   "id": "lmm:planned_work:35562",
+   "trip": "T1",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, uptown [A] stops at 23 St and 50 St",
+   "truth": false,
+   "relevance": 0.067,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.594
+  },
+  {
+   "id": "lmm:planned_work:35562",
+   "trip": "T2",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, uptown [A] stops at 23 St and 50 St",
+   "truth": false,
+   "relevance": 0.033,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.62
+  },
+  {
+   "id": "lmm:planned_work:35562",
+   "trip": "T3",
+   "routes": [
+    "A"
+   ],
+   "header": "In Manhattan, uptown [A] stops at 23 St and 50 St",
+   "truth": false,
+   "relevance": 0.083,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.666
+  },
+  {
+   "id": "lmm:planned_work:35561",
+   "trip": "T1",
+   "routes": [
+    "A"
+   ],
+   "header": "In Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St",
+   "truth": false,
+   "relevance": 0.045,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.787
+  },
+  {
+   "id": "lmm:planned_work:35561",
+   "trip": "T2",
+   "routes": [
+    "A"
+   ],
+   "header": "In Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St",
+   "truth": false,
+   "relevance": 0.778,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": true,
+   "latency": 0.623
+  },
+  {
+   "id": "lmm:planned_work:35561",
+   "trip": "T3",
+   "routes": [
+    "A"
+   ],
+   "header": "In Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St",
+   "truth": false,
+   "relevance": 0.062,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.561
+  },
+  {
+   "id": "lmm:planned_work:35560",
+   "trip": "T1",
+   "routes": [
+    "C"
+   ],
+   "header": "In Brooklyn and Manhattan, [C] service is rerouted via [D] and [F] in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
+   "truth": false,
+   "relevance": 0.109,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.563
+  },
+  {
+   "id": "lmm:planned_work:35560",
+   "trip": "T2",
+   "routes": [
+    "C"
+   ],
+   "header": "In Brooklyn and Manhattan, [C] service is rerouted via [D] and [F] in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
+   "truth": false,
+   "relevance": 0.74,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": true,
+   "latency": 0.774
+  },
+  {
+   "id": "lmm:planned_work:35560",
+   "trip": "T3",
+   "routes": [
+    "C"
+   ],
+   "header": "In Brooklyn and Manhattan, [C] service is rerouted via [D] and [F] in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
+   "truth": false,
+   "relevance": 0.085,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.517
+  },
+  {
+   "id": "lmm:planned_work:35540",
+   "trip": "T1",
+   "routes": [
+    "1"
+   ],
+   "header": "[1] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.617,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.806
+  },
+  {
+   "id": "lmm:planned_work:35540",
+   "trip": "T2",
+   "routes": [
+    "1"
+   ],
+   "header": "[1] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.705,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.627
+  },
+  {
+   "id": "lmm:planned_work:35540",
+   "trip": "T3",
+   "routes": [
+    "1"
+   ],
+   "header": "[1] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.655,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.547
+  },
+  {
+   "id": "lmm:planned_work:35539",
+   "trip": "T1",
+   "routes": [
+    "2",
+    "3"
+   ],
+   "header": "[2][3] runs every 12 minutes",
+   "truth": false,
+   "relevance": 0.382,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.621
+  },
+  {
+   "id": "lmm:planned_work:35539",
+   "trip": "T2",
+   "routes": [
+    "2",
+    "3"
+   ],
+   "header": "[2][3] runs every 12 minutes",
+   "truth": false,
+   "relevance": 0.212,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.641
+  },
+  {
+   "id": "lmm:planned_work:35539",
+   "trip": "T3",
+   "routes": [
+    "2",
+    "3"
+   ],
+   "header": "[2][3] runs every 12 minutes",
+   "truth": false,
+   "relevance": 0.132,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.615
+  },
+  {
+   "id": "lmm:planned_work:35386",
+   "trip": "T1",
+   "routes": [
+    "4",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St",
+   "truth": false,
+   "relevance": 0.073,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.52
+  },
+  {
+   "id": "lmm:planned_work:35386",
+   "trip": "T2",
+   "routes": [
+    "4",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St",
+   "truth": false,
+   "relevance": 0.067,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.764
+  },
+  {
+   "id": "lmm:planned_work:35386",
+   "trip": "T3",
+   "routes": [
+    "4",
+    "6"
+   ],
+   "header": "In Manhattan, downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St",
+   "truth": false,
+   "relevance": 0.119,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.557
+  },
+  {
+   "id": "lmm:planned_work:35366",
+   "trip": "T1",
+   "routes": [
+    "6"
+   ],
+   "header": "[6] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.098,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.557
+  },
+  {
+   "id": "lmm:planned_work:35366",
+   "trip": "T2",
+   "routes": [
+    "6"
+   ],
+   "header": "[6] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.043,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.595
+  },
+  {
+   "id": "lmm:planned_work:35366",
+   "trip": "T3",
+   "routes": [
+    "6"
+   ],
+   "header": "[6] runs every 8 minutes",
+   "truth": false,
+   "relevance": 0.154,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.497
+  },
+  {
+   "id": "lmm:planned_work:35124",
+   "trip": "T1",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] skips 125 St",
+   "truth": false,
+   "relevance": 0.076,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.689
+  },
+  {
+   "id": "lmm:planned_work:35124",
+   "trip": "T2",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] skips 125 St",
+   "truth": false,
+   "relevance": 0.065,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.579
+  },
+  {
+   "id": "lmm:planned_work:35124",
+   "trip": "T3",
+   "routes": [
+    "1"
+   ],
+   "header": "Downtown [1] skips 125 St",
+   "truth": false,
+   "relevance": 0.132,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.585
+  },
+  {
+   "id": "lmm:planned_work:35011",
+   "trip": "T1",
+   "routes": [
+    "SI"
+   ],
+   "header": "[SIR] New Dorp Station - St George-bound - east end entrance is closed until further notice",
+   "truth": false,
+   "relevance": 0.058,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.545
+  },
+  {
+   "id": "lmm:planned_work:35011",
+   "trip": "T2",
+   "routes": [
+    "SI"
+   ],
+   "header": "[SIR] New Dorp Station - St George-bound - east end entrance is closed until further notice",
+   "truth": false,
+   "relevance": 0.153,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.598
+  },
+  {
+   "id": "lmm:planned_work:35011",
+   "trip": "T3",
+   "routes": [
+    "SI"
+   ],
+   "header": "[SIR] New Dorp Station - St George-bound - east end entrance is closed until further notice",
+   "truth": false,
+   "relevance": 0.307,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.576
+  },
+  {
+   "id": "lmm:planned_work:33366",
+   "trip": "T1",
+   "routes": [
+    "E",
+    "F"
+   ],
+   "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only - Madison Av side of station is exit only",
+   "truth": false,
+   "relevance": 0.088,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.657
+  },
+  {
+   "id": "lmm:planned_work:33366",
+   "trip": "T2",
+   "routes": [
+    "E",
+    "F"
+   ],
+   "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only - Madison Av side of station is exit only",
+   "truth": false,
+   "relevance": 0.7,
+   "carbon": false,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.592
+  },
+  {
+   "id": "lmm:planned_work:33366",
+   "trip": "T3",
+   "routes": [
+    "E",
+    "F"
+   ],
+   "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only - Madison Av side of station is exit only",
+   "truth": false,
+   "relevance": 0.14,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.781
+  },
+  {
+   "id": "lmm:planned_work:31498",
+   "trip": "T1",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Woodside-61 St board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.212,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.568
+  },
+  {
+   "id": "lmm:planned_work:31498",
+   "trip": "T2",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Woodside-61 St board from the Manhattan-bound platform",
+   "truth": false,
+   "relevance": 0.124,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.651
+  },
+  {
+   "id": "lmm:planned_work:31498",
+   "trip": "T3",
+   "routes": [
+    "7"
+   ],
+   "header": "In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Woodside-61 St board from the Manhattan-bound platform",
+   "truth": true,
+   "relevance": 0.983,
+   "carbon": null,
+   "policy": true,
+   "text_baseline": true,
+   "keyword": true,
+   "latency": 0.618
+  },
+  {
+   "id": "lmm:planned_work:29949",
+   "trip": "T1",
+   "routes": [
+    "4"
+   ],
+   "header": "In the Bronx, Woodlawn-bound [4] skips Burnside Av",
+   "truth": false,
+   "relevance": 0.083,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.736
+  },
+  {
+   "id": "lmm:planned_work:29949",
+   "trip": "T2",
+   "routes": [
+    "4"
+   ],
+   "header": "In the Bronx, Woodlawn-bound [4] skips Burnside Av",
+   "truth": false,
+   "relevance": 0.03,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.615
+  },
+  {
+   "id": "lmm:planned_work:29949",
+   "trip": "T3",
+   "routes": [
+    "4"
+   ],
+   "header": "In the Bronx, Woodlawn-bound [4] skips Burnside Av",
+   "truth": false,
+   "relevance": 0.061,
+   "carbon": null,
+   "policy": false,
+   "text_baseline": false,
+   "keyword": false,
+   "latency": 0.595
+  }
+ ]
+}
