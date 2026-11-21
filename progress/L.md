@@ -95,3 +95,72 @@ A second full run (fresh Hydrogen questions) also passed: false alert 0.793 to 0
 - In the two passing runs the guard dropped nothing; the main fix came from the prompt wording. The guard costs about 1 s (3 parallel Decision calls) on each dismissal.
 - "[1] runs every 8 minutes" scores 0.655 for the 7 train trip before learning (a pre-existing weakness: the `line` group fires on "runs every N minutes"). After learning it sits at 0.40 to 0.47, still in the Carbon band.
 - Learned questions apply to every future input for that booking, so a stale dismissal could hide a later real change of the same shape. There is no expiry or undo yet.
+
+## Round 2: the not gate (2026-11-21, 4:09 to 4:15 PM ET)
+Asked by the orchestrator after ticket G's held-out eval showed learning hurt true alerts (17 to 6 at 0.8). Branch `ticket-l-gate`, cut from main.
+
+### Changes
+- `learn.not_effective(p) = max(0, (p - 0.5) / 0.5)`, with `NOT_GATE = 0.5`. A not-answer of 0.2 now does nothing, and 0.99 still gives 0.98. `learn.not_score` returns the gated value.
+- `overheard/match.py` `combine`: the not(b) factor is now `(1 - learn.not_effective(g("not")))`. To reach `learn`, the import line changed from `from overheard import config` to `from overheard import config, learn`. Those are the only two lines touched in that file.
+- `learn.py`: `GUARD_MAX` 0.3 to 0.1, `MAX_NEW` 5 to 3. The prompt now forbids date, weekday and time questions, and tells Hydrogen to avoid negations such as "unaffected" or "on schedule".
+- Tests: `tests/test_learn.py` covers the gate (0.22 gives 0, 0.75 gives 0.5, 1.0 gives 1), the gated not_score, the cap of 3 and the guard at 0.1. `tests/test_match.py` updates the suppression number (0.983 x 0.2 = 0.197) and adds two cases: a 0.22 not-answer leaves an alert at 0.983, and 0.99 silences.
+
+### Why the date rule
+With the gate alone, the held-out eval went 17 to 15. One drop was museum_louvre_1, which fell from 0.958 to 0.367. Its announcement says Thursday 26 November, yet "Is the closure or change limited to Friday 27 November?" scored 0.852 inside the full Decision call, against 0.343 when asked alone (the same answer on two runs, so it is not noise). The guard missed it because its keep examples are short. SPEC.md already puts date checks in code, so learned questions now leave dates alone.
+
+### Check 1: pytest
+```
+$PY -m pytest tests/test_learn.py tests/test_match.py
+23 passed in 0.69s
+```
+The full suite had 69 passed and 1 skipped (live) before the date-rule edit.
+
+### Check 2: MTA eval (final run)
+```
+[gemini] gemini-4-hydrogen 7.86s  learn not-questions
+
+Keep examples Hydrogen wrote (true alerts for T3, used by the guard):
+  - MTA service alert. In Queens, Flushing-bound [7] skips 82 St, 90 St and 103 St due to track maintenance. For service to these stations, take the [7] to Junction Blvd and transfer to a Manhattan-bound [7].
+  - MTA service alert. [7] trains are running with delays in both directions between Grand Central-42 St and Flushing-Main St because of signal problems at Queensboro Plaza.
+  - MTA service alert. Flushing-bound [7] trains are running express from 74 St-Broadway to Mets-Willets Point, bypassing Junction Blvd and 111 St. What's happening? Track work.
+Dropped by the guard (fired on a keep example):
+Learned questions kept (booking T3), with max p on the keep examples:
+  0.01  not__T3__manhattan_bound_only: Is the service disruption limited to Manhattan-bound trains?
+  0.03  not__T3__opposite_direction_skipping: Are the skipped stops only for trains heading toward Manhattan?
+  0.02  not__T3__only_manhattan_bound_affected: Does the alert state that only Manhattan-bound service is experiencing delays or skipped stops?
+
+Dismissed alert scored 0.793 when shown.
+
+       before   not  after  band after  header
+FALSE   0.793  0.98  0.016  silence     'In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nA'
+TRUE    0.983  0.00  0.983  alert       'In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Wood'
+
+Held-out notices (hand-written, not shown to Hydrogen):
+  truth=False before 0.702 (carbon) -> after 0.031 (silence)  not=0.96  held_wrong_dir_delay
+  truth=False before 0.733 (carbon) -> after 0.025 (silence)  not=0.97  held_wrong_dir_suspended
+  truth=True  before 0.982 (alert) -> after 0.982 (alert)  not=0.00  held_right_dir_delay
+  truth=True  before 0.983 (alert) -> after 0.983 (alert)  not=0.00  held_both_dirs
+
+Per learned question, false alert vs true alert:
+  0.931 0.024  not__T3__manhattan_bound_only
+   0.99  0.01  not__T3__opposite_direction_skipping
+  0.938 0.017  not__T3__only_manhattan_bound_affected
+
+checks: {"false_after_under_0.4": true, "true_after_at_least_0.8": true, "no_other_alert_in_alert_band": true} PASS
+Top other alerts:
+other   0.655  0.00  0.655  carbon      '[1] runs every 8 minutes'
+other   0.316  0.00  0.316  silence     '[5] runs every 20 minutes'
+other   0.307  0.00  0.307  silence     '[SIR] New Dorp Station - St George-bound - east end entrance is closed'
+```
+
+### Check 3: held-out learning (`eval/abroad_eval.py all`, after deleting the two learned caches)
+| Version | not-questions from 9 dismissals | true alerts at 0.8, before to after | half-2 Carbon band, before to after | half-2 false alerts |
+|---|---|---|---|---|
+| main (round 1) | 41 | 17 to 6 | 8 to 1 | 0 to 0 |
+| gate only | 24 | 17 to 15 (hotel_ams_2 0.92 to 0.78, museum_louvre_1 0.96 to 0.37) | 8 to 6 | 0 to 0 |
+| gate plus no-date rule (committed) | 25 | 17 to 17 | 8 to 6 | 0 to 0 |
+
+### Honest read
+- Learning no longer hurts true alerts in either eval. The price is a smaller benefit on the held-out near misses: the Carbon band shrinks by 2 items, against 7 before the gate. Mid-strength not-answers were doing both jobs, the good one and the harmful one.
+- Each held-out number comes from one Hydrogen run per dismissal. A rerun can write different questions, so treat 17 to 17 as one sample.
+- The 0.5 gate was chosen from G's diagnosis (harmful answers at 0.16 to 0.22) and was not tuned on these items.

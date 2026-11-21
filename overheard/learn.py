@@ -9,9 +9,9 @@ from overheard import config
 from overheard.gemini import ROOT, client, log_call, timed
 
 LEARNED_DIR = ROOT / "data" / "abroad" / "learned"
-MAX_NEW = 5
+MAX_NEW = 3        # kept per dismissal (ticket G: 41 questions from 9 dismissals hurt true alerts)
 LAST = {}          # the latest learn() run: keep examples and dropped candidates, for evals and the UI
-GUARD_MAX = 0.3   # a candidate scoring above this on any true alert for the booking is dropped
+GUARD_MAX = 0.1   # a candidate scoring above this on any true alert for the booking is dropped
 
 PROMPT = """You tune a travel assistant that listens to station announcements, signs, departure boards and news, and
 alerts a traveller only when an input affects one of their bookings. A separate model answers yes/no questions about
@@ -28,16 +28,17 @@ The questions that fired most strongly on it (probability, question):
 
 Write between 5 and 7 candidate yes/no questions (each under 25 words) that a separate model will answer about a future
 input. Each question must be answered YES for this input and NO for any real disruption notice on this booking.
+Avoid negations such as "unaffected" or "on schedule": ask what the disruption is limited to.
 A yes means "this input is not about the booking".
 Rules:
 - Find what makes this input miss the booking: the other direction, another platform or terminal, another train or
-  flight number, another date, another station or section of the line, another city, or a change that only touches
+  flight number, another station or section of the line, another city, or a change that only touches
   stops the traveller never uses.
 - A real alert for the booking may mention the other direction, other stops or other platforms in passing (transfer
   advice, where to board instead, "trains in both directions"). Every question must stay NO for such an alert, so ask
   whether the disruption itself is limited to the other case, never whether the other case is merely mentioned.
 - Phrase the questions generally enough to catch the same mistake on a similar future input, not only this exact text.
-- Do not ask about dates in a way that needs arithmetic.
+- Never ask about dates, days of the week or times: the scorer misreads them, and dates are checked in code.
 - Prefer plain words (direction names, platform, train or flight number) over spatial reasoning such as "away from X".
 - Ids are short snake_case and unique.
 
@@ -81,10 +82,18 @@ def add_learned(it_id: str, new: list[dict]) -> list[dict]:
     return added
 
 
+NOT_GATE = 0.5    # a not-answer counts only above this; 0.2 noise on a true alert must not cut its score
+
+
+def not_effective(p_max: float) -> float:
+    """Gate the raw max not-probability: 0 up to NOT_GATE, then linear to 1 at p = 1."""
+    return max(0.0, (p_max - NOT_GATE) / (1 - NOT_GATE))
+
+
 def not_score(p: dict, learned: list[dict], booking_id: str) -> float:
-    """not(b) = max probability over b's learned questions, 0 when b has none (or none were answered)."""
+    """not(b) = gated max probability over b's learned questions, 0 when b has none (or none were answered)."""
     vals = [p[q["id"]] for q in learned if q["booking_id"] == booking_id and q["id"] in p]
-    return max(vals, default=0)
+    return not_effective(max(vals, default=0))
 
 
 def apply_not(s: float, not_p: float) -> float:

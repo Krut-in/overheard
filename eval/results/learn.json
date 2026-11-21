@@ -5,45 +5,31 @@
  "dismissed_relevance_when_shown": 0.793,
  "learned": [
   {
-   "id": "not__T3__only_manhattan_bound",
+   "id": "not__T3__manhattan_bound_only",
    "booking_id": "T3",
    "group": "not",
-   "q": "Is the service disruption or skipped stops limited to Manhattan-bound trains?",
+   "q": "Is the service disruption limited to Manhattan-bound trains?",
    "guard_max": 0.01
   },
   {
-   "id": "not__T3__opposite_direction_only",
+   "id": "not__T3__opposite_direction_skipping",
    "booking_id": "T3",
    "group": "not",
-   "q": "Does the disruption only affect trains going in the opposite direction of Flushing-bound?",
-   "guard_max": 0.01
+   "q": "Are the skipped stops only for trains heading toward Manhattan?",
+   "guard_max": 0.025
   },
   {
-   "id": "not__T3__exclusively_manhattan_bound",
+   "id": "not__T3__only_manhattan_bound_affected",
    "booking_id": "T3",
    "group": "not",
-   "q": "Is the disruption described in the alert exclusively for Manhattan-bound service?",
-   "guard_max": 0.012
-  },
-  {
-   "id": "not__T3__skipped_only_manhattan",
-   "booking_id": "T3",
-   "group": "not",
-   "q": "Are the skipped stations only skipped by trains heading toward Manhattan?",
-   "guard_max": 0.088
-  },
-  {
-   "id": "not__T3__problem_only_manhattan",
-   "booking_id": "T3",
-   "group": "not",
-   "q": "Does the alert only report a problem for 7 trains heading toward Manhattan?",
-   "guard_max": 0.015
+   "q": "Does the alert state that only Manhattan-bound service is experiencing delays or skipped stops?",
+   "guard_max": 0.016
   }
  ],
  "keep_examples": [
-  "MTA service alert. Flushing-bound [7] trains are running with delays due to signal problems at Queensboro Plaza. Manhattan-bound [7] service is operating normally.",
-  "MTA service alert. In Queens, Flushing-bound [7] skips 103 St and 111 St due to track maintenance. For service to these stations, take the [7] to Mets-Willets Point and transfer to a Manhattan-bound [7].",
-  "MTA service alert. [7] trains are suspended in both directions between Grand Central-42 St and 74 St-Broadway because of a stalled train."
+  "MTA service alert. In Queens, Flushing-bound [7] skips 82 St, 90 St and 103 St due to track maintenance. For service to these stations, take the [7] to Junction Blvd and transfer to a Manhattan-bound [7].",
+  "MTA service alert. [7] trains are running with delays in both directions between Grand Central-42 St and Flushing-Main St because of signal problems at Queensboro Plaza.",
+  "MTA service alert. Flushing-bound [7] trains are running express from 74 St-Broadway to Mets-Willets Point, bypassing Junction Blvd and 111 St. What's happening? Track work."
  ],
  "dropped": [],
  "false_alert": {
@@ -53,16 +39,14 @@
   ],
   "header": "In Queens, Manhattan-bound [7] skips 111 St, 103 St, 90 St and 82 St\nAll trains at Junction Blvd board from the Flushing-bound platform",
   "before": 0.793,
-  "not": 0.99,
-  "after": 0.008,
+  "not": 0.98,
+  "after": 0.016,
   "not_p": {
-   "not__T3__only_manhattan_bound": 0.927,
-   "not__T3__opposite_direction_only": 0.97,
-   "not__T3__exclusively_manhattan_bound": 0.59,
-   "not__T3__skipped_only_manhattan": 0.99,
-   "not__T3__problem_only_manhattan": 0.842
+   "not__T3__manhattan_bound_only": 0.931,
+   "not__T3__opposite_direction_skipping": 0.99,
+   "not__T3__only_manhattan_bound_affected": 0.938
   },
-  "latency_s": 0.587
+  "latency_s": 0.536
  },
  "true_alert": {
   "id": "lmm:planned_work:31498",
@@ -71,16 +55,14 @@
   ],
   "header": "In Queens, Flushing-bound [7] skips 52 St and 69 St\nAll trains at Woodside-61 St board from the Manhattan-bound platform",
   "before": 0.983,
-  "not": 0.066,
-  "after": 0.918,
+  "not": 0.0,
+  "after": 0.983,
   "not_p": {
-   "not__T3__only_manhattan_bound": 0.029,
-   "not__T3__opposite_direction_only": 0.066,
-   "not__T3__exclusively_manhattan_bound": 0.021,
-   "not__T3__skipped_only_manhattan": 0.011,
-   "not__T3__problem_only_manhattan": 0.022
+   "not__T3__manhattan_bound_only": 0.024,
+   "not__T3__opposite_direction_skipping": 0.01,
+   "not__T3__only_manhattan_bound_affected": 0.017
   },
-  "latency_s": 0.605
+  "latency_s": 0.508
  },
  "others": [
   {
@@ -90,16 +72,14 @@
    ],
    "header": "[1] runs every 8 minutes",
    "before": 0.655,
-   "not": 0.386,
-   "after": 0.402,
+   "not": 0.0,
+   "after": 0.655,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.356,
-    "not__T3__opposite_direction_only": 0.259,
-    "not__T3__exclusively_manhattan_bound": 0.273,
-    "not__T3__skipped_only_manhattan": 0.386,
-    "not__T3__problem_only_manhattan": 0.174
+    "not__T3__manhattan_bound_only": 0.373,
+    "not__T3__opposite_direction_skipping": 0.386,
+    "not__T3__only_manhattan_bound_affected": 0.106
    },
-   "latency_s": 0.622
+   "latency_s": 0.519
   },
   {
    "id": "lmm:planned_work:35789",
@@ -108,16 +88,14 @@
    ],
    "header": "[5] runs every 20 minutes",
    "before": 0.316,
-   "not": 0.368,
-   "after": 0.2,
+   "not": 0.0,
+   "after": 0.316,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.355,
-    "not__T3__opposite_direction_only": 0.198,
-    "not__T3__exclusively_manhattan_bound": 0.204,
-    "not__T3__skipped_only_manhattan": 0.368,
-    "not__T3__problem_only_manhattan": 0.01
+    "not__T3__manhattan_bound_only": 0.305,
+    "not__T3__opposite_direction_skipping": 0.31,
+    "not__T3__only_manhattan_bound_affected": 0.079
    },
-   "latency_s": 0.507
+   "latency_s": 0.499
   },
   {
    "id": "lmm:planned_work:35011",
@@ -126,16 +104,14 @@
    ],
    "header": "[SIR] New Dorp Station - St George-bound - east end entrance is closed until further notice",
    "before": 0.307,
-   "not": 0.511,
-   "after": 0.15,
+   "not": 0.0,
+   "after": 0.307,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.259,
-    "not__T3__opposite_direction_only": 0.511,
-    "not__T3__exclusively_manhattan_bound": 0.164,
-    "not__T3__skipped_only_manhattan": 0.35,
-    "not__T3__problem_only_manhattan": 0.046
+    "not__T3__manhattan_bound_only": 0.278,
+    "not__T3__opposite_direction_skipping": 0.267,
+    "not__T3__only_manhattan_bound_affected": 0.051
    },
-   "latency_s": 1.201
+   "latency_s": 0.519
   },
   {
    "id": "lmm:planned_work:36690",
@@ -144,16 +120,14 @@
    ],
    "header": "Downtown [1] trains are stopping at 116 St-Columbia University, Cathedral Pkwy-110 St, and 103 St, but real-time arrival information may be unavailable",
    "before": 0.257,
-   "not": 0.465,
-   "after": 0.137,
+   "not": 0.23,
+   "after": 0.198,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.465,
-    "not__T3__opposite_direction_only": 0.336,
-    "not__T3__exclusively_manhattan_bound": 0.294,
-    "not__T3__skipped_only_manhattan": 0.41,
-    "not__T3__problem_only_manhattan": 0.105
+    "not__T3__manhattan_bound_only": 0.615,
+    "not__T3__opposite_direction_skipping": 0.365,
+    "not__T3__only_manhattan_bound_affected": 0.237
    },
-   "latency_s": 0.863
+   "latency_s": 0.568
   },
   {
    "id": "lmm:planned_work:35803",
@@ -162,16 +136,14 @@
    ],
    "header": "In Upper Manhattan, no [C] between 145 St and 168 St",
    "before": 0.253,
-   "not": 0.209,
-   "after": 0.2,
+   "not": 0.0,
+   "after": 0.253,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.041,
-    "not__T3__opposite_direction_only": 0.209,
-    "not__T3__exclusively_manhattan_bound": 0.02,
-    "not__T3__skipped_only_manhattan": 0.086,
-    "not__T3__problem_only_manhattan": 0.016
+    "not__T3__manhattan_bound_only": 0.017,
+    "not__T3__opposite_direction_skipping": 0.052,
+    "not__T3__only_manhattan_bound_affected": 0.021
    },
-   "latency_s": 0.802
+   "latency_s": 0.536
   },
   {
    "id": "lmm:planned_work:35571",
@@ -180,16 +152,14 @@
    ],
    "header": "No [J] between Myrtle Av and Broad St",
    "before": 0.239,
-   "not": 0.187,
-   "after": 0.194,
+   "not": 0.0,
+   "after": 0.239,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.081,
-    "not__T3__opposite_direction_only": 0.187,
-    "not__T3__exclusively_manhattan_bound": 0.015,
-    "not__T3__skipped_only_manhattan": 0.171,
-    "not__T3__problem_only_manhattan": 0.117
+    "not__T3__manhattan_bound_only": 0.019,
+    "not__T3__opposite_direction_skipping": 0.21,
+    "not__T3__only_manhattan_bound_affected": 0.048
    },
-   "latency_s": 0.857
+   "latency_s": 0.581
   },
   {
    "id": "lmm:planned_work:35796",
@@ -198,16 +168,14 @@
    ],
    "header": "In the Bronx, Manhattan-bound [D] skips 182-183 Sts, 174-175 Sts and 170 St",
    "before": 0.231,
-   "not": 0.985,
-   "after": 0.003,
+   "not": 0.98,
+   "after": 0.005,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.878,
-    "not__T3__opposite_direction_only": 0.538,
-    "not__T3__exclusively_manhattan_bound": 0.72,
-    "not__T3__skipped_only_manhattan": 0.985,
-    "not__T3__problem_only_manhattan": 0.166
+    "not__T3__manhattan_bound_only": 0.826,
+    "not__T3__opposite_direction_skipping": 0.99,
+    "not__T3__only_manhattan_bound_affected": 0.955
    },
-   "latency_s": 0.843
+   "latency_s": 0.571
   },
   {
    "id": "lmm:alert:277436:26",
@@ -216,16 +184,14 @@
    ],
    "header": "[G] trains are delayed entering and leaving Court Sq while we address a switch problem at that station.",
    "before": 0.229,
-   "not": 0.193,
-   "after": 0.185,
+   "not": 0.0,
+   "after": 0.229,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.042,
-    "not__T3__opposite_direction_only": 0.177,
-    "not__T3__exclusively_manhattan_bound": 0.014,
-    "not__T3__skipped_only_manhattan": 0.193,
-    "not__T3__problem_only_manhattan": 0.012
+    "not__T3__manhattan_bound_only": 0.033,
+    "not__T3__opposite_direction_skipping": 0.128,
+    "not__T3__only_manhattan_bound_affected": 0.031
    },
-   "latency_s": 0.818
+   "latency_s": 0.63
   },
   {
    "id": "lmm:planned_work:36012",
@@ -236,16 +202,14 @@
    ],
    "header": "In Manhattan, downtown [4][5][6] skip 86 St",
    "before": 0.204,
-   "not": 0.928,
-   "after": 0.015,
+   "not": 0.788,
+   "after": 0.043,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.928,
-    "not__T3__opposite_direction_only": 0.43,
-    "not__T3__exclusively_manhattan_bound": 0.818,
-    "not__T3__skipped_only_manhattan": 0.537,
-    "not__T3__problem_only_manhattan": 0.207
+    "not__T3__manhattan_bound_only": 0.894,
+    "not__T3__opposite_direction_skipping": 0.399,
+    "not__T3__only_manhattan_bound_affected": 0.824
    },
-   "latency_s": 0.734
+   "latency_s": 0.682
   },
   {
    "id": "lmm:planned_work:35790",
@@ -255,16 +219,14 @@
    ],
    "header": "In Manhattan, downtown [1] and [2] local skip 86 St, 79 St, 66 St-Lincoln Center, 59 St-Columbus Circle and 50 St",
    "before": 0.164,
-   "not": 0.945,
-   "after": 0.009,
+   "not": 0.792,
+   "after": 0.034,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.645,
-    "not__T3__opposite_direction_only": 0.434,
-    "not__T3__exclusively_manhattan_bound": 0.945,
-    "not__T3__skipped_only_manhattan": 0.108,
-    "not__T3__problem_only_manhattan": 0.028
+    "not__T3__manhattan_bound_only": 0.896,
+    "not__T3__opposite_direction_skipping": 0.285,
+    "not__T3__only_manhattan_bound_affected": 0.434
    },
-   "latency_s": 0.646
+   "latency_s": 0.613
   },
   {
    "id": "lmm:planned_work:35775",
@@ -273,16 +235,14 @@
    ],
    "header": "In Southeast Queens, [H] Rockaway Park Shuttle is replaced by free shuttle buses",
    "before": 0.162,
-   "not": 0.192,
-   "after": 0.131,
+   "not": 0.0,
+   "after": 0.162,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.055,
-    "not__T3__opposite_direction_only": 0.192,
-    "not__T3__exclusively_manhattan_bound": 0.015,
-    "not__T3__skipped_only_manhattan": 0.176,
-    "not__T3__problem_only_manhattan": 0.014
+    "not__T3__manhattan_bound_only": 0.024,
+    "not__T3__opposite_direction_skipping": 0.116,
+    "not__T3__only_manhattan_bound_affected": 0.016
    },
-   "latency_s": 0.697
+   "latency_s": 0.676
   },
   {
    "id": "lmm:planned_work:35366",
@@ -291,16 +251,14 @@
    ],
    "header": "[6] runs every 8 minutes",
    "before": 0.154,
-   "not": 0.403,
-   "after": 0.092,
+   "not": 0.0,
+   "after": 0.154,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.337,
-    "not__T3__opposite_direction_only": 0.262,
-    "not__T3__exclusively_manhattan_bound": 0.238,
-    "not__T3__skipped_only_manhattan": 0.403,
-    "not__T3__problem_only_manhattan": 0.024
+    "not__T3__manhattan_bound_only": 0.349,
+    "not__T3__opposite_direction_skipping": 0.392,
+    "not__T3__only_manhattan_bound_affected": 0.119
    },
-   "latency_s": 0.575
+   "latency_s": 0.975
   },
   {
    "id": "lmm:planned_work:33366",
@@ -310,16 +268,14 @@
    ],
    "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only - Madison Av side of station is exit only",
    "before": 0.14,
-   "not": 0.294,
-   "after": 0.099,
+   "not": 0.0,
+   "after": 0.14,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.087,
-    "not__T3__opposite_direction_only": 0.172,
-    "not__T3__exclusively_manhattan_bound": 0.091,
-    "not__T3__skipped_only_manhattan": 0.294,
-    "not__T3__problem_only_manhattan": 0.01
+    "not__T3__manhattan_bound_only": 0.083,
+    "not__T3__opposite_direction_skipping": 0.28,
+    "not__T3__only_manhattan_bound_affected": 0.013
    },
-   "latency_s": 0.863
+   "latency_s": 0.486
   },
   {
    "id": "lmm:planned_work:35772",
@@ -328,16 +284,14 @@
    ],
    "header": "In Brooklyn, Coney Island-bound [D] skips Fort Hamilton Pkwy, 50 St and 55 St",
    "before": 0.137,
-   "not": 0.349,
-   "after": 0.089,
+   "not": 0.0,
+   "after": 0.137,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.016,
-    "not__T3__opposite_direction_only": 0.349,
-    "not__T3__exclusively_manhattan_bound": 0.018,
-    "not__T3__skipped_only_manhattan": 0.01,
-    "not__T3__problem_only_manhattan": 0.038
+    "not__T3__manhattan_bound_only": 0.017,
+    "not__T3__opposite_direction_skipping": 0.01,
+    "not__T3__only_manhattan_bound_affected": 0.014
    },
-   "latency_s": 0.598
+   "latency_s": 0.601
   },
   {
    "id": "lmm:planned_work:36460",
@@ -346,16 +300,14 @@
    ],
    "header": "In Brooklyn, transfer across the platform at Myrtle-Wyckoff Avs to continue your [M] trip",
    "before": 0.135,
-   "not": 0.276,
-   "after": 0.098,
+   "not": 0.0,
+   "after": 0.135,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.095,
-    "not__T3__opposite_direction_only": 0.276,
-    "not__T3__exclusively_manhattan_bound": 0.093,
-    "not__T3__skipped_only_manhattan": 0.257,
-    "not__T3__problem_only_manhattan": 0.043
+    "not__T3__manhattan_bound_only": 0.078,
+    "not__T3__opposite_direction_skipping": 0.312,
+    "not__T3__only_manhattan_bound_affected": 0.086
    },
-   "latency_s": 0.623
+   "latency_s": 0.584
   },
   {
    "id": "lmm:planned_work:35539",
@@ -365,16 +317,14 @@
    ],
    "header": "[2][3] runs every 12 minutes",
    "before": 0.132,
-   "not": 0.352,
-   "after": 0.086,
+   "not": 0.0,
+   "after": 0.132,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.352,
-    "not__T3__opposite_direction_only": 0.256,
-    "not__T3__exclusively_manhattan_bound": 0.202,
-    "not__T3__skipped_only_manhattan": 0.308,
-    "not__T3__problem_only_manhattan": 0.036
+    "not__T3__manhattan_bound_only": 0.287,
+    "not__T3__opposite_direction_skipping": 0.355,
+    "not__T3__only_manhattan_bound_affected": 0.071
    },
-   "latency_s": 1.017
+   "latency_s": 0.853
   },
   {
    "id": "lmm:planned_work:35124",
@@ -383,16 +333,14 @@
    ],
    "header": "Downtown [1] skips 125 St",
    "before": 0.132,
-   "not": 0.928,
-   "after": 0.01,
+   "not": 0.912,
+   "after": 0.012,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.928,
-    "not__T3__opposite_direction_only": 0.283,
-    "not__T3__exclusively_manhattan_bound": 0.911,
-    "not__T3__skipped_only_manhattan": 0.796,
-    "not__T3__problem_only_manhattan": 0.142
+    "not__T3__manhattan_bound_only": 0.956,
+    "not__T3__opposite_direction_skipping": 0.751,
+    "not__T3__only_manhattan_bound_affected": 0.78
    },
-   "latency_s": 0.679
+   "latency_s": 0.555
   },
   {
    "id": "lmm:planned_work:36560",
@@ -401,16 +349,14 @@
    ],
    "header": "In Brooklyn, Manhattan-bound [J] trains at Broadway Junction board from the express track",
    "before": 0.128,
-   "not": 0.939,
-   "after": 0.008,
+   "not": 0.906,
+   "after": 0.012,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.931,
-    "not__T3__opposite_direction_only": 0.425,
-    "not__T3__exclusively_manhattan_bound": 0.939,
-    "not__T3__skipped_only_manhattan": 0.484,
-    "not__T3__problem_only_manhattan": 0.071
+    "not__T3__manhattan_bound_only": 0.953,
+    "not__T3__opposite_direction_skipping": 0.564,
+    "not__T3__only_manhattan_bound_affected": 0.102
    },
-   "latency_s": 0.918
+   "latency_s": 0.582
   },
   {
    "id": "lmm:planned_work:35386",
@@ -420,16 +366,14 @@
    ],
    "header": "In Manhattan, downtown [4] local and [6] skip 116 St, 110 St, 103 St, 96 St, 77 St, 68 St and 51 St",
    "before": 0.119,
-   "not": 0.968,
-   "after": 0.004,
+   "not": 0.88,
+   "after": 0.014,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.954,
-    "not__T3__opposite_direction_only": 0.374,
-    "not__T3__exclusively_manhattan_bound": 0.968,
-    "not__T3__skipped_only_manhattan": 0.438,
-    "not__T3__problem_only_manhattan": 0.202
+    "not__T3__manhattan_bound_only": 0.94,
+    "not__T3__opposite_direction_skipping": 0.455,
+    "not__T3__only_manhattan_bound_affected": 0.859
    },
-   "latency_s": 0.685
+   "latency_s": 0.541
   },
   {
    "id": "lmm:planned_work:35572",
@@ -438,16 +382,14 @@
    ],
    "header": "No [M] between Myrtle Av (Broadway) and Delancey St-Essex St\nAll trains at Myrtle Av (Broadway) board from the Manhattan-bound platform",
    "before": 0.115,
-   "not": 0.267,
-   "after": 0.084,
+   "not": 0.0,
+   "after": 0.115,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.163,
-    "not__T3__opposite_direction_only": 0.191,
-    "not__T3__exclusively_manhattan_bound": 0.104,
-    "not__T3__skipped_only_manhattan": 0.267,
-    "not__T3__problem_only_manhattan": 0.088
+    "not__T3__manhattan_bound_only": 0.048,
+    "not__T3__opposite_direction_skipping": 0.305,
+    "not__T3__only_manhattan_bound_affected": 0.133
    },
-   "latency_s": 0.746
+   "latency_s": 0.593
   },
   {
    "id": "lmm:planned_work:35705",
@@ -456,16 +398,14 @@
    ],
    "header": "In Queens, all [M] trains at Fresh Pond Rd, Forest Av and Seneca Av board from the Metropolitan Av-bound platform",
    "before": 0.1,
-   "not": 0.319,
-   "after": 0.068,
+   "not": 0.0,
+   "after": 0.1,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.211,
-    "not__T3__opposite_direction_only": 0.319,
-    "not__T3__exclusively_manhattan_bound": 0.061,
-    "not__T3__skipped_only_manhattan": 0.225,
-    "not__T3__problem_only_manhattan": 0.016
+    "not__T3__manhattan_bound_only": 0.099,
+    "not__T3__opposite_direction_skipping": 0.122,
+    "not__T3__only_manhattan_bound_affected": 0.05
    },
-   "latency_s": 0.651
+   "latency_s": 0.522
   },
   {
    "id": "lmm:planned_work:35704",
@@ -474,16 +414,14 @@
    ],
    "header": "In Brooklyn, all [M] trains at Central Av and Knickerbocker Av board from the Manhattan-bound platform",
    "before": 0.096,
-   "not": 0.249,
-   "after": 0.072,
+   "not": 0.0,
+   "after": 0.096,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.249,
-    "not__T3__opposite_direction_only": 0.213,
-    "not__T3__exclusively_manhattan_bound": 0.137,
-    "not__T3__skipped_only_manhattan": 0.176,
-    "not__T3__problem_only_manhattan": 0.046
+    "not__T3__manhattan_bound_only": 0.069,
+    "not__T3__opposite_direction_skipping": 0.313,
+    "not__T3__only_manhattan_bound_affected": 0.091
    },
-   "latency_s": 0.537
+   "latency_s": 0.606
   },
   {
    "id": "lmm:planned_work:35560",
@@ -492,16 +430,14 @@
    ],
    "header": "In Brooklyn and Manhattan, [C] service is rerouted via [D] and [F] in both directions between Jay St-MetroTech and 59 St-Columbus Circle",
    "before": 0.085,
-   "not": 0.126,
-   "after": 0.074,
+   "not": 0.0,
+   "after": 0.085,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.01,
-    "not__T3__opposite_direction_only": 0.123,
-    "not__T3__exclusively_manhattan_bound": 0.031,
-    "not__T3__skipped_only_manhattan": 0.126,
-    "not__T3__problem_only_manhattan": 0.053
+    "not__T3__manhattan_bound_only": 0.01,
+    "not__T3__opposite_direction_skipping": 0.111,
+    "not__T3__only_manhattan_bound_affected": 0.018
    },
-   "latency_s": 0.523
+   "latency_s": 0.532
   },
   {
    "id": "lmm:planned_work:35562",
@@ -510,16 +446,14 @@
    ],
    "header": "In Manhattan, uptown [A] stops at 23 St and 50 St",
    "before": 0.083,
-   "not": 0.813,
-   "after": 0.016,
+   "not": 0.766,
+   "after": 0.019,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.813,
-    "not__T3__opposite_direction_only": 0.326,
-    "not__T3__exclusively_manhattan_bound": 0.721,
-    "not__T3__skipped_only_manhattan": 0.22,
-    "not__T3__problem_only_manhattan": 0.03
+    "not__T3__manhattan_bound_only": 0.883,
+    "not__T3__opposite_direction_skipping": 0.18,
+    "not__T3__only_manhattan_bound_affected": 0.385
    },
-   "latency_s": 0.718
+   "latency_s": 0.637
   },
   {
    "id": "lmm:planned_work:35770",
@@ -528,16 +462,14 @@
    ],
    "header": "In Brooklyn, Manhattan-bound [R] skips 25 St, Prospect Av, 4 Av-9 St and Union St",
    "before": 0.08,
-   "not": 0.99,
-   "after": 0.001,
+   "not": 0.98,
+   "after": 0.002,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.99,
-    "not__T3__opposite_direction_only": 0.49,
-    "not__T3__exclusively_manhattan_bound": 0.979,
-    "not__T3__skipped_only_manhattan": 0.983,
-    "not__T3__problem_only_manhattan": 0.287
+    "not__T3__manhattan_bound_only": 0.976,
+    "not__T3__opposite_direction_skipping": 0.99,
+    "not__T3__only_manhattan_bound_affected": 0.917
    },
-   "latency_s": 0.547
+   "latency_s": 0.538
   },
   {
    "id": "lmm:planned_work:36427",
@@ -546,16 +478,14 @@
    ],
    "header": "In Manhattan, downtown [A] stops at 50 St, 23 St and Spring St",
    "before": 0.076,
-   "not": 0.913,
-   "after": 0.007,
+   "not": 0.73,
+   "after": 0.021,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.913,
-    "not__T3__opposite_direction_only": 0.369,
-    "not__T3__exclusively_manhattan_bound": 0.486,
-    "not__T3__skipped_only_manhattan": 0.174,
-    "not__T3__problem_only_manhattan": 0.018
+    "not__T3__manhattan_bound_only": 0.865,
+    "not__T3__opposite_direction_skipping": 0.122,
+    "not__T3__only_manhattan_bound_affected": 0.403
    },
-   "latency_s": 0.572
+   "latency_s": 0.524
   },
   {
    "id": "lmm:planned_work:35806",
@@ -564,16 +494,14 @@
    ],
    "header": "In Upper Manhattan, [A] stops in both directions at 155 St and 163 St-Amsterdam Av",
    "before": 0.076,
-   "not": 0.128,
-   "after": 0.066,
+   "not": 0.0,
+   "after": 0.076,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.03,
-    "not__T3__opposite_direction_only": 0.128,
-    "not__T3__exclusively_manhattan_bound": 0.015,
-    "not__T3__skipped_only_manhattan": 0.107,
-    "not__T3__problem_only_manhattan": 0.019
+    "not__T3__manhattan_bound_only": 0.01,
+    "not__T3__opposite_direction_skipping": 0.051,
+    "not__T3__only_manhattan_bound_affected": 0.027
    },
-   "latency_s": 0.603
+   "latency_s": 0.495
   },
   {
    "id": "lmm:alert:277431:26",
@@ -584,16 +512,14 @@
    ],
    "header": "Uptown [A][C][F] trains are running with delays while we conduct planned work in Manhattan.",
    "before": 0.067,
-   "not": 0.144,
-   "after": 0.057,
+   "not": 0.0,
+   "after": 0.067,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.01,
-    "not__T3__opposite_direction_only": 0.144,
-    "not__T3__exclusively_manhattan_bound": 0.01,
-    "not__T3__skipped_only_manhattan": 0.023,
-    "not__T3__problem_only_manhattan": 0.071
+    "not__T3__manhattan_bound_only": 0.01,
+    "not__T3__opposite_direction_skipping": 0.019,
+    "not__T3__only_manhattan_bound_affected": 0.047
    },
-   "latency_s": 0.782
+   "latency_s": 0.718
   },
   {
    "id": "lmm:planned_work:35802",
@@ -602,16 +528,14 @@
    ],
    "header": "In Upper Manhattan, no [A] between 168 St and 207 St",
    "before": 0.065,
-   "not": 0.236,
-   "after": 0.05,
+   "not": 0.0,
+   "after": 0.065,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.083,
-    "not__T3__opposite_direction_only": 0.236,
-    "not__T3__exclusively_manhattan_bound": 0.064,
-    "not__T3__skipped_only_manhattan": 0.1,
-    "not__T3__problem_only_manhattan": 0.024
+    "not__T3__manhattan_bound_only": 0.055,
+    "not__T3__opposite_direction_skipping": 0.103,
+    "not__T3__only_manhattan_bound_affected": 0.038
    },
-   "latency_s": 0.524
+   "latency_s": 0.521
   },
   {
    "id": "lmm:planned_work:35561",
@@ -620,16 +544,14 @@
    ],
    "header": "In Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St",
    "before": 0.062,
-   "not": 0.955,
-   "after": 0.003,
+   "not": 0.888,
+   "after": 0.007,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.955,
-    "not__T3__opposite_direction_only": 0.36,
-    "not__T3__exclusively_manhattan_bound": 0.926,
-    "not__T3__skipped_only_manhattan": 0.845,
-    "not__T3__problem_only_manhattan": 0.133
+    "not__T3__manhattan_bound_only": 0.944,
+    "not__T3__opposite_direction_skipping": 0.869,
+    "not__T3__only_manhattan_bound_affected": 0.677
    },
-   "latency_s": 0.646
+   "latency_s": 0.549
   },
   {
    "id": "lmm:planned_work:29949",
@@ -638,16 +560,14 @@
    ],
    "header": "In the Bronx, Woodlawn-bound [4] skips Burnside Av",
    "before": 0.061,
-   "not": 0.321,
-   "after": 0.041,
+   "not": 0.0,
+   "after": 0.061,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.01,
-    "not__T3__opposite_direction_only": 0.321,
-    "not__T3__exclusively_manhattan_bound": 0.01,
-    "not__T3__skipped_only_manhattan": 0.013,
-    "not__T3__problem_only_manhattan": 0.014
+    "not__T3__manhattan_bound_only": 0.01,
+    "not__T3__opposite_direction_skipping": 0.021,
+    "not__T3__only_manhattan_bound_affected": 0.016
    },
-   "latency_s": 0.661
+   "latency_s": 0.554
   }
  ],
  "held_out": [
@@ -658,16 +578,14 @@
    ],
    "header": "anhattan-bound [7] trains are running with delays near Queensboro Plaza while we address a signal problem. Flushing-bound [7] trains are running on schedule.",
    "before": 0.702,
-   "not": 0.99,
-   "after": 0.007,
+   "not": 0.956,
+   "after": 0.031,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.985,
-    "not__T3__opposite_direction_only": 0.961,
-    "not__T3__exclusively_manhattan_bound": 0.99,
-    "not__T3__skipped_only_manhattan": 0.339,
-    "not__T3__problem_only_manhattan": 0.99
+    "not__T3__manhattan_bound_only": 0.978,
+    "not__T3__opposite_direction_skipping": 0.274,
+    "not__T3__only_manhattan_bound_affected": 0.975
    },
-   "latency_s": 0.71,
+   "latency_s": 0.613,
    "truth": false
   },
   {
@@ -677,16 +595,14 @@
    ],
    "header": "o Manhattan-bound [7] between 74 St-Broadway and Queensboro Plaza. Take the Flushing-bound [7] to 74 St-Broadway and transfer.",
    "before": 0.733,
-   "not": 0.99,
-   "after": 0.007,
+   "not": 0.966,
+   "after": 0.025,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.99,
-    "not__T3__opposite_direction_only": 0.974,
-    "not__T3__exclusively_manhattan_bound": 0.979,
-    "not__T3__skipped_only_manhattan": 0.988,
-    "not__T3__problem_only_manhattan": 0.99
+    "not__T3__manhattan_bound_only": 0.983,
+    "not__T3__opposite_direction_skipping": 0.971,
+    "not__T3__only_manhattan_bound_affected": 0.979
    },
-   "latency_s": 0.647,
+   "latency_s": 0.758,
    "truth": false
   },
   {
@@ -696,16 +612,14 @@
    ],
    "header": "lushing-bound [7] trains are running with delays near Queensboro Plaza while we address a signal problem. Manhattan-bound [7] trains are running on schedule.",
    "before": 0.982,
-   "not": 0.052,
-   "after": 0.931,
+   "not": 0.0,
+   "after": 0.982,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.01,
-    "not__T3__opposite_direction_only": 0.013,
-    "not__T3__exclusively_manhattan_bound": 0.01,
-    "not__T3__skipped_only_manhattan": 0.052,
-    "not__T3__problem_only_manhattan": 0.013
+    "not__T3__manhattan_bound_only": 0.013,
+    "not__T3__opposite_direction_skipping": 0.029,
+    "not__T3__only_manhattan_bound_affected": 0.01
    },
-   "latency_s": 0.768,
+   "latency_s": 0.638,
    "truth": true
   },
   {
@@ -715,16 +629,14 @@
    ],
    "header": "7] trains are running with delays in both directions between Court Sq and 61 St-Woodside while we remove a disabled train.",
    "before": 0.983,
-   "not": 0.018,
-   "after": 0.965,
+   "not": 0.0,
+   "after": 0.983,
    "not_p": {
-    "not__T3__only_manhattan_bound": 0.01,
-    "not__T3__opposite_direction_only": 0.01,
-    "not__T3__exclusively_manhattan_bound": 0.01,
-    "not__T3__skipped_only_manhattan": 0.018,
-    "not__T3__problem_only_manhattan": 0.01
+    "not__T3__manhattan_bound_only": 0.01,
+    "not__T3__opposite_direction_skipping": 0.02,
+    "not__T3__only_manhattan_bound_affected": 0.01
    },
-   "latency_s": 0.723,
+   "latency_s": 0.689,
    "truth": true
   }
  ],
@@ -734,5 +646,5 @@
   "no_other_alert_in_alert_band": true
  },
  "passed": true,
- "wall_s": 18.6
+ "wall_s": 15.3
 }

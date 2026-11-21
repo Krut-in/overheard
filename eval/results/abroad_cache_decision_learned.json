@@ -1,14 +1,14 @@
 {
  "flight_home_5": {
-  "relevance": 0.3604,
+  "relevance": 0.7196,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.2152,
-   "hotel_paris": 0.2193,
-   "museum_louvre": 0.095,
-   "train_ams": 0.3604,
-   "hotel_ams": 0.2295,
-   "flight_home": 0.1647
+   "flight_out": 0.3342,
+   "hotel_paris": 0.3993,
+   "museum_louvre": 0.1906,
+   "train_ams": 0.7196,
+   "hotel_ams": 0.3911,
+   "flight_home": 0.4555
   },
   "change_type": "delay",
   "top_hits": [
@@ -38,19 +38,19 @@
     "booking_id": "train_ams"
    }
   ],
-  "route": "silence",
-  "latency_s": 1.121
+  "route": "carbon",
+  "latency_s": 0.832
  },
  "flight_out_4": {
-  "relevance": 0.3264,
+  "relevance": 0.6851,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.3264,
-   "hotel_paris": 0.3033,
-   "museum_louvre": 0.1044,
-   "train_ams": 0.2725,
-   "hotel_ams": 0.1302,
-   "flight_home": 0.0382
+   "flight_out": 0.6851,
+   "hotel_paris": 0.3573,
+   "museum_louvre": 0.1246,
+   "train_ams": 0.3931,
+   "hotel_ams": 0.3139,
+   "flight_home": 0.1063
   },
   "change_type": "delay",
   "top_hits": [
@@ -80,19 +80,19 @@
     "booking_id": "flight_out"
    }
   ],
-  "route": "silence",
-  "latency_s": 1.218
+  "route": "carbon",
+  "latency_s": 0.923
  },
  "flight_out_6": {
-  "relevance": 0.0742,
-  "booking_id": "hotel_paris",
+  "relevance": 0.2236,
+  "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.0347,
-   "hotel_paris": 0.0742,
-   "museum_louvre": 0.0117,
-   "train_ams": 0.0606,
-   "hotel_ams": 0.0486,
-   "flight_home": 0.0143
+   "flight_out": 0.2236,
+   "hotel_paris": 0.0917,
+   "museum_louvre": 0.0508,
+   "train_ams": 0.0821,
+   "hotel_ams": 0.0683,
+   "flight_home": 0.0182
   },
   "change_type": "other",
   "top_hits": [
@@ -123,18 +123,18 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.62
+  "latency_s": 0.504
  },
  "hotel_ams_5": {
-  "relevance": 0.3161,
+  "relevance": 0.6567,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.1493,
-   "hotel_paris": 0.1711,
-   "museum_louvre": 0.196,
-   "train_ams": 0.3161,
-   "hotel_ams": 0.0791,
-   "flight_home": 0.1571
+   "flight_out": 0.2288,
+   "hotel_paris": 0.3852,
+   "museum_louvre": 0.5282,
+   "train_ams": 0.6567,
+   "hotel_ams": 0.4682,
+   "flight_home": 0.3188
   },
   "change_type": "gate",
   "top_hits": [
@@ -164,19 +164,19 @@
     "booking_id": "hotel_ams"
    }
   ],
-  "route": "silence",
-  "latency_s": 0.974
+  "route": "carbon",
+  "latency_s": 0.839
  },
  "hotel_paris_4": {
-  "relevance": 0.5121,
-  "booking_id": "hotel_paris",
+  "relevance": 0.721,
+  "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.2155,
-   "hotel_paris": 0.5121,
-   "museum_louvre": 0.3256,
-   "train_ams": 0.2031,
-   "hotel_ams": 0.1619,
-   "flight_home": 0.1755
+   "flight_out": 0.3635,
+   "hotel_paris": 0.6907,
+   "museum_louvre": 0.721,
+   "train_ams": 0.3764,
+   "hotel_ams": 0.3783,
+   "flight_home": 0.3718
   },
   "change_type": "closure",
   "top_hits": [
@@ -207,18 +207,18 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 1.084
+  "latency_s": 0.887
  },
  "hotel_paris_6": {
-  "relevance": 0.2112,
+  "relevance": 0.6769,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.13,
-   "hotel_paris": 0.0373,
-   "museum_louvre": 0.2112,
-   "train_ams": 0.1054,
-   "hotel_ams": 0.0108,
-   "flight_home": 0.0231
+   "flight_out": 0.2184,
+   "hotel_paris": 0.0841,
+   "museum_louvre": 0.6769,
+   "train_ams": 0.234,
+   "hotel_ams": 0.0467,
+   "flight_home": 0.0253
   },
   "change_type": "closure",
   "top_hits": [
@@ -248,19 +248,19 @@
     "booking_id": "flight_home"
    }
   ],
-  "route": "silence",
-  "latency_s": 0.855
+  "route": "carbon",
+  "latency_s": 0.496
  },
  "museum_louvre_5": {
-  "relevance": 0.2297,
+  "relevance": 0.3387,
   "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.1563,
-   "hotel_paris": 0.2297,
-   "museum_louvre": 0.1038,
-   "train_ams": 0.2013,
-   "hotel_ams": 0.1063,
-   "flight_home": 0.1377
+   "flight_out": 0.2287,
+   "hotel_paris": 0.3387,
+   "museum_louvre": 0.0532,
+   "train_ams": 0.2901,
+   "hotel_ams": 0.2123,
+   "flight_home": 0.2503
   },
   "change_type": "closure",
   "top_hits": [
@@ -291,18 +291,18 @@
    }
   ],
   "route": "silence",
-  "latency_s": 0.923
+  "latency_s": 0.732
  },
  "train_ams_4": {
-  "relevance": 0.2694,
-  "booking_id": "hotel_paris",
+  "relevance": 0.5065,
+  "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.1508,
-   "hotel_paris": 0.2694,
-   "museum_louvre": 0.0339,
-   "train_ams": 0.2069,
-   "hotel_ams": 0.2038,
-   "flight_home": 0.0885
+   "flight_out": 0.2313,
+   "hotel_paris": 0.3553,
+   "museum_louvre": 0.0801,
+   "train_ams": 0.5065,
+   "hotel_ams": 0.351,
+   "flight_home": 0.2433
   },
   "change_type": "cancelled",
   "top_hits": [
@@ -332,34 +332,39 @@
     "booking_id": "train_ams"
    }
   ],
-  "route": "silence",
-  "latency_s": 1.241
+  "route": "carbon",
+  "latency_s": 0.796
  },
  "train_ams_6": {
-  "relevance": 0.1283,
-  "booking_id": "hotel_paris",
+  "relevance": 0.2572,
+  "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.0375,
-   "hotel_paris": 0.1283,
-   "museum_louvre": 0.0434,
-   "train_ams": 0.0624,
-   "hotel_ams": 0.0675,
-   "flight_home": 0.0321
+   "flight_out": 0.0486,
+   "hotel_paris": 0.1981,
+   "museum_louvre": 0.126,
+   "train_ams": 0.1351,
+   "hotel_ams": 0.2572,
+   "flight_home": 0.0647
   },
   "change_type": "cancelled",
   "top_hits": [
    {
-    "p": 0.958,
+    "p": 0.963,
     "q": "Does the input mention Paris Gare du Nord or Gare du Nord?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.954,
-    "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+    "p": 0.947,
+    "q": "Does the input show a route from Paris to Amsterdam?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.953,
+    "p": 0.947,
+    "q": "Does the input mention train number 9315?",
+    "booking_id": "train_ams"
+   },
+   {
+    "p": 0.946,
     "q": "Does the input mention Eurostar?",
     "booking_id": "train_ams"
    },
@@ -367,26 +372,21 @@
     "p": 0.944,
     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
     "booking_id": "hotel_paris"
-   },
-   {
-    "p": 0.941,
-    "q": "Does the input show a route from Paris to Amsterdam?",
-    "booking_id": "train_ams"
    }
   ],
   "route": "silence",
-  "latency_s": 1.486
+  "latency_s": 0.531
  },
  "flight_home_1": {
-  "relevance": 0.7651,
+  "relevance": 0.9232,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.1556,
-   "hotel_paris": 0.2711,
-   "museum_louvre": 0.0471,
-   "train_ams": 0.1914,
-   "hotel_ams": 0.1803,
-   "flight_home": 0.7651
+   "flight_out": 0.2979,
+   "hotel_paris": 0.3365,
+   "museum_louvre": 0.148,
+   "train_ams": 0.4073,
+   "hotel_ams": 0.3758,
+   "flight_home": 0.9232
   },
   "change_type": "gate",
   "top_hits": [
@@ -416,19 +416,19 @@
     "booking_id": "flight_home"
    }
   ],
-  "route": "carbon",
-  "latency_s": 2.108
+  "route": "alert",
+  "latency_s": 0.78
  },
  "flight_home_2": {
-  "relevance": 0.4524,
+  "relevance": 0.8383,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.0845,
-   "hotel_paris": 0.2225,
-   "museum_louvre": 0.0856,
-   "train_ams": 0.4267,
-   "hotel_ams": 0.1364,
-   "flight_home": 0.4524
+   "flight_out": 0.3148,
+   "hotel_paris": 0.3991,
+   "museum_louvre": 0.1917,
+   "train_ams": 0.7343,
+   "hotel_ams": 0.2516,
+   "flight_home": 0.8383
   },
   "change_type": "schedule",
   "top_hits": [
@@ -458,19 +458,19 @@
     "booking_id": "hotel_paris"
    }
   ],
-  "route": "carbon",
-  "latency_s": 3.413
+  "route": "alert",
+  "latency_s": 0.845
  },
  "flight_home_3": {
-  "relevance": 0.5374,
+  "relevance": 0.9181,
   "booking_id": "flight_home",
   "per_booking": {
-   "flight_out": 0.0259,
-   "hotel_paris": 0.1277,
-   "museum_louvre": 0.0321,
-   "train_ams": 0.1671,
-   "hotel_ams": 0.0992,
-   "flight_home": 0.5374
+   "flight_out": 0.062,
+   "hotel_paris": 0.1469,
+   "museum_louvre": 0.1194,
+   "train_ams": 0.226,
+   "hotel_ams": 0.2412,
+   "flight_home": 0.9181
   },
   "change_type": "gate",
   "top_hits": [
@@ -500,19 +500,19 @@
     "booking_id": "flight_home"
    }
   ],
-  "route": "carbon",
-  "latency_s": 3.203
+  "route": "alert",
+  "latency_s": 0.552
  },
  "flight_out_1": {
-  "relevance": 0.7509,
+  "relevance": 0.9118,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.7509,
-   "hotel_paris": 0.266,
-   "museum_louvre": 0.1038,
-   "train_ams": 0.2244,
-   "hotel_ams": 0.0696,
-   "flight_home": 0.0183
+   "flight_out": 0.9118,
+   "hotel_paris": 0.3573,
+   "museum_louvre": 0.1188,
+   "train_ams": 0.293,
+   "hotel_ams": 0.1872,
+   "flight_home": 0.0456
   },
   "change_type": "gate",
   "top_hits": [
@@ -542,19 +542,19 @@
     "booking_id": "flight_out"
    }
   ],
-  "route": "carbon",
-  "latency_s": 2.894
+  "route": "alert",
+  "latency_s": 0.845
  },
  "flight_out_2": {
-  "relevance": 0.8487,
+  "relevance": 0.9479,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.8487,
-   "hotel_paris": 0.3143,
-   "museum_louvre": 0.0741,
-   "train_ams": 0.2066,
-   "hotel_ams": 0.0751,
-   "flight_home": 0.0186
+   "flight_out": 0.9479,
+   "hotel_paris": 0.3747,
+   "museum_louvre": 0.0898,
+   "train_ams": 0.3432,
+   "hotel_ams": 0.2216,
+   "flight_home": 0.0222
   },
   "change_type": "delay",
   "top_hits": [
@@ -585,18 +585,18 @@
    }
   ],
   "route": "alert",
-  "latency_s": 1.793
+  "latency_s": 0.807
  },
  "flight_out_3": {
-  "relevance": 0.6498,
+  "relevance": 0.7034,
   "booking_id": "flight_out",
   "per_booking": {
-   "flight_out": 0.6498,
-   "hotel_paris": 0.157,
-   "museum_louvre": 0.0272,
-   "train_ams": 0.1475,
-   "hotel_ams": 0.0924,
-   "flight_home": 0.0054
+   "flight_out": 0.7034,
+   "hotel_paris": 0.1909,
+   "museum_louvre": 0.0798,
+   "train_ams": 0.1934,
+   "hotel_ams": 0.2584,
+   "flight_home": 0.0151
   },
   "change_type": "delay",
   "top_hits": [
@@ -627,18 +627,18 @@
    }
   ],
   "route": "carbon",
-  "latency_s": 2.506
+  "latency_s": 0.681
  },
  "hotel_ams_1": {
-  "relevance": 0.6848,
+  "relevance": 0.8788,
   "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.1955,
-   "hotel_paris": 0.4101,
-   "museum_louvre": 0.2834,
-   "train_ams": 0.3838,
-   "hotel_ams": 0.6848,
-   "flight_home": 0.1239
+   "flight_out": 0.3295,
+   "hotel_paris": 0.7023,
+   "museum_louvre": 0.7142,
+   "train_ams": 0.7688,
+   "hotel_ams": 0.8788,
+   "flight_home": 0.3522
   },
   "change_type": "closure",
   "top_hits": [
@@ -668,19 +668,19 @@
     "booking_id": "hotel_ams"
    }
   ],
-  "route": "carbon",
-  "latency_s": 1.188
+  "route": "alert",
+  "latency_s": 0.87
  },
  "hotel_ams_2": {
-  "relevance": 0.3813,
-  "booking_id": "train_ams",
+  "relevance": 0.9218,
+  "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.1028,
-   "hotel_paris": 0.2113,
-   "museum_louvre": 0.1088,
-   "train_ams": 0.3813,
-   "hotel_ams": 0.2834,
-   "flight_home": 0.1752
+   "flight_out": 0.1875,
+   "hotel_paris": 0.4242,
+   "museum_louvre": 0.2554,
+   "train_ams": 0.7755,
+   "hotel_ams": 0.9218,
+   "flight_home": 0.2556
   },
   "change_type": "gate",
   "top_hits": [
@@ -710,19 +710,19 @@
     "booking_id": "flight_home"
    }
   ],
-  "route": "silence",
-  "latency_s": 8.496
+  "route": "alert",
+  "latency_s": 0.873
  },
  "hotel_ams_3": {
-  "relevance": 0.8192,
+  "relevance": 0.928,
   "booking_id": "hotel_ams",
   "per_booking": {
-   "flight_out": 0.0647,
-   "hotel_paris": 0.0544,
-   "museum_louvre": 0.0259,
-   "train_ams": 0.1283,
-   "hotel_ams": 0.8192,
-   "flight_home": 0.1039
+   "flight_out": 0.2012,
+   "hotel_paris": 0.2577,
+   "museum_louvre": 0.1141,
+   "train_ams": 0.2464,
+   "hotel_ams": 0.928,
+   "flight_home": 0.1389
   },
   "change_type": "schedule",
   "top_hits": [
@@ -753,18 +753,18 @@
    }
   ],
   "route": "alert",
-  "latency_s": 3.047
+  "latency_s": 0.462
  },
  "hotel_paris_1": {
-  "relevance": 0.7544,
+  "relevance": 0.9393,
   "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.1964,
-   "hotel_paris": 0.7544,
-   "museum_louvre": 0.4654,
-   "train_ams": 0.1701,
-   "hotel_ams": 0.1432,
-   "flight_home": 0.1315
+   "flight_out": 0.3126,
+   "hotel_paris": 0.9393,
+   "museum_louvre": 0.807,
+   "train_ams": 0.348,
+   "hotel_ams": 0.2375,
+   "flight_home": 0.4646
   },
   "change_type": "closure",
   "top_hits": [
@@ -794,19 +794,19 @@
     "booking_id": "flight_home"
    }
   ],
-  "route": "carbon",
-  "latency_s": 5.108
+  "route": "alert",
+  "latency_s": 0.859
  },
  "hotel_paris_2": {
-  "relevance": 0.7589,
-  "booking_id": "hotel_paris",
+  "relevance": 0.8451,
+  "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.2851,
-   "hotel_paris": 0.7589,
-   "museum_louvre": 0.2739,
-   "train_ams": 0.3442,
-   "hotel_ams": 0.1592,
-   "flight_home": 0.0963
+   "flight_out": 0.4351,
+   "hotel_paris": 0.8431,
+   "museum_louvre": 0.7661,
+   "train_ams": 0.8451,
+   "hotel_ams": 0.3486,
+   "flight_home": 0.1721
   },
   "change_type": "closure",
   "top_hits": [
@@ -836,19 +836,19 @@
     "booking_id": "hotel_paris"
    }
   ],
-  "route": "carbon",
-  "latency_s": 2.341
+  "route": "alert",
+  "latency_s": 0.984
  },
  "hotel_paris_3": {
-  "relevance": 0.8184,
+  "relevance": 0.9039,
   "booking_id": "hotel_paris",
   "per_booking": {
-   "flight_out": 0.1181,
-   "hotel_paris": 0.8184,
-   "museum_louvre": 0.2472,
-   "train_ams": 0.1264,
-   "hotel_ams": 0.0231,
-   "flight_home": 0.0389
+   "flight_out": 0.2348,
+   "hotel_paris": 0.9039,
+   "museum_louvre": 0.685,
+   "train_ams": 0.2649,
+   "hotel_ams": 0.1311,
+   "flight_home": 0.0463
   },
   "change_type": "closure",
   "top_hits": [
@@ -879,18 +879,18 @@
    }
   ],
   "route": "alert",
-  "latency_s": 2.249
+  "latency_s": 0.417
  },
  "museum_louvre_1": {
-  "relevance": 0.837,
+  "relevance": 0.9579,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.159,
-   "hotel_paris": 0.2908,
-   "museum_louvre": 0.837,
-   "train_ams": 0.2078,
-   "hotel_ams": 0.132,
-   "flight_home": 0.15
+   "flight_out": 0.2373,
+   "hotel_paris": 0.3671,
+   "museum_louvre": 0.9579,
+   "train_ams": 0.289,
+   "hotel_ams": 0.2283,
+   "flight_home": 0.3573
   },
   "change_type": "closure",
   "top_hits": [
@@ -921,18 +921,18 @@
    }
   ],
   "route": "alert",
-  "latency_s": 3.173
+  "latency_s": 0.747
  },
  "museum_louvre_2": {
-  "relevance": 0.72,
+  "relevance": 0.861,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.2207,
-   "hotel_paris": 0.2904,
-   "museum_louvre": 0.72,
-   "train_ams": 0.273,
-   "hotel_ams": 0.1342,
-   "flight_home": 0.178
+   "flight_out": 0.2881,
+   "hotel_paris": 0.4027,
+   "museum_louvre": 0.861,
+   "train_ams": 0.3455,
+   "hotel_ams": 0.2277,
+   "flight_home": 0.3089
   },
   "change_type": "closure",
   "top_hits": [
@@ -962,19 +962,19 @@
     "booking_id": "museum_louvre"
    }
   ],
-  "route": "carbon",
-  "latency_s": 1.431
+  "route": "alert",
+  "latency_s": 0.831
  },
  "museum_louvre_3": {
-  "relevance": 0.6952,
+  "relevance": 0.9308,
   "booking_id": "museum_louvre",
   "per_booking": {
-   "flight_out": 0.1371,
-   "hotel_paris": 0.2879,
-   "museum_louvre": 0.6952,
-   "train_ams": 0.1881,
-   "hotel_ams": 0.0539,
-   "flight_home": 0.0849
+   "flight_out": 0.2244,
+   "hotel_paris": 0.3797,
+   "museum_louvre": 0.9308,
+   "train_ams": 0.2841,
+   "hotel_ams": 0.195,
+   "flight_home": 0.1394
   },
   "change_type": "closure",
   "top_hits": [
@@ -1004,19 +1004,19 @@
     "booking_id": "museum_louvre"
    }
   ],
-  "route": "carbon",
-  "latency_s": 0.998
+  "route": "alert",
+  "latency_s": 0.487
  },
  "train_ams_1": {
-  "relevance": 0.8501,
+  "relevance": 0.9669,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.1493,
-   "hotel_paris": 0.2233,
-   "museum_louvre": 0.0538,
-   "train_ams": 0.8501,
-   "hotel_ams": 0.1483,
-   "flight_home": 0.08
+   "flight_out": 0.369,
+   "hotel_paris": 0.3102,
+   "museum_louvre": 0.2219,
+   "train_ams": 0.9669,
+   "hotel_ams": 0.2814,
+   "flight_home": 0.1641
   },
   "change_type": "cancelled",
   "top_hits": [
@@ -1047,18 +1047,18 @@
    }
   ],
   "route": "alert",
-  "latency_s": 7.747
+  "latency_s": 0.829
  },
  "train_ams_2": {
-  "relevance": 0.8563,
+  "relevance": 0.9628,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.3214,
-   "hotel_paris": 0.2937,
-   "museum_louvre": 0.0178,
-   "train_ams": 0.8563,
-   "hotel_ams": 0.2379,
-   "flight_home": 0.1155
+   "flight_out": 0.641,
+   "hotel_paris": 0.3776,
+   "museum_louvre": 0.0949,
+   "train_ams": 0.9628,
+   "hotel_ams": 0.4451,
+   "flight_home": 0.2131
   },
   "change_type": "cancelled",
   "top_hits": [
@@ -1089,48 +1089,48 @@
    }
   ],
   "route": "alert",
-  "latency_s": 3.916
+  "latency_s": 0.781
  },
  "train_ams_3": {
-  "relevance": 0.7228,
+  "relevance": 0.9398,
   "booking_id": "train_ams",
   "per_booking": {
-   "flight_out": 0.0318,
-   "hotel_paris": 0.1042,
-   "museum_louvre": 0.0245,
-   "train_ams": 0.7228,
-   "hotel_ams": 0.0488,
-   "flight_home": 0.0122
+   "flight_out": 0.0347,
+   "hotel_paris": 0.1877,
+   "museum_louvre": 0.09,
+   "train_ams": 0.9398,
+   "hotel_ams": 0.2783,
+   "flight_home": 0.0402
   },
   "change_type": "cancelled",
   "top_hits": [
-   {
-    "p": 0.967,
-    "q": "Does the input say Eurostar 9315 is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
-    "booking_id": "train_ams"
-   },
    {
     "p": 0.962,
     "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?",
     "booking_id": "hotel_paris"
    },
    {
-    "p": 0.961,
-    "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+    "p": 0.959,
+    "q": "Does the input mention Eurostar?",
     "booking_id": "train_ams"
    },
    {
     "p": 0.959,
+    "q": "Does the input say Eurostar 9315 is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?",
+    "booking_id": "train_ams"
+   },
+   {
+    "p": 0.953,
     "q": "Does the input mention train number 9315?",
     "booking_id": "train_ams"
    },
    {
-    "p": 0.954,
+    "p": 0.95,
     "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?",
     "booking_id": "train_ams"
    }
   ],
-  "route": "carbon",
-  "latency_s": 4.745
+  "route": "alert",
+  "latency_s": 0.625
  }
 }

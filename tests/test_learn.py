@@ -44,10 +44,18 @@ def test_not_score_is_zero_without_learned_questions():
     assert learn.not_score({"x": 0.9}, [], "t3") == 0
 
 
-def test_not_score_is_max_over_that_bookings_questions_only():
+def test_not_score_is_gated_max_over_that_bookings_questions_only():
     p = {q(1)["id"]: 0.2, q(2)["id"]: 0.7, q(3, "hotel")["id"]: 0.99}
-    assert learn.not_score(p, [q(1), q(2), q(3, "hotel")], "t3") == 0.7
-    assert learn.not_score(p, [q(1), q(2), q(3, "hotel")], "hotel") == 0.99
+    assert learn.not_score(p, [q(1), q(2), q(3, "hotel")], "t3") == pytest.approx(0.4)
+    assert learn.not_score(p, [q(1), q(2), q(3, "hotel")], "hotel") == pytest.approx(0.98)
+
+
+def test_not_gate_ignores_noise_and_keeps_strong_answers():
+    assert learn.not_effective(0.0) == 0
+    assert learn.not_effective(0.22) == 0
+    assert learn.not_effective(0.5) == 0
+    assert learn.not_effective(0.75) == pytest.approx(0.5)
+    assert learn.not_effective(1.0) == pytest.approx(1.0)
 
 
 def test_not_score_ignores_questions_missing_from_answers():
@@ -81,6 +89,7 @@ def test_learn_tags_questions_with_the_dismissed_booking(monkeypatch):
     seen = stub(monkeypatch, [{"id": "Other Direction", "q": "Only Manhattan-bound trains affected?"},
                               {"id": "other direction", "q": "Same id after slugging?"},
                               {"id": "wrong_stop", "q": "Are the skipped stops all east of Junction Blvd?"}])
+    assert learn.GUARD_MAX == 0.1
     out = learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)
     assert [x["group"] for x in out] == ["not"] * 3
     assert {x["booking_id"] for x in out} == {"t3"}
@@ -101,9 +110,9 @@ def test_learn_drops_questions_that_fire_on_a_true_alert(monkeypatch):
     assert out[0]["guard_max"] == 0.0
 
 
-def test_learn_caps_at_five_questions(monkeypatch):
+def test_learn_caps_at_three_questions(monkeypatch):
     stub(monkeypatch, [{"id": f"q{i}", "q": f"q{i}?"} for i in range(9)])
-    assert len(learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)) == 5
+    assert len(learn.learn({"event_id": "ev1", "booking_id": "t3"}, EVENT, IT)) == 3
 
 
 def test_learn_rejects_unknown_booking():

@@ -48,291 +48,179 @@
  ],
  "questions": [
   {
-   "id": "not__flight_home__other_flight_disruption",
+   "id": "not__flight_home__disruption_only_other_flight",
    "booking_id": "flight_home",
    "group": "not",
-   "q": "Is the disruption or gate change exclusively for a flight number other than KL 641?",
+   "q": "Is the disruption or gate change limited to a flight number different from KL 641?",
    "guard_max": 0.01
   },
   {
-   "id": "not__flight_home__kl641_on_schedule",
+   "id": "not__flight_home__change_only_for_other_flight",
    "booking_id": "flight_home",
    "group": "not",
-   "q": "Does the input explicitly state that flight KL 641 is operating or departing on schedule?",
-   "guard_max": 0.158
-  },
-  {
-   "id": "not__flight_home__only_different_departure_time",
-   "booking_id": "flight_home",
-   "group": "not",
-   "q": "Does the disruption only affect a flight departing at a different time than 10:20?",
-   "guard_max": 0.299
-  },
-  {
-   "id": "not__flight_home__kl641_unaffected_while_other_disrupted",
-   "booking_id": "flight_home",
-   "group": "not",
-   "q": "Is flight KL 641 mentioned only as departing normally while another flight is disrupted?",
-   "guard_max": 0.02
-  },
-  {
-   "id": "not__flight_home__problem_solely_other_flight",
-   "booking_id": "flight_home",
-   "group": "not",
-   "q": "Does the reported problem or delay apply solely to a flight number other than KL 641?",
+   "q": "Does the announced change apply only to a flight number different from KL 641?",
    "guard_max": 0.01
   },
   {
-   "id": "not__flight_home__schiphol_trains_on_time",
+   "id": "not__flight_home__gate_change_other_flight",
    "booking_id": "flight_home",
    "group": "not",
-   "q": "Does the input state that trains to Schiphol Airport are running on time?",
-   "guard_max": 0.036
+   "q": "Is the gate change described in the notice exclusively for another flight number?",
+   "guard_max": 0.05
   },
   {
-   "id": "not__flight_home__disruption_only_other_direction",
+   "id": "not__flight_home__disruption_other_direction_only",
    "booking_id": "flight_home",
    "group": "not",
-   "q": "Is the reported disruption limited to a direction other than Schiphol Airport or New York JFK?",
-   "guard_max": 0.051
-  },
-  {
-   "id": "not__flight_home__only_other_route_disrupted",
-   "booking_id": "flight_home",
-   "group": "not",
-   "q": "Does the input only report a disruption on a train or flight route that does not go to Schiphol Airport or New York JFK?",
-   "guard_max": 0.015
-  },
-  {
-   "id": "not__flight_home__no_disruption_for_schiphol_or_kl641",
-   "booking_id": "flight_home",
-   "group": "not",
-   "q": "Does the input report normal service to Schiphol Airport with no disruption to Schiphol or flight KL 641?",
-   "guard_max": 0.073
-  },
-  {
-   "id": "not__flight_out__only_other_flight_number",
-   "booking_id": "flight_out",
-   "group": "not",
-   "q": "Is the disruption limited to a flight number other than AF 23?",
-   "guard_max": 0.036
-  },
-  {
-   "id": "not__flight_out__af23_explicitly_unaffected",
-   "booking_id": "flight_out",
-   "group": "not",
-   "q": "Does the input explicitly state that flight AF 23 is unaffected or operating normally?",
-   "guard_max": 0.08
-  },
-  {
-   "id": "not__flight_out__specific_to_other_flight",
-   "booking_id": "flight_out",
-   "group": "not",
-   "q": "Does the notice only report a problem for a specific flight other than AF 23?",
-   "guard_max": 0.01
-  },
-  {
-   "id": "not__flight_out__baggage_other_flight",
-   "booking_id": "flight_out",
-   "group": "not",
-   "q": "Is the baggage or service delay restricted to a flight other than AF 23?",
-   "guard_max": 0.064
-  },
-  {
-   "id": "not__flight_out__no_impact_on_af23",
-   "booking_id": "flight_out",
-   "group": "not",
-   "q": "Does the input indicate that flight AF 23 has no delay or disruption?",
-   "guard_max": 0.254
-  },
-  {
-   "id": "not__hotel_ams__only_other_tram_line",
-   "booking_id": "hotel_ams",
-   "group": "not",
-   "q": "Does the disruption only affect tram or bus lines other than 13 and 17?",
-   "guard_max": 0.01
-  },
-  {
-   "id": "not__hotel_ams__explicitly_normal_service",
-   "booking_id": "hotel_ams",
-   "group": "not",
-   "q": "Does the input state that tram 13 and tram 17 are running and stopping normally?",
-   "guard_max": 0.033
-  },
-  {
-   "id": "not__hotel_ams__only_other_stop_skipped",
-   "booking_id": "hotel_ams",
-   "group": "not",
-   "q": "Is the skipped or closed stop only a stop other than Westermarkt?",
+   "q": "Is the disruption limited to trains heading in a direction other than Schiphol Airport?",
    "guard_max": 0.093
   },
   {
-   "id": "not__hotel_ams__westermarkt_unaffected",
-   "booking_id": "hotel_ams",
+   "id": "not__flight_home__disruption_other_destination_only",
+   "booking_id": "flight_home",
    "group": "not",
-   "q": "Does the input confirm that Westermarkt stop is unaffected or operating normally?",
-   "guard_max": 0.062
+   "q": "Does the disruption only affect a train route or destination other than Schiphol Airport?",
+   "guard_max": 0.013
   },
   {
-   "id": "not__hotel_ams__only_unrelated_line_and_stop",
-   "booking_id": "hotel_ams",
+   "id": "not__flight_home__cancellations_other_route_only",
+   "booking_id": "flight_home",
    "group": "not",
-   "q": "Does the disruption apply solely to a line other than 13 or 17 and a stop other than Westermarkt?",
+   "q": "Are the cancellations or engineering works limited to a route that does not go to Schiphol Airport?",
    "guard_max": 0.01
   },
   {
-   "id": "not__hotel_ams__westermarkt_normal_service",
+   "id": "not__flight_out__other_flight_only",
+   "booking_id": "flight_out",
+   "group": "not",
+   "q": "Is the disruption or delay limited to a flight number other than AF 23?",
+   "guard_max": 0.019
+  },
+  {
+   "id": "not__flight_out__specific_other_flight",
+   "booking_id": "flight_out",
+   "group": "not",
+   "q": "Does the notice state that the incident only affects a specific flight other than AF 23?",
+   "guard_max": 0.039
+  },
+  {
+   "id": "not__flight_out__other_flight_service_issue",
+   "booking_id": "flight_out",
+   "group": "not",
+   "q": "Is the reported service issue restricted to another flight number rather than AF 23?",
+   "guard_max": 0.039
+  },
+  {
+   "id": "not__hotel_ams__disruption_other_tram_line",
    "booking_id": "hotel_ams",
    "group": "not",
-   "q": "Does the input say that Westermarkt is open or running normal service, with no disruption there?",
-   "guard_max": 0.158
+   "q": "Is the disruption limited to tram lines other than 13 and 17?",
+   "guard_max": 0.011
+  },
+  {
+   "id": "not__hotel_ams__service_change_other_line",
+   "booking_id": "hotel_ams",
+   "group": "not",
+   "q": "Is the service change limited to a tram line other than 13 or 17?",
+   "guard_max": 0.01
   },
   {
    "id": "not__hotel_ams__disruption_only_other_trams",
    "booking_id": "hotel_ams",
    "group": "not",
-   "q": "Is the only disruption or skipped stop for tram lines other than 13 and 17?",
-   "guard_max": 0.011
+   "q": "Is the disruption limited to tram lines other than 13 and 17?",
+   "guard_max": 0.01
   },
   {
    "id": "not__hotel_ams__disruption_only_other_stops",
    "booking_id": "hotel_ams",
    "group": "not",
-   "q": "Is the only disruption or skipped stop at stops other than Westermarkt?",
-   "guard_max": 0.07
+   "q": "Is the disruption limited to tram stops other than Westermarkt?",
+   "guard_max": 0.037
   },
   {
-   "id": "not__hotel_ams__trams_13_17_unaffected",
+   "id": "not__hotel_ams__service_change_only_other_lines",
    "booking_id": "hotel_ams",
    "group": "not",
-   "q": "Does the input indicate that trams 13 and 17 are operating normally without disruption?",
-   "guard_max": 0.013
-  },
-  {
-   "id": "not__hotel_ams__no_disruption_at_westermarkt",
-   "booking_id": "hotel_ams",
-   "group": "not",
-   "q": "Does the input state that service at Westermarkt is unaffected or open as usual?",
-   "guard_max": 0.131
-  },
-  {
-   "id": "not__hotel_paris__other_line_only",
-   "booking_id": "hotel_paris",
-   "group": "not",
-   "q": "Is the disruption limited to a metro or transit line other than line 1 and line 8?",
-   "guard_max": 0.055
-  },
-  {
-   "id": "not__hotel_paris__station_operating_normally",
-   "booking_id": "hotel_paris",
-   "group": "not",
-   "q": "Does the input state that Saint-Paul and Chemin Vert stations (or lines 1 and 8) are operating normally?",
-   "guard_max": 0.198
-  },
-  {
-   "id": "not__hotel_paris__lines_unaffected",
-   "booking_id": "hotel_paris",
-   "group": "not",
-   "q": "Does the input explicitly say that the metro lines serving the hotel (line 1 and line 8) are unaffected?",
-   "guard_max": 0.177
-  },
-  {
-   "id": "not__museum_louvre__only_other_date",
-   "booking_id": "museum_louvre",
-   "group": "not",
-   "q": "Is the closure or disruption explicitly limited to a date other than 26 November 2026?",
-   "guard_max": 0.298
-  },
-  {
-   "id": "not__museum_louvre__explicitly_open_today",
-   "booking_id": "museum_louvre",
-   "group": "not",
-   "q": "Does the message state that the Pyramid entrance is open normally on 26 November 2026?",
-   "guard_max": 0.018
-  },
-  {
-   "id": "not__museum_louvre__disruption_tomorrow_only",
-   "booking_id": "museum_louvre",
-   "group": "not",
-   "q": "Is the disruption explicitly limited to tomorrow, while today is operating normally?",
+   "q": "Are the service changes or cancellations limited to lines other than tram 13 and 17?",
    "guard_max": 0.01
   },
   {
-   "id": "not__museum_louvre__other_day_of_week",
-   "booking_id": "museum_louvre",
+   "id": "not__hotel_paris__disruption_other_metro_line",
+   "booking_id": "hotel_paris",
    "group": "not",
-   "q": "Is the closure or disruption explicitly limited to a day other than Thursday?",
-   "guard_max": 0.013
+   "q": "Is the reported disruption limited to a Metro line other than line 1 and line 8?",
+   "guard_max": 0.05
   },
   {
-   "id": "not__museum_louvre__other_museum_disruption",
+   "id": "not__hotel_paris__only_other_metro_line_affected",
+   "booking_id": "hotel_paris",
+   "group": "not",
+   "q": "Is the disruption only on a Metro line that is neither line 1 nor line 8?",
+   "guard_max": 0.01
+  },
+  {
+   "id": "not__museum_louvre__pyramid_open_normally",
    "booking_id": "museum_louvre",
    "group": "not",
-   "q": "Is the disruption or closure limited to a museum other than Musée du Louvre?",
-   "guard_max": 0.012
+   "q": "Does the notice state that the Pyramid entrance is open normally for timed tickets?",
+   "guard_max": 0.035
+  },
+  {
+   "id": "not__museum_louvre__timed_tickets_normal_entry",
+   "booking_id": "museum_louvre",
+   "group": "not",
+   "q": "Does the message say that timed ticket holders can enter normally through the Pyramid?",
+   "guard_max": 0.02
+  },
+  {
+   "id": "not__museum_louvre__pyramid_operating_normally",
+   "booking_id": "museum_louvre",
+   "group": "not",
+   "q": "Does the announcement confirm that the Pyramid entrance is operating normally?",
+   "guard_max": 0.041
+  },
+  {
+   "id": "not__museum_louvre__disruption_other_museum",
+   "booking_id": "museum_louvre",
+   "group": "not",
+   "q": "Is the closure or disruption limited to another museum, such as Musée d'Orsay, rather than the Louvre?",
+   "guard_max": 0.022
   },
   {
    "id": "not__museum_louvre__louvre_open_normally",
    "booking_id": "museum_louvre",
    "group": "not",
-   "q": "Does it state that Musée du Louvre or its Pyramid entrance is open or operating normally?",
-   "guard_max": 0.222
-  },
-  {
-   "id": "not__museum_louvre__louvre_mentioned_as_normal",
-   "booking_id": "museum_louvre",
-   "group": "not",
-   "q": "Is Musée du Louvre only mentioned to say that its access is normal?",
-   "guard_max": 0.019
-  },
-  {
-   "id": "not__museum_louvre__different_venue_notice",
-   "booking_id": "museum_louvre",
-   "group": "not",
-   "q": "Is this notice primarily about a different museum or attraction than Musée du Louvre?",
+   "q": "Does it state that the Musée du Louvre or its Pyramid entrance is open normally?",
    "guard_max": 0.023
   },
   {
-   "id": "not__museum_louvre__no_disruption_at_louvre",
+   "id": "not__museum_louvre__closure_at_orsay",
    "booking_id": "museum_louvre",
    "group": "not",
-   "q": "Does it confirm there is no disruption or closure at Musée du Louvre?",
-   "guard_max": 0.01
+   "q": "Is the closed entrance or work limited to Musée d'Orsay?",
+   "guard_max": 0.029
   },
   {
-   "id": "not__train_ams__other_train_number_only",
+   "id": "not__train_ams__only_other_train_number",
    "booking_id": "train_ams",
    "group": "not",
-   "q": "Is the disruption or cancellation limited to a train number other than 9315?",
-   "guard_max": 0.014
+   "q": "Is the disruption limited to a train number other than 9315?",
+   "guard_max": 0.015
   },
   {
-   "id": "not__train_ams__opposite_direction_only",
+   "id": "not__train_ams__only_amsterdam_to_paris",
    "booking_id": "train_ams",
    "group": "not",
    "q": "Is the disruption limited to trains travelling from Amsterdam Centraal to Paris Gare du Nord?",
-   "guard_max": 0.088
+   "guard_max": 0.041
   },
   {
-   "id": "not__train_ams__booking_train_on_schedule",
+   "id": "not__train_ams__only_departing_amsterdam",
    "booking_id": "train_ams",
    "group": "not",
-   "q": "Does the input state that Eurostar 9315 is operating on schedule or unaffected?",
-   "guard_max": 0.02
-  },
-  {
-   "id": "not__train_ams__other_direction_southbound_only",
-   "booking_id": "train_ams",
-   "group": "not",
-   "q": "Does the disruption only affect southbound trains or trains heading toward Paris?",
-   "guard_max": 0.027
-  },
-  {
-   "id": "not__train_ams__no_disruption_to_9315",
-   "booking_id": "train_ams",
-   "group": "not",
-   "q": "Is the only problem mentioned for a train other than Eurostar 9315?",
-   "guard_max": 0.018
+   "q": "Is the disruption limited to trains departing from Amsterdam Centraal?",
+   "guard_max": 0.056
   }
  ]
 }
