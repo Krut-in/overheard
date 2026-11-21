@@ -1,0 +1,7 @@
+{
+  "security": { "auth": { "selectedType": "gemini-api-key" } },
+  "model": { "name": "gemini-4-neon" },
+  "mcpServers": {
+    "geminiDocs": { "httpUrl": "https://gemini-api-docs-mcp.dev" }
+  }
+}
