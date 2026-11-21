@@ -75,3 +75,19 @@ Never cut: the fingerprint engine, silence receipts, the audio and image evals.
 | Cuts | Nothing cut up front. The cut list above applies when a milestone slips. |
 
 `PLAN.md` holds the milestones.
+
+## Pivot: Overheard for a whole trip abroad (decided 3:20 PM)
+The NYC subway build above is the working base. The product now covers a full international trip.
+
+| Topic | Decision |
+|---|---|
+| Wedge | One itinerary fingerprint built from every booking (flights, hotels, trains, tickets). Every input in any language is checked against all bookings at once; each question is tagged with its booking, so one Decision 1 call says which booking is hit. |
+| Itinerary in | Gmail, read-only OAuth (`gmail.readonly`), searching only booking-like emails. Upload or paste of PDFs and screenshots stays as a fallback, plus a "Load demo trip" button. One parser behind all three. |
+| Demo inbox | The hackathon lab Google account (it has Gmail). The user sends sample booking emails to it from a personal account, each marked SAMPLE BOOKING. Its password lives only with the user. |
+| Demo trip | Real dates: JFK to CDG Tue Nov 24, Paris Nov 25 to 27, train to Amsterdam Nov 28, fly home Nov 30. Flight, two hotels, Eurostar or Thalys, a museum booking. |
+| Ahead of time | Hydrogen with Google Search grounding sweeps French and Dutch sources per booking and date (strikes, cancellations, closures), plus local news RSS. Decision 1 scores each item. Daily digest plus urgent pings. |
+| On the ground | Announcements, signs, boards and short videos for the current leg, through the existing engine, with silence receipts. |
+| When it speaks | The change in the traveller's language, whispered, with proof: the circled line on their photo or the quoted line from the source. |
+| Platform | Phone-first installable web app on HTTPS. The Python engine is the backend API so a native Expo app can reuse it later. |
+| Way of working | An orchestrator session writes `SPEC.md` and `TICKETS.md`, then runs one session per independent ticket, using Gemini models through the Gemini CLI where they fit. Orchestrator prompt: `prompts/orchestrator.md`. |
+| Repo | github.com/Krut-in/overheard, private. Push after every merged ticket. Going public needs the user's explicit yes. |
