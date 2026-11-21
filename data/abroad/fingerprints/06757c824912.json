@@ -1,0 +1,1676 @@
+[
+ {
+  "id": "flight_out__op_air_france",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input mention Air France?"
+ },
+ {
+  "id": "flight_out__op_af_23",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input show or say AF 23 or AF23?"
+ },
+ {
+  "id": "flight_out__op_af_twenty_three",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say AF twenty-three or Air France twenty-three?"
+ },
+ {
+  "id": "flight_out__op_af_vingt_trois",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say AF vingt-trois or Air France vingt-trois?"
+ },
+ {
+  "id": "flight_out__op_af_drieentwintig",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say AF drieentwintig or Air France drieentwintig?"
+ },
+ {
+  "id": "flight_out__op_air_france_23",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input mention flight Air France 23?"
+ },
+ {
+  "id": "flight_out__op_vol_af23",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say vol AF 23 or vlucht AF 23?"
+ },
+ {
+  "id": "flight_out__op_af_two_three",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say AF two three or Air France two three?"
+ },
+ {
+  "id": "flight_out__op_af_deux_trois",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input say AF deux trois?"
+ },
+ {
+  "id": "flight_out__op_air_france_logo",
+  "booking_id": "flight_out",
+  "group": "operator",
+  "q": "Does the input show the Air France logo or branding?"
+ },
+ {
+  "id": "flight_out__pl_jfk_t1",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention New York JFK Terminal 1?"
+ },
+ {
+  "id": "flight_out__pl_jfk_terminal_one",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input say JFK Terminal 1 or Terminal One?"
+ },
+ {
+  "id": "flight_out__pl_cdg",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention Paris Charles de Gaulle or CDG?"
+ },
+ {
+  "id": "flight_out__pl_cdg_t2e",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention Terminal 2E or T2E?"
+ },
+ {
+  "id": "flight_out__pl_roissy",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention Roissy or Roissy Charles de Gaulle?"
+ },
+ {
+  "id": "flight_out__pl_aerogare_2e",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input say aerogare 2E or terminal deux E?"
+ },
+ {
+  "id": "flight_out__pl_jfk_to_cdg",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input show a route from New York JFK to Paris CDG?"
+ },
+ {
+  "id": "flight_out__pl_ny_jfk",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention New York JFK airport?"
+ },
+ {
+  "id": "flight_out__pl_paris_cdg_arrival",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention arrivals at Paris Charles de Gaulle?"
+ },
+ {
+  "id": "flight_out__pl_jfk_departures",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention departures from JFK Terminal 1?"
+ },
+ {
+  "id": "flight_out__pl_paris_airport",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention Paris airport or aeroport de Paris?"
+ },
+ {
+  "id": "flight_out__pl_luchthaven_cdg",
+  "booking_id": "flight_out",
+  "group": "place",
+  "q": "Does the input mention luchthaven Parijs Charles de Gaulle?"
+ },
+ {
+  "id": "flight_out__ch_cancelled",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say cancelled, annule, supprime, or geannuleerd?"
+ },
+ {
+  "id": "flight_out__ch_delayed",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say delayed, retarde, or vertraagd?"
+ },
+ {
+  "id": "flight_out__ch_strike",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input mention a strike, greve, or staking?"
+ },
+ {
+  "id": "flight_out__ch_gate_change",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say gate change, changement de porte, or gatewijziging?"
+ },
+ {
+  "id": "flight_out__ch_terminal_change",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input mention a terminal change or changement de terminal?"
+ },
+ {
+  "id": "flight_out__ch_schedule_change",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say schedule change, changement d'horaire, or wijziging?"
+ },
+ {
+  "id": "flight_out__ch_closed",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say closed, ferme, or gesloten?"
+ },
+ {
+  "id": "flight_out__ch_diverted",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say diverted, deroute, or omgeleid?"
+ },
+ {
+  "id": "flight_out__ch_rescheduled",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input say rescheduled, reporte, or verplaatst?"
+ },
+ {
+  "id": "flight_out__ch_disruption",
+  "booking_id": "flight_out",
+  "group": "change",
+  "q": "Does the input mention a disruption, perturbation, or verstoring?"
+ },
+ {
+  "id": "flight_out__co_af23_cancelled",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say Air France AF 23 is cancelled, annule, or geannuleerd?"
+ },
+ {
+  "id": "flight_out__co_af23_delayed",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say Air France AF 23 is delayed, retarde, or vertraagd?"
+ },
+ {
+  "id": "flight_out__co_af23_gate",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input show a gate change or porte change for AF 23?"
+ },
+ {
+  "id": "flight_out__co_af23_schedule",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a schedule change for Air France AF 23?"
+ },
+ {
+  "id": "flight_out__co_af23_diverted",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say Air France AF 23 is diverted or deroute?"
+ },
+ {
+  "id": "flight_out__co_af23_rescheduled",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say Air France AF 23 is rescheduled or reporte?"
+ },
+ {
+  "id": "flight_out__co_af_strike",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention an Air France strike, greve, or staking?"
+ },
+ {
+  "id": "flight_out__co_af_disruption",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input report Air France flight cancellations or delays?"
+ },
+ {
+  "id": "flight_out__co_jfk_t1_closed",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say JFK Terminal 1 is closed, ferme, or gesloten?"
+ },
+ {
+  "id": "flight_out__co_jfk_t1_delay",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input report delays or disruptions at JFK Terminal 1?"
+ },
+ {
+  "id": "flight_out__co_jfk_t1_strike",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a strike affecting JFK Terminal 1?"
+ },
+ {
+  "id": "flight_out__co_jfk_t1_gate",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a gate or terminal change at JFK Terminal 1?"
+ },
+ {
+  "id": "flight_out__co_cdg_strike",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a strike, greve, or staking at Paris CDG?"
+ },
+ {
+  "id": "flight_out__co_cdg_t2e_closed",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say CDG Terminal 2E is closed, ferme, or gesloten?"
+ },
+ {
+  "id": "flight_out__co_cdg_t2e_disruption",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input report disruptions or delays at CDG Terminal 2E?"
+ },
+ {
+  "id": "flight_out__co_cdg_cancelled",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input report flights cancelled or annules at Paris CDG?"
+ },
+ {
+  "id": "flight_out__co_cdg_delayed",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input report flights delayed or retardes at Paris CDG?"
+ },
+ {
+  "id": "flight_out__co_cdg_t2e_terminal_change",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a terminal change away from CDG Terminal 2E?"
+ },
+ {
+  "id": "flight_out__co_af23_terminal_change",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a terminal change for Air France AF 23?"
+ },
+ {
+  "id": "flight_out__co_roissy_strike",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input mention a strike or greve at Roissy Charles de Gaulle?"
+ },
+ {
+  "id": "flight_out__co_af_vingt_trois_annule",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say AF vingt-trois is annule or retarde?"
+ },
+ {
+  "id": "flight_out__co_af23_supprime",
+  "booking_id": "flight_out",
+  "group": "combo",
+  "q": "Does the input say vol AF 23 is supprime?"
+ },
+ {
+  "id": "hotel_paris__op_hotel_sample_marais",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input mention Hotel Sample Marais?"
+ },
+ {
+  "id": "hotel_paris__op_sample_marais",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input mention Sample Marais?"
+ },
+ {
+  "id": "hotel_paris__op_hotel_marais",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input mention a hotel in the Marais?"
+ },
+ {
+  "id": "hotel_paris__op_marais_hotel_fr",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input say \"Hôtel Sample Marais\" or \"Hotel Sample Marais\"?"
+ },
+ {
+  "id": "hotel_paris__op_marais_hotel_nl",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input mention \"Hotel Sample Marais\" in Dutch?"
+ },
+ {
+  "id": "hotel_paris__op_sample_marais_spoken",
+  "booking_id": "hotel_paris",
+  "group": "operator",
+  "q": "Does the input say \"Sample Marais\" aloud?"
+ },
+ {
+  "id": "hotel_paris__pl_rue_de_turenne",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention Rue de Turenne?"
+ },
+ {
+  "id": "hotel_paris__pl_12_rue_turenne",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention 12 Rue de Turenne?"
+ },
+ {
+  "id": "hotel_paris__pl_75004_paris",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention 75004 Paris?"
+ },
+ {
+  "id": "hotel_paris__pl_saint_paul",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention Saint-Paul metro station?"
+ },
+ {
+  "id": "hotel_paris__pl_metro_saint_paul",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input say \"Métro Saint-Paul\" or \"Metro Saint-Paul\"?"
+ },
+ {
+  "id": "hotel_paris__pl_line_1",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention Paris Metro line 1 (\"ligne 1\" or \"lijn 1\")?"
+ },
+ {
+  "id": "hotel_paris__pl_chemin_vert",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention Chemin Vert metro station?"
+ },
+ {
+  "id": "hotel_paris__pl_metro_chemin_vert",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input say \"Métro Chemin Vert\" or \"Metro Chemin Vert\"?"
+ },
+ {
+  "id": "hotel_paris__pl_line_8",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention Paris Metro line 8 (\"ligne 8\" or \"lijn 8\")?"
+ },
+ {
+  "id": "hotel_paris__pl_marais_district",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention the Marais district in Paris?"
+ },
+ {
+  "id": "hotel_paris__pl_saint_paul_spoken",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input say \"Saint-Paul\" aloud?"
+ },
+ {
+  "id": "hotel_paris__pl_chemin_vert_spoken",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input say \"Chemin Vert\" aloud?"
+ },
+ {
+  "id": "hotel_paris__pl_turenne_spoken",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input say \"Rue de Turenne\" or \"douze rue de Turenne\" aloud?"
+ },
+ {
+  "id": "hotel_paris__pl_ratp_paris",
+  "booking_id": "hotel_paris",
+  "group": "place",
+  "q": "Does the input mention RATP or Paris Metro?"
+ },
+ {
+  "id": "hotel_paris__ch_strike",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a strike (\"grève\", \"staking\", or \"strike\")?"
+ },
+ {
+  "id": "hotel_paris__ch_closed",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a closure (\"fermé\", \"fermeture\", \"gesloten\", or \"closed\")?"
+ },
+ {
+  "id": "hotel_paris__ch_cancelled",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a cancellation (\"annulé\", \"supprimé\", \"geannuleerd\", or \"cancelled\")?"
+ },
+ {
+  "id": "hotel_paris__ch_delayed",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a delay (\"retard\", \"vertraagd\", \"vertraging\", or \"delayed\")?"
+ },
+ {
+  "id": "hotel_paris__ch_disruption",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a disruption (\"perturbation\", \"storing\", or \"disruption\")?"
+ },
+ {
+  "id": "hotel_paris__ch_no_service",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input say service is suspended or interrupted (\"interrompu\", \"onderbroken\")?"
+ },
+ {
+  "id": "hotel_paris__ch_evacuation",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention an evacuation (\"évacuation\", \"evacuatie\", or \"evacuated\")?"
+ },
+ {
+  "id": "hotel_paris__ch_schedule_change",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a schedule change (\"changement d'horaire\", \"dienstregeling\")?"
+ },
+ {
+  "id": "hotel_paris__ch_access_blocked",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input say access is blocked or street is closed (\"rue barrée\", \"afgesloten\")?"
+ },
+ {
+  "id": "hotel_paris__ch_power_outage",
+  "booking_id": "hotel_paris",
+  "group": "change",
+  "q": "Does the input mention a power or water outage (\"panne\", \"stroomstoring\")?"
+ },
+ {
+  "id": "hotel_paris__cb_hotel_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Hotel Sample Marais is closed (\"fermé\", \"gesloten\", \"closed\")?"
+ },
+ {
+  "id": "hotel_paris__cb_hotel_cancelled",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say reservations at Hotel Sample Marais are cancelled (\"annulé\", \"geannuleerd\")?"
+ },
+ {
+  "id": "hotel_paris__cb_hotel_strike",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Hotel Sample Marais is affected by a strike (\"grève\", \"staking\")?"
+ },
+ {
+  "id": "hotel_paris__cb_hotel_evacuated",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Hotel Sample Marais is evacuated (\"évacué\", \"geëvacueerd\")?"
+ },
+ {
+  "id": "hotel_paris__cb_hotel_outage",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Hotel Sample Marais has an outage or incident (\"panne\", \"incident\")?"
+ },
+ {
+  "id": "hotel_paris__cb_turenne_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Rue de Turenne is closed or blocked (\"fermée\", \"barrée\", \"afgesloten\")?"
+ },
+ {
+  "id": "hotel_paris__cb_turenne_incident",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say there is an incident on Rue de Turenne?"
+ },
+ {
+  "id": "hotel_paris__cb_saint_paul_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Saint-Paul station is closed (\"fermée\", \"gesloten\", \"closed\")?"
+ },
+ {
+  "id": "hotel_paris__cb_saint_paul_disruption",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Saint-Paul station has a disruption (\"perturbation\", \"storing\")?"
+ },
+ {
+  "id": "hotel_paris__cb_saint_paul_strike",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Saint-Paul station is hit by a strike (\"grève\", \"staking\")?"
+ },
+ {
+  "id": "hotel_paris__cb_chemin_vert_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Chemin Vert station is closed (\"fermée\", \"gesloten\", \"closed\")?"
+ },
+ {
+  "id": "hotel_paris__cb_chemin_vert_disruption",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Chemin Vert station has a disruption (\"perturbation\", \"storing\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line1_strike",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 1 (\"ligne 1\", \"lijn 1\") is on strike (\"grève\", \"staking\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line1_disruption",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 1 (\"ligne 1\", \"lijn 1\") is disrupted or interrupted (\"interrompu\", \"perturbation\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line1_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 1 (\"ligne 1\", \"lijn 1\") is closed (\"fermée\", \"gesloten\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line8_strike",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 8 (\"ligne 8\", \"lijn 8\") is on strike (\"grève\", \"staking\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line8_disruption",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 8 (\"ligne 8\", \"lijn 8\") is disrupted or interrupted (\"interrompu\", \"perturbation\")?"
+ },
+ {
+  "id": "hotel_paris__cb_line8_closed",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Metro line 8 (\"ligne 8\", \"lijn 8\") is closed (\"fermée\", \"gesloten\")?"
+ },
+ {
+  "id": "hotel_paris__cb_marais_incident",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say there is a closure or incident in the Marais?"
+ },
+ {
+  "id": "hotel_paris__cb_paris_metro_strike",
+  "booking_id": "hotel_paris",
+  "group": "combo",
+  "q": "Does the input say Paris Metro or RATP is on strike (\"grève\", \"staking\", \"strike\")?"
+ },
+ {
+  "id": "museum_louvre__op_louvre_fr",
+  "booking_id": "museum_louvre",
+  "group": "operator",
+  "q": "Does it mention Musée du Louvre or Musee du Louvre?"
+ },
+ {
+  "id": "museum_louvre__op_louvre_short",
+  "booking_id": "museum_louvre",
+  "group": "operator",
+  "q": "Does it mention the Louvre or Louvre Museum?"
+ },
+ {
+  "id": "museum_louvre__op_louvre_nl",
+  "booking_id": "museum_louvre",
+  "group": "operator",
+  "q": "Does it mention Het Louvre?"
+ },
+ {
+  "id": "museum_louvre__op_louvre_ticket",
+  "booking_id": "museum_louvre",
+  "group": "operator",
+  "q": "Does it mention Louvre timed entry or billets Louvre?"
+ },
+ {
+  "id": "museum_louvre__pl_pyramid",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention the Pyramid entrance or Pyramide du Louvre?"
+ },
+ {
+  "id": "museum_louvre__pl_pyramid_nl",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention Piramide or ingang Piramide?"
+ },
+ {
+  "id": "museum_louvre__pl_palais_royal",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention Palais-Royal or Palais-Royal Musée du Louvre?"
+ },
+ {
+  "id": "museum_louvre__pl_metro_palais_royal",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention métro Palais-Royal or metro Palais-Royal?"
+ },
+ {
+  "id": "museum_louvre__pl_line_1",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention Metro line 1, ligne 1, or lijn 1?"
+ },
+ {
+  "id": "museum_louvre__pl_line_7",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention Metro line 7, ligne 7, or lijn 7?"
+ },
+ {
+  "id": "museum_louvre__pl_paris_louvre",
+  "booking_id": "museum_louvre",
+  "group": "place",
+  "q": "Does it mention Paris in connection with the Louvre?"
+ },
+ {
+  "id": "museum_louvre__ch_strike",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say there is a strike, grève, or staking?"
+ },
+ {
+  "id": "museum_louvre__ch_closure",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say something is closed, fermé, fermeture, gesloten, or sluiting?"
+ },
+ {
+  "id": "museum_louvre__ch_cancel",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say something is cancelled, annulé, annulation, or geannuleerd?"
+ },
+ {
+  "id": "museum_louvre__ch_delay",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say there is a delay, retard, retardé, vertraagd, or vertraging?"
+ },
+ {
+  "id": "museum_louvre__ch_schedule",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it mention a schedule change, changement d'horaire, or gewijzigde openingstijden?"
+ },
+ {
+  "id": "museum_louvre__ch_entrance",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it mention an entrance change, changement d'entrée, or ingang gewijzigd?"
+ },
+ {
+  "id": "museum_louvre__ch_suspended",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say service is suspended, trafic interrompu, or verkeer onderbroken?"
+ },
+ {
+  "id": "museum_louvre__ch_station_closed",
+  "booking_id": "museum_louvre",
+  "group": "change",
+  "q": "Does it say a station is closed, station fermée, or station gesloten?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_closed",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Louvre is closed, fermé, or gesloten?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_strike",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say there is a strike, grève, or staking at the Louvre?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_cancel",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Louvre tickets or entries are cancelled, annulé, or geannuleerd?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_delay",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say there are delays, retard, or vertraging at the Louvre?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_hours",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Louvre changed its hours, horaires, or openingstijden?"
+ },
+ {
+  "id": "museum_louvre__cb_pyramid_closed",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Pyramid entrance or Pyramide is closed, fermée, or gesloten?"
+ },
+ {
+  "id": "museum_louvre__cb_pyramid_change",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Pyramid entrance has changed or moved?"
+ },
+ {
+  "id": "museum_louvre__cb_pyramid_delay",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say entry at the Pyramid is delayed or disrupted?"
+ },
+ {
+  "id": "museum_louvre__cb_palais_royal_closed",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Palais-Royal Musée du Louvre station is closed, fermée, or gesloten?"
+ },
+ {
+  "id": "museum_louvre__cb_palais_royal_no_stop",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say trains do not stop at Palais-Royal Musée du Louvre?"
+ },
+ {
+  "id": "museum_louvre__cb_palais_royal_strike",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say a strike, grève, or staking affects Palais-Royal Musée du Louvre?"
+ },
+ {
+  "id": "museum_louvre__cb_line1_closed",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 1, ligne 1, or lijn 1 is suspended or closed?"
+ },
+ {
+  "id": "museum_louvre__cb_line1_delay",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 1, ligne 1, or lijn 1 has delays?"
+ },
+ {
+  "id": "museum_louvre__cb_line1_strike",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 1, ligne 1, or lijn 1 has a strike?"
+ },
+ {
+  "id": "museum_louvre__cb_line7_closed",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 7, ligne 7, or lijn 7 is suspended or closed?"
+ },
+ {
+  "id": "museum_louvre__cb_line7_delay",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 7, ligne 7, or lijn 7 has delays?"
+ },
+ {
+  "id": "museum_louvre__cb_line7_strike",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say Metro line 7, ligne 7, or lijn 7 has a strike?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_access_blocked",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say access to the Louvre is blocked or restricted?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_evacuated",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Louvre is evacuated, évacué, or geëvacueerd?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_reopen",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it say the Louvre is reopening late or remains closed?"
+ },
+ {
+  "id": "museum_louvre__cb_louvre_entrance_alt",
+  "booking_id": "museum_louvre",
+  "group": "combo",
+  "q": "Does it direct Louvre visitors to a different entrance?"
+ },
+ {
+  "id": "train_ams__op_eurostar",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input mention Eurostar?"
+ },
+ {
+  "id": "train_ams__op_9315",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input mention train number 9315?"
+ },
+ {
+  "id": "train_ams__op_eurostar_9315",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input mention Eurostar 9315 or EST 9315?"
+ },
+ {
+  "id": "train_ams__op_9315_fr_spoken",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input say \"quatre-vingt-treize quinze\" or \"neuf mille trois cent quinze\"?"
+ },
+ {
+  "id": "train_ams__op_9315_nl_spoken",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input say \"drieënnegentig vijftien\" or \"negen duizend driehonderdvijftien\"?"
+ },
+ {
+  "id": "train_ams__op_9315_en_spoken",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input say \"ninety-three fifteen\" or \"nine three one five\"?"
+ },
+ {
+  "id": "train_ams__op_coach_14",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input mention coach 14, voiture 14, or rijtuig 14?"
+ },
+ {
+  "id": "train_ams__op_seat_61",
+  "booking_id": "train_ams",
+  "group": "operator",
+  "q": "Does the input mention seat 61, place 61, or zitplaats 61?"
+ },
+ {
+  "id": "train_ams__pl_gdn",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Paris Gare du Nord or Gare du Nord?"
+ },
+ {
+  "id": "train_ams__pl_ams_centraal",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Amsterdam Centraal or Amsterdam Central?"
+ },
+ {
+  "id": "train_ams__pl_brussels_midi",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Brussels-Midi, Bruxelles-Midi, or Brussel-Zuid?"
+ },
+ {
+  "id": "train_ams__pl_antwerpen",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Antwerpen-Centraal, Anvers-Central, or Antwerp Central?"
+ },
+ {
+  "id": "train_ams__pl_rotterdam",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Rotterdam Centraal or Rotterdam Central?"
+ },
+ {
+  "id": "train_ams__pl_paris_to_ams",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input show a route from Paris to Amsterdam?"
+ },
+ {
+  "id": "train_ams__pl_nl_be_route",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input mention Brussels, Antwerp, or Rotterdam as a stop?"
+ },
+ {
+  "id": "train_ams__pl_platform_fr",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input show or say \"voie\" or \"quai\" at a station?"
+ },
+ {
+  "id": "train_ams__pl_platform_nl",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input show or say \"spoor\" or \"perron\" at a station?"
+ },
+ {
+  "id": "train_ams__pl_platform_en",
+  "booking_id": "train_ams",
+  "group": "place",
+  "q": "Does the input show or say \"platform\" or \"track\" at a station?"
+ },
+ {
+  "id": "train_ams__chg_cancelled",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input say a train is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?"
+ },
+ {
+  "id": "train_ams__chg_delayed",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input say a train is delayed, \"en retard\", or \"vertraagd\"?"
+ },
+ {
+  "id": "train_ams__chg_strike",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input mention a strike, \"greve\", or \"staking\"?"
+ },
+ {
+  "id": "train_ams__chg_platform",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input mention a platform change, \"changement de voie\", or \"spoorwijziging\"?"
+ },
+ {
+  "id": "train_ams__chg_schedule",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input mention a schedule change, \"modification d'horaire\", or \"dienstregelingswijziging\"?"
+ },
+ {
+  "id": "train_ams__chg_disruption",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input mention a disruption, \"perturbation\", or \"verstoring\"?"
+ },
+ {
+  "id": "train_ams__chg_terminated",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input say a service is terminated early, \"origine modifiee\", or \"rijdt niet verder\"?"
+ },
+ {
+  "id": "train_ams__chg_diverted",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input say a train is diverted, \"detourne\", or \"omgeleid\"?"
+ },
+ {
+  "id": "train_ams__chg_boarding_closed",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input say boarding is closed, \"embarquement ferme\", or \"instappen gesloten\"?"
+ },
+ {
+  "id": "train_ams__chg_replacement",
+  "booking_id": "train_ams",
+  "group": "change",
+  "q": "Does the input mention a replacement bus or train, \"bus de remplacement\", or \"vervangend vervoer\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_9315_cancel",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 is cancelled, \"supprime\", \"annule\", or \"geannuleerd\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_9315_delay",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 is delayed, \"en retard\", or \"vertraagd\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_9315_platform",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 has a platform change, \"changement de voie\", or \"spoorwijziging\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_9315_strike",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 is affected by a strike, \"greve\", or \"staking\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_9315_schedule",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 has a schedule change or \"horaire modifie\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_strike",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar is affected by a strike, \"greve\", or \"staking\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_cancel",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar trains are cancelled, \"supprimes\", or \"geannuleerd\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_delay",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar trains are delayed, \"en retard\", or \"vertraagd\"?"
+ },
+ {
+  "id": "train_ams__cmb_gdn_strike",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Paris Gare du Nord is affected by a strike, \"greve\", or \"staking\"?"
+ },
+ {
+  "id": "train_ams__cmb_gdn_disruption",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say there is a disruption, \"perturbation\", or closure at Gare du Nord?"
+ },
+ {
+  "id": "train_ams__cmb_gdn_platform",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input show a platform or \"voie\" change at Paris Gare du Nord?"
+ },
+ {
+  "id": "train_ams__cmb_ams_centraal_strike",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Amsterdam Centraal is affected by a strike or \"staking\"?"
+ },
+ {
+  "id": "train_ams__cmb_ams_centraal_disruption",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say there is a disruption, \"verstoring\", or closure at Amsterdam Centraal?"
+ },
+ {
+  "id": "train_ams__cmb_ams_centraal_platform",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input show a \"spoorwijziging\" or platform change at Amsterdam Centraal?"
+ },
+ {
+  "id": "train_ams__cmb_brussels_disruption",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say there is a disruption, strike, or cancellation at Brussels-Midi?"
+ },
+ {
+  "id": "train_ams__cmb_antwerp_disruption",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say there is a disruption, strike, or cancellation at Antwerpen-Centraal?"
+ },
+ {
+  "id": "train_ams__cmb_rotterdam_disruption",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say there is a disruption, strike, or cancellation at Rotterdam Centraal?"
+ },
+ {
+  "id": "train_ams__cmb_9315_coach_14",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say coach 14 on Eurostar 9315 is closed, missing, or changed?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_diverted",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 is diverted, \"detourne\", or \"omgeleid\"?"
+ },
+ {
+  "id": "train_ams__cmb_eurostar_terminated",
+  "booking_id": "train_ams",
+  "group": "combo",
+  "q": "Does the input say Eurostar 9315 is terminated early or \"ne dessert pas\" a stop?"
+ },
+ {
+  "id": "hotel_ams__op_hotel_sample_canal_en",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input mention Hotel Sample Canal?"
+ },
+ {
+  "id": "hotel_ams__op_sample_canal_short",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input mention Sample Canal in Amsterdam?"
+ },
+ {
+  "id": "hotel_ams__op_hotel_sample_canal_nl",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input say 'Hotel Sample Canal' in Dutch or English?"
+ },
+ {
+  "id": "hotel_ams__op_tram_13_num",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input mention tram 13 or lijn 13?"
+ },
+ {
+  "id": "hotel_ams__op_tram_17_num",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input mention tram 17 or lijn 17?"
+ },
+ {
+  "id": "hotel_ams__op_tram_13_spoken",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input say tram 'dertien', 'treize', or 'thirteen'?"
+ },
+ {
+  "id": "hotel_ams__op_tram_17_spoken",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input say tram 'zeventien', 'dix-sept', or 'seventeen'?"
+ },
+ {
+  "id": "hotel_ams__op_gvb_tram",
+  "booking_id": "hotel_ams",
+  "group": "operator",
+  "q": "Does the input mention GVB trams 13 or 17?"
+ },
+ {
+  "id": "hotel_ams__pl_prinsengracht_300",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input mention Prinsengracht 300?"
+ },
+ {
+  "id": "hotel_ams__pl_prinsengracht_spoken",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input say Prinsengracht 'driehonderd', 'trois cents', or 'three hundred'?"
+ },
+ {
+  "id": "hotel_ams__pl_prinsengracht_street",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input mention Prinsengracht in Amsterdam?"
+ },
+ {
+  "id": "hotel_ams__pl_westermarkt_stop",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input mention the Westermarkt tram stop or halte Westermarkt?"
+ },
+ {
+  "id": "hotel_ams__pl_westermarkt_general",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input say 'Westermarkt'?"
+ },
+ {
+  "id": "hotel_ams__pl_amsterdam_hotel",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input mention a hotel in Amsterdam?"
+ },
+ {
+  "id": "hotel_ams__pl_tram_stop_13_17",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input show a tram stop sign for lines 13 and 17?"
+ },
+ {
+  "id": "hotel_ams__pl_canal_district",
+  "booking_id": "hotel_ams",
+  "group": "place",
+  "q": "Does the input mention Prinsengracht or the Amsterdam canal ring?"
+ },
+ {
+  "id": "hotel_ams__ch_strike",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input mention a strike, 'staking', or 'greve'?"
+ },
+ {
+  "id": "hotel_ams__ch_cancellation",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input say 'cancelled', 'geannuleerd', 'annule', or 'supprime'?"
+ },
+ {
+  "id": "hotel_ams__ch_delay",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input say 'delayed', 'vertraagd', or 'retarde'?"
+ },
+ {
+  "id": "hotel_ams__ch_closure",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input mention a closure, 'gesloten', 'afgesloten', or 'ferme'?"
+ },
+ {
+  "id": "hotel_ams__ch_diversion",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input mention a diversion, 'omleiding', or 'deviation'?"
+ },
+ {
+  "id": "hotel_ams__ch_schedule_change",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input mention a schedule change, 'dienstregeling gewijzigd', or 'horaire modifie'?"
+ },
+ {
+  "id": "hotel_ams__ch_no_service",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input say 'no service', 'geen dienst', or 'aucun service'?"
+ },
+ {
+  "id": "hotel_ams__ch_stop_skipped",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input say a stop is skipped, 'vervallen', or 'non desservi'?"
+ },
+ {
+  "id": "hotel_ams__ch_evacuation",
+  "booking_id": "hotel_ams",
+  "group": "change",
+  "q": "Does the input mention an evacuation, 'ontruiming', or 'evacuation'?"
+ },
+ {
+  "id": "hotel_ams__co_hotel_closed",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say Hotel Sample Canal is closed, 'gesloten', or 'ferme'?"
+ },
+ {
+  "id": "hotel_ams__co_hotel_cancelled",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say bookings at Hotel Sample Canal are cancelled or 'geannuleerd'?"
+ },
+ {
+  "id": "hotel_ams__co_hotel_strike",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input mention a strike, 'staking', or 'greve' at Hotel Sample Canal?"
+ },
+ {
+  "id": "hotel_ams__co_hotel_evacuation",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input mention an evacuation or emergency at Hotel Sample Canal?"
+ },
+ {
+  "id": "hotel_ams__co_prinsengracht_closed",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say Prinsengracht is closed, 'afgesloten', or 'fermee'?"
+ },
+ {
+  "id": "hotel_ams__co_prinsengracht_diversion",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input mention a diversion or 'omleiding' near Prinsengracht 300?"
+ },
+ {
+  "id": "hotel_ams__co_westermarkt_closed",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say Westermarkt stop is closed, 'gesloten', or 'vervallen'?"
+ },
+ {
+  "id": "hotel_ams__co_westermarkt_skipped",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say trams are not stopping at Westermarkt or 'non desservi'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_13_cancelled",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 13 is cancelled, 'geannuleerd', or 'supprime'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_17_cancelled",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 17 is cancelled, 'geannuleerd', or 'supprime'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_13_delayed",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 13 is delayed, 'vertraagd', or 'retarde'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_17_delayed",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 17 is delayed, 'vertraagd', or 'retarde'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_13_diverted",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 13 is diverted, 'omgeleid', or 'devie'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_17_diverted",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say tram 17 is diverted, 'omgeleid', or 'devie'?"
+ },
+ {
+  "id": "hotel_ams__co_tram_strike_13_17",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input mention a strike, 'staking', or 'greve' affecting tram 13 or 17?"
+ },
+ {
+  "id": "hotel_ams__co_westermarkt_13_17_disruption",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say trams 13 and 17 are disrupted at Westermarkt?"
+ },
+ {
+  "id": "hotel_ams__co_tram_13_17_schedule",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input mention a schedule change for tram 13 or 17?"
+ },
+ {
+  "id": "hotel_ams__co_tram_13_17_no_service",
+  "booking_id": "hotel_ams",
+  "group": "combo",
+  "q": "Does the input say there is no service on tram 13 or 17?"
+ },
+ {
+  "id": "flight_home__op_klm",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input mention KLM or Koninklijke Luchtvaart Maatschappij?"
+ },
+ {
+  "id": "flight_home__op_kl641_written",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input show or say KL 641 or KL641?"
+ },
+ {
+  "id": "flight_home__op_klm641_written",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input show or say KLM 641?"
+ },
+ {
+  "id": "flight_home__op_kl641_en_spoken",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input say KL six four one or six forty-one?"
+ },
+ {
+  "id": "flight_home__op_kl641_nl_spoken",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input say KL zes vier een or zeshonderdeenenveertig?"
+ },
+ {
+  "id": "flight_home__op_kl641_fr_spoken",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input say KL six cent quarante-et-un or six quatre un?"
+ },
+ {
+  "id": "flight_home__op_kl_code",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input show the airline code KL with a flight number?"
+ },
+ {
+  "id": "flight_home__op_klm_logo",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input show the KLM logo or blue crown?"
+ },
+ {
+  "id": "flight_home__op_klm_fr_nl",
+  "booking_id": "flight_home",
+  "group": "operator",
+  "q": "Does the input mention le vol KLM or de KLM-vlucht?"
+ },
+ {
+  "id": "flight_home__pl_schiphol",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention Amsterdam Schiphol or Schiphol Airport?"
+ },
+ {
+  "id": "flight_home__pl_ams_code",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input show the airport code AMS?"
+ },
+ {
+  "id": "flight_home__pl_schiphol_nl_fr",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention Luchthaven Schiphol or Aeroport d'Amsterdam-Schiphol?"
+ },
+ {
+  "id": "flight_home__pl_jfk_t4",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention New York JFK Terminal 4 or JFK T4?"
+ },
+ {
+  "id": "flight_home__pl_terminal4",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention Terminal 4 or Vertrekhal 4?"
+ },
+ {
+  "id": "flight_home__pl_schiphol_station",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention Schiphol Airport train station or Station Schiphol?"
+ },
+ {
+  "id": "flight_home__pl_amsterdam_ny",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input mention a flight from Amsterdam to New York?"
+ },
+ {
+  "id": "flight_home__pl_schiphol_departures",
+  "booking_id": "flight_home",
+  "group": "place",
+  "q": "Does the input show Schiphol Departures or Vertrek?"
+ },
+ {
+  "id": "flight_home__ch_cancelled",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input say cancelled, annule, supprime, or geannuleerd?"
+ },
+ {
+  "id": "flight_home__ch_delayed",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input say delayed, retarde, or vertraagd?"
+ },
+ {
+  "id": "flight_home__ch_strike",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention a strike, greve, or staking?"
+ },
+ {
+  "id": "flight_home__ch_gate_change",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention a gate change, changement de porte, or gatewijziging?"
+ },
+ {
+  "id": "flight_home__ch_track_change",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention a platform or track change, voie, or spoor?"
+ },
+ {
+  "id": "flight_home__ch_closure",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention a closure, ferme, or gesloten?"
+ },
+ {
+  "id": "flight_home__ch_schedule_change",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention a schedule change, horaire modifie, or gewijzigde dienstregeling?"
+ },
+ {
+  "id": "flight_home__ch_boarding_delay",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input say boarding is delayed or embarquement retarde?"
+ },
+ {
+  "id": "flight_home__ch_diverted",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input say diverted, deroute, or omgeleid?"
+ },
+ {
+  "id": "flight_home__ch_disruption_general",
+  "booking_id": "flight_home",
+  "group": "change",
+  "q": "Does the input mention disruptions, perturbations, or verstoringen?"
+ },
+ {
+  "id": "flight_home__co_kl641_cancelled",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say KLM KL 641 is cancelled, annule, or geannuleerd?"
+ },
+ {
+  "id": "flight_home__co_kl641_delayed",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say KLM KL 641 is delayed, retarde, or vertraagd?"
+ },
+ {
+  "id": "flight_home__co_kl641_gate",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input announce a gate change or porte change for KL 641?"
+ },
+ {
+  "id": "flight_home__co_kl641_schedule",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input announce a schedule change for KLM KL 641?"
+ },
+ {
+  "id": "flight_home__co_klm_strike",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention a KLM strike, greve KLM, or KLM-staking?"
+ },
+ {
+  "id": "flight_home__co_klm_cancellations",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say KLM flights are cancelled or geannuleerd?"
+ },
+ {
+  "id": "flight_home__co_klm_delays",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say KLM flights are delayed or vertraagd?"
+ },
+ {
+  "id": "flight_home__co_schiphol_strike",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention a strike, greve, or staking at Schiphol?"
+ },
+ {
+  "id": "flight_home__co_schiphol_cancelled",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say flights at Schiphol are cancelled or geannuleerd?"
+ },
+ {
+  "id": "flight_home__co_schiphol_delayed",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say flights at Schiphol are delayed or vertraagd?"
+ },
+ {
+  "id": "flight_home__co_schiphol_closure",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say a terminal or runway at Schiphol is closed or gesloten?"
+ },
+ {
+  "id": "flight_home__co_schiphol_train_disruption",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention train delays or verstoringen to Schiphol Airport?"
+ },
+ {
+  "id": "flight_home__co_schiphol_train_track",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention a spoor or platform change for trains to Schiphol?"
+ },
+ {
+  "id": "flight_home__co_jfk_t4_closure",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input say JFK Terminal 4 is closed or ferme?"
+ },
+ {
+  "id": "flight_home__co_jfk_t4_delay",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention delays or disruptions at JFK Terminal 4?"
+ },
+ {
+  "id": "flight_home__co_jfk_t4_gate",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input announce a gate change at JFK Terminal 4?"
+ },
+ {
+  "id": "flight_home__co_klm_disruption",
+  "booking_id": "flight_home",
+  "group": "combo",
+  "q": "Does the input mention disruptions or verstoringen affecting KLM?"
+ }
+]
