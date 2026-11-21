@@ -15,7 +15,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The march between Panthéon and Place d'Italie does not directly alter any booked service, entrance, station, or stop."
+   }
   },
   {
    "id": "news_9c60d1cca4",
@@ -29,7 +34,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "This is a generic Eurostar travel news landing page with no specific service change on the booked date."
+   }
   },
   {
    "id": "news_78532c9a34",
@@ -45,7 +55,14 @@
    "why": {
     "hotel_ams": "GVB notice: no trams at Westermarkt (lines 13 and 17 diverted) until 27 Feb 2027, which covers the 28 to 30 Nov stay."
    },
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [
+     "hotel_ams"
+    ],
+    "agree": true,
+    "reason": "Construction removes tram 13 and 17 service at the Westermarkt stop listed for hotel_ams during the Nov 28-30 stay."
+   }
   },
   {
    "id": "news_1ccd00925f",
@@ -59,7 +76,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The regional transport strikes occur on Nov 23-24 outside the Netherlands stay dates and exclude GVB and NS services."
+   }
   },
   {
    "id": "news_21a6e3f7b7",
@@ -73,7 +95,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A general call to join Nov 28 feminist protests in Paris does not directly change any booking's service, station, or entrance."
+   }
   },
   {
    "id": "news_92e77aa7ac",
@@ -87,7 +114,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A broad municipal strike notice in Paris specifies no closure or change to any booked venue, entrance, or station."
+   }
   },
   {
    "id": "news_6830b4317a",
@@ -101,7 +133,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Borderline, labelled false: the NMBS notice names EuroCity and EuroCity Direct diversions, not Eurostar."
+   "note": "Borderline, labelled false: the NMBS notice names EuroCity and EuroCity Direct diversions, not Eurostar.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "This truncated NMBS Internationaal overview snippet mentions a Rotterdam timetable adjustment without identifying Eurostar 9315 or its corridor."
+   }
   },
   {
    "id": "news_c6340a241f",
@@ -115,7 +152,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Track work between Alkmaar and Uitgeest is outside the traveler's Paris-Amsterdam and Amsterdam-Schiphol rail routes."
+   }
   },
   {
    "id": "news_2759e333ca",
@@ -129,7 +171,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Cancelled Belgian flights do not affect the itinerary, which only uses rail through Belgium and flights via JFK, CDG, and Schiphol."
+   }
   },
   {
    "id": "news_b47dfd155c",
@@ -143,7 +190,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The NYC weather alert covers Nov 22-23, before flight_out departs on Nov 24."
+   }
   },
   {
    "id": "news_977db582df",
@@ -157,7 +209,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The forecast storms miss the Tuesday Nov 24 evening departure window and announce no direct change to AF 23 or JFK Terminal 1."
+   }
   },
   {
    "id": "news_3253072479",
@@ -171,7 +228,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Planned Paris demonstrations on Nov 21-22 fall outside the Nov 25-28 Paris stay."
+   }
   },
   {
    "id": "news_7d9040712c",
@@ -185,7 +247,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The announced French union strike is on Dec 1, after the Paris portion and entire trip conclude."
+   }
   },
   {
    "id": "news_52af25a133",
@@ -199,7 +266,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Labelled false: 28 Nov march with no route, place or station named."
+   "note": "Labelled false: 28 Nov march with no route, place or station named.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The article discusses a possible Nov 28 march without confirming closures of any specific booked station or changes to Eurostar 9315."
+   }
   },
   {
    "id": "news_182943e119",
@@ -213,7 +285,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "General holiday airport crowd expectations on Nov 30 do not change KL 641's scheduled service, terminal, or gate."
+   }
   },
   {
    "id": "news_1e7241d7ce",
@@ -227,7 +304,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A Paris criminal court sentencing report is unrelated to travel services, stations, or venues."
+   }
   },
   {
    "id": "news_616b24aebb",
@@ -241,7 +323,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The Port Authority lane closure begins at 11:30 p.m. on Nov 24 after AF 23 departs and does not alter flight service or terminal operations."
+   }
   },
   {
    "id": "news_77269451ba",
@@ -255,7 +342,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A general French public-services strike notice through Nov 28 announces no specific closure or change to any booked service, entrance, or station."
+   }
   },
   {
    "id": "news_a604e6263d",
@@ -269,7 +361,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A standing CGT-RATP supervisor strike notice through Dec 31 does not confirm any closure or service change at the booked Metro lines or stations."
+   }
   },
   {
    "id": "news_e593d6b993",
@@ -283,7 +380,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "An unconfirmed Paris student protest on Nov 26 does not directly alter the Louvre timed entry, Pyramid entrance, or Palais-Royal Metro station."
+   }
   },
   {
    "id": "news_53e343abcf",
@@ -297,7 +399,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Labelled false: the article says no route, time or transport notice is known."
+   "note": "Labelled false: the article says no route, time or transport notice is known.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The Nov 28 Paris protest notice explicitly states that no route, schedule, station closures, or transport strike notices exist yet."
+   }
   },
   {
    "id": "news_ef953149ed",
@@ -311,7 +418,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "This GVB overview cites Tram 13 works at Overtoomse Sluis and Bus 18/21 works without stating any closure or change at the Westermarkt stop."
+   }
   },
   {
    "id": "news_05a469a789",
@@ -325,7 +437,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The announced Dutch regional transport strikes fall outside the Nov 28-30 Netherlands dates."
+   }
   },
   {
    "id": "news_d35f8cee02",
@@ -339,7 +456,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "This generic GVB disruptions index lists date ranges for several lines without specifying any impact on the Westermarkt stop."
+   }
   },
   {
    "id": "news_c2f8a3344c",
@@ -353,7 +475,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "All listed Dutch regional public transport strike dates fall outside the traveler's Nov 28-30 stay in Amsterdam."
+   }
   },
   {
    "id": "news_493f1ea497",
@@ -367,7 +494,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Labelled false: Line 8 skips Republique, not Chemin Vert; line 1 Saint-Paul is not listed."
+   "note": "Labelled false: Line 8 skips Republique, not Chemin Vert; line 1 Saint-Paul is not listed.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Paris Metro closures at Saint-Michel, République, and Mairie de Saint-Ouen do not close Saint-Paul, Chemin Vert, Palais-Royal, or Gare du Nord."
+   }
   },
   {
    "id": "news_daa7b7bc75",
@@ -381,7 +513,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Labelled false: KL 641 cancelled on 17 Nov, not on the 30 Nov booking date."
+   "note": "Labelled false: KL 641 cancelled on 17 Nov, not on the 30 Nov booking date.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The cancellation of KL 641 occurred on Nov 17, not on the booked flight_home date of Nov 30."
+   }
   },
   {
    "id": "news_3e584ecdc7",
@@ -395,7 +532,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A temporary French ban on firework mortars has no direct effect on any booked transport service, venue entrance, or station."
+   }
   },
   {
    "id": "news_dd4f900146",
@@ -409,7 +551,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "A single KLM GPS incident on Nov 16 falls outside the trip dates and does not affect KL 641 on Nov 30."
+   }
   },
   {
    "id": "news_bd2005bb6c",
@@ -423,7 +570,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "An A12 highway blockade in The Hague on Nov 28 does not affect the Eurostar rail route or Amsterdam hotel stop."
+   }
   },
   {
    "id": "news_3d3f025c8a",
@@ -437,7 +589,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Strike disruptions at the Louvre on Nov 5 occurred weeks before the Nov 26 museum booking."
+   }
   },
   {
    "id": "news_ccf74ed096",
@@ -451,7 +608,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Borderline, labelled false: some Louvre galleries closed for works; the Pyramid entrance and timed entry are unchanged."
+   "note": "Borderline, labelled false: some Louvre galleries closed for works; the Pyramid entrance and timed entry are unchanged.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "Routine gallery renovations inside the Louvre do not alter the Nov 26 timed-entry admission, the Pyramid entrance, or the Palais-Royal Metro station."
+   }
   },
   {
    "id": "news_07a144de07",
@@ -465,7 +627,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "General JFK roadway construction advisories do not directly change AF 23 or KL 641 flight service, terminals, or gates."
+   }
   },
   {
    "id": "news_86120c4c96",
@@ -479,7 +646,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The referenced Nov 5 aviation strike has already passed and no new Air France strike is announced for the trip dates."
+   }
   },
   {
    "id": "news_37e5892ab0",
@@ -493,7 +665,12 @@
     "flight_home": false
    },
    "why": {},
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "The Louvre closure on Oct 24 is outside the traveler's Nov 26 visit date."
+   }
   },
   {
    "id": "news_d332901a93",
@@ -509,7 +686,14 @@
    "why": {
     "train_ams": "International timetable between Schiphol and Antwerpen Centraal is changed on 28 Nov from 06:00; Eurostar 9315 calls at both that morning."
    },
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [
+     "train_ams"
+    ],
+    "agree": true,
+    "reason": "Engineering works adjust the international rail timetable between Schiphol Airport and Antwerpen Centraal on Nov 28, directly affecting Eurostar 9315."
+   }
   },
   {
    "id": "news_96b489dff2",
@@ -525,7 +709,14 @@
    "why": {
     "train_ams": "International timetable between Amsterdam Centraal and Brussel Zuid is changed on 28 and 29 Nov; Eurostar 9315 runs that segment on 28 Nov."
    },
-   "note": ""
+   "note": "",
+   "carbon": {
+    "true": [
+     "train_ams"
+    ],
+    "agree": true,
+    "reason": "Engineering works adjust the international timetable between Amsterdam Centraal and Brussel Zuid on Nov 28, directly affecting Eurostar 9315."
+   }
   },
   {
    "id": "news_8fc3132920",
@@ -539,8 +730,22 @@
     "flight_home": false
    },
    "why": {},
-   "note": "Labelled false: KLM winter cuts name no flight number."
+   "note": "Labelled false: KLM winter cuts name no flight number.",
+   "carbon": {
+    "true": [],
+    "agree": true,
+    "reason": "KLM's general winter capacity trim announcement does not state that flight KL 641 on Nov 30 is cancelled or rescheduled."
+   }
   }
  ],
- "carbon_review": null
+ "carbon_review": {
+  "model": "gemini-4-carbon (confirmed by stats.models in the CLI JSON)",
+  "command": "gemini -m gemini-4-carbon --output-format json -p \"<short task>\" < payload.json",
+  "wall_s": 178,
+  "thought_tokens": 14693,
+  "items": 38,
+  "agree": 38,
+  "disagree": 0,
+  "settled": "No disagreements to settle; agreement checked in code from carbon_true, not from the model own agree flag."
+ }
 }
