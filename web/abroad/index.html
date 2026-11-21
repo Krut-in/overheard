@@ -322,7 +322,7 @@ async function poll() {
     if (f.itinerary_id && (!IT || IT.id !== f.itinerary_id)) IT = await api("/itinerary").catch(() => null);
     if (!f.itinerary_id) IT = null;
     if (f.lang && f.lang !== LANG) { LANG = f.lang; $("lang").value = LANG; }
-    const sig = JSON.stringify([f.itinerary_id, LANG, f.events.map(e => [e.id, e.status])]);
+    const sig = JSON.stringify([f.itinerary_id, LANG, f.events.map(e => [e.id, e.status, e.alert?.proof?.kind, !!e.alert?.whisper_url])]);  // proof and whisper land after the alert, so they must trigger a redraw too
     FEED = f;
     if (sig !== lastSig) { const first = !lastSig; render(f); lastSig = first ? sig : sig; if (first) f.events.forEach(e => e.status === "alert" && played.add(e.id)); }
   } catch (e) { /* server restarting; try again */ }
