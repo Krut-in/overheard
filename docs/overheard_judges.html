@@ -84,7 +84,7 @@ footer{padding-block:32px 56px;color:var(--mute);font-size:14px;border-top:1px s
 
 <nav aria-label="Sections"><div class="wrap">
 <b>Overheard</b>
-<a href="#runsheet">Run sheet</a><a href="#pitch">Pitch</a><a href="#product">Product</a><a href="#how">How it works</a><a href="#models">Models</a><a href="#results">Results</a><a href="#future">Next</a><a href="#qa">Q&amp;A</a>
+<a href="#runsheet">Run sheet</a><a href="#model-lines">Model lines</a><a href="#pitch">Pitch</a><a href="#product">Product</a><a href="#how">How it works</a><a href="#models">Models</a><a href="#results">Results</a><a href="#future">Next</a><a href="#qa">Q&amp;A</a>
 </div></nav>
 
 <main class="wrap">
@@ -128,6 +128,22 @@ footer{padding-block:32px 56px;color:var(--mute);font-size:14px;border-top:1px s
   </table></div>
   <h3>30-second wrap</h3>
   <div class="pitch"><p>"On 74 labelled items, Decision 1 alone caught 15 of 18 rehearsal changes at under a second each, and with Carbon on the borderline band it caught 18 of 18. On real news it caught all 3 true hits. The honest failure is the one you just saw: number-only near misses like KL 643 still fire. Next is a native app that listens in the background, Live API voice, and big-type modes for elderly riders. The code, the evals and every failure are public on GitHub."</p></div>
+  <h3 id="model-lines">Say it out loud: the models and their jobs</h3>
+  <p class="fb">Use these when a judge asks which models you used, or while the rehearsal and photo steps are loading. Each line is one breath.</p>
+  <ul class="say">
+    <li><b>One-breath version:</b> "Decision 1 decides, Neon reads, Hydrogen writes and translates, Carbon double-checks, TTS speaks, and Nano Banana shows the proof."</li>
+    <li><b>gemini-decision-1:</b> "Every announcement, photo and news item goes through one Decision 1 call. It answers all 286 yes/no questions about my trip at once and gives each booking its own score, in under a second."</li>
+    <li><b>Neon:</b> "Neon reads my booking emails from Gmail with read-only access and turns them into one itinerary. When something does hit me, Neon pulls out exactly what changed and what I should do."</li>
+    <li><b>Hydrogen:</b> "Hydrogen writes the fingerprint, 40 to 54 questions per booking in French, Dutch and English. It also translates every alert into my language."</li>
+    <li><b>Hydrogen with Google Search:</b> "Before I fly, Hydrogen searches local news for strikes and closures on my dates. Code then opens every link and checks every date, so nothing is made up."</li>
+    <li><b>Carbon:</b> "Carbon is the second opinion. Anything that scores between 0.4 and 0.8 goes to Carbon, which looks at the input and the booking together. On rehearsal it rescued all 3 misses."</li>
+    <li><b>Gemini TTS:</b> "Gemini TTS whispers the alert in my language. It also voiced every rehearsal announcement you heard."</li>
+    <li><b>Nano Banana:</b> "Nano Banana takes my own photo and circles the one line that matters. That's the proof I can trust."</li>
+    <li><b>Not about me:</b> "When I dismiss an alert, Hydrogen writes sharper questions for that booking, and Decision 1 checks they stay quiet on real alerts before we keep them."</li>
+    <li><b>Managed Agent:</b> "Video goes through the same Decision 1 call one frame per second, and a Gemini Managed Agent cuts the highlight clip with ffmpeg in a hosted sandbox."</li>
+    <li><b>Gemini CLI:</b> "Gemini CLI helped build it. Hydrogen wrote the six sample booking emails in 20 seconds and all 36 rehearsal scripts in under a minute, and Carbon reviewed all 38 news labels and agreed with every one."</li>
+    <li><b>Proof it's real:</b> "Every Gemini call is logged with its model and latency. Decision 1's median was 0.56 to 0.93 seconds against 4.1 to 6.7 for asking Hydrogen."</li>
+  </ul>
 </section>
 
 
