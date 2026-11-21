@@ -110,6 +110,8 @@ def alert(inp: dict, verdict: dict, it: dict, lang: str, on_text=None) -> dict:
         a["whisper_url"] = _save(voice.result(timeout=40), ".wav")
     except Exception as e:  # noqa: BLE001
         a["whisper_error"] = str(e)[:160]
+    if photo and on_text:
+        on_text(a)   # the whisper is playable while the circled photo is still drawing
     if photo:
         try:
             img = photo.result(timeout=60)
