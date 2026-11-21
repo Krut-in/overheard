@@ -14,6 +14,7 @@ from overheard.decide import score
 from overheard.decide import MIME, score_bytes, shrink
 from overheard.fingerprint import build_fingerprint
 from overheard.trip import extract_trip
+from overheard.api_abroad import router as abroad_router
 
 ROOT = Path(__file__).resolve().parent
 app = FastAPI()
@@ -175,6 +176,14 @@ async def feed():
 @app.get("/")
 async def index():
     return FileResponse(ROOT / "web" / "index.html")
+
+
+app.include_router(abroad_router)  # the trip-abroad API at /api/abroad (overheard/api_abroad.py)
+
+
+@app.get("/abroad")
+async def abroad_page():
+    return FileResponse(ROOT / "web" / "abroad" / "index.html")
 
 
 app.mount("/media", StaticFiles(directory=ROOT / "data"), name="media")
