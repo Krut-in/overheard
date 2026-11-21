@@ -1,0 +1,546 @@
+{
+ "rule": "Relevant only when the item directly changes that booking's service, gate, entrance, station or stop on its dates (same rule as ticket E). Cross-booking knock-on effects count as false.",
+ "source": "data/abroad/radar/snapshot_2026-11-21.json",
+ "labeller": "Claude (ticket G), then reviewed by gemini-4-carbon through Gemini CLI",
+ "items": [
+  {
+   "id": "news_786a76395c",
+   "title": "Mobilisations pour l'élimination les violences faites aux femmes : 25 et 28 novembre",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_9c60d1cca4",
+   "title": "Disruptions | Travel News | Eurostar",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_78532c9a34",
+   "title": "GVB",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": true,
+    "flight_home": false
+   },
+   "why": {
+    "hotel_ams": "GVB notice: no trams at Westermarkt (lines 13 and 17 diverted) until 27 Feb 2027, which covers the 28 to 30 Nov stay."
+   },
+   "note": ""
+  },
+  {
+   "id": "news_1ccd00925f",
+   "title": "Strikes in regional public transport on 23 and 24 November",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_21a6e3f7b7",
+   "title": "Syndicats, jeunesse et gilets jaunes un peu moins mobilisés pour le si ...",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_92e77aa7ac",
+   "title": "Manifestations, grèves et perturbations à Paris du 16 au 22 novembre",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_6830b4317a",
+   "title": "Storingen en geplande werkzaamheden | NMBS Internationaal",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Borderline, labelled false: the NMBS notice names EuroCity and EuroCity Direct diversions, not Eurostar."
+  },
+  {
+   "id": "news_c6340a241f",
+   "title": "Werkzaamheden Noord-Holland | Reizen | NS",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_2759e333ca",
+   "title": "Maandag alle Belgische vluchten geannuleerd wegens staking",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_b47dfd155c",
+   "title": "NYCEM Issues Weather Alert for Windy, Soaking Rain Sunday Afternoon Into Monday Morning",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_977db582df",
+   "title": "New York storm threatens to disrupt upcoming Thanksgiving travel",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_3253072479",
+   "title": "Demonstration Alert - U.S. Embassy Paris, France – November 20, 2026",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_7d9040712c",
+   "title": "French Union Leader Warns Strikes Will Continue without Higher Wages",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_52af25a133",
+   "title": "Demonstration in Paris on Saturday 28 November 2026: closed stations, disrupted metro lines",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Labelled false: 28 Nov march with no route, place or station named."
+  },
+  {
+   "id": "news_182943e119",
+   "title": "Thanksgiving 2026 NYC: Airport Rush Days & Parade Closures",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_1e7241d7ce",
+   "title": "Six ans après l’agression de Michel Zecler, les trois policiers condamnés à des peines de 1 à 2 ans de prison ferme",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_616b24aebb",
+   "title": "THANKSGIVING HOLIDAY TRAVEL ADVISORY",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_77269451ba",
+   "title": "La Fédération CGT des Services publics dépose un préavis de grève pour les journées du 20, 21, 22, 23, 24, 25, 26, 27 et 28 novembre 2026, journée internationale pour l’élimination des violences faites aux femmes - UFICT-CGT DU GRAND REIMS",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_a604e6263d",
+   "title": "Quelles sont les dates des prochaines grèves ? SNCF, RATP, avions et transports en novembre et décembre 2026 - InfosTourisme",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_e593d6b993",
+   "title": "Étudiants : une nouvelle journée de mobilisation se dessine à Paris",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_53e343abcf",
+   "title": "Manifestation du samedi 28 novembre 2026 à Paris : stations fermées, lignes de métro perturbées",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Labelled false: the article says no route, time or transport notice is known."
+  },
+  {
+   "id": "news_ef953149ed",
+   "title": "Diversions and disruptions | GVB",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_05a469a789",
+   "title": "Nieuwe ov-stakingen aangekondigd, Rover: ‘Dit kan zo niet langer doorgaan’",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_d35f8cee02",
+   "title": "Omleidingen en verstoringen | GVB",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_c2f8a3344c",
+   "title": "Regional public transport workers announce nationwide strikes next week",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_493f1ea497",
+   "title": "Travaux : les fermetures prévues sur le métro, le RER et le tramway",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Labelled false: Line 8 skips Republique, not Chemin Vert; line 1 Saint-Paul is not listed."
+  },
+  {
+   "id": "news_daa7b7bc75",
+   "title": "KL 641 Amsterdam to John F. Kennedy, 17 November 2026: Cancelled",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Labelled false: KL 641 cancelled on 17 Nov, not on the 30 Nov booking date."
+  },
+  {
+   "id": "news_3e584ecdc7",
+   "title": "France temporarily bans firework mortars amid school protests",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_dd4f900146",
+   "title": "KLM-piloot meldt gps-storing tijdens nadering Schiphol",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_bd2005bb6c",
+   "title": "Persberichten Archives · Extinction Rebellion Nederland",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_3d3f025c8a",
+   "title": "November 5 strike: Eiffel Tower closed, Louvre and Versailles disrupted",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_ccf74ed096",
+   "title": "Jours d’accès aux collections - Plan d'ouverture des salles",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Borderline, labelled false: some Louvre galleries closed for works; the Pyramid entrance and timed entry are unchanged."
+  },
+  {
+   "id": "news_07a144de07",
+   "title": "Thanksgiving 2026 travel: 4 airport trouble spots to watch",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_86120c4c96",
+   "title": "Grève Air France novembre 2026 : vols, Roissy, RER B",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_37e5892ab0",
+   "title": "The Louvre will be closed on Saturday, October 24: tickets will be automatically refunded.",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": ""
+  },
+  {
+   "id": "news_d332901a93",
+   "title": "Amsterdam - Brussel - Paris: werkzaamheden",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": true,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {
+    "train_ams": "International timetable between Schiphol and Antwerpen Centraal is changed on 28 Nov from 06:00; Eurostar 9315 calls at both that morning."
+   },
+   "note": ""
+  },
+  {
+   "id": "news_96b489dff2",
+   "title": "Amsterdam - Rotterdam - Brussel: werkzaamheden",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": true,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {
+    "train_ams": "International timetable between Amsterdam Centraal and Brussel Zuid is changed on 28 and 29 Nov; Eurostar 9315 runs that segment on 28 Nov."
+   },
+   "note": ""
+  },
+  {
+   "id": "news_8fc3132920",
+   "title": "KLM Flight Cancellations: Winter Cuts Start October 26",
+   "labels": {
+    "flight_out": false,
+    "hotel_paris": false,
+    "museum_louvre": false,
+    "train_ams": false,
+    "hotel_ams": false,
+    "flight_home": false
+   },
+   "why": {},
+   "note": "Labelled false: KLM winter cuts name no flight number."
+  }
+ ],
+ "carbon_review": null
+}
