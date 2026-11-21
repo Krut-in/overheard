@@ -72,6 +72,7 @@ Neon's terse miss was `"30m1h"`, which it accepted. The terse prompt never said 
 | Ticket | Model and mode | Task | Wall time | Result |
 |---|---|---|---|---|
 | B | `gemini-4-hydrogen`, Gemini CLI headless, prompt on stdin, JSON out, no tools | 6 SAMPLE BOOKING emails from the fixture | 20 s | 6 valid emails first try; every operator, number and ref verbatim |
+| E | `gemini-4-hydrogen`, Gemini CLI headless, JSON out | 36 rehearsal scripts with labels for 6 bookings | 55.6 s | 36 balanced items, 0 of 36 labels needed fixing |
 | A | `gemini-4-hydrogen` API, thinking low, 1 call per booking, 3 at once | itinerary fingerprint | 37 s cold | 279 tagged questions, 40 to 54 per booking |
 
 ## Part 2: deliberate variations to inject during the build
