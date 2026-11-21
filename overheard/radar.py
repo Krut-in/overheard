@@ -63,6 +63,7 @@ RANGE_WORDS = re.compile(rf"^\s*(?:{_RANGE_SEP})\s*$")
 LIST_RANGE_WORDS = re.compile(r"^\s*(?:et|and|en)\s*$")
 RANGE_CUES = re.compile(r"(?:entre|between|du|van|from)\s*$")
 MAX_RANGE_DAYS = 62
+MAX_AGE_DAYS = 90       # pages whose publication date is older than this are dropped
 
 
 def _fold(text: str) -> str:
@@ -174,13 +175,17 @@ def dedupe(items: list[dict]) -> list[dict]:
     out, seen = [], {}
     for it in items:
         key = normalize_url(it["url"])
-        if key in seen:
-            first = seen[key]
+        # the same page under two locales (eurostar.com/us-en/... and /travel-info/...) has one source and title
+        alt = (it.get("source"), (it.get("title") or "").strip().lower()) if it.get("source") and it.get("title") else None
+        first = seen.get(key) or (seen.get(alt) if alt else None)
+        if first is not None:
             first["dates"] = sorted(set(first.get("dates") or []) | set(it.get("dates") or []))
             if it.get("found_for"):
                 first["found_for"] = sorted(set(first.get("found_for") or []) | set(it["found_for"]))
             continue
         seen[key] = it
+        if alt:
+            seen[alt] = it
         out.append(it)
     return out
 
@@ -395,8 +400,16 @@ def build_input(final_url: str, html: str, today: date, *, segments=(), context:
     meta = page_meta(html)
     body = page_text(html)
     title = _clean((rss or {}).get("title") or meta["title"])
-    published = (rss or {}).get("published") or meta["published"] or _iso_day(_first_model_date(context))
-    if not title or not published:
+    # first publication date that is not after today; live status pages with none get today, marked "fetched"
+    published, published_src = None, None
+    for src, cand in (("rss", (rss or {}).get("published")), ("meta", meta["published"]),
+                      ("model", _iso_day(_first_model_date(context)))):
+        if cand and cand <= today.isoformat():
+            published, published_src = cand, src
+            break
+    if not published:
+        published, published_src = today.isoformat(), "fetched"
+    if not title or (today - date.fromisoformat(published)).days > MAX_AGE_DAYS:
         return None
     folded_body = _fold(body)
     quote, verified = "", False
@@ -417,7 +430,7 @@ def build_input(final_url: str, html: str, today: date, *, segments=(), context:
             "kind": "news", "origin": "radar", "mime": "text/plain",
             "text": f"{title}. {summary}" if summary and summary not in title else title,
             "url": final_url, "title": title, "quote": quote[:400], "quote_verified": verified,
-            "published": published, "dates": extract_dates(dated_text, today), "lang": lang,
+            "published": published, "published_src": published_src, "dates": extract_dates(dated_text, today), "lang": lang,
             "source": urlsplit(final_url).netloc.removeprefix("www."), "found_for": sorted(set(found_for)),
             "via": via}
 
@@ -427,10 +440,13 @@ def _first_model_date(context: str) -> str:
     return m[0] if m else ""
 
 
-KEYWORDS = re.compile(r"\b(greve|greves|preavis|staking|staken|sncf|ratp|eurostar|thalys|schiphol|klm|air france|"
-                      r"louvre|annul\w*|geannuleerd|storing\w*|vertraging\w*|perturb\w*|tempete|storm|code oranje|"
-                      r"code rood|vigilance|neige|sneeuw|fermeture|gesloten|manifestation|demonstratie|"
-                      r"cdg|roissy|orly|gare du nord|ns\b|prorail|trafic|treinverkeer|aeroport|luchthaven)", re.I)
+# an RSS item needs a disruption word in its title and a travel word in its title or summary
+DISRUPT_WORDS = re.compile(r"\b(greves?|preavis|stakings?|staken|annul\w*|geannuleerd|storing\w*|vertraging\w*|"
+                           r"perturb\w*|tempete|code oranje|code rood|vigilance (?:orange|rouge)|fermetures?|gesloten|"
+                           r"manifestations?|demonstratie|uitval|ferme|closed|strike|cancel\w*)\b")
+TRAVEL_WORDS = re.compile(r"\b(sncf|ratp|eurostar|thalys|schiphol|klm|air france|louvre|trains?|treinen|trein\w*|ns|"
+                          r"prorail|aeroports?|luchthaven|vols?|vlucht\w*|metro|rer|tram|cdg|roissy|orly|gare|station|"
+                          r"paris|amsterdam|bruxelles|brussel|trafic|treinverkeer|spoor|ov|flights?|airport)\b")
 
 
 def rss_items(today: date, days: int = 14) -> list[dict]:
@@ -451,7 +467,8 @@ def rss_items(today: date, days: int = 14) -> list[dict]:
             if (today - pub).days > days or pub > today + timedelta(days=1):
                 continue
             summary = re.sub(r"<[^>]+>", " ", e.get("summary", "") or "")
-            if not KEYWORDS.search(_fold(f"{e.get('title', '')} {summary}")):
+            title = _fold(e.get("title", ""))
+            if not (DISRUPT_WORDS.search(title) and TRAVEL_WORDS.search(f"{title} {_fold(summary)}")):
                 continue
             out.append({"link": e.get("link"), "title": e.get("title", ""), "summary": _clean(summary)[:400],
                         "published": pub.isoformat(), "feed": url, "lang": lang})
@@ -485,9 +502,32 @@ def sweep(it: dict, today: date | str, *, workers: int = 8, use_rss: bool = True
         with ThreadPoolExecutor(workers) as ex:
             built = list(ex.map(from_source, sources)) + list(ex.map(from_rss, rss))
     items = [b for b in built if b and _is_article(b["url"])]
-    items = dedupe(items)
+    items = confirm(dedupe(items))
     items.sort(key=lambda x: x["published"], reverse=True)
     return items
+
+
+def confirm(items: list[dict], tries: int = 2) -> list[dict]:
+    """Keep an item only if its URL answers 200 on `tries` fresh requests. Hosts behind a bot wall (bonjour-ratp.fr
+    answered 403 two times in three) would otherwise fail the live check later."""
+    import httpx
+
+    def ok(it):
+        for _ in range(tries):
+            try:
+                with httpx.Client(follow_redirects=True, timeout=20, headers=HEADERS) as c:
+                    if c.get(it["url"]).status_code != 200:
+                        return False
+            except httpx.TransportError:
+                return False
+        return True
+
+    with ThreadPoolExecutor(8) as ex:
+        keep = list(ex.map(ok, items))
+    dropped = [it["url"] for it, k in zip(items, keep) if not k]
+    if dropped:
+        print(f"[radar] dropped {len(dropped)} URLs that did not answer 200 twice: {dropped}", flush=True)
+    return [it for it, k in zip(items, keep) if k]
 
 
 def _is_article(url: str) -> bool:

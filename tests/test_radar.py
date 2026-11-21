@@ -60,6 +60,32 @@ def test_dedupe_keeps_first_and_merges_dates():
     assert out[0]["dates"] == ["2026-11-28", "2026-11-29"]
 
 
+def test_dedupe_same_page_two_locales():
+    items = [{"url": "https://eurostar.com/us-en/travel-updates", "source": "eurostar.com", "title": "Disruptions", "dates": []},
+             {"url": "https://eurostar.com/travel-updates", "source": "eurostar.com", "title": "Disruptions", "dates": []}]
+    assert len(radar.dedupe(items)) == 1
+
+
+def test_build_input_never_publishes_after_today():
+    html = ('<html><head><title>Storingen</title><meta name="date" content="2026-11-28">'
+            '<meta name="description" content="Geen treinen op zaterdag 28 november."></head></html>')
+    inp = radar.build_input("https://www.b-europe.com/NL/Storingen", html, TODAY, via="search")
+    assert inp["published"] == "2026-11-21" and inp["published_src"] == "fetched"
+    assert inp["dates"] == ["2026-11-28"] and inp["kind"] == "news" and inp["lang"] == "nl"
+
+
+def test_build_input_drops_stale_pages():
+    html = '<html><head><title>Old</title><meta property="article:published_time" content="2017-01-01"></head></html>'
+    assert radar.build_input("https://example.fr/old/page", html, TODAY, via="search") is None
+
+
+def test_rss_filter_needs_disruption_and_travel_word():
+    ok = radar._fold("Maandag alle Belgische vluchten geannuleerd wegens staking")
+    noise = radar._fold("Sonde komt na 8 jaar aan bij Mercurius voor onderzoek")
+    assert radar.DISRUPT_WORDS.search(ok) and radar.TRAVEL_WORDS.search(ok)
+    assert not (radar.DISRUPT_WORDS.search(noise) and radar.TRAVEL_WORDS.search(noise))
+
+
 def test_page_meta_reads_title_published_and_description():
     html = """<html><head><title>Fallback</title>
     <meta property="og:title" content="Grève SNCF : le trafic perturbé" />
@@ -92,11 +118,17 @@ def test_snapshot_urls_answer_200(request):
     items = json.loads(snaps[-1].read_text())["items"]
     assert len(items) >= 10
     bad = []
-    with httpx.Client(follow_redirects=True, timeout=20, headers=radar.HEADERS) as c:
+    with httpx.Client(follow_redirects=True, timeout=30, headers=radar.HEADERS) as c:
         for it in items:
             for k in ("url", "published", "quote", "dates"):
                 assert k in it and it[k] is not None, (k, it.get("url"))
-            r = c.get(it["url"])
-            if r.status_code != 200:
-                bad.append((r.status_code, it["url"]))
+            status = None
+            for _ in range(3):  # one slow host should not fail the check
+                try:
+                    status = c.get(it["url"]).status_code
+                    break
+                except httpx.TransportError as e:
+                    status = type(e).__name__
+            if status != 200:
+                bad.append((status, it["url"]))
     assert not bad, bad
