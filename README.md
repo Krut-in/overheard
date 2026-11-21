@@ -1,14 +1,86 @@
 # Overheard
 
-Everything you hear or see on a trip, filtered down to the part that's about you.
+Everything you hear or see on a trip abroad, filtered down to the moments that touch your bookings.
 
-Tell Overheard your subway trip, or show it your ticket. It listens to station announcements, reads posters and countdown clocks, and scans a short video of the station. It stays quiet about everything that doesn't touch your trip, and when something does, it whispers the change in your language and hands back your own photo with that one line circled and translated. Every input it ignores leaves a silence receipt with a relevance score, so you can see why it kept quiet.
+Connect your inbox, or tap "Load demo trip". Overheard turns every booking (flights, hotels, trains, timed tickets) into one itinerary fingerprint: a few hundred yes/no questions, each tagged with the booking it protects. Before you fly, it sweeps French and Dutch news for strikes and closures on your dates, and it rehearses the announcements you are likely to hear. On the platform, every announcement, sign and board photo goes through the same `gemini-decision-1` call. Overheard speaks only when an input hits one of your bookings. It whispers the change in your language and shows proof: your photo with the line circled, or the quoted sentence from the source. Everything else leaves a silence receipt. Tap "not about me" on a wrong alert and it writes sharper questions for that booking.
 
-Built solo in one afternoon at the Gemini 4 NYC Hackathon (Cerebral Valley and Google DeepMind, 2026-11-21) for the Element 119 problem: messy real-world audio, images and video, pushed until they break.
+Built at the Gemini 4 NYC Hackathon (Cerebral Valley and Google DeepMind, 2026-11-21). The engine was first built for the NYC subway in the afternoon (its results are further down), then extended to a whole trip to Paris and Amsterdam by an orchestrator session running eight ticket sessions in parallel.
 
-![Overheard demo: a Hindi alert with the relevant poster line circled](docs/demo_screenshot.jpg)
+<p><img src="docs/abroad_live_375.png" alt="Overheard on a phone: Hindi alerts for the Eurostar, KLM and hotel bookings, the trip timeline, and silence receipts" width="320"></p>
 
-## How it works
+## Overheard abroad: how it works
+
+| Step | What happens | Model | Code |
+|---|---|---|---|
+| Bookings in | Gmail (read-only, `gmail.readonly`), pasted text, PDFs or screenshots become one itinerary | `gemini-4-neon` (thinking low) | `overheard/ingest.py`, `gmail.py` |
+| Fingerprint | 40 to 54 questions per booking in French, Dutch and English, tagged `operator`, `place`, `change` or `combo`, plus one direct "does this hit booking X?" question per booking | `gemini-4-hydrogen` | `overheard/itinerary.py` |
+| Score | One call per input answers every question at once; each booking gets its own score, so the verdict names which booking is hit | `gemini-decision-1` | `overheard/match.py` |
+| Route | 0.8 or more alerts; 0.4 to 0.8 goes to Carbon, which sees the input and the booking; below 0.4 leaves a receipt | `gemini-4-carbon` | `overheard/abroad_alert.py` |
+| Alert | Change and action extracted, translated, whispered; proof is the circled photo or the quoted line | Neon, Hydrogen, `gemini-3.8-flash-tts`, `gemini-nano-banana-2.1` | `overheard/abroad_alert.py` |
+| Radar | Search-grounded sweep per booking and country, plus French and Dutch RSS; every URL fetched and checked; dates read by code | Hydrogen with Google Search | `overheard/radar.py` |
+| Rehearsal | Likely announcements and signs per booking, half real hits and half near misses, voiced and drawn | Hydrogen, TTS, Nano Banana | `overheard/rehearsal.py` |
+| Not about me | A dismissal becomes up to 3 `not` questions for that booking, kept only if they stay quiet on true alerts Hydrogen writes for the same booking | Hydrogen, Decision 1 | `overheard/learn.py` |
+
+Per booking b: `s(b) = (0.3 x affects(b) + 0.7 x max(operator, place) x max(combo, change)) x (1 - not(b))`. News items score 0 for a booking when none of their dates fall in that booking's window. The full data model and API are in `SPEC.md`.
+
+## Overheard abroad: results
+
+Rerun with `.venv/bin/python eval/abroad_eval.py all` (cached verdicts in `eval/results/`, so a rerun takes seconds). 74 items scored against the 6-booking demo trip: 36 rehearsal items (24 voiced announcements, 12 drawn signs, labelled by construction) and 38 real news items the radar found on 2026-11-21 (labelled by the build agent, then reviewed by Carbon through Gemini CLI: 38 of 38 agreed).
+
+| Source | Method | Caught | False alerts | Median latency |
+|---|---|---|---|---|
+| Rehearsal audio (12 relevant, 12 near misses) | Decision 1 at 0.8 | 12 of 12 | 2 of 12 | 1.05 s |
+| | Full policy (Carbon on 0.4 to 0.8) | 12 of 12 | 2 of 12 | 1.40 s |
+| | Transcribe, then ask Hydrogen | 12 of 12 | 0 of 12 | 8.4 s |
+| | Keyword match (on the ground-truth scripts) | 12 of 12 | 10 of 12 | |
+| Rehearsal signs (6 relevant, 6 near misses) | Decision 1 at 0.8 | 5 of 6 | 0 of 6 | 0.83 s |
+| | Full policy | 6 of 6 | 1 of 6 | 2.4 s |
+| | Read, then ask Hydrogen | 6 of 6 | 0 of 6 | 9.5 s |
+| | Keyword match | 6 of 6 | 5 of 6 | |
+| Real radar news (3 relevant, 35 not) | Decision 1 at 0.8 | 3 of 3 | 5 of 35 | 0.88 s |
+| | Full policy | 3 of 3 | 6 of 35 | 1.0 s |
+| | Ask Hydrogen | 3 of 3 | 7 of 35 | 4.0 s |
+| | Keyword match | 2 of 3 | 11 of 35 | |
+
+What this shows:
+- **Decision 1 is the fast path, Hydrogen is the accurate one.** On rehearsal data, transcribing and judging in text made no mistakes at 8 to 10 times the latency. Decision 1 caught 17 of 18 at about 1 s.
+- **The near misses are hard on purpose.** "Eurostar 9314 cancelled; 9315 runs normally" scored 0.81 for the 9315 booking. Operator, route and cancellation all match, and only the number tells them apart. Keyword matching fires on almost every near miss.
+- **Carbon was a net loss here.** It rescued the one missed sign and added two false alerts, one of them a structured answer that broke off mid-thought.
+- **Real news is thin on true hits.** Only 3 of 228 item and booking pairs were relevant, so recall on real news rests on 3 items. All 5 false alerts from Decision 1 on news were borderline: the right place and dates, with a change that misses the booking (a Louvre gallery closed for works, a metro skip one station away from the hotel).
+
+### Learning from "not me"
+
+- **Real MTA false alert (subway build).** "Manhattan-bound 7 skips 111 St..." scored 0.79 for a Flushing-bound rider. After one dismissal it scores 0.01, and the true "Flushing-bound 7 skips 52 St and 69 St" alert stays at 0.92 (`eval/learn_eval.py`).
+- **Held out on the rehearsal set.** LEARNING_HELDOUT
+
+### Honest failures (abroad)
+
+- **Wrong booking on a near tie.** A Paris line 8 closure alerted on the Eurostar (0.845) instead of the Paris hotel (0.843): the shared disruption questions and Paris place questions lift both.
+- **The threshold is sharp.** "KL 643 gate change; KL 641 departs on time" scored exactly 0.800 and alerted. It is visible in the screenshot above as the KL 641 card that says nothing changed.
+- **Real news labels are few.** 3 relevant pairs is a weak recall test; we report it rather than pad it with synthetic news.
+- **Latency outside Decision 1.** The verdict lands in about 1 s, the translated alert in about 10 s, the whisper by about 18 s and the circled photo by 25 to 35 s (Nano Banana takes 13 to 25 s).
+- **Gmail is wired but was not demoed live.** The read-only OAuth client exists; the consent with the lab account is the remaining step, so the demo uses "Load demo trip" or pasted booking emails.
+
+## Built with Gemini
+
+Every Gemini call in the product is logged with model, prompt summary and latency (`logs/calls*.jsonl`). The build itself also used Gemini:
+
+| Gemini model | What it built or did | Where |
+|---|---|---|
+| `gemini-4-hydrogen` through Gemini CLI (headless) | Wrote the 6 SAMPLE BOOKING emails (20 s) | `data/abroad/emails/` |
+| `gemini-4-hydrogen` through Gemini CLI (headless) | Wrote all 36 rehearsal scripts with labels for 6 bookings (56 s, 0 of 36 labels needed fixing) | `data/abroad/rehearsal/scripts.json` |
+| `gemini-4-carbon` through Gemini CLI (headless) | Reviewed every radar news label (38 of 38 agreed, 176 s) | `eval/abroad_labels.json` |
+| `gemini-4-hydrogen` | Wrote both fingerprints (subway and itinerary) and the learned questions | `data/fingerprints/`, `data/abroad/fingerprints/` |
+| `gemini-3.8-flash-tts`, `gemini-nano-banana-2.1` | Voiced and drew every synthetic announcement, sign and poster | `data/synth/`, `data/abroad/rehearsal/` |
+| `antigravity-preview-09-2026` (Managed Agent) | Cut video highlight clips with ffmpeg in a hosted sandbox | `overheard/agent_clip.py` |
+
+Gemini CLI measurements and lessons (for example: long `-p` prompts are ignored, pipe them on stdin) are in `GEMINI_MODEL_TESTS.md`. The application code was written by Claude Code sessions, one per ticket in `TICKETS.md`; `progress/` holds each ticket's report.
+
+## Subway build: how it works
+
+The engine was first built for one NYC subway trip. Tell it your trip, or show it your ticket; it listens to announcements, reads posters and countdown clocks, and scans a short station video.
+
+![Overheard subway demo: a Hindi alert with the relevant poster line circled](docs/demo_screenshot.jpg)
 
 One trip fingerprint is shared by every kind of input.
 
@@ -30,7 +102,7 @@ One trip fingerprint is shared by every kind of input.
 | `gemini-nano-banana-2.1` | Annotated photo, synthetic posters | 15 s |
 | `antigravity-preview-09-2026` | Managed Agent that cuts the highlight clip with ffmpeg | 66 s |
 
-## Results
+## Subway build: results
 
 All numbers come from `eval/` and can be rerun with `.venv/bin/python eval/run_eval.py all`, then `eval/policy.py` and `eval/extraction.py`. Each input is scored against 3 test trips (Q train Times Sq-42 St to 72 St, F train Jay St-MetroTech to 57 St, 7 train Grand Central to Flushing-Main St), so 24 announcements become 72 trip pairs.
 
@@ -100,14 +172,20 @@ What this shows:
 ## Run it
 
 ```bash
-uv venv .venv && uv pip install --python .venv/bin/python google-genai fastapi uvicorn python-multipart pillow numpy matplotlib python-dotenv httpx
+uv venv .venv && uv pip install --python .venv/bin/python google-genai fastapi uvicorn python-multipart pillow numpy matplotlib python-dotenv httpx feedparser pytest google-auth-oauthlib google-api-python-client
 echo "GEMINI_API_KEY=your-key" > .env
 .venv/bin/uvicorn server:app --port 8000
 ```
 
-Open http://localhost:8000, set a trip, pick a whisper language, then drop files or use the sample buttons. ffmpeg must be on the PATH. Regenerate the synthetic set with `.venv/bin/python data/generate.py` and `data/make_videos.py`.
+- **Trip abroad on a phone:** run `cloudflared tunnel --url http://localhost:8000` (no account needed), open the printed `https://...trycloudflare.com/abroad` on your phone, tap "trip" to load the demo trip, then "rehearse", "radar", the mic or the photo button. `OVERHEARD_FIXTURE=1` serves a canned feed with no API calls.
+- **Subway demo:** open http://localhost:8000, set a trip, pick a whisper language, then drop files or use the sample buttons. ffmpeg must be on the PATH.
+- **Gmail (optional):** create a Desktop OAuth client with scope `gmail.readonly`, save it as `secrets/gmail_client.json` (gitignored), add your inbox as a test user, then run `.venv/bin/python -m overheard.gmail --fetch --parse` once to consent.
+- **Tests and evals:** `.venv/bin/python -m pytest tests -q`, `eval/abroad_eval.py all`, `eval/learn_eval.py`, and the subway evals below.
 
 ## Repo map
+
+- `SPEC.md` (data model and API), `TICKETS.md` (how the build was split), `GLOSSARY.md` (the words), `progress/` (one report per ticket).
+- Abroad: `overheard/itinerary.py`, `match.py`, `ingest.py`, `gmail.py`, `radar.py`, `rehearsal.py`, `learn.py`, `abroad_alert.py`, `api_abroad.py`; page in `web/abroad/`; data in `data/abroad/`; eval in `eval/abroad_eval.py`.
 
 - `overheard/config.py`: every model ID and threshold.
 - `overheard/gemini.py`: shared client; logs model, prompt summary and latency for every call to `logs/calls.jsonl`.

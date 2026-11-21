@@ -1,4 +1,24 @@
-# Overheard: 1-minute demo video script
+# Overheard: demo scripts
+
+## Trip abroad on a phone (main demo, about 1 minute)
+
+Start `.venv/bin/uvicorn server:app --port 8000` and `cloudflared tunnel --url http://localhost:8000`, open `<tunnel url>/abroad` on a phone, set the language to Hindi, and screen-record the phone with sound on.
+
+| Time | On screen | Voiceover |
+|---|---|---|
+| 0:00 to 0:08 | The empty page, then tap "trip". The timeline fills: AF 23, two hotels, the Louvre, Eurostar 9315, KL 641. | "This is my trip to Paris and Amsterdam: six bookings. Hydrogen turns them into one fingerprint of about 290 questions, each tagged with the booking it protects." |
+| 0:08 to 0:20 | Tap "radar". Receipts scroll in; a few cards turn red, such as GVB trams skipping Westermarkt by the Amsterdam hotel. | "Before I fly, it reads French and Dutch news for my dates. Almost all of it stays silent, with a receipt. The tram works by my Amsterdam hotel do not." |
+| 0:20 to 0:35 | Tap "rehearse". French and Dutch announcements play; "Eurostar 9317 cancelled" stays silent, then "Eurostar 9315 supprime" alerts and the Hindi whisper plays. | "On the platform, every announcement goes through one Decision call in about a second. The 9317 is not my train. The 9315 is, and it tells me in Hindi." |
+| 0:35 to 0:45 | Tap "photo" and shoot the printed Gare du Nord board. The alert shows the photo with the 9315 line circled. | "Point the camera at the board and I get my own photo back, with my train circled." |
+| 0:45 to 0:55 | On the KL 641 card that says nothing changed, tap "Not about me". Then replay that clip: it lands under 0.4. | "When it gets one wrong, I say not about me. It writes sharper questions for that booking, checks they stay quiet on real alerts, and the same mistake goes silent." |
+| 0:55 to 1:00 | Cut to the results table in the README. | "Seventeen of eighteen rehearsal changes caught at one second each, and every failure is in the README." |
+
+### Before recording
+1. Load the demo trip once beforehand so the cached fingerprint loads in under a second.
+2. Whispers autoplay only after the first tap on the page, so tap "trip" on camera.
+3. The circled photo takes 25 to 35 s; the alert text and whisper come first, so keep talking.
+
+## Subway demo (the fallback)
 
 Record the laptop screen at http://localhost:8000 with system audio on, so the whispers are audible. Set the language to Hindi before you start. Each line below is one shot, with its time on the clock.
 
