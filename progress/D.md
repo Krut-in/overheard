@@ -1,6 +1,6 @@
 # Ticket D: phone UI and router (fixture mode)
 
-Status at 15:48 ET: built and checked on localhost. The ngrok check is blocked because this Mac has no ngrok auth token.
+Status at 15:52 ET: done. Both checks pass, the second over an HTTPS Cloudflare quick tunnel (it replaces ngrok for this ticket).
 
 ## Done (times ET)
 - 15:35 to 15:38: read SPEC, TICKETS, GLOSSARY and the subway page. Drew the proof photo with Pillow and voiced the Hindi whispers and two announcements with macOS `say` (`web/abroad/make_media.py`, no Gemini calls).
@@ -40,12 +40,49 @@ GET  /feed after playback -> 13 events {'silent': 10, 'alert': 2, 'dismissed': 1
 ```
 Result: pass. Every route answers with the SPEC shape, and media names with path tricks get a 404.
 
-## Check 2: 375 px screenshot over ngrok HTTPS
-- `ngrok http 8010` fails: `authentication failed: This ngrok session is not authenticated`. No `ngrok.yml` and no `NGROK_AUTHTOKEN` on this Mac. Per the brief I did not sign up for anything.
-- Fix for whoever has the account: save the token with the CLI's `config add-authtoken <token>` subcommand.
-  Then run `ngrok http 8010` and rerun the screenshot against `<https-url>/abroad`.
-- Meanwhile `docs/abroad_375.png` is taken from `http://localhost:8010/abroad`. It shows the timeline of 6 bookings, 3 receipts above the dock (4 in the feed), the board alert with the circled photo, Whisper and "Not about me" buttons, and the second alert.
-- Headless Chrome clamps `--window-size=375,...` to a 500 px layout viewport (measured `innerWidth=500`), so that command cannot give a phone layout. `web/abroad/shot.py` emulates a 375 px mobile viewport over the DevTools protocol instead (measured `375x1600 scrollW=375`): `.venv/bin/python web/abroad/shot.py http://localhost:8010/abroad docs/abroad_375.png`.
+## Check 2: 375 px screenshot over HTTPS
+ngrok had no auth token on this Mac (`authentication failed: This ngrok session is not authenticated`). The orchestrator replaced it with a Cloudflare quick tunnel, which needs no account; the user installed cloudflared.
+
+Commands:
+```
+OVERHEARD_FIXTURE=1 .venv/bin/uvicorn abroad_dev:app --port 8010
+cloudflared tunnel --url http://localhost:8010        # prints https://<random>.trycloudflare.com
+curl -s -X POST <url>/api/abroad/itinerary/demo
+.venv/bin/python web/abroad/shot.py <url>/abroad docs/abroad_375.png
+```
+This run used `https://public-nascar-calculations-kde.trycloudflare.com` (a quick tunnel, gone when the process stops). DNS took about 30 s to resolve after the URL printed.
+
+Route check over the HTTPS URL:
+```
+GET  /abroad -> 200 text/html; charset=utf-8
+POST /itinerary/demo -> {id, traveller, home_lang, bookings, n_questions}
+    bookings [0] = {id, kind, title, operator, number, ref, start, end, from_place, to_place, city, country, langs, details, source}
+POST /itinerary/ingest -> {id, traveller, home_lang, bookings, n_questions}
+    bookings [0] = {id, kind, title, operator, number, ref, start, end, from_place, to_place, city, country, langs, details, source}
+POST /itinerary/gmail -> {id, traveller, home_lang, bookings, n_questions}
+    bookings [0] = {id, kind, title, operator, number, ref, start, end, from_place, to_place, city, country, langs, details, source}
+POST /itinerary/demo (reset) -> {id, traveller, home_lang, bookings, n_questions}
+    bookings [0] = {id, kind, title, operator, number, ref, start, end, from_place, to_place, city, country, langs, details, source}
+GET  /itinerary -> {id, traveller, home_lang, bookings, n_questions}
+    bookings [0] = {id, kind, title, operator, number, ref, start, end, from_place, to_place, city, country, langs, details, source}
+POST /lang -> {"lang":"Hindi"}
+POST /input -> {id, t, status, input}
+GET  /feed -> {itinerary_id, lang, fixture, events}
+    events [0] = {id, t, status, input}
+POST /radar -> {"n_items":3}
+POST /rehearse -> {"n_items":3}
+POST /dismiss -> {added}
+    added [0] = {id, booking_id, group, q}
+GET  /digest?today=2026-11-27 -> {date, itinerary_id, urgent, today, silent_count, receipts_sample}
+    urgent [0] = {id, t, status, input, verdict, alert}
+GET  /media/proof_train_ams.jpg -> 200 image/jpeg 130463B
+GET  /media/whisper_train_ams.m4a -> 200 audio/mp4 77798B
+GET  /media/..%2fserver.py (traversal) -> 404
+GET  /feed after playback -> 13 events {'silent': 10, 'alert': 2, 'dismissed': 1}
+```
+Screenshot result: `viewport 375x1600 scrollW=375`. I looked at `docs/abroad_375.png`: it shows the timeline of 6 bookings with Eurostar 9315 marked changed, 3 receipts above the dock (4 in the feed), the board alert with the circled photo, the Whisper and "Not about me" buttons, and the second alert.
+
+Why `shot.py` and not the Chrome command from the brief: headless Chrome clamps `--window-size=375,...` to a 500 px layout viewport (measured `innerWidth=500`), so the page would not lay out at phone width. `web/abroad/shot.py` emulates a 375 px mobile viewport over the DevTools protocol instead.
 
 ## Decisions
 - `POST /itinerary/demo`, `/ingest` and `/gmail` return the Itinerary with an extra top-level `n_questions`. `GET /itinerary` returns the same, or 404 before a trip is set.
@@ -60,7 +97,7 @@ Result: pass. Every route answers with the SPEC shape, and media names with path
 ## Known issues
 - Fixture alerts only carry Hindi translations. Picking English shows the English text; picking another language still shows Hindi until the engine translates live.
 - Auto-playing the whisper on a new alert needs a prior tap on the page (browser autoplay rules).
-- The mic button needs HTTPS on a phone, so it waits on ngrok.
+- The mic button needs HTTPS on a phone; use the tunnel URL, not localhost.
 
 ## For ticket F
 - Mount with `app.include_router(router)` from `overheard.api_abroad`, and add a `/abroad` route serving `web/abroad/index.html`.
