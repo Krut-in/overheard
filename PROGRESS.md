@@ -9,6 +9,7 @@ Abroad pivot, step 3 of 6 (spec and tickets). `SPEC.md`, `TICKETS.md`, `GLOSSARY
 M6 ship prep. Core path, video, managed agent, live MTA check, all evals and the README are done as of 2:49 PM, about 90 min ahead of `PLAN.md`. Demo server: `.venv/bin/uvicorn server:app --port 8000`. Build agent: Claude Code.
 
 ## Done (with time)
+- 3:42 PM: Merged ticket A (itinerary engine) and ticket B (booking ingest, Gmail) to main. Checks on main: 17 tests pass; the Eurostar 9315 cancellation text scores `train_ams` 0.98 (others 0.08 to 0.29), 1.5 s at 286 questions; the 9317 near miss scores 0.70 (Carbon band). B parses all 6 SAMPLE BOOKING emails to the fixture; live Gmail fetch waits on the OAuth client. Details in `progress/A.md` and `progress/B.md`. (Claude Code orchestrator)
 - 2:49 PM: Live MTA check (`overheard/mta.py`, `/api/mta`, "Check live MTA alerts" button) and a real-data eval on all 33 active alerts x 3 trips (`eval/mta_eval.py`, snapshot `data/real/mta_alerts_snapshot.json`): Overheard 2 of 2 caught with 1 false alert (opposite-direction 7 alert, Carbon said yes), Hydrogen text 2 of 2 with 0 false, keyword 4 false. README updated with this and the noise and blur tables. (Claude Code)
 - 2:44 PM: Blur and glare breaking point done with the full policy (`eval/charts/image_blur_glare.png`): at blur 8, Overheard catches 7 of 8 relevant signs, both baselines 4 of 8; at blur 12, 2 of 8 against 0. Video eval: 3 of 3 walkthroughs alerted with the right moment, 0 false on 9 pairs. Change extraction: 19 of 19 graded correct. README drafted (`README.md`), demo script in `DEMO.md`, screenshot in `docs/`. API key scan of git history: clean. (Claude Code)
 - 2:37 PM: Main eval and full policy done (`eval/results/main_summary.json`, `policy_summary.json`). Full policy (alert at 0.8, Carbon on 0.4 to 0.8): audio 11 of 11 alerts with 0 false alerts over 72 trip pairs, images 9 of 9 with 0 false over 66 pairs; Carbon silenced all 25 borderline pairs. Decision 1 median 0.8 s per input against 4.6 to 5.2 s for the transcribe-then-ask-Hydrogen baseline, which is also perfect on this clean synthetic set. Keyword baseline: 4 false alerts on images. (Claude Code)
@@ -30,6 +31,8 @@ README and evals are complete. Options with the remaining buffer, in SCOPE.md cu
 - Skills for Gemini CLI live in `.agents/skills/` and are pinned in `skills-lock.json`. Claude Code gets the same skills from the `mattpocock-skills` plugin.
 
 ## Known issues
+- City-level place questions lift other same-city bookings into the Carbon band (hotel_ams 0.42 on the 9317 text). Learned `not` questions or Carbon handle it; tightening the place prompt is the next lever.
+- Gemini CLI `--approval-mode yolo` is blocked by the Claude sessions' permission classifier, and a long `-p` prompt is ignored: pipe the prompt on stdin with a short `-p`, and let code write the files.
 - The preview launcher cannot read `.venv` (macOS permission), so start the server from a shell.
 - Commons has no real NYC PA announcements. Real audio in `data/real/audio/` is train noise, used as the venue-noise bed for the noise chart. Real announcement clips would need the user to record them.
 - Hydrogen station-mention questions fire on similar names ("52 St" for "59 Street"). Handled by the line gate, but it is an honest failure for the README.

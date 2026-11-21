@@ -67,6 +67,13 @@ Neon's terse miss was `"30m1h"`, which it accepted. The terse prompt never said 
 3. Log the model ID from response metadata. Self-reports were wrong or empty on all four models.
 4. The stderr "Skill conflict detected" lines are harmless. Project skills in `.agents/skills/` override same-named user-level copies in `~/.agents/skills/`, which is the behaviour we want.
 
+### 1.6 Build runs for the abroad pivot
+
+| Ticket | Model and mode | Task | Wall time | Result |
+|---|---|---|---|---|
+| B | `gemini-4-hydrogen`, Gemini CLI headless, prompt on stdin, JSON out, no tools | 6 SAMPLE BOOKING emails from the fixture | 20 s | 6 valid emails first try; every operator, number and ref verbatim |
+| A | `gemini-4-hydrogen` API, thinking low, 1 call per booking, 3 at once | itinerary fingerprint | 37 s cold | 279 tagged questions, 40 to 54 per booking |
+
 ## Part 2: deliberate variations to inject during the build
 
 Each row is one change made on purpose, with everything else held fixed. Record the outcome in the last column with a time.
