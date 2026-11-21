@@ -1,0 +1,27 @@
+Subject: SAMPLE BOOKING - Air France: Your e-ticket receipt AF 23 (Ref: SMPL7Q)
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+AIR FRANCE
+Electronic Ticket Receipt / Recu de billet electronique
+
+Booking Reference / Reference de dossier (PNR): SMPL7Q
+Passenger / Passager: Sample Traveller
+Destination City: Paris
+
+FLIGHT DETAILS / DETAILS DU VOL
+--------------------------------------------------
+Flight: Air France AF 23
+Departure / Depart: Tuesday, 24 November 2026 at 19:30 local time (EST)
+From: New York JFK Terminal 1
+Arrival / Arrivee: Wednesday, 25 November 2026 at 08:45 local time (CET)
+To: Paris Charles de Gaulle Terminal 2E
+
+SEAT & CABIN INFORMATION
+--------------------------------------------------
+Seat 32K. Arrives Terminal 2E.
+
+Bonjour Sample Traveller,
+Merci de voyager avec Air France. L'enregistrement en ligne ouvre 30 heures avant le depart. Veuillez vous presenter a l'aeroport muni de votre passeport et de cette confirmation.
+
+Bon voyage !

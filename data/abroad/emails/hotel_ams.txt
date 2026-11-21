@@ -1,0 +1,26 @@
+Subject: SAMPLE BOOKING - Hotel Sample Canal: Booking Confirmation HSC-20981 (Amsterdam)
+
+SAMPLE BOOKING - demo data, not a real reservation.
+
+HOTEL SAMPLE CANAL
+Amsterdam, Netherlands
+Reserveringsbevestiging / Reservation Confirmation
+
+Booking Reference: HSC-20981
+Guest Name / Gastnaam: Sample Traveller
+City: Amsterdam
+
+STAY DETAILS / VERBLIJFSGEGEVENS
+--------------------------------------------------
+Hotel: Hotel Sample Canal
+Address: Prinsengracht 300, Amsterdam (tram 13 and 17, stop Westermarkt)
+Check-in / Inchecken: Saturday, 28 November 2026 from 15:00 local time (CET)
+Check-out / Uitchecken: Monday, 30 November 2026 until 11:00 local time (CET)
+Duration: 2 nights
+Room: Canal View Queen Room
+
+DIRECTIONS / BEREIKBAARHEID
+--------------------------------------------------
+Nearest tram stop: Westermarkt (lines 13 and 17).
+
+Hartelijk welkom bij Hotel Sample Canal. Wij kijken ernaar uit u te verwelkomen in het centrum van Amsterdam.
