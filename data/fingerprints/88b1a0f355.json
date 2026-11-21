@@ -1,0 +1,957 @@
+[
+ {
+  "id": "line_7_en",
+  "group": "line",
+  "q": "Does the input mention the 7 train?"
+ },
+ {
+  "id": "line_7_es",
+  "group": "line",
+  "q": "Does the input mention la línea 7 or el tren 7?"
+ },
+ {
+  "id": "line_7_bullet",
+  "group": "line",
+  "q": "Does the image show a purple 7 train bullet?"
+ },
+ {
+  "id": "line_7_express_en",
+  "group": "line",
+  "q": "Does the input mention the 7 express train?"
+ },
+ {
+  "id": "line_7_local_en",
+  "group": "line",
+  "q": "Does the input mention the 7 local train?"
+ },
+ {
+  "id": "line_7_express_es",
+  "group": "line",
+  "q": "Does the input mention el tren 7 expreso?"
+ },
+ {
+  "id": "line_7_local_es",
+  "group": "line",
+  "q": "Does the input mention el tren 7 local?"
+ },
+ {
+  "id": "line_flushing_bound_en",
+  "group": "line",
+  "q": "Does the input mention Flushing-bound trains?"
+ },
+ {
+  "id": "line_flushing_bound_es",
+  "group": "line",
+  "q": "Does the input mention trenes con dirección a Flushing?"
+ },
+ {
+  "id": "line_main_st_bound",
+  "group": "line",
+  "q": "Does the input mention Main Street-bound service?"
+ },
+ {
+  "id": "line_queens_bound_en",
+  "group": "line",
+  "q": "Does the input mention Queens-bound 7 trains?"
+ },
+ {
+  "id": "line_queens_bound_es",
+  "group": "line",
+  "q": "Does the input mention trenes 7 hacia Queens?"
+ },
+ {
+  "id": "line_flushing_line_en",
+  "group": "line",
+  "q": "Does the input refer to the Flushing Line?"
+ },
+ {
+  "id": "line_flushing_line_es",
+  "group": "line",
+  "q": "Does the input refer to la línea de Flushing?"
+ },
+ {
+  "id": "line_7_spoken_en",
+  "group": "line",
+  "q": "Does the audio say seven train?"
+ },
+ {
+  "id": "line_7_spoken_es",
+  "group": "line",
+  "q": "Does the audio say tren siete or línea siete?"
+ },
+ {
+  "id": "line_7_diamond",
+  "group": "line",
+  "q": "Does the image show a purple diamond 7 bullet?"
+ },
+ {
+  "id": "line_7_circle",
+  "group": "line",
+  "q": "Does the image show a purple circle 7 bullet?"
+ },
+ {
+  "id": "station_gc_42_en",
+  "group": "station",
+  "q": "Does the input mention Grand Central-42 St?"
+ },
+ {
+  "id": "station_gc_spoken",
+  "group": "station",
+  "q": "Does the audio say Grand Central or forty-second street?"
+ },
+ {
+  "id": "station_gc_es",
+  "group": "station",
+  "q": "Does the input mention Grand Central or calle 42?"
+ },
+ {
+  "id": "station_flushing_main_en",
+  "group": "station",
+  "q": "Does the input mention Flushing-Main St?"
+ },
+ {
+  "id": "station_flushing_main_spoken",
+  "group": "station",
+  "q": "Does the audio say Flushing Main Street?"
+ },
+ {
+  "id": "station_flushing_main_es",
+  "group": "station",
+  "q": "Does the input mention Flushing o calle Main?"
+ },
+ {
+  "id": "station_vernon_jackson",
+  "group": "station",
+  "q": "Does the input mention Vernon Blvd-Jackson Av?"
+ },
+ {
+  "id": "station_vernon_spoken",
+  "group": "station",
+  "q": "Does the audio say Vernon Boulevard or Jackson Avenue?"
+ },
+ {
+  "id": "station_hunters_point",
+  "group": "station",
+  "q": "Does the input mention Hunters Point Av?"
+ },
+ {
+  "id": "station_court_sq_en",
+  "group": "station",
+  "q": "Does the input mention Court Sq?"
+ },
+ {
+  "id": "station_court_sq_spoken",
+  "group": "station",
+  "q": "Does the audio say Court Square?"
+ },
+ {
+  "id": "station_queensboro_plaza",
+  "group": "station",
+  "q": "Does the input mention Queensboro Plaza?"
+ },
+ {
+  "id": "station_33_rawson_en",
+  "group": "station",
+  "q": "Does the input mention 33 St-Rawson St?"
+ },
+ {
+  "id": "station_33_spoken_en",
+  "group": "station",
+  "q": "Does the audio say thirty-third street?"
+ },
+ {
+  "id": "station_33_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 33?"
+ },
+ {
+  "id": "station_40_lowery_en",
+  "group": "station",
+  "q": "Does the input mention 40 St-Lowery St?"
+ },
+ {
+  "id": "station_40_spoken_en",
+  "group": "station",
+  "q": "Does the audio say fortieth street?"
+ },
+ {
+  "id": "station_40_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 40?"
+ },
+ {
+  "id": "station_46_bliss_en",
+  "group": "station",
+  "q": "Does the input mention 46 St-Bliss St?"
+ },
+ {
+  "id": "station_46_spoken_en",
+  "group": "station",
+  "q": "Does the audio say forty-sixth street?"
+ },
+ {
+  "id": "station_46_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 46?"
+ },
+ {
+  "id": "station_52_st_en",
+  "group": "station",
+  "q": "Does the input mention 52 St?"
+ },
+ {
+  "id": "station_52_spoken_en",
+  "group": "station",
+  "q": "Does the audio say fifty-second street?"
+ },
+ {
+  "id": "station_52_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 52?"
+ },
+ {
+  "id": "station_61_woodside_en",
+  "group": "station",
+  "q": "Does the input mention 61 St-Woodside?"
+ },
+ {
+  "id": "station_61_spoken_en",
+  "group": "station",
+  "q": "Does the audio say sixty-first street or Woodside?"
+ },
+ {
+  "id": "station_61_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 61 o Woodside?"
+ },
+ {
+  "id": "station_69_st_en",
+  "group": "station",
+  "q": "Does the input mention 69 St?"
+ },
+ {
+  "id": "station_69_spoken_en",
+  "group": "station",
+  "q": "Does the audio say sixty-ninth street?"
+ },
+ {
+  "id": "station_69_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 69?"
+ },
+ {
+  "id": "station_74_broadway_en",
+  "group": "station",
+  "q": "Does the input mention 74 St-Broadway?"
+ },
+ {
+  "id": "station_74_spoken_en",
+  "group": "station",
+  "q": "Does the audio say seventy-fourth street or Broadway?"
+ },
+ {
+  "id": "station_74_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 74 o Broadway?"
+ },
+ {
+  "id": "station_82_jackson_en",
+  "group": "station",
+  "q": "Does the input mention 82 St-Jackson Hts?"
+ },
+ {
+  "id": "station_82_spoken_en",
+  "group": "station",
+  "q": "Does the audio say eighty-second street or Jackson Heights?"
+ },
+ {
+  "id": "station_82_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 82 o Jackson Heights?"
+ },
+ {
+  "id": "station_90_elmhurst_en",
+  "group": "station",
+  "q": "Does the input mention 90 St-Elmhurst Av?"
+ },
+ {
+  "id": "station_90_spoken_en",
+  "group": "station",
+  "q": "Does the audio say ninetieth street or Elmhurst Avenue?"
+ },
+ {
+  "id": "station_90_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 90 o Elmhurst?"
+ },
+ {
+  "id": "station_junction_blvd_en",
+  "group": "station",
+  "q": "Does the input mention Junction Blvd?"
+ },
+ {
+  "id": "station_junction_spoken",
+  "group": "station",
+  "q": "Does the audio say Junction Boulevard?"
+ },
+ {
+  "id": "station_103_corona_en",
+  "group": "station",
+  "q": "Does the input mention 103 St-Corona Plaza?"
+ },
+ {
+  "id": "station_103_spoken_en",
+  "group": "station",
+  "q": "Does the audio say one hundred third street or Corona Plaza?"
+ },
+ {
+  "id": "station_103_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 103 o Corona Plaza?"
+ },
+ {
+  "id": "station_111_st_en",
+  "group": "station",
+  "q": "Does the input mention 111 St?"
+ },
+ {
+  "id": "station_111_spoken_en",
+  "group": "station",
+  "q": "Does the audio say one hundred eleventh street?"
+ },
+ {
+  "id": "station_111_spoken_es",
+  "group": "station",
+  "q": "Does the input mention calle 111?"
+ },
+ {
+  "id": "station_mets_willets_en",
+  "group": "station",
+  "q": "Does the input mention Mets-Willets Point?"
+ },
+ {
+  "id": "station_mets_willets_spoken",
+  "group": "station",
+  "q": "Does the audio say Mets Willets Point?"
+ },
+ {
+  "id": "change_delay_en",
+  "group": "change",
+  "q": "Does the input say there are delays?"
+ },
+ {
+  "id": "change_delay_es",
+  "group": "change",
+  "q": "Does the input say hay retrasos or demoras?"
+ },
+ {
+  "id": "change_delayed_en",
+  "group": "change",
+  "q": "Does the input say trains are delayed?"
+ },
+ {
+  "id": "change_suspended_en",
+  "group": "change",
+  "q": "Does the input say service is suspended?"
+ },
+ {
+  "id": "change_suspended_es",
+  "group": "change",
+  "q": "Does the input say el servicio está suspendido?"
+ },
+ {
+  "id": "change_no_service_en",
+  "group": "change",
+  "q": "Does the input say there is no train service?"
+ },
+ {
+  "id": "change_no_service_es",
+  "group": "change",
+  "q": "Does the input say no hay servicio de trenes?"
+ },
+ {
+  "id": "change_skipping_en",
+  "group": "change",
+  "q": "Does the input say trains are skipping stops?"
+ },
+ {
+  "id": "change_skipping_es",
+  "group": "change",
+  "q": "Does the input say los trenes no paran en ciertas estaciones?"
+ },
+ {
+  "id": "change_bypass_en",
+  "group": "change",
+  "q": "Does the input say trains are bypassing a station?"
+ },
+ {
+  "id": "change_reroute_en",
+  "group": "change",
+  "q": "Does the input say trains are rerouted?"
+ },
+ {
+  "id": "change_reroute_es",
+  "group": "change",
+  "q": "Does the input say los trenes están desviados?"
+ },
+ {
+  "id": "change_reroute_via_en",
+  "group": "change",
+  "q": "Does the input say trains are running via another line?"
+ },
+ {
+  "id": "change_platform_en",
+  "group": "change",
+  "q": "Does the input mention a platform change?"
+ },
+ {
+  "id": "change_platform_es",
+  "group": "change",
+  "q": "Does the input mention un cambio de andén?"
+ },
+ {
+  "id": "change_track_en",
+  "group": "change",
+  "q": "Does the input mention a track change?"
+ },
+ {
+  "id": "change_track_es",
+  "group": "change",
+  "q": "Does the input mention un cambio de vía?"
+ },
+ {
+  "id": "change_entrance_closed_en",
+  "group": "change",
+  "q": "Does the input say an entrance is closed?"
+ },
+ {
+  "id": "change_entrance_closed_es",
+  "group": "change",
+  "q": "Does the input say una entrada está cerrada?"
+ },
+ {
+  "id": "change_exit_closed_en",
+  "group": "change",
+  "q": "Does the input say an exit or staircase is closed?"
+ },
+ {
+  "id": "change_exit_closed_es",
+  "group": "change",
+  "q": "Does the input say una salida o escalera está cerrada?"
+ },
+ {
+  "id": "change_shuttle_en",
+  "group": "change",
+  "q": "Does the input mention shuttle buses?"
+ },
+ {
+  "id": "change_shuttle_es",
+  "group": "change",
+  "q": "Does the input mention autobuses de enlace?"
+ },
+ {
+  "id": "change_free_shuttle_en",
+  "group": "change",
+  "q": "Does the input mention a free shuttle bus?"
+ },
+ {
+  "id": "change_local_to_express_en",
+  "group": "change",
+  "q": "Does the input say local trains are running express?"
+ },
+ {
+  "id": "change_express_to_local_en",
+  "group": "change",
+  "q": "Does the input say express trains are running local?"
+ },
+ {
+  "id": "change_express_local_es",
+  "group": "change",
+  "q": "Does the input say trenes expresos corren como locales?"
+ },
+ {
+  "id": "change_local_express_es",
+  "group": "change",
+  "q": "Does the input say trenes locales corren como expresos?"
+ },
+ {
+  "id": "change_planned_work_en",
+  "group": "change",
+  "q": "Does the input mention planned work?"
+ },
+ {
+  "id": "change_planned_work_es",
+  "group": "change",
+  "q": "Does the input mention trabajos planificados?"
+ },
+ {
+  "id": "change_service_change_en",
+  "group": "change",
+  "q": "Does the input say there is a service change?"
+ },
+ {
+  "id": "change_service_change_es",
+  "group": "change",
+  "q": "Does the input say hay un cambio de servicio?"
+ },
+ {
+  "id": "combo_7_delay_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are delayed?"
+ },
+ {
+  "id": "combo_7_delay_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 tiene retrasos?"
+ },
+ {
+  "id": "combo_flushing_delay_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 trains are delayed?"
+ },
+ {
+  "id": "combo_flushing_delay_es",
+  "group": "combo",
+  "q": "Does the input say trenes 7 hacia Flushing tienen demoras?"
+ },
+ {
+  "id": "combo_7_suspended_en",
+  "group": "combo",
+  "q": "Does the input say 7 train service is suspended?"
+ },
+ {
+  "id": "combo_7_suspended_es",
+  "group": "combo",
+  "q": "Does the input say el servicio del tren 7 está suspendido?"
+ },
+ {
+  "id": "combo_flushing_suspended_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 service is suspended?"
+ },
+ {
+  "id": "combo_flushing_suspended_es",
+  "group": "combo",
+  "q": "Does the input say no hay servicio del tren 7 hacia Flushing?"
+ },
+ {
+  "id": "combo_7_skipping_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping stops?"
+ },
+ {
+  "id": "combo_7_skipping_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 se salta paradas?"
+ },
+ {
+  "id": "combo_flushing_skipping_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 trains are skipping stops?"
+ },
+ {
+  "id": "combo_flushing_skipping_es",
+  "group": "combo",
+  "q": "Does the input say trenes 7 dirección Flushing no paran en todas las estaciones?"
+ },
+ {
+  "id": "combo_7_reroute_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are rerouted?"
+ },
+ {
+  "id": "combo_7_reroute_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 está desviado?"
+ },
+ {
+  "id": "combo_flushing_reroute_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 trains are rerouted?"
+ },
+ {
+  "id": "combo_7_platform_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains have a platform change?"
+ },
+ {
+  "id": "combo_7_platform_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 tiene cambio de andén?"
+ },
+ {
+  "id": "combo_7_track_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains have a track change?"
+ },
+ {
+  "id": "combo_7_track_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 tiene cambio de vía?"
+ },
+ {
+  "id": "combo_7_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses are replacing 7 trains?"
+ },
+ {
+  "id": "combo_7_shuttle_es",
+  "group": "combo",
+  "q": "Does the input say autobuses de enlace reemplazan al tren 7?"
+ },
+ {
+  "id": "combo_7_express_to_local_en",
+  "group": "combo",
+  "q": "Does the input say 7 express trains are running local?"
+ },
+ {
+  "id": "combo_7_local_to_express_en",
+  "group": "combo",
+  "q": "Does the input say 7 local trains are running express?"
+ },
+ {
+  "id": "combo_7_express_local_es",
+  "group": "combo",
+  "q": "Does the input say trenes 7 expresos corren como locales?"
+ },
+ {
+  "id": "combo_7_local_express_es",
+  "group": "combo",
+  "q": "Does the input say trenes 7 locales corren como expresos?"
+ },
+ {
+  "id": "combo_gc_delay_en",
+  "group": "combo",
+  "q": "Does the input say trains are delayed at Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_delay_es",
+  "group": "combo",
+  "q": "Does the input say hay retrasos en Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_suspended_en",
+  "group": "combo",
+  "q": "Does the input say 7 service is suspended at Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_suspended_es",
+  "group": "combo",
+  "q": "Does the input say el servicio 7 está suspendido en Grand Central?"
+ },
+ {
+  "id": "combo_gc_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en Grand Central?"
+ },
+ {
+  "id": "combo_gc_platform_en",
+  "group": "combo",
+  "q": "Does the input say there is a platform change at Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_track_en",
+  "group": "combo",
+  "q": "Does the input say there is a track change at Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at Grand Central-42 St?"
+ },
+ {
+  "id": "combo_gc_entrance_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en Grand Central?"
+ },
+ {
+  "id": "combo_flushing_main_delay_en",
+  "group": "combo",
+  "q": "Does the input say trains are delayed at Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_suspended_en",
+  "group": "combo",
+  "q": "Does the input say 7 service is suspended at Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_suspended_es",
+  "group": "combo",
+  "q": "Does the input say el servicio 7 está suspendido en Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_platform_en",
+  "group": "combo",
+  "q": "Does the input say there is a platform change at Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_track_en",
+  "group": "combo",
+  "q": "Does the input say there is a track change at Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_entrance_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses serve Flushing-Main St?"
+ },
+ {
+  "id": "combo_flushing_main_shuttle_es",
+  "group": "combo",
+  "q": "Does the input say autobuses de enlace llegan a Flushing-Main St?"
+ },
+ {
+  "id": "combo_court_sq_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Court Sq?"
+ },
+ {
+  "id": "combo_court_sq_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en Court Sq?"
+ },
+ {
+  "id": "combo_court_sq_suspended_en",
+  "group": "combo",
+  "q": "Does the input say 7 service is suspended at Court Sq?"
+ },
+ {
+  "id": "combo_court_sq_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at Court Sq?"
+ },
+ {
+  "id": "combo_queensboro_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Queensboro Plaza?"
+ },
+ {
+  "id": "combo_queensboro_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en Queensboro Plaza?"
+ },
+ {
+  "id": "combo_queensboro_suspended_en",
+  "group": "combo",
+  "q": "Does the input say 7 service is suspended at Queensboro Plaza?"
+ },
+ {
+  "id": "combo_queensboro_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses run from Queensboro Plaza?"
+ },
+ {
+  "id": "combo_queensboro_shuttle_es",
+  "group": "combo",
+  "q": "Does the input say autobuses de enlace salen de Queensboro Plaza?"
+ },
+ {
+  "id": "combo_woodside_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 61 St-Woodside?"
+ },
+ {
+  "id": "combo_woodside_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en 61 St-Woodside?"
+ },
+ {
+  "id": "combo_woodside_express_en",
+  "group": "combo",
+  "q": "Does the input say 7 express trains stop at 61 St-Woodside?"
+ },
+ {
+  "id": "combo_74_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 74 St-Broadway?"
+ },
+ {
+  "id": "combo_74_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en 74 St-Broadway?"
+ },
+ {
+  "id": "combo_74_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 74 St-Broadway?"
+ },
+ {
+  "id": "combo_junction_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Junction Blvd?"
+ },
+ {
+  "id": "combo_junction_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en Junction Blvd?"
+ },
+ {
+  "id": "combo_junction_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses serve Junction Blvd?"
+ },
+ {
+  "id": "combo_mets_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Mets-Willets Point?"
+ },
+ {
+  "id": "combo_mets_skip_es",
+  "group": "combo",
+  "q": "Does the input say el tren 7 no para en Mets-Willets Point?"
+ },
+ {
+  "id": "combo_mets_express_en",
+  "group": "combo",
+  "q": "Does the input say 7 express trains stop at Mets-Willets Point?"
+ },
+ {
+  "id": "combo_vernon_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Vernon Blvd-Jackson Av?"
+ },
+ {
+  "id": "combo_hunters_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping Hunters Point Av?"
+ },
+ {
+  "id": "combo_33_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 33 St-Rawson St?"
+ },
+ {
+  "id": "combo_40_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 40 St-Lowery St?"
+ },
+ {
+  "id": "combo_46_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 46 St-Bliss St?"
+ },
+ {
+  "id": "combo_52_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 52 St?"
+ },
+ {
+  "id": "combo_69_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 69 St?"
+ },
+ {
+  "id": "combo_82_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 82 St-Jackson Hts?"
+ },
+ {
+  "id": "combo_90_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 90 St-Elmhurst Av?"
+ },
+ {
+  "id": "combo_103_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 103 St-Corona Plaza?"
+ },
+ {
+  "id": "combo_111_skip_en",
+  "group": "combo",
+  "q": "Does the input say 7 trains are skipping 111 St?"
+ },
+ {
+  "id": "combo_33_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 33 St-Rawson St?"
+ },
+ {
+  "id": "combo_40_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 40 St-Lowery St?"
+ },
+ {
+  "id": "combo_46_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 46 St-Bliss St?"
+ },
+ {
+  "id": "combo_52_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 52 St?"
+ },
+ {
+  "id": "combo_69_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 69 St?"
+ },
+ {
+  "id": "combo_82_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 82 St-Jackson Hts?"
+ },
+ {
+  "id": "combo_90_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 90 St-Elmhurst Av?"
+ },
+ {
+  "id": "combo_103_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 103 St-Corona Plaza?"
+ },
+ {
+  "id": "combo_111_entrance_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 111 St?"
+ },
+ {
+  "id": "combo_flushing_reroute_es",
+  "group": "combo",
+  "q": "Does the input say trenes 7 hacia Flushing están desviados?"
+ },
+ {
+  "id": "combo_flushing_platform_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 trains have a platform change?"
+ },
+ {
+  "id": "combo_flushing_track_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 trains have a track change?"
+ },
+ {
+  "id": "combo_flushing_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses replace Flushing-bound 7 trains?"
+ },
+ {
+  "id": "combo_flushing_express_local_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 express trains run local?"
+ },
+ {
+  "id": "combo_flushing_local_express_en",
+  "group": "combo",
+  "q": "Does the input say Flushing-bound 7 local trains run express?"
+ }
+]

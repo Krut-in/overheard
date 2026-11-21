@@ -1,0 +1,425 @@
+{
+ "trips": {
+  "T1": "Q train, northbound, from Times Sq-42 St to 72 St (2 Av), Manhattan",
+  "T2": "F train, Manhattan-bound (northbound), from Jay St-MetroTech (Brooklyn) to 57 St (6 Av), Manhattan",
+  "T3": "7 train, Flushing-bound, from Grand Central-42 St to Flushing-Main St, Queens"
+ },
+ "items": [
+  {
+   "id": "a01",
+   "modality": "audio",
+   "file": "data/synth/audio/a01.wav",
+   "lang": "en",
+   "text": "Attention customers. Northbound Q trains are not running between Times Square-42 Street and 72 Street. Please take the N or R train to Lexington Avenue-59 Street and transfer to the 6.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a02",
+   "modality": "audio",
+   "file": "data/synth/audio/a02.wav",
+   "lang": "en",
+   "text": "Attention please. Northbound F trains are running with delays of about 20 minutes because of a sick customer at Delancey Street-Essex Street.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a03",
+   "modality": "audio",
+   "file": "data/synth/audio/a03.wav",
+   "lang": "en",
+   "text": "Flushing-bound 7 express trains are suspended. 7 local trains are running with delays. Expect waits of up to 15 minutes at Grand Central.",
+   "relevant": [
+    "T3"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a04",
+   "modality": "audio",
+   "file": "data/synth/audio/a04.wav",
+   "lang": "en",
+   "text": "Stand clear of the closing doors, please.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a05",
+   "modality": "audio",
+   "file": "data/synth/audio/a05.wav",
+   "lang": "en",
+   "text": "This is a Brooklyn-bound A train. The next stop is Jay Street-MetroTech.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a06",
+   "modality": "audio",
+   "file": "data/synth/audio/a06.wav",
+   "lang": "en",
+   "text": "Due to track maintenance, L trains are not running between 8 Avenue and Bedford Avenue this weekend.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a07",
+   "modality": "audio",
+   "file": "data/synth/audio/a07.wav",
+   "lang": "en",
+   "text": "Attention customers at Jay Street-MetroTech. Manhattan-bound F trains are running on the A line to West 4 Street. For York Street and East Broadway, take the shuttle bus.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a08",
+   "modality": "audio",
+   "file": "data/synth/audio/a08.wav",
+   "lang": "en",
+   "text": "If you have lost an item on the train, please see the station agent or visit the lost and found.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a09",
+   "modality": "audio",
+   "file": "data/synth/audio/a09.wav",
+   "lang": "en",
+   "text": "The next uptown Q train will arrive in 6 minutes.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a10",
+   "modality": "audio",
+   "file": "data/synth/audio/a10.wav",
+   "lang": "en",
+   "text": "Due to an earlier incident, there is no 7 train service between Queensboro Plaza and Flushing-Main Street. Free shuttle buses are available.",
+   "relevant": [
+    "T3"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a11",
+   "modality": "audio",
+   "file": "data/synth/audio/a11.wav",
+   "lang": "en",
+   "text": "N and W trains are delayed because of a train with mechanical problems at Astoria-Ditmars Boulevard.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a12",
+   "modality": "audio",
+   "file": "data/synth/audio/a12.wav",
+   "lang": "en",
+   "text": "Attention passengers. The downtown 1 train is running local from 96 Street to South Ferry.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a13",
+   "modality": "audio",
+   "file": "data/synth/audio/a13.wav",
+   "lang": "en",
+   "text": "Attention customers at Times Square. Uptown Q trains are now boarding on the express track, across the platform, on track 3.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a14",
+   "modality": "audio",
+   "file": "data/synth/audio/a14.wav",
+   "lang": "en",
+   "text": "Please do not hold the doors. There is another train directly behind this one.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a15",
+   "modality": "audio",
+   "file": "data/synth/audio/a15.wav",
+   "lang": "en",
+   "text": "Attention F train customers. This weekend Manhattan-bound F trains will skip 57 Street and end at 47-50 Streets-Rockefeller Center.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a16",
+   "modality": "audio",
+   "file": "data/synth/audio/a16.wav",
+   "lang": "en",
+   "text": "Manhattan-bound 7 trains are running on schedule. There are delays on the 6 train in the Bronx.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a17",
+   "modality": "audio",
+   "file": "data/synth/audio/a17.wav",
+   "lang": "es",
+   "text": "Atención pasajeros. Los trenes Q en dirección norte no están circulando entre Times Square y la calle 72. Por favor usen los trenes N o R.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a18",
+   "modality": "audio",
+   "file": "data/synth/audio/a18.wav",
+   "lang": "es",
+   "text": "Los trenes F hacia Manhattan tienen retrasos de quince minutos por problemas de señales en Jay Street-MetroTech.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a19",
+   "modality": "audio",
+   "file": "data/synth/audio/a19.wav",
+   "lang": "es",
+   "text": "Atención. Los trenes 7 expreso hacia Flushing están suspendidos. Los trenes locales circulan con retrasos.",
+   "relevant": [
+    "T3"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "a20",
+   "modality": "audio",
+   "file": "data/synth/audio/a20.wav",
+   "lang": "es",
+   "text": "Por favor, apártense de las puertas.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a21",
+   "modality": "audio",
+   "file": "data/synth/audio/a21.wav",
+   "lang": "es",
+   "text": "Los trenes A y C circulan con retrasos debido a un incidente en la calle 59, Columbus Circle.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a22",
+   "modality": "audio",
+   "file": "data/synth/audio/a22.wav",
+   "lang": "es",
+   "text": "Recuerden llevar todas sus pertenencias al salir del tren.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a23",
+   "modality": "audio",
+   "file": "data/synth/audio/a23.wav",
+   "lang": "es",
+   "text": "Este fin de semana no hay servicio del tren L entre Manhattan y Brooklyn.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "a24",
+   "modality": "audio",
+   "file": "data/synth/audio/a24.wav",
+   "lang": "es",
+   "text": "Atención. Este fin de semana los trenes F no paran en la calle 57. La última parada es 47-50 Streets-Rockefeller Center.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i01",
+   "modality": "image",
+   "file": "data/synth/images/i01.png",
+   "kind": "poster",
+   "text": "Q (yellow bullet). WEEKEND. No Q trains between 57 St-7 Av and 96 St. Sat and Sun, all day. Take the N to Lexington Av/59 St and transfer to the 6.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i02",
+   "modality": "image",
+   "file": "data/synth/images/i02.png",
+   "kind": "poster",
+   "text": "F (orange bullet). WEEKEND. Manhattan-bound F trains run via the A line from Jay St-MetroTech to W 4 St. No F at York St, East Broadway, Delancey St.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i03",
+   "modality": "image",
+   "file": "data/synth/images/i03.png",
+   "kind": "poster",
+   "text": "7 (purple bullet). WEEKEND. No 7 trains between 74 St-Broadway and Flushing-Main St. Free shuttle buses provide alternate service.",
+   "relevant": [
+    "T3"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i04",
+   "modality": "image",
+   "file": "data/synth/images/i04.png",
+   "kind": "poster",
+   "text": "L (grey bullet). No L trains between Broadway Junction and Canarsie-Rockaway Pkwy. Take the free shuttle bus.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i05",
+   "modality": "image",
+   "file": "data/synth/images/i05.png",
+   "kind": "poster",
+   "text": "A (blue bullet). Late nights. Uptown A trains skip 50 St. Take the C or the E.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i06",
+   "modality": "image",
+   "file": "data/synth/images/i06.png",
+   "kind": "poster",
+   "text": "1 (red bullet). Downtown 1 trains run express from 96 St to 42 St. Late nights, Mon to Fri.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i07",
+   "modality": "image",
+   "file": "data/synth/images/i07.png",
+   "kind": "clock",
+   "text": "Q 96 St  DELAYED 14 min | N Astoria-Ditmars Blvd 3 min | R Forest Hills 7 min",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i08",
+   "modality": "image",
+   "file": "data/synth/images/i08.png",
+   "kind": "clock",
+   "text": "F Jamaica-179 St 2 min | F Jamaica-179 St 9 min | A Inwood-207 St 4 min",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i09",
+   "modality": "image",
+   "file": "data/synth/images/i09.png",
+   "kind": "clock",
+   "text": "7 Flushing-Main St EXPRESS SUSPENDED | 7 Flushing-Main St local 11 min",
+   "relevant": [
+    "T3"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i10",
+   "modality": "image",
+   "file": "data/synth/images/i10.png",
+   "kind": "poster",
+   "text": "F (orange bullet). FIN DE SEMANA. Los trenes F no paran en 57 St. Usen 47-50 Sts-Rockefeller Ctr.",
+   "relevant": [
+    "T2"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i11",
+   "modality": "image",
+   "file": "data/synth/images/i11.png",
+   "kind": "poster",
+   "text": "6 (green bullet). Los trenes 6 hacia el Bronx circulan como locales. Noches, lunes a viernes.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i12",
+   "modality": "image",
+   "file": "data/synth/images/i12.png",
+   "kind": "poster",
+   "text": "Q (yellow bullet). 72 St station. The 2 Av and 72 St entrance is closed. Use the entrance at 2 Av and 69 St.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i13",
+   "modality": "image",
+   "file": "data/synth/images/i13.png",
+   "kind": "poster",
+   "text": "If you see something, say something. Tell a police officer or an MTA employee.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i14",
+   "modality": "image",
+   "file": "data/synth/images/i14.png",
+   "kind": "poster",
+   "text": "G (light green bullet). No G trains between Court Sq and Nassau Av. Take the free shuttle bus.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i15",
+   "modality": "image",
+   "file": "data/synth/images/i15.png",
+   "kind": "poster",
+   "text": "J (brown bullet). Jamaica-bound J trains skip 104 St and 111 St. Weekends.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i16",
+   "modality": "image",
+   "file": "data/synth/images/i16.png",
+   "kind": "poster",
+   "text": "Station sign: Times Sq-42 St. N Q R W 1 2 3 7 S. Uptown and the Bronx.",
+   "relevant": [],
+   "source": "synthetic"
+  },
+  {
+   "id": "i17",
+   "modality": "image",
+   "file": "data/synth/images/i17.png",
+   "kind": "poster",
+   "text": "Q (yellow bullet). FIN DE SEMANA. Los trenes Q no paran en la calle 72. Usen 86 St o Lexington Av/63 St.",
+   "relevant": [
+    "T1"
+   ],
+   "source": "synthetic"
+  },
+  {
+   "id": "i18",
+   "modality": "image",
+   "file": "data/synth/images/i18.png",
+   "kind": "poster",
+   "text": "M (orange bullet). No M trains between Myrtle Av and Metropolitan Av. Take the J or the free shuttle bus.",
+   "relevant": [],
+   "source": "synthetic"
+  }
+ ]
+}

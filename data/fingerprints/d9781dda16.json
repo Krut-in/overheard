@@ -1,0 +1,977 @@
+[
+ {
+  "id": "line_q_en",
+  "group": "line",
+  "q": "Does the input mention the Q train?"
+ },
+ {
+  "id": "line_q_es",
+  "group": "line",
+  "q": "Does the input mention the tren Q or línea Q?"
+ },
+ {
+  "id": "line_q_bullet",
+  "group": "line",
+  "q": "Does the image show a yellow Q bullet?"
+ },
+ {
+  "id": "line_q_letter",
+  "group": "line",
+  "q": "Does the input show the letter Q for a subway line?"
+ },
+ {
+  "id": "line_q_service",
+  "group": "line",
+  "q": "Does the input mention Q service?"
+ },
+ {
+  "id": "line_q_servicio",
+  "group": "line",
+  "q": "Does the input mention servicio Q?"
+ },
+ {
+  "id": "line_q_northbound",
+  "group": "line",
+  "q": "Does the input mention a northbound Q train?"
+ },
+ {
+  "id": "line_q_uptown",
+  "group": "line",
+  "q": "Does the input mention an uptown Q train?"
+ },
+ {
+  "id": "line_q_96st_bound",
+  "group": "line",
+  "q": "Does the input mention a 96 St-bound Q train?"
+ },
+ {
+  "id": "line_q_manhattan_bound",
+  "group": "line",
+  "q": "Does the input mention a Manhattan-bound Q train?"
+ },
+ {
+  "id": "line_q_norte",
+  "group": "line",
+  "q": "Does the input mention the tren Q hacia el norte?"
+ },
+ {
+  "id": "line_q_alto_manhattan",
+  "group": "line",
+  "q": "Does the input mention the tren Q hacia Alto Manhattan?"
+ },
+ {
+  "id": "line_q_broadway",
+  "group": "line",
+  "q": "Does the input mention the Q via Broadway?"
+ },
+ {
+  "id": "line_q_second_av",
+  "group": "line",
+  "q": "Does the input mention the Q on Second Avenue?"
+ },
+ {
+  "id": "line_q_segunda_av",
+  "group": "line",
+  "q": "Does the input mention the Q por la Segunda Avenida?"
+ },
+ {
+  "id": "line_q_express",
+  "group": "line",
+  "q": "Does the input mention a Q express train?"
+ },
+ {
+  "id": "line_q_local",
+  "group": "line",
+  "q": "Does the input mention a Q local train?"
+ },
+ {
+  "id": "line_q_expreso_es",
+  "group": "line",
+  "q": "Does the input mention a tren Q expreso?"
+ },
+ {
+  "id": "line_q_local_es",
+  "group": "line",
+  "q": "Does the input mention a tren Q local?"
+ },
+ {
+  "id": "line_q_countdown",
+  "group": "line",
+  "q": "Does the countdown clock show an arriving Q train?"
+ },
+ {
+  "id": "line_q_next_train",
+  "group": "line",
+  "q": "Does the input say the next train is a Q train?"
+ },
+ {
+  "id": "line_q_proximo_tren",
+  "group": "line",
+  "q": "Does the input say el próximo tren es Q?"
+ },
+ {
+  "id": "line_q_all_q",
+  "group": "line",
+  "q": "Does the input refer to all Q trains?"
+ },
+ {
+  "id": "line_q_todos_q",
+  "group": "line",
+  "q": "Does the input refer to todos los trenes Q?"
+ },
+ {
+  "id": "line_q_route_q",
+  "group": "line",
+  "q": "Does the input mention the Q route?"
+ },
+ {
+  "id": "st_times_sq_en",
+  "group": "station",
+  "q": "Does the input mention Times Square?"
+ },
+ {
+  "id": "st_times_sq_42_en",
+  "group": "station",
+  "q": "Does the input mention Times Sq-42 St?"
+ },
+ {
+  "id": "st_42_st_en",
+  "group": "station",
+  "q": "Does the input mention 42nd Street?"
+ },
+ {
+  "id": "st_42_st_abbr",
+  "group": "station",
+  "q": "Does the input mention 42 St?"
+ },
+ {
+  "id": "st_calle_42_es",
+  "group": "station",
+  "q": "Does the input mention Calle 42?"
+ },
+ {
+  "id": "st_times_sq_es",
+  "group": "station",
+  "q": "Does the input mention Times Square in Spanish?"
+ },
+ {
+  "id": "st_57_7_en",
+  "group": "station",
+  "q": "Does the input mention 57 St-7 Av?"
+ },
+ {
+  "id": "st_57_st_en",
+  "group": "station",
+  "q": "Does the input mention 57th Street?"
+ },
+ {
+  "id": "st_57_st_abbr",
+  "group": "station",
+  "q": "Does the input mention 57 St?"
+ },
+ {
+  "id": "st_7_av_en",
+  "group": "station",
+  "q": "Does the input mention Seventh Avenue?"
+ },
+ {
+  "id": "st_7_av_abbr",
+  "group": "station",
+  "q": "Does the input mention 7 Av?"
+ },
+ {
+  "id": "st_calle_57_es",
+  "group": "station",
+  "q": "Does the input mention Calle 57?"
+ },
+ {
+  "id": "st_57_7_es",
+  "group": "station",
+  "q": "Does the input mention Calle 57 y Séptima Avenida?"
+ },
+ {
+  "id": "st_lex_63_en",
+  "group": "station",
+  "q": "Does the input mention Lexington Av/63 St?"
+ },
+ {
+  "id": "st_lex_av_en",
+  "group": "station",
+  "q": "Does the input mention Lexington Avenue?"
+ },
+ {
+  "id": "st_lex_abbr",
+  "group": "station",
+  "q": "Does the input mention Lex/63 St?"
+ },
+ {
+  "id": "st_63_st_en",
+  "group": "station",
+  "q": "Does the input mention 63rd Street?"
+ },
+ {
+  "id": "st_63_st_abbr",
+  "group": "station",
+  "q": "Does the input mention 63 St?"
+ },
+ {
+  "id": "st_calle_63_es",
+  "group": "station",
+  "q": "Does the input mention Calle 63?"
+ },
+ {
+  "id": "st_lex_63_es",
+  "group": "station",
+  "q": "Does the input mention Avenida Lexington y Calle 63?"
+ },
+ {
+  "id": "st_72_st_en",
+  "group": "station",
+  "q": "Does the input mention 72nd Street?"
+ },
+ {
+  "id": "st_72_st_abbr",
+  "group": "station",
+  "q": "Does the input mention 72 St?"
+ },
+ {
+  "id": "st_calle_72_es",
+  "group": "station",
+  "q": "Does the input mention Calle 72?"
+ },
+ {
+  "id": "st_72_st_es",
+  "group": "station",
+  "q": "Does the input mention la estación 72 St?"
+ },
+ {
+  "id": "st_board_any",
+  "group": "station",
+  "q": "Does the input mention the boarding station Times Sq-42 St?"
+ },
+ {
+  "id": "st_alight_any",
+  "group": "station",
+  "q": "Does the input mention the destination station 72 St?"
+ },
+ {
+  "id": "st_between_any",
+  "group": "station",
+  "q": "Does the input mention 57 St-7 Av or Lexington Av/63 St?"
+ },
+ {
+  "id": "st_manhattan_stations",
+  "group": "station",
+  "q": "Does the input mention stations in Midtown or Upper East Side?"
+ },
+ {
+  "id": "st_42_to_72",
+  "group": "station",
+  "q": "Does the input mention stations between 42 St and 72 St?"
+ },
+ {
+  "id": "st_57_to_63",
+  "group": "station",
+  "q": "Does the input mention stations between 57 St and 63 St?"
+ },
+ {
+  "id": "chg_delay_en",
+  "group": "change",
+  "q": "Does the input mention delays?"
+ },
+ {
+  "id": "chg_delay_es",
+  "group": "change",
+  "q": "Does the input mention retrasos or demoras?"
+ },
+ {
+  "id": "chg_held_en",
+  "group": "change",
+  "q": "Does the input say a train is being held?"
+ },
+ {
+  "id": "chg_held_es",
+  "group": "change",
+  "q": "Does the input say un tren está detenido?"
+ },
+ {
+  "id": "chg_slow_en",
+  "group": "change",
+  "q": "Does the input mention slow speeds or signal problems?"
+ },
+ {
+  "id": "chg_slow_es",
+  "group": "change",
+  "q": "Does the input mention problemas de señales?"
+ },
+ {
+  "id": "chg_suspend_en",
+  "group": "change",
+  "q": "Does the input mention suspended service?"
+ },
+ {
+  "id": "chg_suspend_es",
+  "group": "change",
+  "q": "Does the input mention servicio suspendido?"
+ },
+ {
+  "id": "chg_no_service_en",
+  "group": "change",
+  "q": "Does the input say there is no train service?"
+ },
+ {
+  "id": "chg_no_service_es",
+  "group": "change",
+  "q": "Does the input say no hay servicio de trenes?"
+ },
+ {
+  "id": "chg_skip_en",
+  "group": "change",
+  "q": "Does the input mention skipped stops?"
+ },
+ {
+  "id": "chg_skip_es",
+  "group": "change",
+  "q": "Does the input mention paradas omitidas or no para en?"
+ },
+ {
+  "id": "chg_bypass_en",
+  "group": "change",
+  "q": "Does the input say trains are bypassing a station?"
+ },
+ {
+  "id": "chg_bypass_es",
+  "group": "change",
+  "q": "Does the input say los trenes pasan sin parar?"
+ },
+ {
+  "id": "chg_reroute_en",
+  "group": "change",
+  "q": "Does the input mention rerouted trains?"
+ },
+ {
+  "id": "chg_reroute_es",
+  "group": "change",
+  "q": "Does the input mention trenes desviados or cambio de ruta?"
+ },
+ {
+  "id": "chg_via_other_en",
+  "group": "change",
+  "q": "Does the input say trains are running via another line?"
+ },
+ {
+  "id": "chg_via_other_es",
+  "group": "change",
+  "q": "Does the input say los trenes circulan por otra línea?"
+ },
+ {
+  "id": "chg_platform_en",
+  "group": "change",
+  "q": "Does the input mention a platform change?"
+ },
+ {
+  "id": "chg_platform_es",
+  "group": "change",
+  "q": "Does the input mention un cambio de andén or plataforma?"
+ },
+ {
+  "id": "chg_track_en",
+  "group": "change",
+  "q": "Does the input mention a track change?"
+ },
+ {
+  "id": "chg_track_es",
+  "group": "change",
+  "q": "Does the input mention un cambio de vía?"
+ },
+ {
+  "id": "chg_entrance_en",
+  "group": "change",
+  "q": "Does the input mention a closed entrance or exit?"
+ },
+ {
+  "id": "chg_entrance_es",
+  "group": "change",
+  "q": "Does the input mention una entrada o salida cerrada?"
+ },
+ {
+  "id": "chg_stairs_en",
+  "group": "change",
+  "q": "Does the input mention closed stairs or escalators?"
+ },
+ {
+  "id": "chg_stairs_es",
+  "group": "change",
+  "q": "Does the input mention escaleras cerradas?"
+ },
+ {
+  "id": "chg_elevator_en",
+  "group": "change",
+  "q": "Does the input mention an elevator outage?"
+ },
+ {
+  "id": "chg_elevator_es",
+  "group": "change",
+  "q": "Does the input mention un ascensor fuera de servicio?"
+ },
+ {
+  "id": "chg_shuttle_en",
+  "group": "change",
+  "q": "Does the input mention free shuttle buses?"
+ },
+ {
+  "id": "chg_shuttle_es",
+  "group": "change",
+  "q": "Does the input mention autobuses de enlace gratuitos?"
+ },
+ {
+  "id": "chg_bus_en",
+  "group": "change",
+  "q": "Does the input advise riders to take a shuttle bus?"
+ },
+ {
+  "id": "chg_bus_es",
+  "group": "change",
+  "q": "Does the input advise riders to tomar un autobús?"
+ },
+ {
+  "id": "chg_express_to_local_en",
+  "group": "change",
+  "q": "Does the input say express trains are running local?"
+ },
+ {
+  "id": "chg_express_to_local_es",
+  "group": "change",
+  "q": "Does the input say trenes expresos hacen paradas locales?"
+ },
+ {
+  "id": "chg_local_to_express_en",
+  "group": "change",
+  "q": "Does the input say local trains are running express?"
+ },
+ {
+  "id": "chg_local_to_express_es",
+  "group": "change",
+  "q": "Does the input say trenes locales circulan expresos?"
+ },
+ {
+  "id": "chg_service_change_en",
+  "group": "change",
+  "q": "Does the input say there is a planned service change?"
+ },
+ {
+  "id": "chg_service_change_es",
+  "group": "change",
+  "q": "Does the input say hay un cambio de servicio?"
+ },
+ {
+  "id": "chg_emergency_en",
+  "group": "change",
+  "q": "Does the input mention an emergency or police investigation?"
+ },
+ {
+  "id": "chg_emergency_es",
+  "group": "change",
+  "q": "Does the input mention una emergencia o investigación policial?"
+ },
+ {
+  "id": "chg_sick_en",
+  "group": "change",
+  "q": "Does the input mention a sick passenger?"
+ },
+ {
+  "id": "chg_sick_es",
+  "group": "change",
+  "q": "Does the input mention un pasajero enfermo?"
+ },
+ {
+  "id": "chg_maintenance_en",
+  "group": "change",
+  "q": "Does the input mention track maintenance or construction?"
+ },
+ {
+  "id": "chg_maintenance_es",
+  "group": "change",
+  "q": "Does the input mention mantenimiento de vías?"
+ },
+ {
+  "id": "chg_transfer_en",
+  "group": "change",
+  "q": "Does the input advise riders to transfer to another line?"
+ },
+ {
+  "id": "chg_transfer_es",
+  "group": "change",
+  "q": "Does the input advise riders to hacer transbordo?"
+ },
+ {
+  "id": "chg_last_stop_en",
+  "group": "change",
+  "q": "Does the input say this train is terminating early?"
+ },
+ {
+  "id": "chg_last_stop_es",
+  "group": "change",
+  "q": "Does the input say este tren termina su recorrido aquí?"
+ },
+ {
+  "id": "combo_q_delay_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are delayed?"
+ },
+ {
+  "id": "combo_q_delay_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q tienen retrasos?"
+ },
+ {
+  "id": "combo_q_north_delay_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains are delayed?"
+ },
+ {
+  "id": "combo_q_north_delay_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q hacia el norte tienen demoras?"
+ },
+ {
+  "id": "combo_q_held_en",
+  "group": "combo",
+  "q": "Does the input say a northbound Q train is being held?"
+ },
+ {
+  "id": "combo_q_held_es",
+  "group": "combo",
+  "q": "Does the input say un tren Q hacia el norte está detenido?"
+ },
+ {
+  "id": "combo_q_suspend_en",
+  "group": "combo",
+  "q": "Does the input say Q train service is suspended?"
+ },
+ {
+  "id": "combo_q_suspend_es",
+  "group": "combo",
+  "q": "Does the input say el servicio del tren Q está suspendido?"
+ },
+ {
+  "id": "combo_q_north_suspend_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q service is suspended?"
+ },
+ {
+  "id": "combo_q_north_suspend_es",
+  "group": "combo",
+  "q": "Does the input say el servicio Q hacia el norte está suspendido?"
+ },
+ {
+  "id": "combo_q_no_service_42_72",
+  "group": "combo",
+  "q": "Does the input say there is no Q service between 42 St and 72 St?"
+ },
+ {
+  "id": "combo_q_no_service_42_72_es",
+  "group": "combo",
+  "q": "Does the input say no hay servicio Q entre Calle 42 y Calle 72?"
+ },
+ {
+  "id": "combo_q_skip_42_en",
+  "group": "combo",
+  "q": "Does the input say Q trains skip Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_skip_42_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q no paran en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_skip_57_en",
+  "group": "combo",
+  "q": "Does the input say Q trains skip 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_skip_57_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q no paran en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_skip_63_en",
+  "group": "combo",
+  "q": "Does the input say Q trains skip Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_skip_63_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q no paran en Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_skip_72_en",
+  "group": "combo",
+  "q": "Does the input say Q trains skip 72 St?"
+ },
+ {
+  "id": "combo_q_skip_72_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q no paran en Calle 72?"
+ },
+ {
+  "id": "combo_q_north_skip_42",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains bypass Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_north_skip_57",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains bypass 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_north_skip_63",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains bypass Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_north_skip_72",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains bypass 72 St?"
+ },
+ {
+  "id": "combo_q_reroute_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are rerouted?"
+ },
+ {
+  "id": "combo_q_reroute_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q están desviados?"
+ },
+ {
+  "id": "combo_q_north_reroute_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains are rerouted?"
+ },
+ {
+  "id": "combo_q_north_reroute_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q hacia el norte están desviados?"
+ },
+ {
+  "id": "combo_q_reroute_f_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are running via the F line?"
+ },
+ {
+  "id": "combo_q_reroute_f_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q circulan por la línea F?"
+ },
+ {
+  "id": "combo_q_reroute_r_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are running via the R line?"
+ },
+ {
+  "id": "combo_q_reroute_r_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q circulan por la línea R?"
+ },
+ {
+  "id": "combo_q_platform_42_en",
+  "group": "combo",
+  "q": "Does the input say Q trains use a different platform at Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_platform_42_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q cambian de andén en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_platform_57_en",
+  "group": "combo",
+  "q": "Does the input say Q trains use a different platform at 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_platform_57_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q cambian de andén en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_platform_63_en",
+  "group": "combo",
+  "q": "Does the input say Q trains use a different platform at Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_platform_63_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q cambian de andén en Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_platform_72_en",
+  "group": "combo",
+  "q": "Does the input say Q trains use a different platform at 72 St?"
+ },
+ {
+  "id": "combo_q_platform_72_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q cambian de andén en Calle 72?"
+ },
+ {
+  "id": "combo_q_track_change_en",
+  "group": "combo",
+  "q": "Does the input announce a track change for the northbound Q train?"
+ },
+ {
+  "id": "combo_q_track_change_es",
+  "group": "combo",
+  "q": "Does the input announce un cambio de vía para el tren Q norte?"
+ },
+ {
+  "id": "combo_q_entrance_42_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_entrance_42_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_entrance_57_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_entrance_57_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_entrance_63_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_entrance_63_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_entrance_72_en",
+  "group": "combo",
+  "q": "Does the input say an entrance is closed at 72 St?"
+ },
+ {
+  "id": "combo_q_entrance_72_es",
+  "group": "combo",
+  "q": "Does the input say una entrada está cerrada en Calle 72?"
+ },
+ {
+  "id": "combo_q_shuttle_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses replace Q trains?"
+ },
+ {
+  "id": "combo_q_shuttle_es",
+  "group": "combo",
+  "q": "Does the input say autobuses reemplazan a los trenes Q?"
+ },
+ {
+  "id": "combo_q_shuttle_42_72_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses run between 42 St and 72 St?"
+ },
+ {
+  "id": "combo_q_shuttle_42_72_es",
+  "group": "combo",
+  "q": "Does the input say autobuses circulan entre Calle 42 y Calle 72?"
+ },
+ {
+  "id": "combo_q_shuttle_57_63_en",
+  "group": "combo",
+  "q": "Does the input say shuttle buses serve 57 St-7 Av or 63 St?"
+ },
+ {
+  "id": "combo_q_shuttle_57_63_es",
+  "group": "combo",
+  "q": "Does the input say autobuses sirven a 57 St-7 Av o Calle 63?"
+ },
+ {
+  "id": "combo_q_local_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are running local?"
+ },
+ {
+  "id": "combo_q_local_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q circulan locales?"
+ },
+ {
+  "id": "combo_q_express_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are running express?"
+ },
+ {
+  "id": "combo_q_express_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q circulan expresos?"
+ },
+ {
+  "id": "combo_q_north_local_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains are running local?"
+ },
+ {
+  "id": "combo_q_north_local_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q hacia el norte circulan locales?"
+ },
+ {
+  "id": "combo_q_north_express_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains are running express?"
+ },
+ {
+  "id": "combo_q_north_express_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q hacia el norte circulan expresos?"
+ },
+ {
+  "id": "combo_q_express_skip_57",
+  "group": "combo",
+  "q": "Does the input say express Q trains skip 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_express_skip_63",
+  "group": "combo",
+  "q": "Does the input say express Q trains skip Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_term_42_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains terminate at Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_term_42_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q norte terminan en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_term_57_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains terminate at 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_term_57_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q norte terminan en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_term_72_en",
+  "group": "combo",
+  "q": "Does the input say northbound Q trains terminate at 72 St?"
+ },
+ {
+  "id": "combo_q_term_72_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q norte terminan en Calle 72?"
+ },
+ {
+  "id": "combo_q_delay_42_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are delayed at Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_delay_57_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are delayed at 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_delay_63_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are delayed at Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_delay_72_en",
+  "group": "combo",
+  "q": "Does the input say Q trains are delayed at 72 St?"
+ },
+ {
+  "id": "combo_q_delay_42_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q tienen retrasos en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_delay_57_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q tienen retrasos en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_delay_63_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q tienen retrasos en Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_delay_72_es",
+  "group": "combo",
+  "q": "Does the input say los trenes Q tienen retrasos en Calle 72?"
+ },
+ {
+  "id": "combo_q_elev_42_en",
+  "group": "combo",
+  "q": "Does the input say an elevator is out at Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_elev_57_en",
+  "group": "combo",
+  "q": "Does the input say an elevator is out at 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_elev_63_en",
+  "group": "combo",
+  "q": "Does the input say an elevator is out at Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_elev_72_en",
+  "group": "combo",
+  "q": "Does the input say an elevator is out at 72 St?"
+ },
+ {
+  "id": "combo_q_elev_42_es",
+  "group": "combo",
+  "q": "Does the input say un ascensor no funciona en Times Sq-42 St?"
+ },
+ {
+  "id": "combo_q_elev_57_es",
+  "group": "combo",
+  "q": "Does the input say un ascensor no funciona en 57 St-7 Av?"
+ },
+ {
+  "id": "combo_q_elev_63_es",
+  "group": "combo",
+  "q": "Does the input say un ascensor no funciona en Lexington Av/63 St?"
+ },
+ {
+  "id": "combo_q_elev_72_es",
+  "group": "combo",
+  "q": "Does the input say un ascensor no funciona en Calle 72?"
+ },
+ {
+  "id": "combo_q_transfer_n_r_w",
+  "group": "combo",
+  "q": "Does the input advise Q riders to transfer to N, R, or W trains?"
+ },
+ {
+  "id": "combo_q_transfer_n_r_w_es",
+  "group": "combo",
+  "q": "Does the input advise Q riders to hacer transbordo a N, R o W?"
+ },
+ {
+  "id": "combo_q_transfer_f",
+  "group": "combo",
+  "q": "Does the input advise Q riders to transfer to F trains?"
+ },
+ {
+  "id": "combo_q_transfer_f_es",
+  "group": "combo",
+  "q": "Does the input advise Q riders to hacer transbordo al tren F?"
+ }
+]

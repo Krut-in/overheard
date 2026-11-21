@@ -1,0 +1,67 @@
+{
+ "T1": {
+  "system": "NYC Subway",
+  "line": "Q",
+  "other_lines": [],
+  "direction": "northbound",
+  "board": "Times Sq-42 St",
+  "alight": "72 St",
+  "stops_between": [
+   "57 St-7 Av",
+   "Lexington Av/63 St"
+  ],
+  "when": "today",
+  "summary": "Q train northbound from Times Sq-42 St to 72 St"
+ },
+ "T2": {
+  "system": "New York City Subway",
+  "line": "F",
+  "other_lines": [],
+  "direction": "Manhattan-bound (northbound)",
+  "board": "Jay St-MetroTech",
+  "alight": "57 St",
+  "stops_between": [
+   "York St",
+   "East Broadway",
+   "Delancey St-Essex St",
+   "2 Av",
+   "Broadway-Lafayette St",
+   "W 4 St-Wash Sq",
+   "14 St",
+   "23 St",
+   "34 St-Herald Sq",
+   "42 St-Bryant Pk",
+   "47-50 Sts-Rockefeller Ctr"
+  ],
+  "when": "today",
+  "summary": "F train northbound from Jay St-MetroTech to 57 St"
+ },
+ "T3": {
+  "system": "NYC Subway",
+  "line": "7",
+  "direction": "Flushing-bound",
+  "board": "Grand Central-42 St",
+  "alight": "Flushing-Main St",
+  "stops_between": [
+   "Vernon Blvd-Jackson Av",
+   "Hunters Point Av",
+   "Court Sq",
+   "Queensboro Plaza",
+   "33 St-Rawson St",
+   "40 St-Lowery St",
+   "46 St-Bliss St",
+   "52 St",
+   "61 St-Woodside",
+   "69 St",
+   "74 St-Broadway",
+   "82 St-Jackson Hts",
+   "90 St-Elmhurst Av",
+   "Junction Blvd",
+   "103 St-Corona Plaza",
+   "111 St",
+   "Mets-Willets Point"
+  ],
+  "when": "today",
+  "summary": "7 train Flushing-bound from Grand Central-42 St to Flushing-Main St"
+ }
+}
