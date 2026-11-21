@@ -96,3 +96,25 @@ def test_itinerary_shape(parsed):
     for b in parsed["bookings"]:
         assert set(b) >= {"id", "kind", "title", "operator", "number", "ref", "start", "end", "from_place",
                           "to_place", "city", "country", "langs", "details", "source"}
+
+
+# ---- gmail helpers: no network ----
+
+def test_gmail_query_and_scope_are_read_only():
+    from overheard import gmail
+    q = gmail.query("2026-11-01")
+    assert '"SAMPLE BOOKING"' in q and "reservation" in q and q.endswith("after:2026/11/01")
+    assert gmail.SCOPES == ["https://www.googleapis.com/auth/gmail.readonly"]
+
+
+def test_gmail_body_prefers_plain_then_html():
+    import base64
+    from overheard import gmail
+    enc = lambda s: base64.urlsafe_b64encode(s.encode()).decode().rstrip("=")
+    html_only = {"mimeType": "multipart/alternative", "parts": [
+        {"mimeType": "text/html", "body": {"data": enc("<p>SAMPLE BOOKING</p><p>Ref&nbsp;SMPL7Q</p>")}}]}
+    assert "SAMPLE BOOKING" in gmail.body_text(html_only) and "SMPL7Q" in gmail.body_text(html_only)
+    both = {"mimeType": "multipart/alternative", "parts": [
+        {"mimeType": "text/html", "body": {"data": enc("<b>rich</b>")}},
+        {"mimeType": "text/plain", "body": {"data": enc("plain text")}}]}
+    assert gmail.body_text(both) == "plain text"
