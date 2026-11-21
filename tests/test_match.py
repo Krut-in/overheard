@@ -56,9 +56,21 @@ def test_argmax_booking_and_silence():
 def test_not_group_suppresses_its_booking():
     a = answers(train_ams__op=0.99, train_ams__combo=0.99, affects__train_ams=0.99, train_ams__not1=0.9)
     v = combine(a, IT, FP, NOT_Q, TEXT)
-    # s = 0.99 x 0.99 ... ~= 0.983 x (1 - 0.9) = 0.098
-    assert v["per_booking"]["train_ams"] == pytest.approx(0.0983, abs=1e-3)
+    # s ~= 0.983 x (1 - gated 0.9) = 0.983 x (1 - 0.8) = 0.197
+    assert v["per_booking"]["train_ams"] == pytest.approx(0.1966, abs=1e-3)
     assert v["route"] == "silence"
+
+
+def test_weak_not_answer_below_the_gate_does_nothing():
+    a = answers(train_ams__op=0.99, train_ams__combo=0.99, affects__train_ams=0.99, train_ams__not1=0.22)
+    v = combine(a, IT, FP, NOT_Q, TEXT)
+    assert v["per_booking"]["train_ams"] == pytest.approx(0.983, abs=1e-3)
+    assert v["route"] == "alert"
+
+
+def test_near_certain_not_answer_still_silences():
+    a = answers(train_ams__op=0.99, train_ams__combo=0.99, affects__train_ams=0.99, train_ams__not1=0.99)
+    assert combine(a, IT, FP, NOT_Q, TEXT)["route"] == "silence"
 
 
 def test_no_learned_questions_means_no_penalty():

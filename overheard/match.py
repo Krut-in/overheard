@@ -1,7 +1,7 @@
 """Score one Input against the itinerary fingerprint with one gemini-decision-1 call, then combine per booking (pure)."""
 import base64, json, time
 from datetime import date, datetime, timedelta
-from overheard import config
+from overheard import config, learn
 from overheard.decide import block, shrink
 from overheard.gemini import client, log_call, ROOT
 from overheard.itinerary import Booking, Fingerprint, Input, Itinerary, TaggedQuestion, Verdict, fingerprint, load
@@ -72,7 +72,7 @@ def combine(answers: dict, it: Itinerary, fp: Fingerprint, learned: list[TaggedQ
         bid = b["id"]
         g = lambda grp: gmax.get((bid, grp), 0.0)  # noqa: E731
         fp_b = max(g("operator"), g("place")) * max(g("combo"), change)
-        s = (w * answers.get(f"affects__{bid}", 0.0) + (1 - w) * fp_b) * (1 - g("not"))
+        s = (w * answers.get(f"affects__{bid}", 0.0) + (1 - w) * fp_b) * (1 - learn.not_effective(g("not")))
         if inp.get("kind") == "news" and dates and not _in_window(dates, b):
             s = 0.0
         per[bid] = round(s, 4)

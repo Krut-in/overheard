@@ -156,3 +156,224 @@
 {"t": "15:39:35", "model": "gemini-decision-1", "summary": "decide learn held_wrong_dir_delay (198 q)", "latency_s": 0.71}
 {"t": "15:39:35", "model": "gemini-decision-1", "summary": "decide learn held_both_dirs (198 q)", "latency_s": 0.723}
 {"t": "15:39:35", "model": "gemini-decision-1", "summary": "decide learn held_right_dir_delay (198 q)", "latency_s": 0.768}
+{"t": "16:10:20", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Musee du Louvre: Your e-ticket LVR", "latency_s": 6.05}
+{"t": "16:10:20", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Marais: Reservation C", "latency_s": 6.265}
+{"t": "16:10:20", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Eurostar Booking Confirmation EUSM", "latency_s": 6.413}
+{"t": "16:10:21", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - KLM Booking Confirmation KL 641 Am", "latency_s": 6.691}
+{"t": "16:10:22", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Air France: Your e-ticket receipt ", "latency_s": 7.742}
+{"t": "16:10:31", "model": "gemini-4-neon", "summary": "ingest text Subject: SAMPLE BOOKING - Hotel Sample Canal: Booking Confir", "latency_s": 16.736}
+{"t": "16:10:44", "model": "gemini-decision-1", "summary": "decide learn dismissed input (193 q)", "latency_s": 1.039}
+{"t": "16:10:51", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.758}
+{"t": "16:10:51", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.351}
+{"t": "16:10:51", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.647}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.713}
+{"t": "16:10:52", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.5}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.777}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.243}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.262}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.28}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.179}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.185}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.297}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "decide learn lmm:alert:277436:26 (196 q)", "latency_s": 0.593}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "decide learn lmm:alert:277431:26 (196 q)", "latency_s": 0.663}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36690 (196 q)", "latency_s": 0.647}
+{"t": "16:10:52", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36560 (196 q)", "latency_s": 0.764}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36460 (196 q)", "latency_s": 0.54}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36012 (196 q)", "latency_s": 0.506}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36427 (196 q)", "latency_s": 0.526}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35806 (196 q)", "latency_s": 0.541}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35803 (196 q)", "latency_s": 0.506}
+{"t": "16:10:53", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35802 (196 q)", "latency_s": 0.594}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35796 (196 q)", "latency_s": 0.745}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35790 (196 q)", "latency_s": 0.735}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35788 (196 q)", "latency_s": 0.519}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35772 (196 q)", "latency_s": 0.501}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35775 (196 q)", "latency_s": 0.689}
+{"t": "16:10:54", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35789 (196 q)", "latency_s": 0.986}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35705 (196 q)", "latency_s": 0.493}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35704 (196 q)", "latency_s": 0.493}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35572 (196 q)", "latency_s": 0.507}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35770 (196 q)", "latency_s": 0.941}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35571 (196 q)", "latency_s": 0.534}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35562 (196 q)", "latency_s": 0.552}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35561 (196 q)", "latency_s": 0.554}
+{"t": "16:10:55", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35560 (196 q)", "latency_s": 0.489}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35540 (196 q)", "latency_s": 0.575}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35386 (196 q)", "latency_s": 0.535}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35366 (196 q)", "latency_s": 0.541}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35539 (196 q)", "latency_s": 0.612}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35124 (196 q)", "latency_s": 0.525}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35011 (196 q)", "latency_s": 0.515}
+{"t": "16:10:56", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:33366 (196 q)", "latency_s": 0.502}
+{"t": "16:10:57", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:31498 (196 q)", "latency_s": 0.575}
+{"t": "16:10:57", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:29949 (196 q)", "latency_s": 0.612}
+{"t": "16:10:58", "model": "gemini-decision-1", "summary": "decide learn held_both_dirs (196 q)", "latency_s": 0.576}
+{"t": "16:10:58", "model": "gemini-decision-1", "summary": "decide learn held_wrong_dir_delay (196 q)", "latency_s": 0.612}
+{"t": "16:10:58", "model": "gemini-decision-1", "summary": "decide learn held_right_dir_delay (196 q)", "latency_s": 0.604}
+{"t": "16:10:58", "model": "gemini-decision-1", "summary": "decide learn held_wrong_dir_suspended (196 q)", "latency_s": 0.621}
+{"t": "16:10:59", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.531}
+{"t": "16:10:59", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.49}
+{"t": "16:10:59", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.258}
+{"t": "16:10:59", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.271}
+{"t": "16:10:59", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.277}
+{"t": "16:11:00", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.19}
+{"t": "16:11:00", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.245}
+{"t": "16:11:00", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.249}
+{"t": "16:11:08", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.1}
+{"t": "16:11:08", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.008}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.2}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.245}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 0 (6 q)", "latency_s": 0.206}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 1 (6 q)", "latency_s": 0.226}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.353}
+{"t": "16:11:08", "model": "gemini-decision-1", "summary": "learn guard example 2 (6 q)", "latency_s": 0.411}
+{"t": "16:11:16", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.083}
+{"t": "16:11:16", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.347}
+{"t": "16:11:16", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.425}
+{"t": "16:11:16", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.381}
+{"t": "16:11:19", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.567}
+{"t": "16:11:19", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.462}
+{"t": "16:11:19", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.487}
+{"t": "16:11:19", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.603}
+{"t": "16:11:25", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.377}
+{"t": "16:11:25", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.312}
+{"t": "16:11:25", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.319}
+{"t": "16:11:25", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.349}
+{"t": "16:11:26", "model": "gemini-decision-1", "summary": "abroad match flight_out_6 image (310 q)", "latency_s": 0.572}
+{"t": "16:11:27", "model": "gemini-decision-1", "summary": "abroad match flight_out_4 audio (310 q)", "latency_s": 0.924}
+{"t": "16:11:27", "model": "gemini-decision-1", "summary": "abroad match flight_home_5 audio (310 q)", "latency_s": 0.994}
+{"t": "16:11:27", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_5 audio (310 q)", "latency_s": 0.825}
+{"t": "16:11:27", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_6 image (310 q)", "latency_s": 0.552}
+{"t": "16:11:28", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_4 audio (310 q)", "latency_s": 0.89}
+{"t": "16:11:28", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_5 audio (310 q)", "latency_s": 0.763}
+{"t": "16:11:28", "model": "gemini-decision-1", "summary": "abroad match train_ams_6 image (310 q)", "latency_s": 0.641}
+{"t": "16:11:28", "model": "gemini-decision-1", "summary": "abroad match train_ams_4 audio (310 q)", "latency_s": 1.042}
+{"t": "16:11:29", "model": "gemini-decision-1", "summary": "abroad match flight_home_1 audio (310 q)", "latency_s": 1.121}
+{"t": "16:11:29", "model": "gemini-decision-1", "summary": "abroad match flight_home_3 image (310 q)", "latency_s": 0.687}
+{"t": "16:11:29", "model": "gemini-decision-1", "summary": "abroad match flight_home_2 audio (310 q)", "latency_s": 0.93}
+{"t": "16:11:30", "model": "gemini-decision-1", "summary": "abroad match flight_out_3 image (310 q)", "latency_s": 0.602}
+{"t": "16:11:30", "model": "gemini-decision-1", "summary": "abroad match flight_out_2 audio (310 q)", "latency_s": 0.804}
+{"t": "16:11:30", "model": "gemini-decision-1", "summary": "abroad match flight_out_1 audio (310 q)", "latency_s": 1.059}
+{"t": "16:11:31", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_3 image (310 q)", "latency_s": 0.446}
+{"t": "16:11:31", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_2 audio (310 q)", "latency_s": 0.852}
+{"t": "16:11:31", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_1 audio (310 q)", "latency_s": 1.078}
+{"t": "16:11:32", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_1 audio (310 q)", "latency_s": 0.848}
+{"t": "16:11:32", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_3 image (310 q)", "latency_s": 0.633}
+{"t": "16:11:32", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_2 audio (310 q)", "latency_s": 0.816}
+{"t": "16:11:33", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_3 image (310 q)", "latency_s": 0.506}
+{"t": "16:11:33", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_2 audio (310 q)", "latency_s": 0.839}
+{"t": "16:11:33", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (310 q)", "latency_s": 0.971}
+{"t": "16:11:34", "model": "gemini-decision-1", "summary": "abroad match train_ams_3 image (310 q)", "latency_s": 0.763}
+{"t": "16:11:34", "model": "gemini-decision-1", "summary": "abroad match train_ams_1 audio (310 q)", "latency_s": 0.861}
+{"t": "16:11:34", "model": "gemini-decision-1", "summary": "abroad match train_ams_2 audio (310 q)", "latency_s": 0.876}
+{"t": "16:12:08", "model": "gemini-decision-1", "summary": "L2 diag museum_louvre_1", "latency_s": 0.94}
+{"t": "16:12:08", "model": "gemini-decision-1", "summary": "L2 diag museum_louvre_1", "latency_s": 0.339}
+{"t": "16:12:32", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (310 q)", "latency_s": 1.438}
+{"t": "16:12:32", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (286 q)", "latency_s": 0.747}
+{"t": "16:12:33", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (310 q)", "latency_s": 0.836}
+{"t": "16:12:57", "model": "gemini-decision-1", "summary": "decide learn dismissed input (193 q)", "latency_s": 1.149}
+{"t": "16:13:05", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.865}
+{"t": "16:13:05", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.205}
+{"t": "16:13:05", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.231}
+{"t": "16:13:05", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.252}
+{"t": "16:13:05", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 9.598}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36690 (196 q)", "latency_s": 0.568}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36560 (196 q)", "latency_s": 0.582}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:alert:277436:26 (196 q)", "latency_s": 0.63}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:alert:277431:26 (196 q)", "latency_s": 0.718}
+{"t": "16:13:06", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.113}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.635}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.644}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.708}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.207}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36427 (196 q)", "latency_s": 0.524}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36460 (196 q)", "latency_s": 0.584}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.263}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.272}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35806 (196 q)", "latency_s": 0.495}
+{"t": "16:13:06", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:36012 (196 q)", "latency_s": 0.682}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35803 (196 q)", "latency_s": 0.536}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35802 (196 q)", "latency_s": 0.521}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35796 (196 q)", "latency_s": 0.571}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35790 (196 q)", "latency_s": 0.613}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35789 (196 q)", "latency_s": 0.499}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35788 (196 q)", "latency_s": 0.536}
+{"t": "16:13:07", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35775 (196 q)", "latency_s": 0.676}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35772 (196 q)", "latency_s": 0.601}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35770 (196 q)", "latency_s": 0.538}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35705 (196 q)", "latency_s": 0.522}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35704 (196 q)", "latency_s": 0.606}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35572 (196 q)", "latency_s": 0.593}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35571 (196 q)", "latency_s": 0.581}
+{"t": "16:13:08", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35562 (196 q)", "latency_s": 0.637}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35561 (196 q)", "latency_s": 0.549}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35560 (196 q)", "latency_s": 0.532}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35540 (196 q)", "latency_s": 0.519}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35386 (196 q)", "latency_s": 0.541}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35539 (196 q)", "latency_s": 0.853}
+{"t": "16:13:09", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35124 (196 q)", "latency_s": 0.555}
+{"t": "16:13:10", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35366 (196 q)", "latency_s": 0.975}
+{"t": "16:13:10", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:35011 (196 q)", "latency_s": 0.519}
+{"t": "16:13:10", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:33366 (196 q)", "latency_s": 0.486}
+{"t": "16:13:10", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:31498 (196 q)", "latency_s": 0.508}
+{"t": "16:13:10", "model": "gemini-decision-1", "summary": "decide learn lmm:planned_work:29949 (196 q)", "latency_s": 0.554}
+{"t": "16:13:11", "model": "gemini-decision-1", "summary": "decide learn held_wrong_dir_delay (196 q)", "latency_s": 0.613}
+{"t": "16:13:11", "model": "gemini-decision-1", "summary": "decide learn held_right_dir_delay (196 q)", "latency_s": 0.638}
+{"t": "16:13:11", "model": "gemini-decision-1", "summary": "decide learn held_both_dirs (196 q)", "latency_s": 0.689}
+{"t": "16:13:11", "model": "gemini-decision-1", "summary": "decide learn held_wrong_dir_suspended (196 q)", "latency_s": 0.758}
+{"t": "16:13:13", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.31}
+{"t": "16:13:14", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.202}
+{"t": "16:13:14", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.232}
+{"t": "16:13:14", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.336}
+{"t": "16:13:14", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 8.177}
+{"t": "16:13:15", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.198}
+{"t": "16:13:15", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.276}
+{"t": "16:13:15", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.295}
+{"t": "16:13:25", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.05}
+{"t": "16:13:25", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.206}
+{"t": "16:13:25", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.266}
+{"t": "16:13:25", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.454}
+{"t": "16:13:26", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 11.977}
+{"t": "16:13:26", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.187}
+{"t": "16:13:26", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.206}
+{"t": "16:13:26", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.334}
+{"t": "16:13:32", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 6.124}
+{"t": "16:13:32", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.215}
+{"t": "16:13:32", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.219}
+{"t": "16:13:33", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.481}
+{"t": "16:13:36", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 10.486}
+{"t": "16:13:36", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.215}
+{"t": "16:13:36", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.246}
+{"t": "16:13:36", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.292}
+{"t": "16:13:40", "model": "gemini-4-hydrogen", "summary": "learn not-questions", "latency_s": 7.593}
+{"t": "16:13:40", "model": "gemini-decision-1", "summary": "learn guard example 0 (5 q)", "latency_s": 0.205}
+{"t": "16:13:40", "model": "gemini-decision-1", "summary": "learn guard example 2 (5 q)", "latency_s": 0.216}
+{"t": "16:13:41", "model": "gemini-decision-1", "summary": "learn guard example 1 (5 q)", "latency_s": 0.603}
+{"t": "16:13:41", "model": "gemini-decision-1", "summary": "abroad match flight_out_6 image (311 q)", "latency_s": 0.504}
+{"t": "16:13:42", "model": "gemini-decision-1", "summary": "abroad match flight_home_5 audio (311 q)", "latency_s": 0.832}
+{"t": "16:13:42", "model": "gemini-decision-1", "summary": "abroad match flight_out_4 audio (311 q)", "latency_s": 0.923}
+{"t": "16:13:42", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_5 audio (311 q)", "latency_s": 0.839}
+{"t": "16:13:43", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_6 image (311 q)", "latency_s": 0.496}
+{"t": "16:13:43", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_4 audio (311 q)", "latency_s": 0.887}
+{"t": "16:13:43", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_5 audio (311 q)", "latency_s": 0.732}
+{"t": "16:13:43", "model": "gemini-decision-1", "summary": "abroad match train_ams_4 audio (311 q)", "latency_s": 0.796}
+{"t": "16:13:44", "model": "gemini-decision-1", "summary": "abroad match train_ams_6 image (311 q)", "latency_s": 0.531}
+{"t": "16:13:44", "model": "gemini-decision-1", "summary": "abroad match flight_home_3 image (311 q)", "latency_s": 0.552}
+{"t": "16:13:44", "model": "gemini-decision-1", "summary": "abroad match flight_home_1 audio (311 q)", "latency_s": 0.78}
+{"t": "16:13:44", "model": "gemini-decision-1", "summary": "abroad match flight_home_2 audio (311 q)", "latency_s": 0.845}
+{"t": "16:13:45", "model": "gemini-decision-1", "summary": "abroad match flight_out_3 image (311 q)", "latency_s": 0.681}
+{"t": "16:13:45", "model": "gemini-decision-1", "summary": "abroad match flight_out_1 audio (311 q)", "latency_s": 0.845}
+{"t": "16:13:45", "model": "gemini-decision-1", "summary": "abroad match flight_out_2 audio (311 q)", "latency_s": 0.807}
+{"t": "16:13:46", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_3 image (311 q)", "latency_s": 0.462}
+{"t": "16:13:46", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_1 audio (311 q)", "latency_s": 0.87}
+{"t": "16:13:46", "model": "gemini-decision-1", "summary": "abroad match hotel_ams_2 audio (311 q)", "latency_s": 0.873}
+{"t": "16:13:47", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_3 image (311 q)", "latency_s": 0.417}
+{"t": "16:13:47", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_1 audio (311 q)", "latency_s": 0.859}
+{"t": "16:13:47", "model": "gemini-decision-1", "summary": "abroad match hotel_paris_2 audio (311 q)", "latency_s": 0.984}
+{"t": "16:13:47", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_1 audio (311 q)", "latency_s": 0.747}
+{"t": "16:13:48", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_2 audio (311 q)", "latency_s": 0.831}
+{"t": "16:13:48", "model": "gemini-decision-1", "summary": "abroad match museum_louvre_3 image (311 q)", "latency_s": 0.487}
+{"t": "16:13:48", "model": "gemini-decision-1", "summary": "abroad match train_ams_3 image (311 q)", "latency_s": 0.625}
+{"t": "16:13:48", "model": "gemini-decision-1", "summary": "abroad match train_ams_1 audio (311 q)", "latency_s": 0.829}
+{"t": "16:13:48", "model": "gemini-decision-1", "summary": "abroad match train_ams_2 audio (311 q)", "latency_s": 0.781}
