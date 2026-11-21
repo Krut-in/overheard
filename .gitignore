@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+# Local agent and tool state
+.claude/settings.local.json
+.gemini/.env
+
+# OS and build noise
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.venv/
