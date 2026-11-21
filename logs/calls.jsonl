@@ -2229,3 +2229,13 @@
 {"t": "14:50:22", "model": "gemini-4-neon", "summary": "extract change for F train Manhattan-bound from Jay St-MetroTech to 57 St", "latency_s": 4.874}
 {"t": "14:50:27", "model": "gemini-4-hydrogen", "summary": "translate to Hindi", "latency_s": 4.863}
 {"t": "14:50:34", "model": "gemini-3.8-flash-tts", "summary": "whisper Manhattan \u092e\u0947\u0902 \u091a\u0932 \u0930\u0939\u0947 \u0915\u093e\u092e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0906\u092a\u0915\u0940 F ", "latency_s": 7.541}
+{"t": "14:52:23", "model": "gemini-4-neon", "summary": "trip extract image", "latency_s": 9.713}
+{"t": "14:52:56", "model": "gemini-4-hydrogen", "summary": "fingerprint No New York City subway trip information could be extracted from the audio recording.", "latency_s": 32.509}
+{"t": "15:01:56", "model": "gemini-decision-1", "summary": "decide room_1795291312775.webm (232 q)", "latency_s": 3.138}
+{"t": "15:01:58", "model": "gemini-4-hydrogen", "summary": "receipt caption", "latency_s": 5.511}
+{"t": "15:02:00", "model": "gemini-decision-1", "summary": "decide a17.wav (232 q)", "latency_s": 1.11}
+{"t": "15:02:03", "model": "gemini-4-hydrogen", "summary": "receipt caption", "latency_s": 3.427}
+{"t": "15:02:04", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 3.526}
+{"t": "15:02:56", "model": "gemini-decision-1", "summary": "decide a06.wav (232 q)", "latency_s": 1.574}
+{"t": "15:02:58", "model": "gemini-4-hydrogen", "summary": "receipt caption", "latency_s": 2.988}
+{"t": "15:03:00", "model": "gemini-4-carbon", "summary": "band check", "latency_s": 3.999}

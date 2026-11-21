@@ -58,5 +58,16 @@
   ],
   "when": "today",
   "summary": "F train Manhattan-bound from Jay St-MetroTech to 57 St"
+ },
+ "ac36050f507a105dad97c8249292940d5b2052f4": {
+  "system": "NYC Subway",
+  "line": "",
+  "other_lines": [],
+  "direction": "",
+  "board": "",
+  "alight": "",
+  "stops_between": [],
+  "when": "today",
+  "summary": "No New York City subway trip information could be extracted from the audio recording."
  }
 }

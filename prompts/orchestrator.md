@@ -13,7 +13,7 @@ What we build holds to these principles:
 - **Different in the world.** Every feature answers "what does this do that TripIt or Google Translate can't?" Pick the version a traveller would tell a friend about.
 - **One fingerprint, every stream.** Bookings become one set of tagged yes/no questions. Audio, photos, video, news and feeds all go through the same `gemini-decision-1` call.
 - **Silence is a feature.** Receipts make the quiet trustworthy. Proof makes the alert trustworthy.
-- **Measured, not claimed.** Each capability ships with a number from an eval and its honest failures, the way `README.md` does today.
+- **Measured.** Each capability ships with a number from an eval and its honest failures, the way `README.md` does today.
 - **Parallel by design.** Shape work so several sessions run at once on disjoint files.
 - **Gemini does real work.** Use the Gemini 4 models inside the product and as builders. Credit each Gemini-built piece in the docs.
 
