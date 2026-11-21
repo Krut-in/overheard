@@ -17,3 +17,9 @@ CONFLICT_AT = 0.4       # 0.4 to 0.8: Carbon decides; below: silence receipt
 TTS_VOICE = "Kore"
 
 USE_MANAGED_AGENT = True  # video highlight: local ffmpeg clip at once, Managed Agent clip (about 60 s) replaces it
+
+# Abroad itinerary engine (ticket A)
+FP_PER_BOOKING = (40, 80)     # Hydrogen writes this many tagged questions per booking
+FP_PARALLEL = 3               # at most this many Hydrogen fingerprint calls at once
+FP_THINKING = "low"
+NEWS_DATE_SLACK_DAYS = 1      # news dates count from booking start minus this many days to booking end
